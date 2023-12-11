@@ -1,8 +1,8 @@
 .DS_Store
 markers/*/markers.other.txt
-data/*/GSM*/raw/
-data/*/GSM*/mito_filter/
-data/*/GSM*/mx_out/
+data/*/*/raw/
+data/*/*/mito_filter/
+data/*/*/mx_out/
 *.png
 *.xls
 *.xlsx
