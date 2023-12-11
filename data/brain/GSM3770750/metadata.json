@@ -1,0 +1,56 @@
+{
+    "GSM3770750": {
+        "accession": "GSM3770750",
+        "platform": {
+            "accession": "GPL20301",
+            "title": "Illumina HiSeq 4000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4772976": {
+                "accession": "SRS4772976",
+                "title": "GW20_Hippocampus-02",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "human embryonic hippocampus",
+                    "gestational week": "GW20",
+                    "tissue": "hippocampus",
+                    "ENA-SPOT-COUNT": "307586290",
+                    "ENA-BASE-COUNT": "46137943500",
+                    "ENA-FIRST-PUBLIC": "2019-11-15",
+                    "ENA-LAST-UPDATE": "2019-11-15"
+                },
+                "experiment": {
+                    "SRX5848124": {
+                        "accession": "SRX5848124",
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM3770750: GW20_Hippocampus-02; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 4000",
+                        "runs": {
+                            "SRR9072135": {
+                                "accession": "SRR9072135",
+                                "experiment": "SRX5848124",
+                                "study": "SRP159104",
+                                "sample": "SRS4772976",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3770750: GW20_Hippocampus-02; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "assembly": "GRCh37",
+                                    "ENA-SPOT-COUNT": "307586290",
+                                    "ENA-BASE-COUNT": "46137943500",
+                                    "ENA-FIRST-PUBLIC": "2019-11-21",
+                                    "ENA-LAST-UPDATE": "2019-11-21"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR907/SRR9072135/GW20_Hippocampus_02_possorted_genome_bam.bam.1",
+                                        "md5": "3b9564dfdb7b3770ca36aeb9ad821080",
+                                        "size": "42847197793"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

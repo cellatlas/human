@@ -1,0 +1,73 @@
+{
+    "GSM3378054": {
+        "accession": "GSM3378054",
+        "supplementary_files": [
+            {
+                "filename": "GSM3378054_GTGFPneg_barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3378nnn/GSM3378054/suppl/GSM3378054_GTGFPneg_barcodes.tsv.gz",
+                "size": "11049"
+            },
+            {
+                "filename": "GSM3378054_GTGFPneg_genes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3378nnn/GSM3378054/suppl/GSM3378054_GTGFPneg_genes.tsv.gz",
+                "size": "284861"
+            },
+            {
+                "filename": "GSM3378054_GTGFPneg_matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3378nnn/GSM3378054/suppl/GSM3378054_GTGFPneg_matrix.mtx.gz",
+                "size": "23020190"
+            }
+        ],
+        "experiments": {
+            "SRX4649192": {
+                "accession": "SRX4649192",
+                "title": "NextSeq 500 paired end sequencing; GSM3378054: HS/AAV6 GFP-; Homo sapiens; RNA-Seq",
+                "runs": {
+                    "SRR7796788": {
+                        "accession": "SRR7796788",
+                        "experiment": {
+                            "accession": "SRX4649192",
+                            "title": "NextSeq 500 paired end sequencing; GSM3378054: HS/AAV6 GFP-; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "NextSeq 500"
+                        },
+                        "study": {
+                            "accession": "SRP159905",
+                            "title": "Precise Gene Editing Preserves Hematopoietic Stem Cell Function Following Transient p53-Mediate DNA Damage Response [scRNA-seq]",
+                            "abstract": "We performed single-cell (sc)RNA-Seq on male donors FACS-sorted \u201cprimitive\u201d (CD34+ CD133+ CD90+) and \u201cprogenitor\u201d (CD34+ CD133+ CD90-) HSPC cells treated with IL2RG ZFN,  High Specificity (HS), (Low Specificity (LS) or control RNP in a ratio 1 to 1. We also included HS RNP and the cognate repair template containing a GFP expression cassette delivered by AAV6 and sorted for targeted integration (HS/AAV6 GFP+ vs. HS/AAV6 GFP-) Overall design: We analysed  cells 24h after nucleases delivery. In order to identify cell subpopulations within samples and better enable comparison across datasets, we performed multi-set canonical correlation analysis and segregated cell clusters using the Louvain graph-based clustering approach. We computed the significant components using a supervised approach and we identified 6 clusters, 2 of which were enriched for HSC/MPP marker genes and depleted of lineage-associated markers. The analysis of the transcriptional landscape of cells  indicate that p53 pathway activation and modulation of cell cycle progression genes are consistently observed upon nuclease treatment across different HSPC types/states, including the most primitive subset as putatively identified in our single-cell. analysis"
+                        },
+                        "sample": {
+                            "accession": "SRS3747194",
+                            "title": "HS/AAV6 GFP-",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "FACS-sorted primitive and progenitors HSPC in ratio 1 to 1",
+                                "time point": "24h upon nuclease delivery",
+                                "cell type": "Cord blood derived CD34+ cells",
+                                "ENA-SPOT-COUNT": "166207978",
+                                "ENA-BASE-COUNT": "16288381844",
+                                "ENA-FIRST-PUBLIC": "2019-03-02",
+                                "ENA-LAST-UPDATE": "2019-03-02"
+                            }
+                        },
+                        "title": "NextSeq 500 paired end sequencing; GSM3378054: HS/AAV6 GFP-; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "assembly": "GRCh38",
+                            "ENA-SPOT-COUNT": "166207978",
+                            "ENA-BASE-COUNT": "16288381844",
+                            "ENA-FIRST-PUBLIC": "2019-03-03",
+                            "ENA-LAST-UPDATE": "2019-03-03"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR779/008/SRR7796788/SRR7796788.fastq.gz",
+                                "md5": "81cecb50dd3a105ad3711613222ef18b",
+                                "size": "6847710751"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

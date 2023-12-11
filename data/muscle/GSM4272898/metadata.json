@@ -1,0 +1,63 @@
+{
+    "GSM4272898": {
+        "accession": "GSM4272898",
+        "platform": {
+            "accession": "GPL18573",
+            "title": "Illumina NextSeq 500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS6002997": {
+                "accession": "SRS6002997",
+                "title": "hu08_092618",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Left vastus lateralis",
+                    "age": "54",
+                    "Sex": "male",
+                    "tissue": "Left vastus lateralis",
+                    "ENA-SPOT-COUNT": "235694063",
+                    "ENA-BASE-COUNT": "19798301292",
+                    "ENA-FIRST-PUBLIC": "2020-06-03",
+                    "ENA-LAST-UPDATE": "2020-06-04"
+                },
+                "experiment": {
+                    "SRX7566592": {
+                        "accession": "SRX7566592",
+                        "title": "NextSeq 500 paired end sequencing; GSM4272898: hu08_092618; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "NextSeq 500",
+                        "runs": {
+                            "SRR10897765": {
+                                "accession": "SRR10897765",
+                                "experiment": "SRX7566592",
+                                "study": "SRP242029",
+                                "sample": "SRS6002997",
+                                "title": "NextSeq 500 paired end sequencing; GSM4272898: hu08_092618; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "loader": "fastq-load.py",
+                                    "options": "--readTypes=TBB --read1PairFiles=Sample_84099_HMYWJBGX7_hu_092618_I1.fastq.gz --read2PairFiles=Sample_84099_HMYWJBGX7_hu_092618_R1.fastq.gz --read3PairFiles=Sample_84099_HMYWJBGX7_hu_092618_R2.fastq.gz",
+                                    "ENA-SPOT-COUNT": "235694063",
+                                    "ENA-BASE-COUNT": "19798301292",
+                                    "ENA-FIRST-PUBLIC": "2020-06-03",
+                                    "ENA-LAST-UPDATE": "2020-06-03"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR108/065/SRR10897765/SRR10897765_1.fastq.gz",
+                                        "md5": "2fa6995c5db5f0b1dd997ce06580f1c0",
+                                        "size": "5231716230"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR108/065/SRR10897765/SRR10897765_2.fastq.gz",
+                                        "md5": "66fc791b068d7fce5e4c7bb084aca5cb",
+                                        "size": "9454881727"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

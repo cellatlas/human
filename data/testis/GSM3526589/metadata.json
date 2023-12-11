@@ -1,0 +1,153 @@
+{
+    "GSM3526589": {
+        "accession": "GSM3526589",
+        "supplementary_files": [
+            {
+                "filename": "GSM3526589_A2_I_barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3526nnn/GSM3526589/suppl/GSM3526589_A2_I_barcodes.tsv.gz",
+                "size": "19085"
+            },
+            {
+                "filename": "GSM3526589_A2_I_genes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3526nnn/GSM3526589/suppl/GSM3526589_A2_I_genes.tsv.gz",
+                "size": "257277"
+            },
+            {
+                "filename": "GSM3526589_A2_I_matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3526nnn/GSM3526589/suppl/GSM3526589_A2_I_matrix.mtx.gz",
+                "size": "26773177"
+            }
+        ],
+        "platform": {
+            "accession": "GPL20301",
+            "title": "Illumina HiSeq 4000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4181129": {
+                "accession": "SRS4181129",
+                "title": "Adult 2 ITGA6 enriched",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "adult",
+                    "tissue": "Testis",
+                    "age": "42 yr",
+                    "sample": "A2_I",
+                    "ENA-SPOT-COUNT": "162913699",
+                    "ENA-BASE-COUNT": "20201298676",
+                    "ENA-FIRST-PUBLIC": "2018-12-23",
+                    "ENA-LAST-UPDATE": "2018-12-23"
+                },
+                "experiment": {
+                    "SRX5173703": {
+                        "accession": "SRX5173703",
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526589: Adult 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 4000",
+                        "runs": {
+                            "SRR8363258": {
+                                "accession": "SRR8363258",
+                                "experiment": "SRX5173703",
+                                "study": "SRP174204",
+                                "sample": "SRS4181129",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526589: Adult 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "59641713",
+                                    "ENA-BASE-COUNT": "7395572412",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/008/SRR8363258/SRR8363258_1.fastq.gz",
+                                        "md5": "85595f3003cde9b566fac2b0893c75f9",
+                                        "size": "1108201165"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/008/SRR8363258/SRR8363258_2.fastq.gz",
+                                        "md5": "b7d2438a8efe3a22242efb3537418aeb",
+                                        "size": "4002853195"
+                                    }
+                                ]
+                            },
+                            "SRR8363259": {
+                                "accession": "SRR8363259",
+                                "experiment": "SRX5173703",
+                                "study": "SRP174204",
+                                "sample": "SRS4181129",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526589: Adult 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "33640297",
+                                    "ENA-BASE-COUNT": "4171396828",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/009/SRR8363259/SRR8363259_1.fastq.gz",
+                                        "md5": "e73df9b8a4ff78589493ea25d0ca0503",
+                                        "size": "623683317"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/009/SRR8363259/SRR8363259_2.fastq.gz",
+                                        "md5": "8c852839959f549956f111c01f4551d1",
+                                        "size": "2178420465"
+                                    }
+                                ]
+                            },
+                            "SRR8363260": {
+                                "accession": "SRR8363260",
+                                "experiment": "SRX5173703",
+                                "study": "SRP174204",
+                                "sample": "SRS4181129",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526589: Adult 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "35284077",
+                                    "ENA-BASE-COUNT": "4375225548",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/000/SRR8363260/SRR8363260_1.fastq.gz",
+                                        "md5": "74cad757908a13ee8b6b2b9f227877c4",
+                                        "size": "655222661"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/000/SRR8363260/SRR8363260_2.fastq.gz",
+                                        "md5": "9c813674f52a98f4c3e1947037da33ae",
+                                        "size": "2229601726"
+                                    }
+                                ]
+                            },
+                            "SRR8363261": {
+                                "accession": "SRR8363261",
+                                "experiment": "SRX5173703",
+                                "study": "SRP174204",
+                                "sample": "SRS4181129",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526589: Adult 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "34347612",
+                                    "ENA-BASE-COUNT": "4259103888",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/001/SRR8363261/SRR8363261_1.fastq.gz",
+                                        "md5": "2a105384aff1033bec8facc5109e9e96",
+                                        "size": "639982327"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/001/SRR8363261/SRR8363261_2.fastq.gz",
+                                        "md5": "bc1029a3c4415de25ffe8063b236bc82",
+                                        "size": "2199413379"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

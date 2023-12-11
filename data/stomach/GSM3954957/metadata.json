@@ -1,0 +1,145 @@
+{
+    "GSM3954957": {
+        "accession": "GSM3954957",
+        "supplementary_files": [
+            {
+                "filename": "GSM3954957_processed_IMS4.txt.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3954nnn/GSM3954957/suppl/GSM3954957_processed_IMS4.txt.gz",
+                "size": "8771772"
+            }
+        ],
+        "platform": {
+            "accession": "GPL20795",
+            "title": "HiSeq X Ten (Homo sapiens)"
+        },
+        "sample": {
+            "SRS5119600": {
+                "accession": "SRS5119600",
+                "title": "Severe Intestinal metaplasia 4",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "stomach",
+                    "Sex": "male",
+                    "age": "67",
+                    "pathological lesions": "Gastric Metaplasia (severe)",
+                    "subject id": "P8",
+                    "agent": "None",
+                    "ENA-SPOT-COUNT": "430938894",
+                    "ENA-BASE-COUNT": "129281668200",
+                    "ENA-FIRST-PUBLIC": "2019-07-22",
+                    "ENA-LAST-UPDATE": "2019-07-22"
+                },
+                "experiment": {
+                    "SRX6471036": {
+                        "accession": "SRX6471036",
+                        "title": "HiSeq X Ten paired end sequencing; GSM3954957: Severe Intestinal metaplasia 4; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "HiSeq X Ten",
+                        "runs": {
+                            "SRR9713156": {
+                                "accession": "SRR9713156",
+                                "experiment": "SRX6471036",
+                                "study": "SRP215370",
+                                "sample": "SRS5119600",
+                                "title": "HiSeq X Ten paired end sequencing; GSM3954957: Severe Intestinal metaplasia 4; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "113181602",
+                                    "ENA-BASE-COUNT": "33954480600",
+                                    "ENA-FIRST-PUBLIC": "2019-07-23",
+                                    "ENA-LAST-UPDATE": "2019-07-23"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/006/SRR9713156/SRR9713156_1.fastq.gz",
+                                        "md5": "5b278ced62fef125db380d00a6b63cea",
+                                        "size": "9966420170"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/006/SRR9713156/SRR9713156_2.fastq.gz",
+                                        "md5": "6b55f07ddc4092d0ceee45a1bdcefb54",
+                                        "size": "9653786009"
+                                    }
+                                ]
+                            },
+                            "SRR9713157": {
+                                "accession": "SRR9713157",
+                                "experiment": "SRX6471036",
+                                "study": "SRP215370",
+                                "sample": "SRS5119600",
+                                "title": "HiSeq X Ten paired end sequencing; GSM3954957: Severe Intestinal metaplasia 4; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "136143985",
+                                    "ENA-BASE-COUNT": "40843195500",
+                                    "ENA-FIRST-PUBLIC": "2019-07-23",
+                                    "ENA-LAST-UPDATE": "2019-07-23"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/007/SRR9713157/SRR9713157_1.fastq.gz",
+                                        "md5": "397a1f039b96e4945d0e9495530263a4",
+                                        "size": "12010592999"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/007/SRR9713157/SRR9713157_2.fastq.gz",
+                                        "md5": "4eccd918e59a6f75f3e4bb2260e6566a",
+                                        "size": "11708441194"
+                                    }
+                                ]
+                            },
+                            "SRR9713158": {
+                                "accession": "SRR9713158",
+                                "experiment": "SRX6471036",
+                                "study": "SRP215370",
+                                "sample": "SRS5119600",
+                                "title": "HiSeq X Ten paired end sequencing; GSM3954957: Severe Intestinal metaplasia 4; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "88265160",
+                                    "ENA-BASE-COUNT": "26479548000",
+                                    "ENA-FIRST-PUBLIC": "2019-07-23",
+                                    "ENA-LAST-UPDATE": "2019-07-23"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/008/SRR9713158/SRR9713158_1.fastq.gz",
+                                        "md5": "c9765959bb45ab29efd675d20f3311eb",
+                                        "size": "7760145192"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/008/SRR9713158/SRR9713158_2.fastq.gz",
+                                        "md5": "2f86415b2b296888de2e5e447d39f3ca",
+                                        "size": "7496771493"
+                                    }
+                                ]
+                            },
+                            "SRR9713159": {
+                                "accession": "SRR9713159",
+                                "experiment": "SRX6471036",
+                                "study": "SRP215370",
+                                "sample": "SRS5119600",
+                                "title": "HiSeq X Ten paired end sequencing; GSM3954957: Severe Intestinal metaplasia 4; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "93348147",
+                                    "ENA-BASE-COUNT": "28004444100",
+                                    "ENA-FIRST-PUBLIC": "2019-07-23",
+                                    "ENA-LAST-UPDATE": "2019-07-23"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/009/SRR9713159/SRR9713159_1.fastq.gz",
+                                        "md5": "07bb713d34f6eee1094d82e4126ec349",
+                                        "size": "8212817074"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/009/SRR9713159/SRR9713159_2.fastq.gz",
+                                        "md5": "3b6606049e4de09b606c7ea5a01ecaef",
+                                        "size": "7988543425"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

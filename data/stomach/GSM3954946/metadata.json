@@ -1,0 +1,145 @@
+{
+    "GSM3954946": {
+        "accession": "GSM3954946",
+        "supplementary_files": [
+            {
+                "filename": "GSM3954946_processed_NAG1.txt.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3954nnn/GSM3954946/suppl/GSM3954946_processed_NAG1.txt.gz",
+                "size": "3437147"
+            }
+        ],
+        "platform": {
+            "accession": "GPL20795",
+            "title": "HiSeq X Ten (Homo sapiens)"
+        },
+        "sample": {
+            "SRS5119602": {
+                "accession": "SRS5119602",
+                "title": "Non-atrophic gastritis 1",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "stomach",
+                    "Sex": "male",
+                    "age": "58",
+                    "pathological lesions": "Normal",
+                    "subject id": "P1",
+                    "agent": "None",
+                    "ENA-SPOT-COUNT": "395260659",
+                    "ENA-BASE-COUNT": "118578197700",
+                    "ENA-FIRST-PUBLIC": "2019-07-22",
+                    "ENA-LAST-UPDATE": "2019-07-22"
+                },
+                "experiment": {
+                    "SRX6471038": {
+                        "accession": "SRX6471038",
+                        "title": "HiSeq X Ten paired end sequencing; GSM3954946: Non-atrophic gastritis 1; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "HiSeq X Ten",
+                        "runs": {
+                            "SRR9713114": {
+                                "accession": "SRR9713114",
+                                "experiment": "SRX6471038",
+                                "study": "SRP215370",
+                                "sample": "SRS5119602",
+                                "title": "HiSeq X Ten paired end sequencing; GSM3954946: Non-atrophic gastritis 1; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "110159136",
+                                    "ENA-BASE-COUNT": "33047740800",
+                                    "ENA-FIRST-PUBLIC": "2019-07-23",
+                                    "ENA-LAST-UPDATE": "2019-07-23"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/004/SRR9713114/SRR9713114_1.fastq.gz",
+                                        "md5": "71960933c4ab2ac6c18c5745348da93b",
+                                        "size": "9899155024"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/004/SRR9713114/SRR9713114_2.fastq.gz",
+                                        "md5": "ce01470add183917cc09f7943641ba86",
+                                        "size": "10497633306"
+                                    }
+                                ]
+                            },
+                            "SRR9713115": {
+                                "accession": "SRR9713115",
+                                "experiment": "SRX6471038",
+                                "study": "SRP215370",
+                                "sample": "SRS5119602",
+                                "title": "HiSeq X Ten paired end sequencing; GSM3954946: Non-atrophic gastritis 1; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "98022697",
+                                    "ENA-BASE-COUNT": "29406809100",
+                                    "ENA-FIRST-PUBLIC": "2019-07-23",
+                                    "ENA-LAST-UPDATE": "2019-07-23"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/005/SRR9713115/SRR9713115_1.fastq.gz",
+                                        "md5": "4fc147a9658a923c3505b01cf313853f",
+                                        "size": "8791326940"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/005/SRR9713115/SRR9713115_2.fastq.gz",
+                                        "md5": "d4dfd8972102c8235bdde89642030be8",
+                                        "size": "9309161343"
+                                    }
+                                ]
+                            },
+                            "SRR9713116": {
+                                "accession": "SRR9713116",
+                                "experiment": "SRX6471038",
+                                "study": "SRP215370",
+                                "sample": "SRS5119602",
+                                "title": "HiSeq X Ten paired end sequencing; GSM3954946: Non-atrophic gastritis 1; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "94950468",
+                                    "ENA-BASE-COUNT": "28485140400",
+                                    "ENA-FIRST-PUBLIC": "2019-07-23",
+                                    "ENA-LAST-UPDATE": "2019-07-23"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/006/SRR9713116/SRR9713116_1.fastq.gz",
+                                        "md5": "f2b6056fe8cc89f481ca924b0391f364",
+                                        "size": "8543009839"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/006/SRR9713116/SRR9713116_2.fastq.gz",
+                                        "md5": "7878d31e47f2caeee2764df2859fae90",
+                                        "size": "9110441919"
+                                    }
+                                ]
+                            },
+                            "SRR9713117": {
+                                "accession": "SRR9713117",
+                                "experiment": "SRX6471038",
+                                "study": "SRP215370",
+                                "sample": "SRS5119602",
+                                "title": "HiSeq X Ten paired end sequencing; GSM3954946: Non-atrophic gastritis 1; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "92128358",
+                                    "ENA-BASE-COUNT": "27638507400",
+                                    "ENA-FIRST-PUBLIC": "2019-07-23",
+                                    "ENA-LAST-UPDATE": "2019-07-23"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/007/SRR9713117/SRR9713117_1.fastq.gz",
+                                        "md5": "f31c5d36d036eb7a29de9fe9a7338f3e",
+                                        "size": "8272375852"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/007/SRR9713117/SRR9713117_2.fastq.gz",
+                                        "md5": "b7c2ceb496310ee2e38666acc02307bc",
+                                        "size": "8745059940"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

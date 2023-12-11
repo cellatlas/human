@@ -1,0 +1,74 @@
+{
+    "GSM3073089": {
+        "accession": "GSM3073089",
+        "supplementary_files": [
+            {
+                "filename": "GSM3073089_H17w_K2_barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3073nnn/GSM3073089/suppl/GSM3073089_H17w_K2_barcodes.tsv.gz",
+                "size": "15810"
+            },
+            {
+                "filename": "GSM3073089_H17w_K2_genes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3073nnn/GSM3073089/suppl/GSM3073089_H17w_K2_genes.tsv.gz",
+                "size": "257280"
+            },
+            {
+                "filename": "GSM3073089_H17w_K2_matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3073nnn/GSM3073089/suppl/GSM3073089_H17w_K2_matrix.mtx.gz",
+                "size": "22342015"
+            }
+        ],
+        "platform": {
+            "accession": "GPL18573",
+            "title": "Illumina NextSeq 500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS3112006": {
+                "accession": "SRS3112006",
+                "title": "human week 17 kidney cortex single cell RNA-Seq, Kidney 2 [H17w_K2]",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "human kidney cortex",
+                    "developing stage": "Week 17",
+                    "tissue": "kidney",
+                    "cell type": "human embryonic kidney cortex cells",
+                    "ENA-SPOT-COUNT": "166964865",
+                    "ENA-BASE-COUNT": "20097526918",
+                    "ENA-FIRST-PUBLIC": "2018-04-14",
+                    "ENA-LAST-UPDATE": "2018-04-15"
+                },
+                "experiment": {
+                    "SRX3869031": {
+                        "accession": "SRX3869031",
+                        "title": "NextSeq 500 paired end sequencing; GSM3073089: human week 17 kidney cortex single cell RNA-Seq, Kidney 2 [H17w_K2]; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "NextSeq 500",
+                        "runs": {
+                            "SRR6921771": {
+                                "accession": "SRR6921771",
+                                "experiment": "SRX3869031",
+                                "study": "SRP136849",
+                                "sample": "SRS3112006",
+                                "title": "NextSeq 500 paired end sequencing; GSM3073089: human week 17 kidney cortex single cell RNA-Seq, Kidney 2 [H17w_K2]; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "assembly": "GRCh37.p13",
+                                    "ENA-SPOT-COUNT": "166964865",
+                                    "ENA-BASE-COUNT": "20097526918",
+                                    "ENA-FIRST-PUBLIC": "2018-04-18",
+                                    "ENA-LAST-UPDATE": "2018-04-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/SRA678/SRA678017/bam/H17w_K2.bam",
+                                        "md5": "8a43ad3c352904067782b1a5dba1030a",
+                                        "size": "24983653453"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

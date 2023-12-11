@@ -1,0 +1,165 @@
+{
+    "GSM3535279": {
+        "accession": "GSM3535279",
+        "supplementary_files": [
+            {
+                "filename": "GSM3535279_AXLN4_barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3535nnn/GSM3535279/suppl/GSM3535279_AXLN4_barcodes.tsv.gz",
+                "size": "19340"
+            },
+            {
+                "filename": "GSM3535279_AXLN4_genes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3535nnn/GSM3535279/suppl/GSM3535279_AXLN4_genes.tsv.gz",
+                "size": "257278"
+            },
+            {
+                "filename": "GSM3535279_AXLN4_matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3535nnn/GSM3535279/suppl/GSM3535279_AXLN4_matrix.mtx.gz",
+                "size": "29758457"
+            }
+        ],
+        "experiments": {
+            "SRX5197636": {
+                "accession": "SRX5197636",
+                "title": "Illumina HiSeq 3000 paired end sequencing; GSM3535279: AXLN4; Homo sapiens; RNA-Seq",
+                "runs": {
+                    "SRR8387869": {
+                        "accession": "SRR8387869",
+                        "experiment": {
+                            "accession": "SRX5197636",
+                            "title": "Illumina HiSeq 3000 paired end sequencing; GSM3535279: AXLN4; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 3000"
+                        },
+                        "study": {
+                            "accession": "SRP175077",
+                            "title": "Single-cell survey of human lymphatics unveils marked endothelial cell heterogeneity and mechanisms of homing for neutrophils",
+                            "abstract": "Lymphatic vessels form a critical component in the regulation of human health and disease. While their functional significance is increasingly being recognized, the comprehensive heterogeneity of lymphatics remains uncharacterized. Here, we report the profiling of 33,000 lymphatic endothelial cells (LECs) in human lymph nodes (LNs) by single-cell RNA sequencing. Unbiased clustering revealed six major types of human LECs. LECs lining the sub-capsular sinus (SCS) of LNs abundantly expressed neutrophil chemoattractants, whereas LECs lining the medullary sinus (MS) expressed a C-type lectin CD209. Binding of a carbohydrate Lewis X (CD15) to CD209 mediated neutrophil binding to the MS. The neutrophil-selective homing by MS LECs may retain neutrophils in the LN medulla and allow lymph-borne pathogens to clear, preventing their spread through LNs in humans. Our study provides a comprehensive characterization of LEC heterogeneity and unveils a previously undefined role for medullary LECs in human immunity. Overall design: Droplet-based single-cell RNA sequencing (scRNAseq) of human CD45- CD31+ PDPN+ cells from the axillary LNs (AXLNs) and head and neck LNs (HNLNs). ScRNAseq was performed using 10X Genomics Single Cell 3' solution, version 2 according to manufacture's instructions. Libraries were sequenced on HiSeq3000."
+                        },
+                        "sample": {
+                            "accession": "SRS4203425",
+                            "title": "AXLN4",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "AXLN4 lymphatic endothelial cells",
+                                "tissue": "Axillary lymph node",
+                                "individual": "Individual 3",
+                                "cell type": "LN CD45- PDPN+ CD31+ cells",
+                                "ENA-SPOT-COUNT": "516259487",
+                                "ENA-BASE-COUNT": "51109689213",
+                                "ENA-FIRST-PUBLIC": "2019-08-09",
+                                "ENA-LAST-UPDATE": "2019-08-09"
+                            }
+                        },
+                        "title": "Illumina HiSeq 3000 paired end sequencing; GSM3535279: AXLN4; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "loader": "fastq-load.py",
+                            "options": "--platform=Illumina --readTypes=TBT --read1PairFiles=AXLN4_S2_L001_R1_001.fastq --read2PairFiles=AXLN4_S2_L001_R2_001.fastq --read3PairFiles=AXLN4_S2_L001_I1_001.fastq",
+                            "ENA-SPOT-COUNT": "166902015",
+                            "ENA-BASE-COUNT": "16523299485",
+                            "ENA-FIRST-PUBLIC": "2019-08-09",
+                            "ENA-LAST-UPDATE": "2019-08-09"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR838/009/SRR8387869/SRR8387869.fastq.gz",
+                                "md5": "81ae563e4f5d12f147b8fa6571d53757",
+                                "size": "11759292043"
+                            }
+                        ]
+                    },
+                    "SRR8387870": {
+                        "accession": "SRR8387870",
+                        "experiment": {
+                            "accession": "SRX5197636",
+                            "title": "Illumina HiSeq 3000 paired end sequencing; GSM3535279: AXLN4; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 3000"
+                        },
+                        "study": {
+                            "accession": "SRP175077",
+                            "title": "Single-cell survey of human lymphatics unveils marked endothelial cell heterogeneity and mechanisms of homing for neutrophils",
+                            "abstract": "Lymphatic vessels form a critical component in the regulation of human health and disease. While their functional significance is increasingly being recognized, the comprehensive heterogeneity of lymphatics remains uncharacterized. Here, we report the profiling of 33,000 lymphatic endothelial cells (LECs) in human lymph nodes (LNs) by single-cell RNA sequencing. Unbiased clustering revealed six major types of human LECs. LECs lining the sub-capsular sinus (SCS) of LNs abundantly expressed neutrophil chemoattractants, whereas LECs lining the medullary sinus (MS) expressed a C-type lectin CD209. Binding of a carbohydrate Lewis X (CD15) to CD209 mediated neutrophil binding to the MS. The neutrophil-selective homing by MS LECs may retain neutrophils in the LN medulla and allow lymph-borne pathogens to clear, preventing their spread through LNs in humans. Our study provides a comprehensive characterization of LEC heterogeneity and unveils a previously undefined role for medullary LECs in human immunity. Overall design: Droplet-based single-cell RNA sequencing (scRNAseq) of human CD45- CD31+ PDPN+ cells from the axillary LNs (AXLNs) and head and neck LNs (HNLNs). ScRNAseq was performed using 10X Genomics Single Cell 3' solution, version 2 according to manufacture's instructions. Libraries were sequenced on HiSeq3000."
+                        },
+                        "sample": {
+                            "accession": "SRS4203425",
+                            "title": "AXLN4",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "AXLN4 lymphatic endothelial cells",
+                                "tissue": "Axillary lymph node",
+                                "individual": "Individual 3",
+                                "cell type": "LN CD45- PDPN+ CD31+ cells",
+                                "ENA-SPOT-COUNT": "516259487",
+                                "ENA-BASE-COUNT": "51109689213",
+                                "ENA-FIRST-PUBLIC": "2019-08-09",
+                                "ENA-LAST-UPDATE": "2019-08-09"
+                            }
+                        },
+                        "title": "Illumina HiSeq 3000 paired end sequencing; GSM3535279: AXLN4; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "loader": "fastq-load.py",
+                            "options": "--platform=Illumina --readTypes=TBT --read1PairFiles=AXLN4_S2_L002_R1_001.fastq --read2PairFiles=AXLN4_S2_L002_R2_001.fastq --read3PairFiles=AXLN4_S2_L002_I1_001.fastq",
+                            "ENA-SPOT-COUNT": "172592588",
+                            "ENA-BASE-COUNT": "17086666212",
+                            "ENA-FIRST-PUBLIC": "2019-08-09",
+                            "ENA-LAST-UPDATE": "2019-08-09"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR838/000/SRR8387870/SRR8387870.fastq.gz",
+                                "md5": "93f9516e40030893c9979b462c981c19",
+                                "size": "12131071884"
+                            }
+                        ]
+                    },
+                    "SRR8387871": {
+                        "accession": "SRR8387871",
+                        "experiment": {
+                            "accession": "SRX5197636",
+                            "title": "Illumina HiSeq 3000 paired end sequencing; GSM3535279: AXLN4; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 3000"
+                        },
+                        "study": {
+                            "accession": "SRP175077",
+                            "title": "Single-cell survey of human lymphatics unveils marked endothelial cell heterogeneity and mechanisms of homing for neutrophils",
+                            "abstract": "Lymphatic vessels form a critical component in the regulation of human health and disease. While their functional significance is increasingly being recognized, the comprehensive heterogeneity of lymphatics remains uncharacterized. Here, we report the profiling of 33,000 lymphatic endothelial cells (LECs) in human lymph nodes (LNs) by single-cell RNA sequencing. Unbiased clustering revealed six major types of human LECs. LECs lining the sub-capsular sinus (SCS) of LNs abundantly expressed neutrophil chemoattractants, whereas LECs lining the medullary sinus (MS) expressed a C-type lectin CD209. Binding of a carbohydrate Lewis X (CD15) to CD209 mediated neutrophil binding to the MS. The neutrophil-selective homing by MS LECs may retain neutrophils in the LN medulla and allow lymph-borne pathogens to clear, preventing their spread through LNs in humans. Our study provides a comprehensive characterization of LEC heterogeneity and unveils a previously undefined role for medullary LECs in human immunity. Overall design: Droplet-based single-cell RNA sequencing (scRNAseq) of human CD45- CD31+ PDPN+ cells from the axillary LNs (AXLNs) and head and neck LNs (HNLNs). ScRNAseq was performed using 10X Genomics Single Cell 3' solution, version 2 according to manufacture's instructions. Libraries were sequenced on HiSeq3000."
+                        },
+                        "sample": {
+                            "accession": "SRS4203425",
+                            "title": "AXLN4",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "AXLN4 lymphatic endothelial cells",
+                                "tissue": "Axillary lymph node",
+                                "individual": "Individual 3",
+                                "cell type": "LN CD45- PDPN+ CD31+ cells",
+                                "ENA-SPOT-COUNT": "516259487",
+                                "ENA-BASE-COUNT": "51109689213",
+                                "ENA-FIRST-PUBLIC": "2019-08-09",
+                                "ENA-LAST-UPDATE": "2019-08-09"
+                            }
+                        },
+                        "title": "Illumina HiSeq 3000 paired end sequencing; GSM3535279: AXLN4; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "loader": "fastq-load.py",
+                            "options": "--platform=Illumina --readTypes=TBT --read1PairFiles=AXLN4_S2_L003_R1_001.fastq --read2PairFiles=AXLN4_S2_L003_R2_001.fastq --read3PairFiles=AXLN4_S2_L003_I1_001.fastq",
+                            "ENA-SPOT-COUNT": "176764884",
+                            "ENA-BASE-COUNT": "17499723516",
+                            "ENA-FIRST-PUBLIC": "2019-08-09",
+                            "ENA-LAST-UPDATE": "2019-08-09"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR838/001/SRR8387871/SRR8387871.fastq.gz",
+                                "md5": "0d2ce708f40257a7a6badf6a9fd6931b",
+                                "size": "12609611677"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

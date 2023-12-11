@@ -1,0 +1,63 @@
+{
+    "GSM4272901": {
+        "accession": "GSM4272901",
+        "platform": {
+            "accession": "GPL18573",
+            "title": "Illumina NextSeq 500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS6003000": {
+                "accession": "SRS6003000",
+                "title": "hu05_111418",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Trapezius",
+                    "age": "62",
+                    "Sex": "female",
+                    "tissue": "Trapezius",
+                    "ENA-SPOT-COUNT": "242900230",
+                    "ENA-BASE-COUNT": "20160719090",
+                    "ENA-FIRST-PUBLIC": "2020-06-03",
+                    "ENA-LAST-UPDATE": "2020-06-04"
+                },
+                "experiment": {
+                    "SRX7566595": {
+                        "accession": "SRX7566595",
+                        "title": "NextSeq 500 paired end sequencing; GSM4272901: hu05_111418; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "NextSeq 500",
+                        "runs": {
+                            "SRR10897768": {
+                                "accession": "SRR10897768",
+                                "experiment": "SRX7566595",
+                                "study": "SRP242029",
+                                "sample": "SRS6003000",
+                                "title": "NextSeq 500 paired end sequencing; GSM4272901: hu05_111418; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "loader": "fastq-load.py",
+                                    "options": "--readTypes=TBB --read1PairFiles=Sample_87378_HH3Y5BGX9_hu_111418_I1.fastq.gz --read2PairFiles=Sample_87378_HH3Y5BGX9_hu_111418_R1.fastq.gz --read3PairFiles=Sample_87378_HH3Y5BGX9_hu_111418_R2.fastq.gz",
+                                    "ENA-SPOT-COUNT": "242900230",
+                                    "ENA-BASE-COUNT": "20160719090",
+                                    "ENA-FIRST-PUBLIC": "2020-06-03",
+                                    "ENA-LAST-UPDATE": "2020-06-03"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR108/068/SRR10897768/SRR10897768_1.fastq.gz",
+                                        "md5": "5f726b59b21b2071989163a816ec34c7",
+                                        "size": "5609176862"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR108/068/SRR10897768/SRR10897768_2.fastq.gz",
+                                        "md5": "0b2cda6dade3c922fadbd1948d03c972",
+                                        "size": "8555300910"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

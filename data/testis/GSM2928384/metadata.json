@@ -1,0 +1,73 @@
+{
+    "GSM2928384": {
+        "accession": "GSM2928384",
+        "supplementary_files": [
+            {
+                "filename": "GSM2928384_AdultHuman-Spermatids_17-6_barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM2928nnn/GSM2928384/suppl/GSM2928384_AdultHuman-Spermatids_17-6_barcodes.tsv.gz",
+                "size": "13469"
+            },
+            {
+                "filename": "GSM2928384_AdultHuman-Spermatids_17-6_genes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM2928nnn/GSM2928384/suppl/GSM2928384_AdultHuman-Spermatids_17-6_genes.tsv.gz",
+                "size": "264810"
+            },
+            {
+                "filename": "GSM2928384_AdultHuman-Spermatids_17-6_matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM2928nnn/GSM2928384/suppl/GSM2928384_AdultHuman-Spermatids_17-6_matrix.mtx.gz",
+                "size": "43725203"
+            }
+        ],
+        "platform": {
+            "accession": "GPL18573",
+            "title": "Illumina NextSeq 500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS2823412": {
+                "accession": "SRS2823412",
+                "title": "AdultHuman-Spermatids_17-6",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Adult testis",
+                    "number of cells": "3086",
+                    "cell type": "Sta-Put enriched Spermatids",
+                    "ENA-SPOT-COUNT": "275989288",
+                    "ENA-BASE-COUNT": "27874918088",
+                    "ENA-FIRST-PUBLIC": "2018-11-07",
+                    "ENA-LAST-UPDATE": "2018-11-07"
+                },
+                "experiment": {
+                    "SRX3549441": {
+                        "accession": "SRX3549441",
+                        "title": "NextSeq 500 paired end sequencing; GSM2928384: AdultHuman-Spermatids_17-6; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "NextSeq 500",
+                        "runs": {
+                            "SRR6459194": {
+                                "accession": "SRR6459194",
+                                "experiment": "SRX3549441",
+                                "study": "SRP128724",
+                                "sample": "SRS2823412",
+                                "title": "NextSeq 500 paired end sequencing; GSM2928384: AdultHuman-Spermatids_17-6; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "assembly": "GRCh38",
+                                    "ENA-SPOT-COUNT": "275989288",
+                                    "ENA-BASE-COUNT": "27874918088",
+                                    "ENA-FIRST-PUBLIC": "2018-11-10",
+                                    "ENA-LAST-UPDATE": "2018-11-10"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR645/004/SRR6459194/SRR6459194.fastq.gz",
+                                        "md5": "18eeba87c9b58bede8a6885e3c6b414f",
+                                        "size": "9043210116"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "GSM3402080": {
+        "accession": "GSM3402080",
+        "platform": {
+            "accession": "GPL16791",
+            "title": "Illumina HiSeq 2500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS3822683": {
+                "accession": "SRS3822683",
+                "title": "Infant2_scRNA-seq_rep1",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Testicular cells",
+                    "gender": "male",
+                    "age": "13 months",
+                    "tissue": "Testicle",
+                    "cell type": "Testicular cells",
+                    "ENA-SPOT-COUNT": "112307299",
+                    "ENA-BASE-COUNT": "11230729900",
+                    "ENA-FIRST-PUBLIC": "2018-10-16",
+                    "ENA-LAST-UPDATE": "2018-10-17"
+                },
+                "experiment": {
+                    "SRX4741352": {
+                        "accession": "SRX4741352",
+                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM3402080: Infant2_scRNA-seq_rep1; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 2500",
+                        "runs": {
+                            "SRR7904999": {
+                                "accession": "SRR7904999",
+                                "experiment": "SRX4741352",
+                                "study": "SRP162662",
+                                "sample": "SRS3822683",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM3402080: Infant2_scRNA-seq_rep1; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "assembly": "hg38",
+                                    "ENA-SPOT-COUNT": "112307299",
+                                    "ENA-BASE-COUNT": "11230729900",
+                                    "ENA-FIRST-PUBLIC": "2018-10-16",
+                                    "ENA-LAST-UPDATE": "2018-10-16"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/SRA784/SRA784242/bam/15221X1.bam",
+                                        "md5": "535e58777fd946c0445b5e00589ca10f",
+                                        "size": "18560418993"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

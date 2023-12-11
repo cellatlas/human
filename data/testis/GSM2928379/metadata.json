@@ -1,0 +1,73 @@
+{
+    "GSM2928379": {
+        "accession": "GSM2928379",
+        "supplementary_files": [
+            {
+                "filename": "GSM2928379_HumanSpermatogonia_17-5_barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM2928nnn/GSM2928379/suppl/GSM2928379_HumanSpermatogonia_17-5_barcodes.tsv.gz",
+                "size": "15129"
+            },
+            {
+                "filename": "GSM2928379_HumanSpermatogonia_17-5_genes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM2928nnn/GSM2928379/suppl/GSM2928379_HumanSpermatogonia_17-5_genes.tsv.gz",
+                "size": "264807"
+            },
+            {
+                "filename": "GSM2928379_HumanSpermatogonia_17-5_matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM2928nnn/GSM2928379/suppl/GSM2928379_HumanSpermatogonia_17-5_matrix.mtx.gz",
+                "size": "47547740"
+            }
+        ],
+        "platform": {
+            "accession": "GPL21290",
+            "title": "Illumina HiSeq 3000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS2823406": {
+                "accession": "SRS2823406",
+                "title": "HumanSpermatogonia_17-5",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Adult testis",
+                    "number of cells": "3522",
+                    "cell type": "Spermatogonia",
+                    "ENA-SPOT-COUNT": "386908654",
+                    "ENA-BASE-COUNT": "38690865400",
+                    "ENA-FIRST-PUBLIC": "2018-11-07",
+                    "ENA-LAST-UPDATE": "2018-11-07"
+                },
+                "experiment": {
+                    "SRX3549436": {
+                        "accession": "SRX3549436",
+                        "title": "Illumina HiSeq 3000 paired end sequencing; GSM2928379: HumanSpermatogonia_17-5; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 3000",
+                        "runs": {
+                            "SRR6459189": {
+                                "accession": "SRR6459189",
+                                "experiment": "SRX3549436",
+                                "study": "SRP128724",
+                                "sample": "SRS2823406",
+                                "title": "Illumina HiSeq 3000 paired end sequencing; GSM2928379: HumanSpermatogonia_17-5; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "assembly": "GRCh38",
+                                    "ENA-SPOT-COUNT": "386908654",
+                                    "ENA-BASE-COUNT": "38690865400",
+                                    "ENA-FIRST-PUBLIC": "2018-11-10",
+                                    "ENA-LAST-UPDATE": "2018-11-10"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR645/009/SRR6459189/SRR6459189.fastq.gz",
+                                        "md5": "8b57026ef86961bd6a6ce8c24ab4d1f1",
+                                        "size": "16802235679"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

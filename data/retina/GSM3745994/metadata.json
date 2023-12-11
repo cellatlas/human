@@ -1,0 +1,442 @@
+{
+    "GSM3745994": {
+        "accession": "GSM3745994",
+        "supplementary_files": [
+            {
+                "filename": "GSM3745994_fovea_donor_3_expression.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3745nnn/GSM3745994/suppl/GSM3745994_fovea_donor_3_expression.tsv.gz",
+                "size": "1831208"
+            }
+        ],
+        "platform": {
+            "accession": "GPL20301",
+            "title": "Illumina HiSeq 4000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4715839": {
+                "accession": "SRS4715839",
+                "title": "Fovea donor 3",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Retina",
+                    "location": "Fovea",
+                    "donor": "Donor 3",
+                    "ENA-SPOT-COUNT": "174163148",
+                    "ENA-BASE-COUNT": "52597270696",
+                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                    "ENA-LAST-UPDATE": "2019-05-19"
+                },
+                "experiment": {
+                    "SRX5783047": {
+                        "accession": "SRX5783047",
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745994: Fovea donor 3; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 4000",
+                        "runs": {
+                            "SRR9004357": {
+                                "accession": "SRR9004357",
+                                "experiment": "SRX5783047",
+                                "study": "SRP194595",
+                                "sample": "SRS4715839",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745994: Fovea donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "13556922",
+                                    "ENA-BASE-COUNT": "4094190444",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/007/SRR9004357/SRR9004357_1.fastq.gz",
+                                        "md5": "d540ec129c5576026b9ec536c8fd5aa3",
+                                        "size": "1106820926"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/007/SRR9004357/SRR9004357_2.fastq.gz",
+                                        "md5": "3feae3aa5d00bbe040b2f3803403f615",
+                                        "size": "1268990592"
+                                    }
+                                ]
+                            },
+                            "SRR9004358": {
+                                "accession": "SRR9004358",
+                                "experiment": "SRX5783047",
+                                "study": "SRP194595",
+                                "sample": "SRS4715839",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745994: Fovea donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "10285823",
+                                    "ENA-BASE-COUNT": "3106318546",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/008/SRR9004358/SRR9004358_1.fastq.gz",
+                                        "md5": "f2d60a3c996a61b0831dc4d09276ad0d",
+                                        "size": "830704156"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/008/SRR9004358/SRR9004358_2.fastq.gz",
+                                        "md5": "d2390e19870eb47736389cecd6b29634",
+                                        "size": "972684467"
+                                    }
+                                ]
+                            },
+                            "SRR9004359": {
+                                "accession": "SRR9004359",
+                                "experiment": "SRX5783047",
+                                "study": "SRP194595",
+                                "sample": "SRS4715839",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745994: Fovea donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "5828992",
+                                    "ENA-BASE-COUNT": "1760355584",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/009/SRR9004359/SRR9004359_1.fastq.gz",
+                                        "md5": "75f2f3f9225c001bc54996212ac5ad13",
+                                        "size": "470076159"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/009/SRR9004359/SRR9004359_2.fastq.gz",
+                                        "md5": "224bd68974d33e5e9acb9b5e4b8e1203",
+                                        "size": "553885317"
+                                    }
+                                ]
+                            },
+                            "SRR9004360": {
+                                "accession": "SRR9004360",
+                                "experiment": "SRX5783047",
+                                "study": "SRP194595",
+                                "sample": "SRS4715839",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745994: Fovea donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "13827328",
+                                    "ENA-BASE-COUNT": "4175853056",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/000/SRR9004360/SRR9004360_1.fastq.gz",
+                                        "md5": "33acc7c9acf529cc56dfa01de785d47d",
+                                        "size": "1117725505"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/000/SRR9004360/SRR9004360_2.fastq.gz",
+                                        "md5": "33161234e45032c9c0136fa3d85e99aa",
+                                        "size": "1303534973"
+                                    }
+                                ]
+                            },
+                            "SRR9004361": {
+                                "accession": "SRR9004361",
+                                "experiment": "SRX5783047",
+                                "study": "SRP194595",
+                                "sample": "SRS4715839",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745994: Fovea donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "13818829",
+                                    "ENA-BASE-COUNT": "4173286358",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/001/SRR9004361/SRR9004361_1.fastq.gz",
+                                        "md5": "7a8283987c2727d70d1ef510acda294a",
+                                        "size": "1118163029"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/001/SRR9004361/SRR9004361_2.fastq.gz",
+                                        "md5": "e8f47dcec8749d37359d5f2512200d13",
+                                        "size": "1310153565"
+                                    }
+                                ]
+                            },
+                            "SRR9004362": {
+                                "accession": "SRR9004362",
+                                "experiment": "SRX5783047",
+                                "study": "SRP194595",
+                                "sample": "SRS4715839",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745994: Fovea donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "10195266",
+                                    "ENA-BASE-COUNT": "3078970332",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/002/SRR9004362/SRR9004362_1.fastq.gz",
+                                        "md5": "e1787b54f29d91120b3dae52e5c04b6e",
+                                        "size": "824884649"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/002/SRR9004362/SRR9004362_2.fastq.gz",
+                                        "md5": "346281d3889e55a144104afb036ae076",
+                                        "size": "968065554"
+                                    }
+                                ]
+                            },
+                            "SRR9004363": {
+                                "accession": "SRR9004363",
+                                "experiment": "SRX5783047",
+                                "study": "SRP194595",
+                                "sample": "SRS4715839",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745994: Fovea donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "5772147",
+                                    "ENA-BASE-COUNT": "1743188394",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/003/SRR9004363/SRR9004363_1.fastq.gz",
+                                        "md5": "cc9ad4c0af7a93918f4ac8356ce5a021",
+                                        "size": "466150045"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/003/SRR9004363/SRR9004363_2.fastq.gz",
+                                        "md5": "5be0bd396627c2e2e5e5361356bf7a12",
+                                        "size": "550622504"
+                                    }
+                                ]
+                            },
+                            "SRR9004364": {
+                                "accession": "SRR9004364",
+                                "experiment": "SRX5783047",
+                                "study": "SRP194595",
+                                "sample": "SRS4715839",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745994: Fovea donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "13858275",
+                                    "ENA-BASE-COUNT": "4185199050",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/004/SRR9004364/SRR9004364_1.fastq.gz",
+                                        "md5": "d23df417688bd8bd1e7a289079ac81bc",
+                                        "size": "1123477679"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/004/SRR9004364/SRR9004364_2.fastq.gz",
+                                        "md5": "c8eb811777c061d519c43855a5045195",
+                                        "size": "1300417628"
+                                    }
+                                ]
+                            },
+                            "SRR9004365": {
+                                "accession": "SRR9004365",
+                                "experiment": "SRX5783047",
+                                "study": "SRP194595",
+                                "sample": "SRS4715839",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745994: Fovea donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "13511945",
+                                    "ENA-BASE-COUNT": "4080607390",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/005/SRR9004365/SRR9004365_1.fastq.gz",
+                                        "md5": "ceba3896dd6eb748ef44c064aaf3b654",
+                                        "size": "1104533148"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/005/SRR9004365/SRR9004365_2.fastq.gz",
+                                        "md5": "a8107622d4311a42d418b7b01952355f",
+                                        "size": "1272948371"
+                                    }
+                                ]
+                            },
+                            "SRR9004366": {
+                                "accession": "SRR9004366",
+                                "experiment": "SRX5783047",
+                                "study": "SRP194595",
+                                "sample": "SRS4715839",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745994: Fovea donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "10041447",
+                                    "ENA-BASE-COUNT": "3032516994",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/006/SRR9004366/SRR9004366_1.fastq.gz",
+                                        "md5": "65fce540f1efa5aaa806502a3554dad1",
+                                        "size": "820652275"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/006/SRR9004366/SRR9004366_2.fastq.gz",
+                                        "md5": "ee12e7cc8c1a68ba488c2480e4b4c791",
+                                        "size": "944180608"
+                                    }
+                                ]
+                            },
+                            "SRR9004367": {
+                                "accession": "SRR9004367",
+                                "experiment": "SRX5783047",
+                                "study": "SRP194595",
+                                "sample": "SRS4715839",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745994: Fovea donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "5653357",
+                                    "ENA-BASE-COUNT": "1707313814",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/007/SRR9004367/SRR9004367_1.fastq.gz",
+                                        "md5": "500e28da11bfb1ff9a91b5ecc291119c",
+                                        "size": "461419188"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/007/SRR9004367/SRR9004367_2.fastq.gz",
+                                        "md5": "9508ed578f38b5c447843465a7a2fc72",
+                                        "size": "534668060"
+                                    }
+                                ]
+                            },
+                            "SRR9004368": {
+                                "accession": "SRR9004368",
+                                "experiment": "SRX5783047",
+                                "study": "SRP194595",
+                                "sample": "SRS4715839",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745994: Fovea donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "13855933",
+                                    "ENA-BASE-COUNT": "4184491766",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/008/SRR9004368/SRR9004368_1.fastq.gz",
+                                        "md5": "ac29f027a94287ddb1e023b6dbfc8aaa",
+                                        "size": "1124802183"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/008/SRR9004368/SRR9004368_2.fastq.gz",
+                                        "md5": "05b9620a25a2f7a6bfbf778b199c37e2",
+                                        "size": "1309081045"
+                                    }
+                                ]
+                            },
+                            "SRR9004369": {
+                                "accession": "SRR9004369",
+                                "experiment": "SRX5783047",
+                                "study": "SRP194595",
+                                "sample": "SRS4715839",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745994: Fovea donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "10168324",
+                                    "ENA-BASE-COUNT": "3070833848",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/009/SRR9004369/SRR9004369_1.fastq.gz",
+                                        "md5": "d8d1b5e9242f3c004c3a5b6974d538bb",
+                                        "size": "824871838"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/009/SRR9004369/SRR9004369_2.fastq.gz",
+                                        "md5": "90c81b43bf313b49df186bcf55b4e0b8",
+                                        "size": "959505068"
+                                    }
+                                ]
+                            },
+                            "SRR9004370": {
+                                "accession": "SRR9004370",
+                                "experiment": "SRX5783047",
+                                "study": "SRP194595",
+                                "sample": "SRS4715839",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745994: Fovea donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "5760106",
+                                    "ENA-BASE-COUNT": "1739552012",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/000/SRR9004370/SRR9004370_1.fastq.gz",
+                                        "md5": "89dd62a38bb94190e2c331a460b4a456",
+                                        "size": "466467759"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/000/SRR9004370/SRR9004370_2.fastq.gz",
+                                        "md5": "0afc329cc3cca0d015b22ea32146c0f7",
+                                        "size": "546476869"
+                                    }
+                                ]
+                            },
+                            "SRR9004371": {
+                                "accession": "SRR9004371",
+                                "experiment": "SRX5783047",
+                                "study": "SRP194595",
+                                "sample": "SRS4715839",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745994: Fovea donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "14026504",
+                                    "ENA-BASE-COUNT": "4236004208",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/001/SRR9004371/SRR9004371_1.fastq.gz",
+                                        "md5": "c35966cd9286a8df7c8e6f121f2f579f",
+                                        "size": "1131811122"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/001/SRR9004371/SRR9004371_2.fastq.gz",
+                                        "md5": "dee7063f16a2dd208ec47ba75a3c02d3",
+                                        "size": "1317862403"
+                                    }
+                                ]
+                            },
+                            "SRR9004372": {
+                                "accession": "SRR9004372",
+                                "experiment": "SRX5783047",
+                                "study": "SRP194595",
+                                "sample": "SRS4715839",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745994: Fovea donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "14001950",
+                                    "ENA-BASE-COUNT": "4228588900",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/002/SRR9004372/SRR9004372_1.fastq.gz",
+                                        "md5": "07c8bfa41ce249c9601cfcf236a4d97a",
+                                        "size": "1131075136"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/002/SRR9004372/SRR9004372_2.fastq.gz",
+                                        "md5": "34db493f0b470679d62fb13416710c57",
+                                        "size": "1323230335"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,153 @@
+{
+    "GSM3526590": {
+        "accession": "GSM3526590",
+        "supplementary_files": [
+            {
+                "filename": "GSM3526590_A2_total_barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3526nnn/GSM3526590/suppl/GSM3526590_A2_total_barcodes.tsv.gz",
+                "size": "24957"
+            },
+            {
+                "filename": "GSM3526590_A2_total_genes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3526nnn/GSM3526590/suppl/GSM3526590_A2_total_genes.tsv.gz",
+                "size": "257281"
+            },
+            {
+                "filename": "GSM3526590_A2_total_matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3526nnn/GSM3526590/suppl/GSM3526590_A2_total_matrix.mtx.gz",
+                "size": "49952492"
+            }
+        ],
+        "platform": {
+            "accession": "GPL20301",
+            "title": "Illumina HiSeq 4000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4181130": {
+                "accession": "SRS4181130",
+                "title": "Adult 2 unfractionated",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "adult",
+                    "tissue": "Testis",
+                    "age": "42 yr",
+                    "sample": "A2_T",
+                    "ENA-SPOT-COUNT": "191601744",
+                    "ENA-BASE-COUNT": "23758616256",
+                    "ENA-FIRST-PUBLIC": "2018-12-23",
+                    "ENA-LAST-UPDATE": "2018-12-23"
+                },
+                "experiment": {
+                    "SRX5173704": {
+                        "accession": "SRX5173704",
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526590: Adult 2 unfractionated; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 4000",
+                        "runs": {
+                            "SRR8363262": {
+                                "accession": "SRR8363262",
+                                "experiment": "SRX5173704",
+                                "study": "SRP174204",
+                                "sample": "SRS4181130",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526590: Adult 2 unfractionated; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "35169621",
+                                    "ENA-BASE-COUNT": "4361033004",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/002/SRR8363262/SRR8363262_1.fastq.gz",
+                                        "md5": "219f5dacfd1516202801e59a3b18610d",
+                                        "size": "653881701"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/002/SRR8363262/SRR8363262_2.fastq.gz",
+                                        "md5": "6325a24a85d1b8d4fe736eef7b6f8aee",
+                                        "size": "2323375035"
+                                    }
+                                ]
+                            },
+                            "SRR8363263": {
+                                "accession": "SRR8363263",
+                                "experiment": "SRX5173704",
+                                "study": "SRP174204",
+                                "sample": "SRS4181130",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526590: Adult 2 unfractionated; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "44820692",
+                                    "ENA-BASE-COUNT": "5557765808",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/003/SRR8363263/SRR8363263_1.fastq.gz",
+                                        "md5": "251aecc6a7b17eb60377fa42bfb09f60",
+                                        "size": "835297956"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/003/SRR8363263/SRR8363263_2.fastq.gz",
+                                        "md5": "88e0c7f5f69a55bbe656d8b7da984f07",
+                                        "size": "3047352834"
+                                    }
+                                ]
+                            },
+                            "SRR8363264": {
+                                "accession": "SRR8363264",
+                                "experiment": "SRX5173704",
+                                "study": "SRP174204",
+                                "sample": "SRS4181130",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526590: Adult 2 unfractionated; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "52113174",
+                                    "ENA-BASE-COUNT": "6462033576",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/004/SRR8363264/SRR8363264_1.fastq.gz",
+                                        "md5": "2b41e7132774151e568f374dab2a84da",
+                                        "size": "967101363"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/004/SRR8363264/SRR8363264_2.fastq.gz",
+                                        "md5": "c281e503ebd05a7b60de8800bec82bec",
+                                        "size": "3448773194"
+                                    }
+                                ]
+                            },
+                            "SRR8363265": {
+                                "accession": "SRR8363265",
+                                "experiment": "SRX5173704",
+                                "study": "SRP174204",
+                                "sample": "SRS4181130",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526590: Adult 2 unfractionated; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "59498257",
+                                    "ENA-BASE-COUNT": "7377783868",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/005/SRR8363265/SRR8363265_1.fastq.gz",
+                                        "md5": "740f0837d45a7a15b701d52059e48eed",
+                                        "size": "1109463832"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/005/SRR8363265/SRR8363265_2.fastq.gz",
+                                        "md5": "80e5b81f2efe3cb4f8e52b829a50548a",
+                                        "size": "3988588045"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

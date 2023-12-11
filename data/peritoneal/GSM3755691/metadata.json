@@ -1,0 +1,76 @@
+{
+    "GSM3755691": {
+        "accession": "GSM3755691",
+        "supplementary_files": [
+            {
+                "filename": "GSM3755691_BWbarcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3755nnn/GSM3755691/suppl/GSM3755691_BWbarcodes.tsv.gz",
+                "size": "46275"
+            },
+            {
+                "filename": "GSM3755691_BWfeatures.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3755nnn/GSM3755691/suppl/GSM3755691_BWfeatures.tsv.gz",
+                "size": "318733"
+            },
+            {
+                "filename": "GSM3755691_BWmatrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3755nnn/GSM3755691/suppl/GSM3755691_BWmatrix.mtx.gz",
+                "size": "54446020"
+            }
+        ],
+        "platform": {
+            "accession": "GPL20301",
+            "title": "Illumina HiSeq 4000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4736475": {
+                "accession": "SRS4736475",
+                "title": "Short-term PD rep5",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Peritoneal dialysis fluid",
+                    "sample type": "Peritoneal cells from effluent of short-term PD patients",
+                    "ENA-SPOT-COUNT": "331633667",
+                    "ENA-BASE-COUNT": "41122574708",
+                    "ENA-FIRST-PUBLIC": "2019-06-10",
+                    "ENA-LAST-UPDATE": "2019-06-11"
+                },
+                "experiment": {
+                    "SRX5807013": {
+                        "accession": "SRX5807013",
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM3755691: Short-term PD rep5; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 4000",
+                        "runs": {
+                            "SRR9029602": {
+                                "accession": "SRR9029602",
+                                "experiment": "SRX5807013",
+                                "study": "SRP197094",
+                                "sample": "SRS4736475",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3755691: Short-term PD rep5; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "331633667",
+                                    "ENA-BASE-COUNT": "41122574708",
+                                    "ENA-FIRST-PUBLIC": "2019-06-11",
+                                    "ENA-LAST-UPDATE": "2019-06-11"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR902/002/SRR9029602/SRR9029602_1.fastq.gz",
+                                        "md5": "60f4d4a6aefd90496b475493aeab9683",
+                                        "size": "5514003670"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR902/002/SRR9029602/SRR9029602_2.fastq.gz",
+                                        "md5": "a896fd3d213e0327c1e2a36b420da136",
+                                        "size": "14774279268"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

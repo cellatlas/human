@@ -1,0 +1,61 @@
+{
+    "GSM3587008": {
+        "accession": "GSM3587008",
+        "experiments": {
+            "SRX5317410": {
+                "accession": "SRX5317410",
+                "title": "HiSeq X Ten paired end sequencing; GSM3587008: Ileum-1; Homo sapiens; RNA-Seq",
+                "runs": {
+                    "SRR8513794": {
+                        "accession": "SRR8513794",
+                        "experiment": {
+                            "accession": "SRX5317410",
+                            "title": "HiSeq X Ten paired end sequencing; GSM3587008: Ileum-1; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "HiSeq X Ten"
+                        },
+                        "study": {
+                            "accession": "SRP183081",
+                            "title": "Single-cell transcriptome analysis reveals differential nutrient absorption functions in human intestine",
+                            "abstract": "14537 epithelial cells from adult human ileum, colon and rectum are performed single-cell transcriptome analysis, cell types and signature genes are presented, so as new representative genes. Bases on the gene expression pattern, difference of cell types, signaling changes, absorption funciton, inmmunity and hormone activity are analyzed. In addition, species diversity is briefly performed by analysis of human and mouse ileum single-cell database. Overall design: identify cell consititution and function difference of ileum, colon and rectum at single-cell level."
+                        },
+                        "sample": {
+                            "accession": "SRS4313817",
+                            "title": "Ileum-1",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "adult human ileum epithelial cells",
+                                "cell type": "Epithelia cell",
+                                "tissue": "small intestine",
+                                "age of human": "61",
+                                "ENA-SPOT-COUNT": "414982680",
+                                "ENA-BASE-COUNT": "124494804000",
+                                "ENA-FIRST-PUBLIC": "2019-10-23",
+                                "ENA-LAST-UPDATE": "2019-10-23"
+                            }
+                        },
+                        "title": "HiSeq X Ten paired end sequencing; GSM3587008: Ileum-1; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "414982680",
+                            "ENA-BASE-COUNT": "124494804000",
+                            "ENA-FIRST-PUBLIC": "2019-10-23",
+                            "ENA-LAST-UPDATE": "2019-10-23"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR851/004/SRR8513794/SRR8513794_1.fastq.gz",
+                                "md5": "bc8576ebc23f5d0ba3202232abe31dd4",
+                                "size": "33325878953"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR851/004/SRR8513794/SRR8513794_2.fastq.gz",
+                                "md5": "f219b384a08a8fc8d474743560d2e9db",
+                                "size": "34336756990"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

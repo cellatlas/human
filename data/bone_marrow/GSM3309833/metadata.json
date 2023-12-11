@@ -1,0 +1,80 @@
+{
+    "GSM3309833": {
+        "accession": "GSM3309833",
+        "supplementary_files": [
+            {
+                "filename": "GSM3309833_ET02.barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3309nnn/GSM3309833/suppl/GSM3309833_ET02.barcodes.tsv.gz",
+                "size": "5862"
+            },
+            {
+                "filename": "GSM3309833_ET02.genes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3309nnn/GSM3309833/suppl/GSM3309833_ET02.genes.tsv.gz",
+                "size": "264788"
+            },
+            {
+                "filename": "GSM3309833_ET02.matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3309nnn/GSM3309833/suppl/GSM3309833_ET02.matrix.mtx.gz",
+                "size": "11786264"
+            }
+        ],
+        "experiments": {
+            "SRX4478353": {
+                "accession": "SRX4478353",
+                "title": "Illumina HiSeq 2500 paired end sequencing; GSM3309833: 10x.ET02; Homo sapiens; RNA-Seq",
+                "runs": {
+                    "SRR7613776": {
+                        "accession": "SRR7613776",
+                        "experiment": {
+                            "accession": "SRX4478353",
+                            "title": "Illumina HiSeq 2500 paired end sequencing; GSM3309833: 10x.ET02; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 2500"
+                        },
+                        "study": {
+                            "accession": "SRP155569",
+                            "title": "RNA-seq of Single-Cell Genotyping of Transcriptomes",
+                            "abstract": "Somatic cancer driver mutations may result in distinctly diverging phenotypic outputs. Thus, a common driver lesion may result in cancer subtypes with distinct clinical presentations and outcomes. The diverging phenotypic outputs of mutations result from the superimposition of the mutations with distinct progenitor cell populations that have differing lineage potential. However, our ability to test this hypothesis has been challenged by currently available tools. For example, flow cytometry is limited in its inability to resolve lineage commitment of early progenitors. Single-cell RNA sequencing (scRNA-seq) may provide higher resolution mapping of the early progenitor populations as long as high throughput technology is available to sequence thousands of single cells. Nevertheless, high throughput scRNA-seq is limited in its inability to jointly and robustly detect the mutational status and the transcriptional profile from the same cell.  To overcome these limitations, we propose the use of scRNA-seq combined with targeted mutation sequencing from transcrptional read-outs. Overall design: We apply this method to study myeloid neopasms, in which the comlex process of hematopoiesis is corrupted by mutated stem and progenitor cells."
+                        },
+                        "sample": {
+                            "accession": "SRS3603371",
+                            "title": "10x.ET02",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "ET02, scRNA-seq",
+                                "source": "BMMC",
+                                "targeted mutation": "CALR exon9 K385fs*47 (c.1154_1155insTTGTC)",
+                                "Sex": "male",
+                                "age": "29",
+                                "diagnosis": "ET",
+                                "pb blast count": "0",
+                                "bm blast count": "0.03",
+                                "bm fibrosis": "MF-1/3",
+                                "treatment": "Aspirin",
+                                "ENA-SPOT-COUNT": "146058086",
+                                "ENA-BASE-COUNT": "14313692428",
+                                "ENA-FIRST-PUBLIC": "2019-01-02",
+                                "ENA-LAST-UPDATE": "2019-06-02"
+                            }
+                        },
+                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM3309833: 10x.ET02; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "assembly": "GRCh38",
+                            "ENA-SPOT-COUNT": "146058086",
+                            "ENA-BASE-COUNT": "14313692428",
+                            "ENA-FIRST-PUBLIC": "2019-01-03",
+                            "ENA-LAST-UPDATE": "2019-06-05"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR761/006/SRR7613776/SRR7613776.fastq.gz",
+                                "md5": "f7178e1c6745e03d0f7f0062b4f51022",
+                                "size": "5423569344"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

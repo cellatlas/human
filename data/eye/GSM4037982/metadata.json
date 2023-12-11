@@ -1,0 +1,645 @@
+{
+    "GSM4037982": {
+        "accession": "GSM4037982",
+        "supplementary_files": [
+            {
+                "filename": "GSM4037982_macula_donor_2_expression.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM4037nnn/GSM4037982/suppl/GSM4037982_macula_donor_2_expression.tsv.gz",
+                "size": "2421497"
+            }
+        ],
+        "platform": {
+            "accession": "GPL20301",
+            "title": "Illumina HiSeq 4000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS5281870": {
+                "accession": "SRS5281870",
+                "title": "Macula-8mm-rpe-cho-donor-2",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "RPE-choroid",
+                    "enrichment": "unenriched",
+                    "donor": "2",
+                    "tissue": "RPE-choroid",
+                    "location": "macula",
+                    "punch-size": "8-mm",
+                    "ENA-SPOT-COUNT": "241530032",
+                    "ENA-BASE-COUNT": "64810645102",
+                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                    "ENA-LAST-UPDATE": "2019-11-01"
+                },
+                "experiment": {
+                    "SRX6730011": {
+                        "accession": "SRX6730011",
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037982: Macula-8mm-rpe-cho-donor-2; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 4000",
+                        "runs": {
+                            "SRR9990651": {
+                                "accession": "SRR9990651",
+                                "experiment": "SRX6730011",
+                                "study": "SRP218652",
+                                "sample": "SRS5281870",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037982: Macula-8mm-rpe-cho-donor-2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "12111002",
+                                    "ENA-BASE-COUNT": "3657522604",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/001/SRR9990651/SRR9990651_1.fastq.gz",
+                                        "md5": "2ee908e7bea0dda28651d3ddd00a2a9f",
+                                        "size": "961147400"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/001/SRR9990651/SRR9990651_2.fastq.gz",
+                                        "md5": "8ca7a55c7ca387d2d40970f50cabcb32",
+                                        "size": "648457944"
+                                    }
+                                ]
+                            },
+                            "SRR9990652": {
+                                "accession": "SRR9990652",
+                                "experiment": "SRX6730011",
+                                "study": "SRP218652",
+                                "sample": "SRS5281870",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037982: Macula-8mm-rpe-cho-donor-2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "12919852",
+                                    "ENA-BASE-COUNT": "3901795304",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/002/SRR9990652/SRR9990652_1.fastq.gz",
+                                        "md5": "6d2d1edaff509fcdb2de99f19a696370",
+                                        "size": "1028335733"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/002/SRR9990652/SRR9990652_2.fastq.gz",
+                                        "md5": "39a9e0182fe17ac141161a73eeacb5bb",
+                                        "size": "664788868"
+                                    }
+                                ]
+                            },
+                            "SRR9990653": {
+                                "accession": "SRR9990653",
+                                "experiment": "SRX6730011",
+                                "study": "SRP218652",
+                                "sample": "SRS5281870",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037982: Macula-8mm-rpe-cho-donor-2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "8435643",
+                                    "ENA-BASE-COUNT": "2547564186",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/003/SRR9990653/SRR9990653_1.fastq.gz",
+                                        "md5": "28339afc75cf941cd915d17aa18a44da",
+                                        "size": "670623338"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/003/SRR9990653/SRR9990653_2.fastq.gz",
+                                        "md5": "f5f11750ae5ce9a797728cbfe9eec0f7",
+                                        "size": "434653469"
+                                    }
+                                ]
+                            },
+                            "SRR9990654": {
+                                "accession": "SRR9990654",
+                                "experiment": "SRX6730011",
+                                "study": "SRP218652",
+                                "sample": "SRS5281870",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037982: Macula-8mm-rpe-cho-donor-2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "9202803",
+                                    "ENA-BASE-COUNT": "2779246506",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/004/SRR9990654/SRR9990654_1.fastq.gz",
+                                        "md5": "030eb5b988483b5cb795857597eab69c",
+                                        "size": "730751304"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/004/SRR9990654/SRR9990654_2.fastq.gz",
+                                        "md5": "b4f9a8f9c41362ddcb3e8d4a26575c44",
+                                        "size": "469586066"
+                                    }
+                                ]
+                            },
+                            "SRR9990655": {
+                                "accession": "SRR9990655",
+                                "experiment": "SRX6730011",
+                                "study": "SRP218652",
+                                "sample": "SRS5281870",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037982: Macula-8mm-rpe-cho-donor-2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "12109520",
+                                    "ENA-BASE-COUNT": "3657075040",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/005/SRR9990655/SRR9990655_1.fastq.gz",
+                                        "md5": "b70e55e864d868a9b4617e90efa7c205",
+                                        "size": "979354494"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/005/SRR9990655/SRR9990655_2.fastq.gz",
+                                        "md5": "16216f52fec9088ff46b8524afd207cc",
+                                        "size": "600457452"
+                                    }
+                                ]
+                            },
+                            "SRR9990656": {
+                                "accession": "SRR9990656",
+                                "experiment": "SRX6730011",
+                                "study": "SRP218652",
+                                "sample": "SRS5281870",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037982: Macula-8mm-rpe-cho-donor-2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "12566469",
+                                    "ENA-BASE-COUNT": "3795073638",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/006/SRR9990656/SRR9990656_1.fastq.gz",
+                                        "md5": "be6ce36bf072e7083d050fb9f8503d4c",
+                                        "size": "1007512312"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/006/SRR9990656/SRR9990656_2.fastq.gz",
+                                        "md5": "eae1dc8c330627205109f7a49f847959",
+                                        "size": "655539748"
+                                    }
+                                ]
+                            },
+                            "SRR9990657": {
+                                "accession": "SRR9990657",
+                                "experiment": "SRX6730011",
+                                "study": "SRP218652",
+                                "sample": "SRS5281870",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037982: Macula-8mm-rpe-cho-donor-2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "12494093",
+                                    "ENA-BASE-COUNT": "3773216086",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/007/SRR9990657/SRR9990657_1.fastq.gz",
+                                        "md5": "ba1bc645e277e99de99581b93707304a",
+                                        "size": "1011763089"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/007/SRR9990657/SRR9990657_2.fastq.gz",
+                                        "md5": "c99900ffe6b7e7e6b6d8deb31fe63fe1",
+                                        "size": "615911503"
+                                    }
+                                ]
+                            },
+                            "SRR9990658": {
+                                "accession": "SRR9990658",
+                                "experiment": "SRX6730011",
+                                "study": "SRP218652",
+                                "sample": "SRS5281870",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037982: Macula-8mm-rpe-cho-donor-2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "13016697",
+                                    "ENA-BASE-COUNT": "3931042494",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/008/SRR9990658/SRR9990658_1.fastq.gz",
+                                        "md5": "0bb712ffbc71e2d0b0cb34a6f3c04270",
+                                        "size": "1045387179"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/008/SRR9990658/SRR9990658_2.fastq.gz",
+                                        "md5": "0210cc446d91ddcaf40a753bfc2dd4fd",
+                                        "size": "676156832"
+                                    }
+                                ]
+                            },
+                            "SRR9990659": {
+                                "accession": "SRR9990659",
+                                "experiment": "SRX6730011",
+                                "study": "SRP218652",
+                                "sample": "SRS5281870",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037982: Macula-8mm-rpe-cho-donor-2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "8500676",
+                                    "ENA-BASE-COUNT": "2567204152",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/009/SRR9990659/SRR9990659_1.fastq.gz",
+                                        "md5": "66f6195947b96c738019fa88ff9461e3",
+                                        "size": "682045980"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/009/SRR9990659/SRR9990659_2.fastq.gz",
+                                        "md5": "6977ab809becd4e46d1013d88d71f4b4",
+                                        "size": "441300933"
+                                    }
+                                ]
+                            },
+                            "SRR9990660": {
+                                "accession": "SRR9990660",
+                                "experiment": "SRX6730011",
+                                "study": "SRP218652",
+                                "sample": "SRS5281870",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037982: Macula-8mm-rpe-cho-donor-2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "9289995",
+                                    "ENA-BASE-COUNT": "2805578490",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/000/SRR9990660/SRR9990660_1.fastq.gz",
+                                        "md5": "02212aea7c825ca99b05327a4c0d1056",
+                                        "size": "744365316"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/000/SRR9990660/SRR9990660_2.fastq.gz",
+                                        "md5": "54d7fff35444caa0e378a33eb12c3d46",
+                                        "size": "478545768"
+                                    }
+                                ]
+                            },
+                            "SRR9990661": {
+                                "accession": "SRR9990661",
+                                "experiment": "SRX6730011",
+                                "study": "SRP218652",
+                                "sample": "SRS5281870",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037982: Macula-8mm-rpe-cho-donor-2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "7850780",
+                                    "ENA-BASE-COUNT": "2370935560",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/001/SRR9990661/SRR9990661_1.fastq.gz",
+                                        "md5": "552b2c04ab7ae0e620c6a0c6a84b563c",
+                                        "size": "649195425"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/001/SRR9990661/SRR9990661_2.fastq.gz",
+                                        "md5": "aed60fd400f4b22f992a1fe267dc420d",
+                                        "size": "470206175"
+                                    }
+                                ]
+                            },
+                            "SRR9990662": {
+                                "accession": "SRR9990662",
+                                "experiment": "SRX6730011",
+                                "study": "SRP218652",
+                                "sample": "SRS5281870",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037982: Macula-8mm-rpe-cho-donor-2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "12553112",
+                                    "ENA-BASE-COUNT": "3791039824",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/002/SRR9990662/SRR9990662_1.fastq.gz",
+                                        "md5": "343e2b10a9a8deabea4f395dacb75e93",
+                                        "size": "998156738"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/002/SRR9990662/SRR9990662_2.fastq.gz",
+                                        "md5": "f94d4809836e3aa4fce6628b75dc4e2a",
+                                        "size": "671150209"
+                                    }
+                                ]
+                            },
+                            "SRR9990663": {
+                                "accession": "SRR9990663",
+                                "experiment": "SRX6730011",
+                                "study": "SRP218652",
+                                "sample": "SRS5281870",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037982: Macula-8mm-rpe-cho-donor-2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "8226216",
+                                    "ENA-BASE-COUNT": "2484317232",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/003/SRR9990663/SRR9990663_1.fastq.gz",
+                                        "md5": "278b25bf305b651acdb8fd6535b633f3",
+                                        "size": "681158282"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/003/SRR9990663/SRR9990663_2.fastq.gz",
+                                        "md5": "e3e08c4d9e0729cf2d82ecf9f784bd6d",
+                                        "size": "492249606"
+                                    }
+                                ]
+                            },
+                            "SRR9990664": {
+                                "accession": "SRR9990664",
+                                "experiment": "SRX6730011",
+                                "study": "SRP218652",
+                                "sample": "SRS5281870",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037982: Macula-8mm-rpe-cho-donor-2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "8092158",
+                                    "ENA-BASE-COUNT": "2443831716",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/004/SRR9990664/SRR9990664_1.fastq.gz",
+                                        "md5": "783d32096114ea9f1e9ae7d57b4b66c8",
+                                        "size": "654421215"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/004/SRR9990664/SRR9990664_2.fastq.gz",
+                                        "md5": "af42f3265d1856b28bae4ecf8c3ed3ee",
+                                        "size": "398942032"
+                                    }
+                                ]
+                            },
+                            "SRR9990665": {
+                                "accession": "SRR9990665",
+                                "experiment": "SRX6730011",
+                                "study": "SRP218652",
+                                "sample": "SRS5281870",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037982: Macula-8mm-rpe-cho-donor-2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "5419865",
+                                    "ENA-BASE-COUNT": "1636799230",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/005/SRR9990665/SRR9990665_1.fastq.gz",
+                                        "md5": "6653358a0ae21205bba133420c177dd9",
+                                        "size": "448910077"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/005/SRR9990665/SRR9990665_2.fastq.gz",
+                                        "md5": "389a296e8577f6823cfb29563e074c94",
+                                        "size": "323770410"
+                                    }
+                                ]
+                            },
+                            "SRR9990666": {
+                                "accession": "SRR9990666",
+                                "experiment": "SRX6730011",
+                                "study": "SRP218652",
+                                "sample": "SRS5281870",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037982: Macula-8mm-rpe-cho-donor-2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "5703468",
+                                    "ENA-BASE-COUNT": "1722447336",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/006/SRR9990666/SRR9990666_1.fastq.gz",
+                                        "md5": "85bf47cd0ae3f63af03a66706811c71e",
+                                        "size": "470845504"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/006/SRR9990666/SRR9990666_2.fastq.gz",
+                                        "md5": "bf379cf020b7b12395bbda3e3796eb1f",
+                                        "size": "340354738"
+                                    }
+                                ]
+                            },
+                            "SRR9990667": {
+                                "accession": "SRR9990667",
+                                "experiment": "SRX6730011",
+                                "study": "SRP218652",
+                                "sample": "SRS5281870",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037982: Macula-8mm-rpe-cho-donor-2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "8941704",
+                                    "ENA-BASE-COUNT": "2700394608",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/007/SRR9990667/SRR9990667_1.fastq.gz",
+                                        "md5": "bab85ab3f96663052af6820421503160",
+                                        "size": "723088645"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/007/SRR9990667/SRR9990667_2.fastq.gz",
+                                        "md5": "aa381b1a6dedff17bdd6e5572352115e",
+                                        "size": "437835665"
+                                    }
+                                ]
+                            },
+                            "SRR9990668": {
+                                "accession": "SRR9990668",
+                                "experiment": "SRX6730011",
+                                "study": "SRP218652",
+                                "sample": "SRS5281870",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037982: Macula-8mm-rpe-cho-donor-2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "8175990",
+                                    "ENA-BASE-COUNT": "2469148980",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/008/SRR9990668/SRR9990668_1.fastq.gz",
+                                        "md5": "b597de6af9830e4562d5155f726aae90",
+                                        "size": "649235296"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/008/SRR9990668/SRR9990668_2.fastq.gz",
+                                        "md5": "cc1a369ef8077129aa01ed220c8f61c8",
+                                        "size": "436848698"
+                                    }
+                                ]
+                            },
+                            "SRR9990669": {
+                                "accession": "SRR9990669",
+                                "experiment": "SRX6730011",
+                                "study": "SRP218652",
+                                "sample": "SRS5281870",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037982: Macula-8mm-rpe-cho-donor-2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "8960328",
+                                    "ENA-BASE-COUNT": "2706019056",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/009/SRR9990669/SRR9990669_1.fastq.gz",
+                                        "md5": "868e95a27f55e3842e7c2b23fa359af5",
+                                        "size": "710810288"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/009/SRR9990669/SRR9990669_2.fastq.gz",
+                                        "md5": "a12ddb3abb826711eda4e2bcfbea4ac7",
+                                        "size": "473727397"
+                                    }
+                                ]
+                            },
+                            "SRR9990670": {
+                                "accession": "SRR9990670",
+                                "experiment": "SRX6730011",
+                                "study": "SRP218652",
+                                "sample": "SRS5281870",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037982: Macula-8mm-rpe-cho-donor-2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "12902107",
+                                    "ENA-BASE-COUNT": "1535350733",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/000/SRR9990670/SRR9990670_1.fastq.gz",
+                                        "md5": "5026e4b87dde338405716d640bc8c3a5",
+                                        "size": "226887534"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/000/SRR9990670/SRR9990670_2.fastq.gz",
+                                        "md5": "35020cc7247b88a8befbafe85b73e8be",
+                                        "size": "829227683"
+                                    }
+                                ]
+                            },
+                            "SRR9990671": {
+                                "accession": "SRR9990671",
+                                "experiment": "SRX6730011",
+                                "study": "SRP218652",
+                                "sample": "SRS5281870",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037982: Macula-8mm-rpe-cho-donor-2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "13217915",
+                                    "ENA-BASE-COUNT": "1572931885",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/001/SRR9990671/SRR9990671_1.fastq.gz",
+                                        "md5": "bbbb771081e2709c2e2696fd8828ae2b",
+                                        "size": "232513243"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/001/SRR9990671/SRR9990671_2.fastq.gz",
+                                        "md5": "be1f99017bd56cebb40fbd57225270e8",
+                                        "size": "840074319"
+                                    }
+                                ]
+                            },
+                            "SRR9990672": {
+                                "accession": "SRR9990672",
+                                "experiment": "SRX6730011",
+                                "study": "SRP218652",
+                                "sample": "SRS5281870",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037982: Macula-8mm-rpe-cho-donor-2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "8766736",
+                                    "ENA-BASE-COUNT": "1043241584",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/002/SRR9990672/SRR9990672_1.fastq.gz",
+                                        "md5": "a8eec975f6efae23bdb890aa9195fe53",
+                                        "size": "153389399"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/002/SRR9990672/SRR9990672_2.fastq.gz",
+                                        "md5": "aa874dfcfc7cadebe62c1342e1ac1696",
+                                        "size": "563346021"
+                                    }
+                                ]
+                            },
+                            "SRR9990673": {
+                                "accession": "SRR9990673",
+                                "experiment": "SRX6730011",
+                                "study": "SRP218652",
+                                "sample": "SRS5281870",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037982: Macula-8mm-rpe-cho-donor-2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "9547256",
+                                    "ENA-BASE-COUNT": "1136123464",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/003/SRR9990673/SRR9990673_1.fastq.gz",
+                                        "md5": "07d5b5af18f77d767bac07591994c5ba",
+                                        "size": "167260157"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/003/SRR9990673/SRR9990673_2.fastq.gz",
+                                        "md5": "12ca1eaa6df9d818df5c4da95adbd4c7",
+                                        "size": "605132866"
+                                    }
+                                ]
+                            },
+                            "SRR9990674": {
+                                "accession": "SRR9990674",
+                                "experiment": "SRX6730011",
+                                "study": "SRP218652",
+                                "sample": "SRS5281870",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037982: Macula-8mm-rpe-cho-donor-2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "12525647",
+                                    "ENA-BASE-COUNT": "3782745394",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/004/SRR9990674/SRR9990674_1.fastq.gz",
+                                        "md5": "19eb0d8ec81271345c94aedd71bda756",
+                                        "size": "995127345"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/004/SRR9990674/SRR9990674_2.fastq.gz",
+                                        "md5": "d91c41f2335f76e7ad6a32da3af99516",
+                                        "size": "649893350"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

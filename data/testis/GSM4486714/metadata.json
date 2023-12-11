@@ -1,0 +1,77 @@
+{
+    "GSM4486714": {
+        "accession": "GSM4486714",
+        "supplementary_files": [
+            {
+                "filename": "GSM4486714_AXH009_barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM4486nnn/GSM4486714/suppl/GSM4486714_AXH009_barcodes.tsv.gz",
+                "size": "8649"
+            },
+            {
+                "filename": "GSM4486714_AXH009_genes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM4486nnn/GSM4486714/suppl/GSM4486714_AXH009_genes.tsv.gz",
+                "size": "257279"
+            },
+            {
+                "filename": "GSM4486714_AXH009_matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM4486nnn/GSM4486714/suppl/GSM4486714_AXH009_matrix.mtx.gz",
+                "size": "30406214"
+            }
+        ],
+        "platform": {
+            "accession": "GPL24676",
+            "title": "Illumina NovaSeq 6000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS6506205": {
+                "accession": "SRS6506205",
+                "title": "single cell RNA seq of human epididymis epithelial tissue [AXH009]",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "scRNA-seq of HEE tissue",
+                    "tissue": "human epididymis epithelial (HEE) tissue",
+                    "ENA-SPOT-COUNT": "450364395",
+                    "ENA-BASE-COUNT": "136010047290",
+                    "ENA-FIRST-PUBLIC": "2020-08-27",
+                    "ENA-LAST-UPDATE": "2020-08-27"
+                },
+                "experiment": {
+                    "SRX8143297": {
+                        "accession": "SRX8143297",
+                        "title": "Illumina NovaSeq 6000 paired end sequencing; GSM4486714: single cell RNA seq of human epididymis epithelial tissue [AXH009]; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina NovaSeq 6000",
+                        "runs": {
+                            "SRR11575369": {
+                                "accession": "SRR11575369",
+                                "experiment": "SRX8143297",
+                                "study": "SRP257542",
+                                "sample": "SRS6506205",
+                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM4486714: single cell RNA seq of human epididymis epithelial tissue [AXH009]; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "loader": "latf-load",
+                                    "ENA-SPOT-COUNT": "450364395",
+                                    "ENA-BASE-COUNT": "136010047290",
+                                    "ENA-FIRST-PUBLIC": "2020-08-27",
+                                    "ENA-LAST-UPDATE": "2020-08-27"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/069/SRR11575369/SRR11575369_1.fastq.gz",
+                                        "md5": "f1c825a9a7ca9ce11a872fcd8777bd5e",
+                                        "size": "34995132199"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/069/SRR11575369/SRR11575369_2.fastq.gz",
+                                        "md5": "e047afb22fb6d2f59937d6328d8a5e34",
+                                        "size": "35071123398"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

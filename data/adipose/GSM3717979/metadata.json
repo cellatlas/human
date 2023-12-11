@@ -1,0 +1,120 @@
+{
+    "GSM3717979": {
+        "accession": "GSM3717979",
+        "supplementary_files": [
+            {
+                "filename": "GSM3717979_SCHuman_barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3717nnn/GSM3717979/suppl/GSM3717979_SCHuman_barcodes.tsv.gz",
+                "size": "54886"
+            },
+            {
+                "filename": "GSM3717979_SCHuman_features.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3717nnn/GSM3717979/suppl/GSM3717979_SCHuman_features.tsv.gz",
+                "size": "304728"
+            },
+            {
+                "filename": "GSM3717979_SCHuman_matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3717nnn/GSM3717979/suppl/GSM3717979_SCHuman_matrix.mtx.gz",
+                "size": "56300584"
+            }
+        ],
+        "experiments": {
+            "SRX5692095": {
+                "accession": "SRX5692095",
+                "title": "Illumina HiSeq 2500 paired end sequencing; GSM3717979: scRNA-seq_Human: Single cell human subcutaneous SVF; Homo sapiens; RNA-Seq",
+                "runs": {
+                    "SRR8906275": {
+                        "accession": "SRR8906275",
+                        "experiment": {
+                            "accession": "SRX5692095",
+                            "title": "Illumina HiSeq 2500 paired end sequencing; GSM3717979: scRNA-seq_Human: Single cell human subcutaneous SVF; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 2500"
+                        },
+                        "study": {
+                            "accession": "SRP192693",
+                            "title": "Identification of a mesenchymal progenitor cell hierarchy in adipose tissue (scRNA-seq)",
+                            "abstract": "The healthy growth of adipose tissue depends on the capacity of progenitor cells to undergo denovo adipogenesis. However, the cellular hierarchy and mechanisms governing adipocyteprogenitor differentiation are incompletely understood. Here, we identify a lineage hierarchy25 consisting of distinct mesenchymal cell types present in mouse and human adipose tissue. Cellsmarked by Dpp4 expression are highly proliferative, multipotent progenitors that give rise toIcam1+ committed pre-adipocytes and a related adipogenic population marked by Clec11a andCd142 expression. TGF\u00c3\u0178 maintains DPP4+ cell identity and inhibits adipogenic commitment ofDPP4+ and CD142+ cells. Intriguingly, DPP4+ progenitors reside in the reticular interstitium that30 envelope many organs including adipose depots. Altogether, this study defines the adipose lineagehierarchy and identifies a new anatomical niche for multipotent mesenchymal progenitors. Overall design: Single cell sequencing of pools of stromal-vascular-cells derived from subcutaneous adipose tissue from either developing mice (p12), adult mice housed at 30C for their entire lives (ScAdult), or from the abdominal subcutaneous adipose tissue of a 31 y.o. human female. For both mouse and human studies stromal vascular cells were isolated and flow sorted with gating to isolate single cells away from debris, doublets, and dead cells.  For the p12 pups (pooled male and female C57BL/6) and human single cell study, the cells were further gated against CD45 to exclude leukocytes.  For the adult mouse thermoneutral (pooled male 129S6/SvEvTac) sample CD45 cells were segregated and remixed with the SVC cells at a ratio of approximately 20% of the total cells. The sorted cells were loaded onto a GemCode instrument (10x Genomics, Pleasanton, CA, USA) to generate single-cell barcoded droplets (GEMs) according to the manufacture's protocol using the 10x Single Cell 3' v2 chemistry. The resulting libraries were sequenced on an Illumina HiSeq2500 instrument with the HiSeq Rapid SBS kit.  The resulting reads were aligned and gene level unique molecular identifier (UMI) counts obtain using the Cell Ranger (Pipeline)."
+                        },
+                        "sample": {
+                            "accession": "SRS4631627",
+                            "title": "scRNA-seq_Human: Single cell human subcutaneous SVF",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "Human",
+                                "gender": "female",
+                                "tissue": "Subcutaneous WAT (abdominal)",
+                                "developmental stage": "31 Years",
+                                "ENA-SPOT-COUNT": "113562093",
+                                "ENA-BASE-COUNT": "11129085114",
+                                "ENA-FIRST-PUBLIC": "2019-05-02",
+                                "ENA-LAST-UPDATE": "2019-05-02"
+                            }
+                        },
+                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM3717979: scRNA-seq_Human: Single cell human subcutaneous SVF; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "loader": "fastq-load.py",
+                            "options": "--readTypes=TBT --read1PairFiles=Human_L001_R1_001.fastq.gz --read2PairFiles=Human_L001_R2_001.fastq.gz --read3PairFiles=Human_L001_I1_001.fastq.gz",
+                            "ENA-SPOT-COUNT": "56348535",
+                            "ENA-BASE-COUNT": "5522156430",
+                            "ENA-FIRST-PUBLIC": "2019-05-02",
+                            "ENA-LAST-UPDATE": "2019-05-02"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR890/005/SRR8906275/SRR8906275.fastq.gz",
+                                "md5": "258be5c57343940e71e38ebcae2f5891",
+                                "size": "3896831638"
+                            }
+                        ]
+                    },
+                    "SRR8906276": {
+                        "accession": "SRR8906276",
+                        "experiment": {
+                            "accession": "SRX5692095",
+                            "title": "Illumina HiSeq 2500 paired end sequencing; GSM3717979: scRNA-seq_Human: Single cell human subcutaneous SVF; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 2500"
+                        },
+                        "study": {
+                            "accession": "SRP192693",
+                            "title": "Identification of a mesenchymal progenitor cell hierarchy in adipose tissue (scRNA-seq)",
+                            "abstract": "The healthy growth of adipose tissue depends on the capacity of progenitor cells to undergo denovo adipogenesis. However, the cellular hierarchy and mechanisms governing adipocyteprogenitor differentiation are incompletely understood. Here, we identify a lineage hierarchy25 consisting of distinct mesenchymal cell types present in mouse and human adipose tissue. Cellsmarked by Dpp4 expression are highly proliferative, multipotent progenitors that give rise toIcam1+ committed pre-adipocytes and a related adipogenic population marked by Clec11a andCd142 expression. TGF\u00c3\u0178 maintains DPP4+ cell identity and inhibits adipogenic commitment ofDPP4+ and CD142+ cells. Intriguingly, DPP4+ progenitors reside in the reticular interstitium that30 envelope many organs including adipose depots. Altogether, this study defines the adipose lineagehierarchy and identifies a new anatomical niche for multipotent mesenchymal progenitors. Overall design: Single cell sequencing of pools of stromal-vascular-cells derived from subcutaneous adipose tissue from either developing mice (p12), adult mice housed at 30C for their entire lives (ScAdult), or from the abdominal subcutaneous adipose tissue of a 31 y.o. human female. For both mouse and human studies stromal vascular cells were isolated and flow sorted with gating to isolate single cells away from debris, doublets, and dead cells.  For the p12 pups (pooled male and female C57BL/6) and human single cell study, the cells were further gated against CD45 to exclude leukocytes.  For the adult mouse thermoneutral (pooled male 129S6/SvEvTac) sample CD45 cells were segregated and remixed with the SVC cells at a ratio of approximately 20% of the total cells. The sorted cells were loaded onto a GemCode instrument (10x Genomics, Pleasanton, CA, USA) to generate single-cell barcoded droplets (GEMs) according to the manufacture's protocol using the 10x Single Cell 3' v2 chemistry. The resulting libraries were sequenced on an Illumina HiSeq2500 instrument with the HiSeq Rapid SBS kit.  The resulting reads were aligned and gene level unique molecular identifier (UMI) counts obtain using the Cell Ranger (Pipeline)."
+                        },
+                        "sample": {
+                            "accession": "SRS4631627",
+                            "title": "scRNA-seq_Human: Single cell human subcutaneous SVF",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "Human",
+                                "gender": "female",
+                                "tissue": "Subcutaneous WAT (abdominal)",
+                                "developmental stage": "31 Years",
+                                "ENA-SPOT-COUNT": "113562093",
+                                "ENA-BASE-COUNT": "11129085114",
+                                "ENA-FIRST-PUBLIC": "2019-05-02",
+                                "ENA-LAST-UPDATE": "2019-05-02"
+                            }
+                        },
+                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM3717979: scRNA-seq_Human: Single cell human subcutaneous SVF; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "loader": "fastq-load.py",
+                            "options": "--readTypes=TBT --read1PairFiles=Human_L002_R1_001.fastq.gz --read2PairFiles=Human_L002_R2_001.fastq.gz --read3PairFiles=Human_L002_I1_001.fastq.gz",
+                            "ENA-SPOT-COUNT": "57213558",
+                            "ENA-BASE-COUNT": "5606928684",
+                            "ENA-FIRST-PUBLIC": "2019-05-02",
+                            "ENA-LAST-UPDATE": "2019-05-02"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR890/006/SRR8906276/SRR8906276.fastq.gz",
+                                "md5": "c3c26cfff35be653c6533e7354b085dc",
+                                "size": "3959957780"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

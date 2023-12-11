@@ -1,0 +1,442 @@
+{
+    "GSM3745997": {
+        "accession": "GSM3745997",
+        "supplementary_files": [
+            {
+                "filename": "GSM3745997_peripheral_donor_3_expression.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3745nnn/GSM3745997/suppl/GSM3745997_peripheral_donor_3_expression.tsv.gz",
+                "size": "2998228"
+            }
+        ],
+        "platform": {
+            "accession": "GPL20301",
+            "title": "Illumina HiSeq 4000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4715842": {
+                "accession": "SRS4715842",
+                "title": "Peripheral donor 3",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Retina",
+                    "location": "Periphery",
+                    "donor": "Donor 3",
+                    "ENA-SPOT-COUNT": "161261977",
+                    "ENA-BASE-COUNT": "48701117054",
+                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                    "ENA-LAST-UPDATE": "2019-05-19"
+                },
+                "experiment": {
+                    "SRX5783050": {
+                        "accession": "SRX5783050",
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745997: Peripheral donor 3; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 4000",
+                        "runs": {
+                            "SRR9004405": {
+                                "accession": "SRR9004405",
+                                "experiment": "SRX5783050",
+                                "study": "SRP194595",
+                                "sample": "SRS4715842",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745997: Peripheral donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "12808469",
+                                    "ENA-BASE-COUNT": "3868157638",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/005/SRR9004405/SRR9004405_1.fastq.gz",
+                                        "md5": "dd0e88a79f2a2cb3a9fa3f259985c610",
+                                        "size": "1086101093"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/005/SRR9004405/SRR9004405_2.fastq.gz",
+                                        "md5": "9fc0f5db70f011e79e61b4be21a97546",
+                                        "size": "1386018224"
+                                    }
+                                ]
+                            },
+                            "SRR9004406": {
+                                "accession": "SRR9004406",
+                                "experiment": "SRX5783050",
+                                "study": "SRP194595",
+                                "sample": "SRS4715842",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745997: Peripheral donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "10881065",
+                                    "ENA-BASE-COUNT": "3286081630",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/006/SRR9004406/SRR9004406_1.fastq.gz",
+                                        "md5": "2616bc7e60a5689a2f715ebdf8050ea1",
+                                        "size": "879259168"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/006/SRR9004406/SRR9004406_2.fastq.gz",
+                                        "md5": "d7c8c7909f1b017fa3855c08e86c3920",
+                                        "size": "1116869959"
+                                    }
+                                ]
+                            },
+                            "SRR9004407": {
+                                "accession": "SRR9004407",
+                                "experiment": "SRX5783050",
+                                "study": "SRP194595",
+                                "sample": "SRS4715842",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745997: Peripheral donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "10468969",
+                                    "ENA-BASE-COUNT": "3161628638",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/007/SRR9004407/SRR9004407_1.fastq.gz",
+                                        "md5": "8a9c13c61344c241b12f5452b52f4aec",
+                                        "size": "848402491"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/007/SRR9004407/SRR9004407_2.fastq.gz",
+                                        "md5": "9fad405d4a2c238e2ce91253d9c3bab0",
+                                        "size": "1095285548"
+                                    }
+                                ]
+                            },
+                            "SRR9004408": {
+                                "accession": "SRR9004408",
+                                "experiment": "SRX5783050",
+                                "study": "SRP194595",
+                                "sample": "SRS4715842",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745997: Peripheral donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "6364237",
+                                    "ENA-BASE-COUNT": "1921999574",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/008/SRR9004408/SRR9004408_1.fastq.gz",
+                                        "md5": "be5cd1b9e3c01e134bcdef0b60d32ec3",
+                                        "size": "515590798"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/008/SRR9004408/SRR9004408_2.fastq.gz",
+                                        "md5": "29f940552ddefa160e18b03296438922",
+                                        "size": "656257525"
+                                    }
+                                ]
+                            },
+                            "SRR9004409": {
+                                "accession": "SRR9004409",
+                                "experiment": "SRX5783050",
+                                "study": "SRP194595",
+                                "sample": "SRS4715842",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745997: Peripheral donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "12901270",
+                                    "ENA-BASE-COUNT": "3896183540",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/009/SRR9004409/SRR9004409_1.fastq.gz",
+                                        "md5": "28bc1153854a8dafbd293cff9109d07f",
+                                        "size": "1081074549"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/009/SRR9004409/SRR9004409_2.fastq.gz",
+                                        "md5": "69ef8d956479855c16c09c57c701d910",
+                                        "size": "1402375038"
+                                    }
+                                ]
+                            },
+                            "SRR9004410": {
+                                "accession": "SRR9004410",
+                                "experiment": "SRX5783050",
+                                "study": "SRP194595",
+                                "sample": "SRS4715842",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745997: Peripheral donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "10721651",
+                                    "ENA-BASE-COUNT": "3237938602",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/000/SRR9004410/SRR9004410_1.fastq.gz",
+                                        "md5": "43dc0329689bc158bc48a7081c6831b5",
+                                        "size": "868851419"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/000/SRR9004410/SRR9004410_2.fastq.gz",
+                                        "md5": "dc69171126cbf2d33533b6176607507d",
+                                        "size": "1103620575"
+                                    }
+                                ]
+                            },
+                            "SRR9004411": {
+                                "accession": "SRR9004411",
+                                "experiment": "SRX5783050",
+                                "study": "SRP194595",
+                                "sample": "SRS4715842",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745997: Peripheral donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "10352152",
+                                    "ENA-BASE-COUNT": "3126349904",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/001/SRR9004411/SRR9004411_1.fastq.gz",
+                                        "md5": "4cfa7e2d861d57daf51b8bc40af3078a",
+                                        "size": "841407423"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/001/SRR9004411/SRR9004411_2.fastq.gz",
+                                        "md5": "2b2fb4867c12e305c6d4bc9d0a509412",
+                                        "size": "1087146391"
+                                    }
+                                ]
+                            },
+                            "SRR9004412": {
+                                "accession": "SRR9004412",
+                                "experiment": "SRX5783050",
+                                "study": "SRP194595",
+                                "sample": "SRS4715842",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745997: Peripheral donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "6309087",
+                                    "ENA-BASE-COUNT": "1905344274",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/002/SRR9004412/SRR9004412_1.fastq.gz",
+                                        "md5": "8608bdfd12685078b70c5903091a6900",
+                                        "size": "512516540"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/002/SRR9004412/SRR9004412_2.fastq.gz",
+                                        "md5": "89fb135c38092e799ced784b951d0c41",
+                                        "size": "652753005"
+                                    }
+                                ]
+                            },
+                            "SRR9004413": {
+                                "accession": "SRR9004413",
+                                "experiment": "SRX5783050",
+                                "study": "SRP194595",
+                                "sample": "SRS4715842",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745997: Peripheral donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "10581044",
+                                    "ENA-BASE-COUNT": "3195475288",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/003/SRR9004413/SRR9004413_1.fastq.gz",
+                                        "md5": "475a4ce309732874193adedc8fafb05b",
+                                        "size": "865857889"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/003/SRR9004413/SRR9004413_2.fastq.gz",
+                                        "md5": "bbda49c6833f7c31d8aafd89912760ec",
+                                        "size": "1085570897"
+                                    }
+                                ]
+                            },
+                            "SRR9004414": {
+                                "accession": "SRR9004414",
+                                "experiment": "SRX5783050",
+                                "study": "SRP194595",
+                                "sample": "SRS4715842",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745997: Peripheral donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "10171166",
+                                    "ENA-BASE-COUNT": "3071692132",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/004/SRR9004414/SRR9004414_1.fastq.gz",
+                                        "md5": "77186fedb190177c1b47504aa64619f9",
+                                        "size": "834512671"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/004/SRR9004414/SRR9004414_2.fastq.gz",
+                                        "md5": "f61b52f816f05d6a7c3daeaada7a68d2",
+                                        "size": "1060029634"
+                                    }
+                                ]
+                            },
+                            "SRR9004415": {
+                                "accession": "SRR9004415",
+                                "experiment": "SRX5783050",
+                                "study": "SRP194595",
+                                "sample": "SRS4715842",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745997: Peripheral donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "6191278",
+                                    "ENA-BASE-COUNT": "1869765956",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/005/SRR9004415/SRR9004415_1.fastq.gz",
+                                        "md5": "d059804b5d1b8de9c2869da71c3eca01",
+                                        "size": "507745131"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/005/SRR9004415/SRR9004415_2.fastq.gz",
+                                        "md5": "dcc6ae69b8e1586eb63da625e9a55038",
+                                        "size": "637028361"
+                                    }
+                                ]
+                            },
+                            "SRR9004416": {
+                                "accession": "SRR9004416",
+                                "experiment": "SRX5783050",
+                                "study": "SRP194595",
+                                "sample": "SRS4715842",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745997: Peripheral donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "12986144",
+                                    "ENA-BASE-COUNT": "3921815488",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/006/SRR9004416/SRR9004416_1.fastq.gz",
+                                        "md5": "7485273a11694c3dd9d813255d44047f",
+                                        "size": "1092233313"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/006/SRR9004416/SRR9004416_2.fastq.gz",
+                                        "md5": "e3ec844cbf8ff85e2193a8aa10d9d0f6",
+                                        "size": "1406240587"
+                                    }
+                                ]
+                            },
+                            "SRR9004417": {
+                                "accession": "SRR9004417",
+                                "experiment": "SRX5783050",
+                                "study": "SRP194595",
+                                "sample": "SRS4715842",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745997: Peripheral donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "10718474",
+                                    "ENA-BASE-COUNT": "3236979148",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/007/SRR9004417/SRR9004417_1.fastq.gz",
+                                        "md5": "58109eddf20d88548fedb8a49f67b448",
+                                        "size": "870241800"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/007/SRR9004417/SRR9004417_2.fastq.gz",
+                                        "md5": "cbb54257296c20fd62c59efb35ef760c",
+                                        "size": "1100560271"
+                                    }
+                                ]
+                            },
+                            "SRR9004418": {
+                                "accession": "SRR9004418",
+                                "experiment": "SRX5783050",
+                                "study": "SRP194595",
+                                "sample": "SRS4715842",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745997: Peripheral donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "10358528",
+                                    "ENA-BASE-COUNT": "3128275456",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/008/SRR9004418/SRR9004418_1.fastq.gz",
+                                        "md5": "dd6f08dfc536318a7f329dc1241f1a3b",
+                                        "size": "843744921"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/008/SRR9004418/SRR9004418_2.fastq.gz",
+                                        "md5": "b50f3e1c7ea841d7ec9b5bd1b5a4b795",
+                                        "size": "1081689242"
+                                    }
+                                ]
+                            },
+                            "SRR9004419": {
+                                "accession": "SRR9004419",
+                                "experiment": "SRX5783050",
+                                "study": "SRP194595",
+                                "sample": "SRS4715842",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745997: Peripheral donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "6295420",
+                                    "ENA-BASE-COUNT": "1901216840",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/009/SRR9004419/SRR9004419_1.fastq.gz",
+                                        "md5": "8d6c2b5f81ff72cbce992d849729389d",
+                                        "size": "512419053"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/009/SRR9004419/SRR9004419_2.fastq.gz",
+                                        "md5": "892269d78f4f77e4000e975df9999615",
+                                        "size": "648524955"
+                                    }
+                                ]
+                            },
+                            "SRR9004420": {
+                                "accession": "SRR9004420",
+                                "experiment": "SRX5783050",
+                                "study": "SRP194595",
+                                "sample": "SRS4715842",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3745997: Peripheral donor 3; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "13153023",
+                                    "ENA-BASE-COUNT": "3972212946",
+                                    "ENA-FIRST-PUBLIC": "2019-05-18",
+                                    "ENA-LAST-UPDATE": "2019-05-18"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/000/SRR9004420/SRR9004420_1.fastq.gz",
+                                        "md5": "4a9029a7a1bed83ffc6b666efd6b3aa6",
+                                        "size": "1100963006"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR900/000/SRR9004420/SRR9004420_2.fastq.gz",
+                                        "md5": "f329fec3481d057cd5d6da2e1d9025a5",
+                                        "size": "1424377908"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

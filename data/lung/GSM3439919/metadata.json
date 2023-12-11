@@ -1,0 +1,65 @@
+{
+    "GSM3439919": {
+        "accession": "GSM3439919",
+        "supplementary_files": [
+            {
+                "filename": "GSM3439919_D232ctrl_raw_gene_bc_matrices_h5.h5",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3439nnn/GSM3439919/suppl/GSM3439919_D232ctrl_raw_gene_bc_matrices_h5.h5",
+                "size": "13087433"
+            }
+        ],
+        "platform": {
+            "accession": "GPL18573",
+            "title": "Illumina NextSeq 500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS3984785": {
+                "accession": "SRS3984785",
+                "title": "HAECs_BEGM_ALI62",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Human airway epithellial cells differentiated in BEGM medium for 62 days",
+                    "cell type": "airway epithelial cells (HAECs)",
+                    "differentiation day": "62",
+                    "cell origin": "Primary culture",
+                    "donor": "D232",
+                    "ENA-SPOT-COUNT": "101900219",
+                    "ENA-BASE-COUNT": "9986221462",
+                    "ENA-FIRST-PUBLIC": "2019-09-21",
+                    "ENA-LAST-UPDATE": "2019-09-21"
+                },
+                "experiment": {
+                    "SRX4912114": {
+                        "accession": "SRX4912114",
+                        "title": "NextSeq 500 paired end sequencing; GSM3439919: HAECs_BEGM_ALI62; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "NextSeq 500",
+                        "runs": {
+                            "SRR8085157": {
+                                "accession": "SRR8085157",
+                                "experiment": "SRX4912114",
+                                "study": "SRP166983",
+                                "sample": "SRS3984785",
+                                "title": "NextSeq 500 paired end sequencing; GSM3439919: HAECs_BEGM_ALI62; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "assembly": "hg19",
+                                    "ENA-SPOT-COUNT": "101900219",
+                                    "ENA-BASE-COUNT": "9986221462",
+                                    "ENA-FIRST-PUBLIC": "2019-09-22",
+                                    "ENA-LAST-UPDATE": "2019-09-22"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR808/007/SRR8085157/SRR8085157.fastq.gz",
+                                        "md5": "f9b90c879fda5095f453e187daf0fc28",
+                                        "size": "5097139287"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

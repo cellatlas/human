@@ -1,0 +1,79 @@
+{
+    "GSM3734295": {
+        "accession": "GSM3734295",
+        "supplementary_files": [
+            {
+                "filename": "GSM3734295_3M_cortical_organoids_barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3734nnn/GSM3734295/suppl/GSM3734295_3M_cortical_organoids_barcodes.tsv.gz",
+                "size": "13739"
+            },
+            {
+                "filename": "GSM3734295_3M_cortical_organoids_genes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3734nnn/GSM3734295/suppl/GSM3734295_3M_cortical_organoids_genes.tsv.gz",
+                "size": "264505"
+            },
+            {
+                "filename": "GSM3734295_3M_cortical_organoids_matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3734nnn/GSM3734295/suppl/GSM3734295_3M_cortical_organoids_matrix.mtx.gz",
+                "size": "21109975"
+            }
+        ],
+        "experiments": {
+            "SRX5728925": {
+                "accession": "SRX5728925",
+                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3734295: 3 month cortical organoids; Homo sapiens; RNA-Seq",
+                "runs": {
+                    "SRR8948932": {
+                        "accession": "SRR8948932",
+                        "experiment": {
+                            "accession": "SRX5728925",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM3734295: 3 month cortical organoids; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP193683",
+                            "title": "Nested oscillatory dynamics in cortical organoids model early human brain network development",
+                            "abstract": "We characterized the different cell types and their differential gene expression patterns in 1, 3, 6, and 10 month-old cortical organoids. Overall design: Profling of single cell RNA-Seq for 1, 3, 6, and 10 month-old human cortical organoids"
+                        },
+                        "sample": {
+                            "accession": "SRS4666812",
+                            "title": "3 month cortical organoids",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "Cortical organoids",
+                                "cell line": "WT - iPSC",
+                                "passage": "37",
+                                "age of organoid": "3 month",
+                                "reprogramming strategy": "Retroviral",
+                                "ENA-SPOT-COUNT": "136833052",
+                                "ENA-BASE-COUNT": "16967298448",
+                                "ENA-FIRST-PUBLIC": "2019-04-28",
+                                "ENA-LAST-UPDATE": "2019-04-28"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM3734295: 3 month cortical organoids; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "136833052",
+                            "ENA-BASE-COUNT": "16967298448",
+                            "ENA-FIRST-PUBLIC": "2019-04-29",
+                            "ENA-LAST-UPDATE": "2019-04-29"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR894/002/SRR8948932/SRR8948932_1.fastq.gz",
+                                "md5": "9c0f839893d5f11607363602f693de52",
+                                "size": "2524056710"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR894/002/SRR8948932/SRR8948932_2.fastq.gz",
+                                "md5": "88b141add1257cc8f165ecd052a56775",
+                                "size": "9192961979"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

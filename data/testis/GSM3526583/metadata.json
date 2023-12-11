@@ -1,0 +1,653 @@
+{
+    "GSM3526583": {
+        "accession": "GSM3526583",
+        "supplementary_files": [
+            {
+                "filename": "GSM3526583_d2_I_barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3526nnn/GSM3526583/suppl/GSM3526583_d2_I_barcodes.tsv.gz",
+                "size": "10414"
+            },
+            {
+                "filename": "GSM3526583_d2_I_genes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3526nnn/GSM3526583/suppl/GSM3526583_d2_I_genes.tsv.gz",
+                "size": "257277"
+            },
+            {
+                "filename": "GSM3526583_d2_I_matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3526nnn/GSM3526583/suppl/GSM3526583_d2_I_matrix.mtx.gz",
+                "size": "11698544"
+            }
+        ],
+        "platform": {
+            "accession": "GPL20301",
+            "title": "Illumina HiSeq 4000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4181124": {
+                "accession": "SRS4181124",
+                "title": "neonatal day 2 ITGA6 enriched",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "neonatal",
+                    "tissue": "Testis",
+                    "age": "2 days",
+                    "sample": "D2_I",
+                    "ENA-SPOT-COUNT": "73730641",
+                    "ENA-BASE-COUNT": "9142599484",
+                    "ENA-FIRST-PUBLIC": "2018-12-23",
+                    "ENA-LAST-UPDATE": "2018-12-23"
+                },
+                "experiment": {
+                    "SRX5173697": {
+                        "accession": "SRX5173697",
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526583: neonatal day 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 4000",
+                        "runs": {
+                            "SRR8363194": {
+                                "accession": "SRR8363194",
+                                "experiment": "SRX5173697",
+                                "study": "SRP174204",
+                                "sample": "SRS4181124",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526583: neonatal day 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "2083678",
+                                    "ENA-BASE-COUNT": "258376072",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/004/SRR8363194/SRR8363194_1.fastq.gz",
+                                        "md5": "2691484102569d60fdd515d566be6684",
+                                        "size": "38894414"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/004/SRR8363194/SRR8363194_2.fastq.gz",
+                                        "md5": "9a80356ebc5ac43422c05b5517bfb6a7",
+                                        "size": "148738314"
+                                    }
+                                ]
+                            },
+                            "SRR8363195": {
+                                "accession": "SRR8363195",
+                                "experiment": "SRX5173697",
+                                "study": "SRP174204",
+                                "sample": "SRS4181124",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526583: neonatal day 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "2645349",
+                                    "ENA-BASE-COUNT": "328023276",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/005/SRR8363195/SRR8363195_1.fastq.gz",
+                                        "md5": "726622bbdceb7e29d301d0f88ad20a4c",
+                                        "size": "49129356"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/005/SRR8363195/SRR8363195_2.fastq.gz",
+                                        "md5": "85b5366cef26060c3689dbc26a482674",
+                                        "size": "179154589"
+                                    }
+                                ]
+                            },
+                            "SRR8363196": {
+                                "accession": "SRR8363196",
+                                "experiment": "SRX5173697",
+                                "study": "SRP174204",
+                                "sample": "SRS4181124",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526583: neonatal day 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "1569311",
+                                    "ENA-BASE-COUNT": "194594564",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/006/SRR8363196/SRR8363196_1.fastq.gz",
+                                        "md5": "451f82878f0e8caebd040d267ea7df03",
+                                        "size": "29176434"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/006/SRR8363196/SRR8363196_2.fastq.gz",
+                                        "md5": "976e13b7060a6056aa93289aff93420b",
+                                        "size": "111804049"
+                                    }
+                                ]
+                            },
+                            "SRR8363197": {
+                                "accession": "SRR8363197",
+                                "experiment": "SRX5173697",
+                                "study": "SRP174204",
+                                "sample": "SRS4181124",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526583: neonatal day 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "1584637",
+                                    "ENA-BASE-COUNT": "196494988",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/007/SRR8363197/SRR8363197_1.fastq.gz",
+                                        "md5": "669bed38388f662ea22c569a8bd5781f",
+                                        "size": "30106020"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/007/SRR8363197/SRR8363197_2.fastq.gz",
+                                        "md5": "4e2f16c681d31bdf564a7c51a7cf7565",
+                                        "size": "113666554"
+                                    }
+                                ]
+                            },
+                            "SRR8363198": {
+                                "accession": "SRR8363198",
+                                "experiment": "SRX5173697",
+                                "study": "SRP174204",
+                                "sample": "SRS4181124",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526583: neonatal day 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "1608558",
+                                    "ENA-BASE-COUNT": "199461192",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/008/SRR8363198/SRR8363198_1.fastq.gz",
+                                        "md5": "d21b774d01fa5b7449a927809f4db394",
+                                        "size": "29860455"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/008/SRR8363198/SRR8363198_2.fastq.gz",
+                                        "md5": "befe5fe4e67ae875deb793074cf5cc8e",
+                                        "size": "115393927"
+                                    }
+                                ]
+                            },
+                            "SRR8363199": {
+                                "accession": "SRR8363199",
+                                "experiment": "SRX5173697",
+                                "study": "SRP174204",
+                                "sample": "SRS4181124",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526583: neonatal day 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "1635091",
+                                    "ENA-BASE-COUNT": "202751284",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/009/SRR8363199/SRR8363199_1.fastq.gz",
+                                        "md5": "0859d073999309abeb8587afe9be7da1",
+                                        "size": "30333141"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/009/SRR8363199/SRR8363199_2.fastq.gz",
+                                        "md5": "8d3e2b1d601c510e141b693ed746644a",
+                                        "size": "107905076"
+                                    }
+                                ]
+                            },
+                            "SRR8363200": {
+                                "accession": "SRR8363200",
+                                "experiment": "SRX5173697",
+                                "study": "SRP174204",
+                                "sample": "SRS4181124",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526583: neonatal day 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "1618710",
+                                    "ENA-BASE-COUNT": "200720040",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/000/SRR8363200/SRR8363200_1.fastq.gz",
+                                        "md5": "73d6791ddb6ab2c98ee59c30f70a0a28",
+                                        "size": "30002990"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/000/SRR8363200/SRR8363200_2.fastq.gz",
+                                        "md5": "79b2aee98cd88948db66c5f45e2e7997",
+                                        "size": "106982955"
+                                    }
+                                ]
+                            },
+                            "SRR8363201": {
+                                "accession": "SRR8363201",
+                                "experiment": "SRX5173697",
+                                "study": "SRP174204",
+                                "sample": "SRS4181124",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526583: neonatal day 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "2528015",
+                                    "ENA-BASE-COUNT": "313473860",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/001/SRR8363201/SRR8363201_1.fastq.gz",
+                                        "md5": "601f8695c07e46a39f0a096accd7a90c",
+                                        "size": "47405621"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/001/SRR8363201/SRR8363201_2.fastq.gz",
+                                        "md5": "67f17b0585eb2916a4ba398501ad80c6",
+                                        "size": "179785079"
+                                    }
+                                ]
+                            },
+                            "SRR8363202": {
+                                "accession": "SRR8363202",
+                                "experiment": "SRX5173697",
+                                "study": "SRP174204",
+                                "sample": "SRS4181124",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526583: neonatal day 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "2512777",
+                                    "ENA-BASE-COUNT": "311584348",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/002/SRR8363202/SRR8363202_1.fastq.gz",
+                                        "md5": "a6c2ecee62d544fb029cfaca93216401",
+                                        "size": "48040524"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/002/SRR8363202/SRR8363202_2.fastq.gz",
+                                        "md5": "40bd555602fa53482a0309c9bf833c80",
+                                        "size": "179960607"
+                                    }
+                                ]
+                            },
+                            "SRR8363203": {
+                                "accession": "SRR8363203",
+                                "experiment": "SRX5173697",
+                                "study": "SRP174204",
+                                "sample": "SRS4181124",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526583: neonatal day 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "2571158",
+                                    "ENA-BASE-COUNT": "318823592",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/003/SRR8363203/SRR8363203_1.fastq.gz",
+                                        "md5": "e9191e5747d1a46cd0949fe4367ab2be",
+                                        "size": "48052620"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/003/SRR8363203/SRR8363203_2.fastq.gz",
+                                        "md5": "95cedfb1b3297ff2073b7b168875c791",
+                                        "size": "184050516"
+                                    }
+                                ]
+                            },
+                            "SRR8363204": {
+                                "accession": "SRR8363204",
+                                "experiment": "SRX5173697",
+                                "study": "SRP174204",
+                                "sample": "SRS4181124",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526583: neonatal day 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "2616173",
+                                    "ENA-BASE-COUNT": "324405452",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/004/SRR8363204/SRR8363204_1.fastq.gz",
+                                        "md5": "a085d99cf6d0b2d442976a13db1c4a2b",
+                                        "size": "48864042"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/004/SRR8363204/SRR8363204_2.fastq.gz",
+                                        "md5": "53a447ecd237ff21838805776ba0c752",
+                                        "size": "173117306"
+                                    }
+                                ]
+                            },
+                            "SRR8363205": {
+                                "accession": "SRR8363205",
+                                "experiment": "SRX5173697",
+                                "study": "SRP174204",
+                                "sample": "SRS4181124",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526583: neonatal day 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "2089426",
+                                    "ENA-BASE-COUNT": "259088824",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/005/SRR8363205/SRR8363205_1.fastq.gz",
+                                        "md5": "131b5423801fbd035fc73e30b08c9245",
+                                        "size": "39768199"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/005/SRR8363205/SRR8363205_2.fastq.gz",
+                                        "md5": "34f9033d52050ef75117fb4bbc27887d",
+                                        "size": "150086620"
+                                    }
+                                ]
+                            },
+                            "SRR8363206": {
+                                "accession": "SRR8363206",
+                                "experiment": "SRX5173697",
+                                "study": "SRP174204",
+                                "sample": "SRS4181124",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526583: neonatal day 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "2592138",
+                                    "ENA-BASE-COUNT": "321425112",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/006/SRR8363206/SRR8363206_1.fastq.gz",
+                                        "md5": "70b6a6cd11e65bd30cb19120dac3fca5",
+                                        "size": "48400239"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/006/SRR8363206/SRR8363206_2.fastq.gz",
+                                        "md5": "bff0aebc6ee379e44035c9de695c56ef",
+                                        "size": "171637785"
+                                    }
+                                ]
+                            },
+                            "SRR8363207": {
+                                "accession": "SRR8363207",
+                                "experiment": "SRX5173697",
+                                "study": "SRP174204",
+                                "sample": "SRS4181124",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526583: neonatal day 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "6909640",
+                                    "ENA-BASE-COUNT": "856795360",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/007/SRR8363207/SRR8363207_1.fastq.gz",
+                                        "md5": "ae53c7eec6b444e647fee4ba28b4799c",
+                                        "size": "122660504"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/007/SRR8363207/SRR8363207_2.fastq.gz",
+                                        "md5": "08699049fc64f3389d1e25daf8daa04b",
+                                        "size": "504976753"
+                                    }
+                                ]
+                            },
+                            "SRR8363208": {
+                                "accession": "SRR8363208",
+                                "experiment": "SRX5173697",
+                                "study": "SRP174204",
+                                "sample": "SRS4181124",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526583: neonatal day 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "8391774",
+                                    "ENA-BASE-COUNT": "1040579976",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/008/SRR8363208/SRR8363208_1.fastq.gz",
+                                        "md5": "88be2fe98adbbc5ff1f31d656c6f5e7d",
+                                        "size": "148645159"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/008/SRR8363208/SRR8363208_2.fastq.gz",
+                                        "md5": "9b8ffe96e3a0464dfa246fe50942a0a3",
+                                        "size": "615124332"
+                                    }
+                                ]
+                            },
+                            "SRR8363209": {
+                                "accession": "SRR8363209",
+                                "experiment": "SRX5173697",
+                                "study": "SRP174204",
+                                "sample": "SRS4181124",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526583: neonatal day 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "5310787",
+                                    "ENA-BASE-COUNT": "658537588",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/009/SRR8363209/SRR8363209_1.fastq.gz",
+                                        "md5": "fc845cdbce046d175f8ede2f0aa4c0db",
+                                        "size": "93809532"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/009/SRR8363209/SRR8363209_2.fastq.gz",
+                                        "md5": "b0787f92564e5632e15b8b0d7c7b97ba",
+                                        "size": "387477979"
+                                    }
+                                ]
+                            },
+                            "SRR8363210": {
+                                "accession": "SRR8363210",
+                                "experiment": "SRX5173697",
+                                "study": "SRP174204",
+                                "sample": "SRS4181124",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526583: neonatal day 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "8634041",
+                                    "ENA-BASE-COUNT": "1070621084",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/000/SRR8363210/SRR8363210_1.fastq.gz",
+                                        "md5": "306175c2c9a88016d7a8b5698d6cd6ae",
+                                        "size": "153757072"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/000/SRR8363210/SRR8363210_2.fastq.gz",
+                                        "md5": "ad41e6a96bd57b334ac2694786888bcc",
+                                        "size": "629095227"
+                                    }
+                                ]
+                            },
+                            "SRR8363211": {
+                                "accession": "SRR8363211",
+                                "experiment": "SRX5173697",
+                                "study": "SRP174204",
+                                "sample": "SRS4181124",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526583: neonatal day 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "2115881",
+                                    "ENA-BASE-COUNT": "262369244",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/001/SRR8363211/SRR8363211_1.fastq.gz",
+                                        "md5": "089b072603cd97c70dfca418186816d0",
+                                        "size": "39361802"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/001/SRR8363211/SRR8363211_2.fastq.gz",
+                                        "md5": "732de7df79eb0a7796509f681188ba19",
+                                        "size": "151988054"
+                                    }
+                                ]
+                            },
+                            "SRR8363212": {
+                                "accession": "SRR8363212",
+                                "experiment": "SRX5173697",
+                                "study": "SRP174204",
+                                "sample": "SRS4181124",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526583: neonatal day 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "2158978",
+                                    "ENA-BASE-COUNT": "267713272",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/002/SRR8363212/SRR8363212_1.fastq.gz",
+                                        "md5": "026c27dd4b29c070f4ad039506577bf3",
+                                        "size": "40125077"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/002/SRR8363212/SRR8363212_2.fastq.gz",
+                                        "md5": "8727676cb61ad90af2ccd07b3591b5fe",
+                                        "size": "143278045"
+                                    }
+                                ]
+                            },
+                            "SRR8363213": {
+                                "accession": "SRR8363213",
+                                "experiment": "SRX5173697",
+                                "study": "SRP174204",
+                                "sample": "SRS4181124",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526583: neonatal day 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "2142447",
+                                    "ENA-BASE-COUNT": "265663428",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/003/SRR8363213/SRR8363213_1.fastq.gz",
+                                        "md5": "72e3099dde31f96ae4c3fe56a9baa5d6",
+                                        "size": "39825015"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/003/SRR8363213/SRR8363213_2.fastq.gz",
+                                        "md5": "2916dffc42a4255a500d54a34108a441",
+                                        "size": "142442978"
+                                    }
+                                ]
+                            },
+                            "SRR8363214": {
+                                "accession": "SRR8363214",
+                                "experiment": "SRX5173697",
+                                "study": "SRP174204",
+                                "sample": "SRS4181124",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526583: neonatal day 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "2564906",
+                                    "ENA-BASE-COUNT": "318048344",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/004/SRR8363214/SRR8363214_1.fastq.gz",
+                                        "md5": "6e9ffaf2affacd51ca1e8e2ad351a14a",
+                                        "size": "47806558"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/004/SRR8363214/SRR8363214_2.fastq.gz",
+                                        "md5": "e9309bd5a7e18507881c7a9f55555732",
+                                        "size": "185444826"
+                                    }
+                                ]
+                            },
+                            "SRR8363215": {
+                                "accession": "SRR8363215",
+                                "experiment": "SRX5173697",
+                                "study": "SRP174204",
+                                "sample": "SRS4181124",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526583: neonatal day 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "2568370",
+                                    "ENA-BASE-COUNT": "318477880",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/005/SRR8363215/SRR8363215_1.fastq.gz",
+                                        "md5": "d8f2db5ab60dfa94c1b0284237d70c8f",
+                                        "size": "48833381"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/005/SRR8363215/SRR8363215_2.fastq.gz",
+                                        "md5": "cbdfc4caadfb15bb47ba08a7fd9ab00b",
+                                        "size": "186631185"
+                                    }
+                                ]
+                            },
+                            "SRR8363216": {
+                                "accession": "SRR8363216",
+                                "experiment": "SRX5173697",
+                                "study": "SRP174204",
+                                "sample": "SRS4181124",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526583: neonatal day 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "2616149",
+                                    "ENA-BASE-COUNT": "324402476",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/006/SRR8363216/SRR8363216_1.fastq.gz",
+                                        "md5": "7732e811deb50814e477489ebf84e63f",
+                                        "size": "48608333"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/006/SRR8363216/SRR8363216_2.fastq.gz",
+                                        "md5": "9cdf5f7d20ed9459694a9b23fd022ec4",
+                                        "size": "189921155"
+                                    }
+                                ]
+                            },
+                            "SRR8363217": {
+                                "accession": "SRR8363217",
+                                "experiment": "SRX5173697",
+                                "study": "SRP174204",
+                                "sample": "SRS4181124",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526583: neonatal day 2 ITGA6 enriched; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "2662647",
+                                    "ENA-BASE-COUNT": "330168228",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/007/SRR8363217/SRR8363217_1.fastq.gz",
+                                        "md5": "73b7814e2e07fd6993223a00cc75a5f5",
+                                        "size": "49457934"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/007/SRR8363217/SRR8363217_2.fastq.gz",
+                                        "md5": "709936bac64597c469787994d4725534",
+                                        "size": "180009358"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,145 @@
+{
+    "GSM4037994": {
+        "accession": "GSM4037994",
+        "supplementary_files": [
+            {
+                "filename": "GSM4037994_peripheral_donor_7_enriched_expression.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM4037nnn/GSM4037994/suppl/GSM4037994_peripheral_donor_7_enriched_expression.tsv.gz",
+                "size": "13795217"
+            }
+        ],
+        "platform": {
+            "accession": "GPL20301",
+            "title": "Illumina HiSeq 4000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS5281882": {
+                "accession": "SRS5281882",
+                "title": "Peripheral-12mm-cd31-enriched-donor-7",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "RPE-choroid",
+                    "enrichment": "CD31-enrichment",
+                    "donor": "7",
+                    "tissue": "RPE-choroid",
+                    "location": "periphery",
+                    "punch-size": "12-mm",
+                    "ENA-SPOT-COUNT": "334072851",
+                    "ENA-BASE-COUNT": "39754669269",
+                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                    "ENA-LAST-UPDATE": "2019-11-01"
+                },
+                "experiment": {
+                    "SRX6730023": {
+                        "accession": "SRX6730023",
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037994: Peripheral-12mm-cd31-enriched-donor-7; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 4000",
+                        "runs": {
+                            "SRR9990687": {
+                                "accession": "SRR9990687",
+                                "experiment": "SRX6730023",
+                                "study": "SRP218652",
+                                "sample": "SRS5281882",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037994: Peripheral-12mm-cd31-enriched-donor-7; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "79547366",
+                                    "ENA-BASE-COUNT": "9466136554",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/007/SRR9990687/SRR9990687_1.fastq.gz",
+                                        "md5": "9f5937ff8d4a62d9c9d3cd3b251ea9ea",
+                                        "size": "1514937013"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/007/SRR9990687/SRR9990687_2.fastq.gz",
+                                        "md5": "c721288c88f2933abf2e3d01389b46f3",
+                                        "size": "5444281346"
+                                    }
+                                ]
+                            },
+                            "SRR9990688": {
+                                "accession": "SRR9990688",
+                                "experiment": "SRX6730023",
+                                "study": "SRP218652",
+                                "sample": "SRS5281882",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037994: Peripheral-12mm-cd31-enriched-donor-7; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "86642227",
+                                    "ENA-BASE-COUNT": "10310425013",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/008/SRR9990688/SRR9990688_1.fastq.gz",
+                                        "md5": "5f03f95a29e6338ae9318ffd8e9e97ea",
+                                        "size": "1648356165"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/008/SRR9990688/SRR9990688_2.fastq.gz",
+                                        "md5": "0f5f0c064d96b591fa17a63a57ef812d",
+                                        "size": "5918538906"
+                                    }
+                                ]
+                            },
+                            "SRR9990689": {
+                                "accession": "SRR9990689",
+                                "experiment": "SRX6730023",
+                                "study": "SRP218652",
+                                "sample": "SRS5281882",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037994: Peripheral-12mm-cd31-enriched-donor-7; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "99450433",
+                                    "ENA-BASE-COUNT": "11834601527",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/009/SRR9990689/SRR9990689_1.fastq.gz",
+                                        "md5": "9aee5cd4e3cb25bc8e5aa80188dddb0a",
+                                        "size": "1900059919"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/009/SRR9990689/SRR9990689_2.fastq.gz",
+                                        "md5": "34070446e1bec3cfa3fc5eadc1893e8c",
+                                        "size": "6915389473"
+                                    }
+                                ]
+                            },
+                            "SRR9990690": {
+                                "accession": "SRR9990690",
+                                "experiment": "SRX6730023",
+                                "study": "SRP218652",
+                                "sample": "SRS5281882",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037994: Peripheral-12mm-cd31-enriched-donor-7; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "68432825",
+                                    "ENA-BASE-COUNT": "8143506175",
+                                    "ENA-FIRST-PUBLIC": "2019-10-31",
+                                    "ENA-LAST-UPDATE": "2019-10-31"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/000/SRR9990690/SRR9990690_1.fastq.gz",
+                                        "md5": "10f72261681cd2318d30e6250ea59146",
+                                        "size": "1308535723"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/000/SRR9990690/SRR9990690_2.fastq.gz",
+                                        "md5": "4390a886f2b94dbef817cbe97cff17f5",
+                                        "size": "4808268621"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

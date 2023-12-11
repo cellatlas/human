@@ -1,0 +1,61 @@
+{
+    "GSM4213828": {
+        "accession": "GSM4213828",
+        "platform": {
+            "accession": "GPL16791",
+            "title": "Illumina HiSeq 2500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS5807140": {
+                "accession": "SRS5807140",
+                "title": "T121_invivo",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Human epithelial tracheal",
+                    "cell type": "Airway epithelial",
+                    "smoking status": "light smoker",
+                    "ENA-SPOT-COUNT": "686960408",
+                    "ENA-BASE-COUNT": "207462043216",
+                    "ENA-FIRST-PUBLIC": "2020-04-14",
+                    "ENA-LAST-UPDATE": "2020-04-14"
+                },
+                "experiment": {
+                    "SRX7347527": {
+                        "accession": "SRX7347527",
+                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM4213828: T121_invivo; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 2500",
+                        "runs": {
+                            "SRR10668802": {
+                                "accession": "SRR10668802",
+                                "experiment": "SRX7347527",
+                                "study": "SRP214324",
+                                "sample": "SRS5807140",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM4213828: T121_invivo; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "loader": "latf-load",
+                                    "ENA-SPOT-COUNT": "686960408",
+                                    "ENA-BASE-COUNT": "207462043216",
+                                    "ENA-FIRST-PUBLIC": "2020-04-14",
+                                    "ENA-LAST-UPDATE": "2020-04-14"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/002/SRR10668802/SRR10668802_1.fastq.gz",
+                                        "md5": "86c8d9425fd4ad5d4c59e678da62530a",
+                                        "size": "58354311745"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/002/SRR10668802/SRR10668802_2.fastq.gz",
+                                        "md5": "ef478eefe7b11430036b84de44fed832",
+                                        "size": "48604464584"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

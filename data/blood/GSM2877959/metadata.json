@@ -1,0 +1,72 @@
+{
+    "GSM2877959": {
+        "accession": "GSM2877959",
+        "supplementary_files": [
+            {
+                "filename": "GSM2877959_154.barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM2877nnn/GSM2877959/suppl/GSM2877959_154.barcodes.tsv.gz",
+                "size": "29684"
+            },
+            {
+                "filename": "GSM2877959_154.genes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM2877nnn/GSM2877959/suppl/GSM2877959_154.genes.tsv.gz",
+                "size": "257276"
+            },
+            {
+                "filename": "GSM2877959_154.matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM2877nnn/GSM2877959/suppl/GSM2877959_154.matrix.mtx.gz",
+                "size": "25945965"
+            }
+        ],
+        "platform": {
+            "accession": "GPL16791",
+            "title": "Illumina HiSeq 2500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS2737286": {
+                "accession": "SRS2737286",
+                "title": "Patient 1",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Blood sample",
+                    "cell type": "circulating tumor cells in hepatocellular carcinoma",
+                    "ENA-SPOT-COUNT": "134578497",
+                    "ENA-BASE-COUNT": "13188692706",
+                    "ENA-FIRST-PUBLIC": "2018-08-08",
+                    "ENA-LAST-UPDATE": "2018-08-08"
+                },
+                "experiment": {
+                    "SRX3447334": {
+                        "accession": "SRX3447334",
+                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM2877959: Patient 1; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 2500",
+                        "runs": {
+                            "SRR6350603": {
+                                "accession": "SRR6350603",
+                                "experiment": "SRX3447334",
+                                "study": "SRP126218",
+                                "sample": "SRS2737286",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM2877959: Patient 1; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "assembly": "GRCh37",
+                                    "ENA-SPOT-COUNT": "134578497",
+                                    "ENA-BASE-COUNT": "13188692706",
+                                    "ENA-FIRST-PUBLIC": "2018-08-08",
+                                    "ENA-LAST-UPDATE": "2018-08-08"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/SRA636/SRA636225/bam/154.possorted_genome_bam.bam",
+                                        "md5": "5f2fcd9da09b737def796e6acb09ad67",
+                                        "size": "25162257201"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

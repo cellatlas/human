@@ -1,0 +1,67 @@
+{
+    "GSM3734179": {
+        "accession": "GSM3734179",
+        "supplementary_files": [
+            {
+                "filename": "GSM3734179_sa1184_65_HHT_matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3734nnn/GSM3734179/suppl/GSM3734179_sa1184_65_HHT_matrix.mtx.gz",
+                "size": "21841790"
+            }
+        ],
+        "platform": {
+            "accession": "GPL16791",
+            "title": "Illumina HiSeq 2500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4665016": {
+                "accession": "SRS4665016",
+                "title": "Post-THC-S1",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "PBMC",
+                    "cell type": "PBMC",
+                    "gender": "male",
+                    "race": "Caucasian",
+                    "age": "21",
+                    "treatment": "THC",
+                    "subject id": "S1",
+                    "ENA-SPOT-COUNT": "91566023",
+                    "ENA-BASE-COUNT": "8973470254",
+                    "ENA-FIRST-PUBLIC": "2020-04-15",
+                    "ENA-LAST-UPDATE": "2020-04-15"
+                },
+                "experiment": {
+                    "SRX5727022": {
+                        "accession": "SRX5727022",
+                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM3734179: Post-THC-S1; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 2500",
+                        "runs": {
+                            "SRR8947007": {
+                                "accession": "SRR8947007",
+                                "experiment": "SRX5727022",
+                                "study": "SRP193557",
+                                "sample": "SRS4665016",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM3734179: Post-THC-S1; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "assembly": "GRCh38",
+                                    "ENA-SPOT-COUNT": "91566023",
+                                    "ENA-BASE-COUNT": "8973470254",
+                                    "ENA-FIRST-PUBLIC": "2020-04-16",
+                                    "ENA-LAST-UPDATE": "2020-04-16"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR894/SRR8947007/sa1184_65_HHT_possorted_genome_bam.bam",
+                                        "md5": "23c1822d58c3ad3aeb8224aef47349c1",
+                                        "size": "22753604380"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "GSM3178783": {
+        "accession": "GSM3178783",
+        "platform": {
+            "accession": "GPL16791",
+            "title": "Illumina HiSeq 2500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS3391631": {
+                "accession": "SRS3391631",
+                "title": "Patient 2 Total Liver Homogenate",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Liver",
+                    "tissue": "Total Liver Homogenate",
+                    "ENA-SPOT-COUNT": "392750718",
+                    "ENA-BASE-COUNT": "38489570364",
+                    "ENA-FIRST-PUBLIC": "2018-10-23",
+                    "ENA-LAST-UPDATE": "2018-10-23"
+                },
+                "experiment": {
+                    "SRX4180080": {
+                        "accession": "SRX4180080",
+                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM3178783: Patient 2 Total Liver Homogenate; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 2500",
+                        "runs": {
+                            "SRR7276475": {
+                                "accession": "SRR7276475",
+                                "experiment": "SRX4180080",
+                                "study": "SRP149989",
+                                "sample": "SRS3391631",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM3178783: Patient 2 Total Liver Homogenate; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "assembly": "hg38",
+                                    "ENA-SPOT-COUNT": "392750718",
+                                    "ENA-BASE-COUNT": "38489570364",
+                                    "ENA-FIRST-PUBLIC": "2018-10-23",
+                                    "ENA-LAST-UPDATE": "2018-10-23"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/SRA716/SRA716608/bam/P2TLH.bam",
+                                        "md5": "b13f5e760b6d9d6b4d51b40705202983",
+                                        "size": "69477495465"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

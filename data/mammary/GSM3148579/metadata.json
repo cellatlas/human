@@ -1,0 +1,153 @@
+{
+    "GSM3148579": {
+        "accession": "GSM3148579",
+        "supplementary_files": [
+            {
+                "filename": "GSM3148579_BC11_TUMOR2_barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3148nnn/GSM3148579/suppl/GSM3148579_BC11_TUMOR2_barcodes.tsv.gz",
+                "size": "19034"
+            },
+            {
+                "filename": "GSM3148579_BC11_TUMOR2_genes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3148nnn/GSM3148579/suppl/GSM3148579_BC11_TUMOR2_genes.tsv.gz",
+                "size": "264795"
+            },
+            {
+                "filename": "GSM3148579_BC11_TUMOR2_matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3148nnn/GSM3148579/suppl/GSM3148579_BC11_TUMOR2_matrix.mtx.gz",
+                "size": "29156489"
+            }
+        ],
+        "platform": {
+            "accession": "GPL18573",
+            "title": "Illumina NextSeq 500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS3324258": {
+                "accession": "SRS3324258",
+                "title": "BC11_TUMOR2",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "CD3+ leukocytes",
+                    "donor": "BC11",
+                    "cell type": "CD3+ leukocytes",
+                    "resident tissue": "breast tumor",
+                    "ENA-SPOT-COUNT": "145824125",
+                    "ENA-BASE-COUNT": "44038885750",
+                    "ENA-FIRST-PUBLIC": "2018-06-29",
+                    "ENA-LAST-UPDATE": "2018-06-29"
+                },
+                "experiment": {
+                    "SRX4108608": {
+                        "accession": "SRX4108608",
+                        "title": "NextSeq 500 paired end sequencing; GSM3148579: BC11_TUMOR2; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "NextSeq 500",
+                        "runs": {
+                            "SRR7191912": {
+                                "accession": "SRR7191912",
+                                "experiment": "SRX4108608",
+                                "study": "SRP148594",
+                                "sample": "SRS3324258",
+                                "title": "NextSeq 500 paired end sequencing; GSM3148579: BC11_TUMOR2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "37520135",
+                                    "ENA-BASE-COUNT": "11331080770",
+                                    "ENA-FIRST-PUBLIC": "2018-06-29",
+                                    "ENA-LAST-UPDATE": "2018-06-29"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/002/SRR7191912/SRR7191912_1.fastq.gz",
+                                        "md5": "728c9937ccee2d9613ecd10e76640110",
+                                        "size": "3220374096"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/002/SRR7191912/SRR7191912_2.fastq.gz",
+                                        "md5": "042c5d6c1e467f34c611a2fa397c2874",
+                                        "size": "3493002460"
+                                    }
+                                ]
+                            },
+                            "SRR7191913": {
+                                "accession": "SRR7191913",
+                                "experiment": "SRX4108608",
+                                "study": "SRP148594",
+                                "sample": "SRS3324258",
+                                "title": "NextSeq 500 paired end sequencing; GSM3148579: BC11_TUMOR2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "36658896",
+                                    "ENA-BASE-COUNT": "11070986592",
+                                    "ENA-FIRST-PUBLIC": "2018-06-29",
+                                    "ENA-LAST-UPDATE": "2018-06-29"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/003/SRR7191913/SRR7191913_1.fastq.gz",
+                                        "md5": "20a03a5cecfe5b214a0e37e83bbeac4e",
+                                        "size": "3076745512"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/003/SRR7191913/SRR7191913_2.fastq.gz",
+                                        "md5": "1a0fa8de5902219fcc35ec23ff3e486f",
+                                        "size": "3416036795"
+                                    }
+                                ]
+                            },
+                            "SRR7191914": {
+                                "accession": "SRR7191914",
+                                "experiment": "SRX4108608",
+                                "study": "SRP148594",
+                                "sample": "SRS3324258",
+                                "title": "NextSeq 500 paired end sequencing; GSM3148579: BC11_TUMOR2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "34710319",
+                                    "ENA-BASE-COUNT": "10482516338",
+                                    "ENA-FIRST-PUBLIC": "2018-06-29",
+                                    "ENA-LAST-UPDATE": "2018-06-29"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/004/SRR7191914/SRR7191914_1.fastq.gz",
+                                        "md5": "cd5832bd67cca261fd86a52aac9cec01",
+                                        "size": "2921635980"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/004/SRR7191914/SRR7191914_2.fastq.gz",
+                                        "md5": "ee23e03ecc0c76a9669e70fdfb37ac53",
+                                        "size": "3178451018"
+                                    }
+                                ]
+                            },
+                            "SRR7191915": {
+                                "accession": "SRR7191915",
+                                "experiment": "SRX4108608",
+                                "study": "SRP148594",
+                                "sample": "SRS3324258",
+                                "title": "NextSeq 500 paired end sequencing; GSM3148579: BC11_TUMOR2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "36934775",
+                                    "ENA-BASE-COUNT": "11154302050",
+                                    "ENA-FIRST-PUBLIC": "2018-06-29",
+                                    "ENA-LAST-UPDATE": "2018-06-29"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/005/SRR7191915/SRR7191915_1.fastq.gz",
+                                        "md5": "5cae29c5937b64c06e695fc3d3c0f283",
+                                        "size": "3071342210"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/005/SRR7191915/SRR7191915_2.fastq.gz",
+                                        "md5": "33ea43afd267c4acefe41e0f36383a87",
+                                        "size": "3459374336"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

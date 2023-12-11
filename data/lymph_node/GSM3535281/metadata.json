@@ -1,0 +1,120 @@
+{
+    "GSM3535281": {
+        "accession": "GSM3535281",
+        "supplementary_files": [
+            {
+                "filename": "GSM3535281_HNLN2_barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3535nnn/GSM3535281/suppl/GSM3535281_HNLN2_barcodes.tsv.gz",
+                "size": "15247"
+            },
+            {
+                "filename": "GSM3535281_HNLN2_genes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3535nnn/GSM3535281/suppl/GSM3535281_HNLN2_genes.tsv.gz",
+                "size": "257278"
+            },
+            {
+                "filename": "GSM3535281_HNLN2_matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3535nnn/GSM3535281/suppl/GSM3535281_HNLN2_matrix.mtx.gz",
+                "size": "19953241"
+            }
+        ],
+        "experiments": {
+            "SRX5197638": {
+                "accession": "SRX5197638",
+                "title": "Illumina HiSeq 3000 paired end sequencing; GSM3535281: HNLN2; Homo sapiens; RNA-Seq",
+                "runs": {
+                    "SRR8387874": {
+                        "accession": "SRR8387874",
+                        "experiment": {
+                            "accession": "SRX5197638",
+                            "title": "Illumina HiSeq 3000 paired end sequencing; GSM3535281: HNLN2; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 3000"
+                        },
+                        "study": {
+                            "accession": "SRP175077",
+                            "title": "Single-cell survey of human lymphatics unveils marked endothelial cell heterogeneity and mechanisms of homing for neutrophils",
+                            "abstract": "Lymphatic vessels form a critical component in the regulation of human health and disease. While their functional significance is increasingly being recognized, the comprehensive heterogeneity of lymphatics remains uncharacterized. Here, we report the profiling of 33,000 lymphatic endothelial cells (LECs) in human lymph nodes (LNs) by single-cell RNA sequencing. Unbiased clustering revealed six major types of human LECs. LECs lining the sub-capsular sinus (SCS) of LNs abundantly expressed neutrophil chemoattractants, whereas LECs lining the medullary sinus (MS) expressed a C-type lectin CD209. Binding of a carbohydrate Lewis X (CD15) to CD209 mediated neutrophil binding to the MS. The neutrophil-selective homing by MS LECs may retain neutrophils in the LN medulla and allow lymph-borne pathogens to clear, preventing their spread through LNs in humans. Our study provides a comprehensive characterization of LEC heterogeneity and unveils a previously undefined role for medullary LECs in human immunity. Overall design: Droplet-based single-cell RNA sequencing (scRNAseq) of human CD45- CD31+ PDPN+ cells from the axillary LNs (AXLNs) and head and neck LNs (HNLNs). ScRNAseq was performed using 10X Genomics Single Cell 3' solution, version 2 according to manufacture's instructions. Libraries were sequenced on HiSeq3000."
+                        },
+                        "sample": {
+                            "accession": "SRS4203427",
+                            "title": "HNLN2",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "HNLN2 lymphatic endothelial cells",
+                                "tissue": "Head and neck lymph node",
+                                "individual": "Individual 5",
+                                "cell type": "LN CD45- PDPN+ CD31+ cells",
+                                "ENA-SPOT-COUNT": "343615247",
+                                "ENA-BASE-COUNT": "34017909453",
+                                "ENA-FIRST-PUBLIC": "2019-08-09",
+                                "ENA-LAST-UPDATE": "2019-08-09"
+                            }
+                        },
+                        "title": "Illumina HiSeq 3000 paired end sequencing; GSM3535281: HNLN2; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "loader": "fastq-load.py",
+                            "options": "--platform=Illumina --readTypes=TBT --read1PairFiles=HNLN2_S6_L006_R1_001.fastq --read2PairFiles=HNLN2_S6_L006_R2_001.fastq --read3PairFiles=HNLN2_S6_L006_I1_001.fastq",
+                            "ENA-SPOT-COUNT": "172142836",
+                            "ENA-BASE-COUNT": "17042140764",
+                            "ENA-FIRST-PUBLIC": "2019-08-09",
+                            "ENA-LAST-UPDATE": "2019-08-09"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR838/004/SRR8387874/SRR8387874.fastq.gz",
+                                "md5": "48c2cd4e9ce72912ee6b83a3458687ed",
+                                "size": "12013488527"
+                            }
+                        ]
+                    },
+                    "SRR8387875": {
+                        "accession": "SRR8387875",
+                        "experiment": {
+                            "accession": "SRX5197638",
+                            "title": "Illumina HiSeq 3000 paired end sequencing; GSM3535281: HNLN2; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 3000"
+                        },
+                        "study": {
+                            "accession": "SRP175077",
+                            "title": "Single-cell survey of human lymphatics unveils marked endothelial cell heterogeneity and mechanisms of homing for neutrophils",
+                            "abstract": "Lymphatic vessels form a critical component in the regulation of human health and disease. While their functional significance is increasingly being recognized, the comprehensive heterogeneity of lymphatics remains uncharacterized. Here, we report the profiling of 33,000 lymphatic endothelial cells (LECs) in human lymph nodes (LNs) by single-cell RNA sequencing. Unbiased clustering revealed six major types of human LECs. LECs lining the sub-capsular sinus (SCS) of LNs abundantly expressed neutrophil chemoattractants, whereas LECs lining the medullary sinus (MS) expressed a C-type lectin CD209. Binding of a carbohydrate Lewis X (CD15) to CD209 mediated neutrophil binding to the MS. The neutrophil-selective homing by MS LECs may retain neutrophils in the LN medulla and allow lymph-borne pathogens to clear, preventing their spread through LNs in humans. Our study provides a comprehensive characterization of LEC heterogeneity and unveils a previously undefined role for medullary LECs in human immunity. Overall design: Droplet-based single-cell RNA sequencing (scRNAseq) of human CD45- CD31+ PDPN+ cells from the axillary LNs (AXLNs) and head and neck LNs (HNLNs). ScRNAseq was performed using 10X Genomics Single Cell 3' solution, version 2 according to manufacture's instructions. Libraries were sequenced on HiSeq3000."
+                        },
+                        "sample": {
+                            "accession": "SRS4203427",
+                            "title": "HNLN2",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "HNLN2 lymphatic endothelial cells",
+                                "tissue": "Head and neck lymph node",
+                                "individual": "Individual 5",
+                                "cell type": "LN CD45- PDPN+ CD31+ cells",
+                                "ENA-SPOT-COUNT": "343615247",
+                                "ENA-BASE-COUNT": "34017909453",
+                                "ENA-FIRST-PUBLIC": "2019-08-09",
+                                "ENA-LAST-UPDATE": "2019-08-09"
+                            }
+                        },
+                        "title": "Illumina HiSeq 3000 paired end sequencing; GSM3535281: HNLN2; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "loader": "fastq-load.py",
+                            "options": "--platform=Illumina --readTypes=TBT --read1PairFiles=HNLN2_S6_L007_R1_001.fastq --read2PairFiles=HNLN2_S6_L007_R2_001.fastq --read3PairFiles=HNLN2_S6_L007_I1_001.fastq",
+                            "ENA-SPOT-COUNT": "171472411",
+                            "ENA-BASE-COUNT": "16975768689",
+                            "ENA-FIRST-PUBLIC": "2019-08-09",
+                            "ENA-LAST-UPDATE": "2019-08-09"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR838/005/SRR8387875/SRR8387875.fastq.gz",
+                                "md5": "f5ee7f647a80b780f6980ea4bd36e789",
+                                "size": "11899282337"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

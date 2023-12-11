@@ -1,0 +1,76 @@
+{
+    "GSM3755699": {
+        "accession": "GSM3755699",
+        "supplementary_files": [
+            {
+                "filename": "GSM3755699_S3barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3755nnn/GSM3755699/suppl/GSM3755699_S3barcodes.tsv.gz",
+                "size": "39635"
+            },
+            {
+                "filename": "GSM3755699_S3features.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3755nnn/GSM3755699/suppl/GSM3755699_S3features.tsv.gz",
+                "size": "318733"
+            },
+            {
+                "filename": "GSM3755699_S3matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3755nnn/GSM3755699/suppl/GSM3755699_S3matrix.mtx.gz",
+                "size": "47745490"
+            }
+        ],
+        "platform": {
+            "accession": "GPL20301",
+            "title": "Illumina HiSeq 4000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4736483": {
+                "accession": "SRS4736483",
+                "title": "Long-term PD rep4",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Peritoneal dialysis fluid",
+                    "sample type": "Peritoneal cells from effluent of long-term PD patients",
+                    "ENA-SPOT-COUNT": "392229662",
+                    "ENA-BASE-COUNT": "48636478088",
+                    "ENA-FIRST-PUBLIC": "2019-06-10",
+                    "ENA-LAST-UPDATE": "2019-06-11"
+                },
+                "experiment": {
+                    "SRX5807021": {
+                        "accession": "SRX5807021",
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM3755699: Long-term PD rep4; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 4000",
+                        "runs": {
+                            "SRR9029610": {
+                                "accession": "SRR9029610",
+                                "experiment": "SRX5807021",
+                                "study": "SRP197094",
+                                "sample": "SRS4736483",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3755699: Long-term PD rep4; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "392229662",
+                                    "ENA-BASE-COUNT": "48636478088",
+                                    "ENA-FIRST-PUBLIC": "2019-06-11",
+                                    "ENA-LAST-UPDATE": "2019-06-11"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR902/000/SRR9029610/SRR9029610_1.fastq.gz",
+                                        "md5": "1d9bab0521c2b14b4e17afdeba673bb6",
+                                        "size": "7160048993"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR902/000/SRR9029610/SRR9029610_2.fastq.gz",
+                                        "md5": "3962a17052f231f9493f4ba7241bb6ec",
+                                        "size": "21160424661"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

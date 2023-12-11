@@ -1,0 +1,79 @@
+{
+    "GSM3734294": {
+        "accession": "GSM3734294",
+        "supplementary_files": [
+            {
+                "filename": "GSM3734294_1M_cortical_organoids_barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3734nnn/GSM3734294/suppl/GSM3734294_1M_cortical_organoids_barcodes.tsv.gz",
+                "size": "20150"
+            },
+            {
+                "filename": "GSM3734294_1M_cortical_organoids_genes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3734nnn/GSM3734294/suppl/GSM3734294_1M_cortical_organoids_genes.tsv.gz",
+                "size": "264505"
+            },
+            {
+                "filename": "GSM3734294_1M_cortical_organoids_matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3734nnn/GSM3734294/suppl/GSM3734294_1M_cortical_organoids_matrix.mtx.gz",
+                "size": "35543236"
+            }
+        ],
+        "platform": {
+            "accession": "GPL20301",
+            "title": "Illumina HiSeq 4000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4666811": {
+                "accession": "SRS4666811",
+                "title": "1 month cortical organoids",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Cortical organoids",
+                    "cell line": "WT - iPSC",
+                    "passage": "37",
+                    "age of organoid": "1 month",
+                    "reprogramming strategy": "Retroviral",
+                    "ENA-SPOT-COUNT": "282806072",
+                    "ENA-BASE-COUNT": "35067952928",
+                    "ENA-FIRST-PUBLIC": "2019-04-28",
+                    "ENA-LAST-UPDATE": "2019-04-28"
+                },
+                "experiment": {
+                    "SRX5728924": {
+                        "accession": "SRX5728924",
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM3734294: 1 month cortical organoids; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 4000",
+                        "runs": {
+                            "SRR8948931": {
+                                "accession": "SRR8948931",
+                                "experiment": "SRX5728924",
+                                "study": "SRP193683",
+                                "sample": "SRS4666811",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3734294: 1 month cortical organoids; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "282806072",
+                                    "ENA-BASE-COUNT": "35067952928",
+                                    "ENA-FIRST-PUBLIC": "2019-04-29",
+                                    "ENA-LAST-UPDATE": "2019-04-29"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR894/001/SRR8948931/SRR8948931_1.fastq.gz",
+                                        "md5": "620893e5cd56f64a9c19ca2583e54300",
+                                        "size": "5258171080"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR894/001/SRR8948931/SRR8948931_2.fastq.gz",
+                                        "md5": "da62e0b74154c4db5d408ea1bc6371c6",
+                                        "size": "19388368184"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "GSM3732362": {
+        "accession": "GSM3732362",
+        "supplementary_files": [
+            {
+                "filename": "GSM3732362_barcodes_pbmc1_mrna.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3732nnn/GSM3732362/suppl/GSM3732362_barcodes_pbmc1_mrna.tsv.gz",
+                "size": "20843"
+            },
+            {
+                "filename": "GSM3732362_features_pbmc1_mrna.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3732nnn/GSM3732362/suppl/GSM3732362_features_pbmc1_mrna.tsv.gz",
+                "size": "318733"
+            },
+            {
+                "filename": "GSM3732362_matrix_pbmc1_mrna.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3732nnn/GSM3732362/suppl/GSM3732362_matrix_pbmc1_mrna.mtx.gz",
+                "size": "5487903"
+            }
+        ],
+        "experiments": {
+            "SRX5729458": {
+                "accession": "SRX5729458",
+                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM3732362: pbmc1_mrna; Homo sapiens; RNA-Seq",
+                "runs": {
+                    "SRR8949480": {
+                        "accession": "SRR8949480",
+                        "experiment": {
+                            "accession": "SRX5729458",
+                            "title": "Illumina NovaSeq 6000 paired end sequencing; GSM3732362: pbmc1_mrna; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina NovaSeq 6000"
+                        },
+                        "study": {
+                            "accession": "SRP193719",
+                            "title": "Simultaneous measurement of DNA repair activities and mRNA abundance in single cells",
+                            "abstract": "New methods that measure the static abundance of DNA, RNA, and proteins in single cells are rapidly transforming biology. But these methods do not provide insight into dynamic cellular activities, precluding a complete understanding of cellular heterogeneity. We developed a method to measure enzymatic activities in single cells and used it to simultaneously measure DNA repair enzyme activities and mRNA expression. By including polyadenylated DNA hairpin substrates with defined lesions in a single-cell mRNA sequencing experiment, we measured repair activities by capturing repair intermediates and products catalyzed by activities in single cells. Overall design: Single cell mRNA sequencing libraries and matching DNA repair activity libraries from the 10X genomics platform."
+                        },
+                        "sample": {
+                            "accession": "SRS4667088",
+                            "title": "pbmc1_mrna",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "Human PBMCs",
+                                "cell type": "Human PBMCs",
+                                "ENA-SPOT-COUNT": "32645202",
+                                "ENA-BASE-COUNT": "9858851004",
+                                "ENA-FIRST-PUBLIC": "2019-10-03",
+                                "ENA-LAST-UPDATE": "2019-10-04"
+                            }
+                        },
+                        "title": "Illumina NovaSeq 6000 paired end sequencing; GSM3732362: pbmc1_mrna; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "32645202",
+                            "ENA-BASE-COUNT": "9858851004",
+                            "ENA-FIRST-PUBLIC": "2019-10-07",
+                            "ENA-LAST-UPDATE": "2019-10-07"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR894/000/SRR8949480/SRR8949480_1.fastq.gz",
+                                "md5": "6ee9cb9cca30da7806cd759c28de9a5d",
+                                "size": "2570940262"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR894/000/SRR8949480/SRR8949480_2.fastq.gz",
+                                "md5": "28fd146f0d9e3723e895be742bbca595",
+                                "size": "2193943500"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

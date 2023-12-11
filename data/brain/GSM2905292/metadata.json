@@ -1,0 +1,68 @@
+{
+    "GSM2905292": {
+        "accession": "GSM2905292",
+        "supplementary_files": [
+            {
+                "filename": "GSM2905292_J2_filtered_gene_bc_matrices_h5.h5",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM2905nnn/GSM2905292/suppl/GSM2905292_J2_filtered_gene_bc_matrices_h5.h5",
+                "size": "5758852"
+            }
+        ],
+        "platform": {
+            "accession": "GPL20795",
+            "title": "HiSeq X Ten (Homo sapiens)"
+        },
+        "sample": {
+            "SRS2792433": {
+                "accession": "SRS2792433",
+                "title": "BMPa-1",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Brain organoid",
+                    "developmental stage": "day 32",
+                    "stem cell line": "H9",
+                    "protocol": "BMPa",
+                    "ENA-SPOT-COUNT": "249982363",
+                    "ENA-BASE-COUNT": "74994708900",
+                    "ENA-FIRST-PUBLIC": "2017-12-29",
+                    "ENA-LAST-UPDATE": "2017-12-29"
+                },
+                "experiment": {
+                    "SRX3517583": {
+                        "accession": "SRX3517583",
+                        "title": "HiSeq X Ten paired end sequencing; GSM2905292: BMPa-1; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "HiSeq X Ten",
+                        "runs": {
+                            "SRR6425163": {
+                                "accession": "SRR6425163",
+                                "experiment": "SRX3517583",
+                                "study": "SRP127624",
+                                "sample": "SRS2792433",
+                                "title": "HiSeq X Ten paired end sequencing; GSM2905292: BMPa-1; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "249982363",
+                                    "ENA-BASE-COUNT": "74994708900",
+                                    "ENA-FIRST-PUBLIC": "2017-12-30",
+                                    "ENA-LAST-UPDATE": "2017-12-30"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR642/003/SRR6425163/SRR6425163_1.fastq.gz",
+                                        "md5": "2dcf9ae4cfb30ec0aaf06edf0e3ca49a",
+                                        "size": "21858866426"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR642/003/SRR6425163/SRR6425163_2.fastq.gz",
+                                        "md5": "1d0703967a2331527a3aebf97a3f1c32",
+                                        "size": "22946392178"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

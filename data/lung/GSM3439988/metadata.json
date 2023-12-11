@@ -1,0 +1,64 @@
+{
+    "GSM3439988": {
+        "accession": "GSM3439988",
+        "platform": {
+            "accession": "GPL20301",
+            "title": "Illumina HiSeq 4000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS3957860": {
+                "accession": "SRS3957860",
+                "title": "Donor1_Control",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "DCs sham-treated",
+                    "subject id": "Donor1",
+                    "source type": "Healthy individuals",
+                    "tissue": "Peripheral Blood",
+                    "cell type": "MACS sorted CD14+ cells",
+                    "cell stage": "Monocyte derived DCs",
+                    "treatment": "sham control",
+                    "ENA-SPOT-COUNT": "36272422",
+                    "ENA-BASE-COUNT": "10954271444",
+                    "ENA-FIRST-PUBLIC": "2019-01-04",
+                    "ENA-LAST-UPDATE": "2019-01-04"
+                },
+                "experiment": {
+                    "SRX4912481": {
+                        "accession": "SRX4912481",
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM3439988: Donor1_Control; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 4000",
+                        "runs": {
+                            "SRR8085528": {
+                                "accession": "SRR8085528",
+                                "experiment": "SRX4912481",
+                                "study": "SRP166328",
+                                "sample": "SRS3957860",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3439988: Donor1_Control; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "36272422",
+                                    "ENA-BASE-COUNT": "10954271444",
+                                    "ENA-FIRST-PUBLIC": "2019-01-04",
+                                    "ENA-LAST-UPDATE": "2019-01-04"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR808/008/SRR8085528/SRR8085528_1.fastq.gz",
+                                        "md5": "3bbe9f3137ff1befacf3d4dfa994b138",
+                                        "size": "2642683787"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR808/008/SRR8085528/SRR8085528_2.fastq.gz",
+                                        "md5": "87cc33ddd631ed13098ff17c16884c98",
+                                        "size": "2899519307"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

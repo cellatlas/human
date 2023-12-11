@@ -1,0 +1,77 @@
+{
+    "GSM3273570": {
+        "accession": "GSM3273570",
+        "supplementary_files": [
+            {
+                "filename": "GSM3273570_barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3273nnn/GSM3273570/suppl/GSM3273570_barcodes.tsv.gz",
+                "size": "2279656"
+            },
+            {
+                "filename": "GSM3273570_genes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3273nnn/GSM3273570/suppl/GSM3273570_genes.tsv.gz",
+                "size": "264505"
+            },
+            {
+                "filename": "GSM3273570_matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3273nnn/GSM3273570/suppl/GSM3273570_matrix.mtx.gz",
+                "size": "56063494"
+            }
+        ],
+        "platform": {
+            "accession": "GPL16791",
+            "title": "Illumina HiSeq 2500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS3552766": {
+                "accession": "SRS3552766",
+                "title": "single cells from micro-organoid",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "CRL1502.C32 human iPSCs",
+                    "cell type": "iPSC-derived kidney micro-organoid",
+                    "day of differentiation": "25",
+                    "ENA-SPOT-COUNT": "238336940",
+                    "ENA-BASE-COUNT": "60060908880",
+                    "ENA-FIRST-PUBLIC": "2019-03-02",
+                    "ENA-LAST-UPDATE": "2019-03-02"
+                },
+                "experiment": {
+                    "SRX4397719": {
+                        "accession": "SRX4397719",
+                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM3273570: single cells from micro-organoid; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 2500",
+                        "runs": {
+                            "SRR7529761": {
+                                "accession": "SRR7529761",
+                                "experiment": "SRX4397719",
+                                "study": "SRP154125",
+                                "sample": "SRS3552766",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM3273570: single cells from micro-organoid; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "238336940",
+                                    "ENA-BASE-COUNT": "60060908880",
+                                    "ENA-FIRST-PUBLIC": "2019-03-03",
+                                    "ENA-LAST-UPDATE": "2019-03-03"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR752/001/SRR7529761/SRR7529761_1.fastq.gz",
+                                        "md5": "69af069aa948c2e4a3b7e86e9aa82b2f",
+                                        "size": "16636150574"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR752/001/SRR7529761/SRR7529761_2.fastq.gz",
+                                        "md5": "41f243459ae92021a6739aec4c2ba271",
+                                        "size": "23080437068"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

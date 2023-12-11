@@ -1,0 +1,76 @@
+{
+    "GSM3755693": {
+        "accession": "GSM3755693",
+        "supplementary_files": [
+            {
+                "filename": "GSM3755693_QSLbarcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3755nnn/GSM3755693/suppl/GSM3755693_QSLbarcodes.tsv.gz",
+                "size": "41112"
+            },
+            {
+                "filename": "GSM3755693_QSLfeatures.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3755nnn/GSM3755693/suppl/GSM3755693_QSLfeatures.tsv.gz",
+                "size": "318733"
+            },
+            {
+                "filename": "GSM3755693_QSLmatrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3755nnn/GSM3755693/suppl/GSM3755693_QSLmatrix.mtx.gz",
+                "size": "60535385"
+            }
+        ],
+        "platform": {
+            "accession": "GPL20301",
+            "title": "Illumina HiSeq 4000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4736477": {
+                "accession": "SRS4736477",
+                "title": "HC rep1",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Peritoneal tissue",
+                    "sample type": "Cells dissociated from normal peritoneum",
+                    "ENA-SPOT-COUNT": "326339254",
+                    "ENA-BASE-COUNT": "40466067496",
+                    "ENA-FIRST-PUBLIC": "2019-06-10",
+                    "ENA-LAST-UPDATE": "2019-06-11"
+                },
+                "experiment": {
+                    "SRX5807015": {
+                        "accession": "SRX5807015",
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM3755693: HC rep1; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 4000",
+                        "runs": {
+                            "SRR9029604": {
+                                "accession": "SRR9029604",
+                                "experiment": "SRX5807015",
+                                "study": "SRP197094",
+                                "sample": "SRS4736477",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3755693: HC rep1; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "326339254",
+                                    "ENA-BASE-COUNT": "40466067496",
+                                    "ENA-FIRST-PUBLIC": "2019-06-11",
+                                    "ENA-LAST-UPDATE": "2019-06-11"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR902/004/SRR9029604/SRR9029604_1.fastq.gz",
+                                        "md5": "1e6ed70fd8b1acc5bb1665cc5bb3efb2",
+                                        "size": "5414921592"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR902/004/SRR9029604/SRR9029604_2.fastq.gz",
+                                        "md5": "f21d1afcb71412c13b20df7d66179539",
+                                        "size": "14548413784"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

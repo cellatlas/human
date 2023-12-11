@@ -1,0 +1,60 @@
+{
+    "GSM3319044": {
+        "accession": "GSM3319044",
+        "supplementary_files": [
+            {
+                "filename": "GSM3319044_sample_3-17_filtered_gene_bc_matrices_h5.h5",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3319nnn/GSM3319044/suppl/GSM3319044_sample_3-17_filtered_gene_bc_matrices_h5.h5",
+                "size": "4235225"
+            }
+        ],
+        "experiments": {
+            "SRX4507871": {
+                "accession": "SRX4507871",
+                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3319044: sample_3-17; Homo sapiens; RNA-Seq",
+                "runs": {
+                    "SRR7644637": {
+                        "accession": "SRR7644637",
+                        "experiment": {
+                            "accession": "SRX4507871",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM3319044: sample_3-17; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP156350",
+                            "title": "Single-cell analysis of adult human ovary using 10X genomics",
+                            "abstract": "The ovary is perhaps the most dynamic organ in the human body, only rivaled by the uterus. The molecular mechanisms that regulate follicular growth and regression, ensuring ovarian tissue homeostasis, remain elusive. We have performed single-cell RNA-sequencing using human adult ovaries to provide a map of the molecular signature of growing and regressing follicular populations. We have identified different types of granulosa and theca cells and detected local production of components of the complement system by (atretic) theca cells and stromal cells. We also have detected a mixture of adaptive and innate immune cells, as well as several types of endothelial and smooth muscle cells to aid the remodeling process. Our results highlight the relevance of mapping whole adult organs at the single-cell level and reflect ongoing efforts to map the human body. The association between complement system and follicular remodeling may provide key insights in reproductive biology and (in)fertility. Overall design: 31 tissue samples from 5 ovaries were used for single-cell and cluster analysis"
+                        },
+                        "sample": {
+                            "accession": "SRS3627885",
+                            "title": "sample_3-17",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "Adult Ovary Tissue",
+                                "patient id": "P3",
+                                "batch": "2",
+                                "tissue": "stroma",
+                                "ENA-FIRST-PUBLIC": "2019-06-02",
+                                "ENA-LAST-UPDATE": "2019-06-02"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM3319044: sample_3-17; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "assembly": "GRCh38",
+                            "ENA-FIRST-PUBLIC": "2019-06-03",
+                            "ENA-LAST-UPDATE": "2019-06-15"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR764/SRR7644637/sample_3_17.bam.1",
+                                "md5": "9af20f5db1c8b8078a16c19a45da2ed0",
+                                "size": "5014624074"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

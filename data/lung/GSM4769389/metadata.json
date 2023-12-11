@@ -1,0 +1,80 @@
+{
+    "GSM4769389": {
+        "accession": "GSM4769389",
+        "supplementary_files": [
+            {
+                "filename": "GSM4769389_barcodes_S5.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM4769nnn/GSM4769389/suppl/GSM4769389_barcodes_S5.tsv.gz",
+                "size": "12071"
+            },
+            {
+                "filename": "GSM4769389_features_S5.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM4769nnn/GSM4769389/suppl/GSM4769389_features_S5.tsv.gz",
+                "size": "303112"
+            },
+            {
+                "filename": "GSM4769389_matrix_S5.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM4769nnn/GSM4769389/suppl/GSM4769389_matrix_S5.mtx.gz",
+                "size": "33610735"
+            }
+        ],
+        "platform": {
+            "accession": "GPL24676",
+            "title": "Illumina NovaSeq 6000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS7325387": {
+                "accession": "SRS7325387",
+                "title": "033_05_FL_S5",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "human nHTBE cells",
+                    "biomaterial_provider": "Lonza CC-2540S",
+                    "tissue": "tracheal/bronchial scrapings",
+                    "cell type": "Normal human tracheal bronchial epithelial",
+                    "isolate": "Batch 18TL134625, Tissue acquisition number 35825",
+                    "age": "65",
+                    "Sex": "male",
+                    "treatment": "untreated",
+                    "infection status": "SARS-CoV-2 infected, MOI 5, 48 hours post infection",
+                    "ENA-SPOT-COUNT": "225964224",
+                    "ENA-BASE-COUNT": "22370458176",
+                    "ENA-FIRST-PUBLIC": "2020-09-06",
+                    "ENA-LAST-UPDATE": "2020-11-04"
+                },
+                "experiment": {
+                    "SRX9078407": {
+                        "accession": "SRX9078407",
+                        "title": "Illumina NovaSeq 6000 paired end sequencing; GSM4769389: 033_05_FL_S5; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina NovaSeq 6000",
+                        "runs": {
+                            "SRR12594384": {
+                                "accession": "SRR12594384",
+                                "experiment": "SRX9078407",
+                                "study": "SRP280154",
+                                "sample": "SRS7325387",
+                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM4769389: 033_05_FL_S5; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "loader": "fastq-load.py",
+                                    "options": "--platform=Illumina --readTypes=TTB --read1PairFiles=Langlois_033_05_FL_S5_L001_I1_001.fastq.gz --read2PairFiles=Langlois_033_05_FL_S5_L001_R1_001.fastq.gz --read3PairFiles=Langlois_033_05_FL_S5_L001_R2_001.fastq.gz",
+                                    "ENA-SPOT-COUNT": "225964224",
+                                    "ENA-BASE-COUNT": "22370458176",
+                                    "ENA-FIRST-PUBLIC": "2020-11-04",
+                                    "ENA-LAST-UPDATE": "2020-11-04"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR125/084/SRR12594384/SRR12594384.fastq.gz",
+                                        "md5": "e9948d01b28c75fc324150a59d1afa02",
+                                        "size": "10705890019"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

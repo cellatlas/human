@@ -1,0 +1,64 @@
+{
+    "GSM3439989": {
+        "accession": "GSM3439989",
+        "experiments": {
+            "SRX4912482": {
+                "accession": "SRX4912482",
+                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3439989: Donor1_N1plus_R848; Homo sapiens; RNA-Seq",
+                "runs": {
+                    "SRR8085529": {
+                        "accession": "SRR8085529",
+                        "experiment": {
+                            "accession": "SRX4912482",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM3439989: Donor1_N1plus_R848; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP166328",
+                            "title": "Global gene expression analysis of human monocyte-derived dendritic cells (DCs) treated with HMGN1 (N1) and R848 alone or in combination.",
+                            "abstract": "RNA-seq data demonstrate that N1 plus R848 at the global gene expression level synergistically promotes DC maturation and subsequent upregulation of many genes in DCs that are involved in the polarization of CD4+ T cells into Th1-type effectors. Overall design: DCs sham-treated or treated with N1, R848, or N1 plus R848 for 4 hours."
+                        },
+                        "sample": {
+                            "accession": "SRS3957861",
+                            "title": "Donor1_N1plus_R848",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "DCs treated with N1 plus R848 for 4 hr",
+                                "subject id": "Donor1",
+                                "source type": "Healthy individuals",
+                                "tissue": "Peripheral Blood",
+                                "cell type": "MACS sorted CD14+ cells",
+                                "cell stage": "Monocyte derived DCs",
+                                "treatment": "N1 plus R848 for 4 hr",
+                                "ENA-SPOT-COUNT": "34214738",
+                                "ENA-BASE-COUNT": "10332850876",
+                                "ENA-FIRST-PUBLIC": "2019-01-04",
+                                "ENA-LAST-UPDATE": "2019-01-04"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM3439989: Donor1_N1plus_R848; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "34214738",
+                            "ENA-BASE-COUNT": "10332850876",
+                            "ENA-FIRST-PUBLIC": "2019-01-04",
+                            "ENA-LAST-UPDATE": "2019-01-04"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR808/009/SRR8085529/SRR8085529_1.fastq.gz",
+                                "md5": "3aa8d8a2ba78c54fb2a6e86ea8a31c45",
+                                "size": "2716356857"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR808/009/SRR8085529/SRR8085529_2.fastq.gz",
+                                "md5": "ad63f005e731a0bc32f232eb23bd425b",
+                                "size": "2800932440"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "GSM3439913": {
+        "accession": "GSM3439913",
+        "supplementary_files": [
+            {
+                "filename": "GSM3439913_D246ali2_raw_gene_bc_matrices_h5.h5",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3439nnn/GSM3439913/suppl/GSM3439913_D246ali2_raw_gene_bc_matrices_h5.h5",
+                "size": "17273416"
+            }
+        ],
+        "experiments": {
+            "SRX4912108": {
+                "accession": "SRX4912108",
+                "title": "NextSeq 500 paired end sequencing; GSM3439913: HAECs_BEGM_ALI2; Homo sapiens; RNA-Seq",
+                "runs": {
+                    "SRR8085151": {
+                        "accession": "SRR8085151",
+                        "experiment": {
+                            "accession": "SRX4912108",
+                            "title": "NextSeq 500 paired end sequencing; GSM3439913: HAECs_BEGM_ALI2; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "NextSeq 500"
+                        },
+                        "study": {
+                            "accession": "SRP166983",
+                            "title": "Single-cell RNA-seq reveals novel cell differentiation dynamics during human airway epithelium regeneration",
+                            "abstract": "The upper airway epithelium is mainly composed of 4 cell types: multiciliated, goblet, secretory and basal cells. It constitutes an efficient first line of defense of the respiratory tract against a large panel of inhaled substances. Upon injury, regeneration of this epithelium through proliferation and differentiation events can restore a proper mucociliary function. In chronic airway diseases, such as chronic obstructive pulmonary disease or asthma, the injured epithelium frequently displays defective repair leading to tissue remodeling, characterized by a loss of multiciliated cells and mucus hyper-secretion. This situation emphasizes the need to accurately delineate the drivers of differentiation dynamics and cell fate in human airway epithelium. We have used single cell transcriptomics to characterize the sequence of cellular and molecular processes taking place during human airway mucociliary epithelium regeneration in vitro. A comparison with single-cell data from fresh human and pig airway samples, and from in vitro mouse tracheal epithelial cells confirmed our findings in several distinct mammalian species. Single-cell RNA-seq in the airways provides novel insights in differentiation dynamics with the identification of alternative cell trajectories, novel cell subpopulations and by mapping the activation and repression of key signaling pathways. Overall design: Single-cell RNA-seq of airway epithelial cells from various origins: human in vitro time course differentiation, human bronchial biopsy, human nasal brushing, human nasal turbinate, mouse in vitro differentiation and pig trachea"
+                        },
+                        "sample": {
+                            "accession": "SRS3984779",
+                            "title": "HAECs_BEGM_ALI2",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "Human airway epithellial cells differentiated in BEGM medium for 2 days",
+                                "cell type": "airway epithelial cells (HAECs)",
+                                "differentiation day": "2",
+                                "cell origin": "Primary culture",
+                                "donor": "D246",
+                                "ENA-SPOT-COUNT": "68947254",
+                                "ENA-BASE-COUNT": "6756830892",
+                                "ENA-FIRST-PUBLIC": "2019-09-21",
+                                "ENA-LAST-UPDATE": "2019-09-21"
+                            }
+                        },
+                        "title": "NextSeq 500 paired end sequencing; GSM3439913: HAECs_BEGM_ALI2; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "assembly": "hg19",
+                            "ENA-SPOT-COUNT": "68947254",
+                            "ENA-BASE-COUNT": "6756830892",
+                            "ENA-FIRST-PUBLIC": "2019-09-22",
+                            "ENA-LAST-UPDATE": "2019-09-22"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR808/001/SRR8085151/SRR8085151.fastq.gz",
+                                "md5": "7314ed8f7549d332cd8d833ba404495c",
+                                "size": "3430100685"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

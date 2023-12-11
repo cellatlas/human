@@ -1,0 +1,435 @@
+{
+    "GSM4213837": {
+        "accession": "GSM4213837",
+        "platform": {
+            "accession": "GPL16791",
+            "title": "Illumina HiSeq 2500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS5807143": {
+                "accession": "SRS5807143",
+                "title": "T166_invivo",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Human epithelial tracheal",
+                    "cell type": "Airway epithelial",
+                    "smoking status": "nonsmoker",
+                    "ENA-SPOT-COUNT": "1722689412",
+                    "ENA-BASE-COUNT": "222226934148",
+                    "ENA-FIRST-PUBLIC": "2020-04-14",
+                    "ENA-LAST-UPDATE": "2020-04-14"
+                },
+                "experiment": {
+                    "SRX7347536": {
+                        "accession": "SRX7347536",
+                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM4213837: T166_invivo; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 2500",
+                        "runs": {
+                            "SRR10668901": {
+                                "accession": "SRR10668901",
+                                "experiment": "SRX7347536",
+                                "study": "SRP214324",
+                                "sample": "SRS5807143",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM4213837: T166_invivo; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "124793073",
+                                    "ENA-BASE-COUNT": "16098306417",
+                                    "ENA-FIRST-PUBLIC": "2020-04-14",
+                                    "ENA-LAST-UPDATE": "2020-04-14"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/001/SRR10668901/SRR10668901_1.fastq.gz",
+                                        "md5": "3bb33f1fb0584c4a3782faa414dce241",
+                                        "size": "2233144430"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/001/SRR10668901/SRR10668901_2.fastq.gz",
+                                        "md5": "086f7db8eb5e7dc5812b48377e35475d",
+                                        "size": "5747351683"
+                                    }
+                                ]
+                            },
+                            "SRR10668902": {
+                                "accession": "SRR10668902",
+                                "experiment": "SRX7347536",
+                                "study": "SRP214324",
+                                "sample": "SRS5807143",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM4213837: T166_invivo; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "84894027",
+                                    "ENA-BASE-COUNT": "10951329483",
+                                    "ENA-FIRST-PUBLIC": "2020-04-14",
+                                    "ENA-LAST-UPDATE": "2020-04-14"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/002/SRR10668902/SRR10668902_1.fastq.gz",
+                                        "md5": "9a34e76d1879d2be00dbfa31ed7f42e9",
+                                        "size": "1506775677"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/002/SRR10668902/SRR10668902_2.fastq.gz",
+                                        "md5": "fa5b85cafc55b7d028c7d79657ddb302",
+                                        "size": "3788346016"
+                                    }
+                                ]
+                            },
+                            "SRR10668903": {
+                                "accession": "SRR10668903",
+                                "experiment": "SRX7347536",
+                                "study": "SRP214324",
+                                "sample": "SRS5807143",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM4213837: T166_invivo; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "84881701",
+                                    "ENA-BASE-COUNT": "10949739429",
+                                    "ENA-FIRST-PUBLIC": "2020-04-14",
+                                    "ENA-LAST-UPDATE": "2020-04-14"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/003/SRR10668903/SRR10668903_1.fastq.gz",
+                                        "md5": "1f37460d7b3c75725f877562532aa29c",
+                                        "size": "1507385610"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/003/SRR10668903/SRR10668903_2.fastq.gz",
+                                        "md5": "e1439be53f37c6dd5251d47991feb7ba",
+                                        "size": "3819699926"
+                                    }
+                                ]
+                            },
+                            "SRR10668904": {
+                                "accession": "SRR10668904",
+                                "experiment": "SRX7347536",
+                                "study": "SRP214324",
+                                "sample": "SRS5807143",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM4213837: T166_invivo; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "84735023",
+                                    "ENA-BASE-COUNT": "10930817967",
+                                    "ENA-FIRST-PUBLIC": "2020-04-14",
+                                    "ENA-LAST-UPDATE": "2020-04-14"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/004/SRR10668904/SRR10668904_1.fastq.gz",
+                                        "md5": "993ea302812a64fcb4906ba0e5133c9c",
+                                        "size": "1504301971"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/004/SRR10668904/SRR10668904_2.fastq.gz",
+                                        "md5": "6a26b1991ab0cf9a788222cd1c7f13cd",
+                                        "size": "3782629412"
+                                    }
+                                ]
+                            },
+                            "SRR10668905": {
+                                "accession": "SRR10668905",
+                                "experiment": "SRX7347536",
+                                "study": "SRP214324",
+                                "sample": "SRS5807143",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM4213837: T166_invivo; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "108298281",
+                                    "ENA-BASE-COUNT": "13970478249",
+                                    "ENA-FIRST-PUBLIC": "2020-04-14",
+                                    "ENA-LAST-UPDATE": "2020-04-14"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/005/SRR10668905/SRR10668905_1.fastq.gz",
+                                        "md5": "1f0e83150777bd84518e2a2eecf331b1",
+                                        "size": "1937293741"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/005/SRR10668905/SRR10668905_2.fastq.gz",
+                                        "md5": "cfb6e7f80f4f6163b44a1a68a36355e6",
+                                        "size": "4823446927"
+                                    }
+                                ]
+                            },
+                            "SRR10668906": {
+                                "accession": "SRR10668906",
+                                "experiment": "SRX7347536",
+                                "study": "SRP214324",
+                                "sample": "SRS5807143",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM4213837: T166_invivo; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "108323076",
+                                    "ENA-BASE-COUNT": "13973676804",
+                                    "ENA-FIRST-PUBLIC": "2020-04-14",
+                                    "ENA-LAST-UPDATE": "2020-04-14"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/006/SRR10668906/SRR10668906_1.fastq.gz",
+                                        "md5": "af881a40d52c29d8ed01e524b94a16d6",
+                                        "size": "1924298015"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/006/SRR10668906/SRR10668906_2.fastq.gz",
+                                        "md5": "55a097de856e5dda3cf23ee7ec79e636",
+                                        "size": "4795347285"
+                                    }
+                                ]
+                            },
+                            "SRR10668907": {
+                                "accession": "SRR10668907",
+                                "experiment": "SRX7347536",
+                                "study": "SRP214324",
+                                "sample": "SRS5807143",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM4213837: T166_invivo; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "109461944",
+                                    "ENA-BASE-COUNT": "14120590776",
+                                    "ENA-FIRST-PUBLIC": "2020-04-14",
+                                    "ENA-LAST-UPDATE": "2020-04-14"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/007/SRR10668907/SRR10668907_1.fastq.gz",
+                                        "md5": "605f7587ea775261a3bb4221f2395ea8",
+                                        "size": "1946035539"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/007/SRR10668907/SRR10668907_2.fastq.gz",
+                                        "md5": "d014aef6c8e223e4026f25c33d84c8ce",
+                                        "size": "4892611593"
+                                    }
+                                ]
+                            },
+                            "SRR10668908": {
+                                "accession": "SRR10668908",
+                                "experiment": "SRX7347536",
+                                "study": "SRP214324",
+                                "sample": "SRS5807143",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM4213837: T166_invivo; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "108239586",
+                                    "ENA-BASE-COUNT": "13962906594",
+                                    "ENA-FIRST-PUBLIC": "2020-04-14",
+                                    "ENA-LAST-UPDATE": "2020-04-14"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/008/SRR10668908/SRR10668908_1.fastq.gz",
+                                        "md5": "873f649fc79e9c19bb70a09f63f22415",
+                                        "size": "1923230435"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/008/SRR10668908/SRR10668908_2.fastq.gz",
+                                        "md5": "0e33497c7303695dbb349c74e431c71f",
+                                        "size": "4789205300"
+                                    }
+                                ]
+                            },
+                            "SRR10668909": {
+                                "accession": "SRR10668909",
+                                "experiment": "SRX7347536",
+                                "study": "SRP214324",
+                                "sample": "SRS5807143",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM4213837: T166_invivo; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "125416192",
+                                    "ENA-BASE-COUNT": "16178688768",
+                                    "ENA-FIRST-PUBLIC": "2020-04-14",
+                                    "ENA-LAST-UPDATE": "2020-04-14"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/009/SRR10668909/SRR10668909_1.fastq.gz",
+                                        "md5": "8821663231382d434d0a45912b4276c9",
+                                        "size": "2229001812"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/009/SRR10668909/SRR10668909_2.fastq.gz",
+                                        "md5": "17fe5100364a8975be47e2708d44f5b8",
+                                        "size": "5746665137"
+                                    }
+                                ]
+                            },
+                            "SRR10668910": {
+                                "accession": "SRR10668910",
+                                "experiment": "SRX7347536",
+                                "study": "SRP214324",
+                                "sample": "SRS5807143",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM4213837: T166_invivo; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "124463307",
+                                    "ENA-BASE-COUNT": "16055766603",
+                                    "ENA-FIRST-PUBLIC": "2020-04-14",
+                                    "ENA-LAST-UPDATE": "2020-04-14"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/010/SRR10668910/SRR10668910_1.fastq.gz",
+                                        "md5": "107dc9d19cade8ee663cf0f4e6e60386",
+                                        "size": "2212652185"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/010/SRR10668910/SRR10668910_2.fastq.gz",
+                                        "md5": "10ac8adb6811acdbe8295ebdd14339a0",
+                                        "size": "5730080630"
+                                    }
+                                ]
+                            },
+                            "SRR10668911": {
+                                "accession": "SRR10668911",
+                                "experiment": "SRX7347536",
+                                "study": "SRP214324",
+                                "sample": "SRS5807143",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM4213837: T166_invivo; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "125222354",
+                                    "ENA-BASE-COUNT": "16153683666",
+                                    "ENA-FIRST-PUBLIC": "2020-04-14",
+                                    "ENA-LAST-UPDATE": "2020-04-14"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/011/SRR10668911/SRR10668911_1.fastq.gz",
+                                        "md5": "4367c3c6916b588e507247ca86b756d6",
+                                        "size": "2225955719"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/011/SRR10668911/SRR10668911_2.fastq.gz",
+                                        "md5": "7a0413e166bfabccb2ed5dccc4581615",
+                                        "size": "5737038420"
+                                    }
+                                ]
+                            },
+                            "SRR10668912": {
+                                "accession": "SRR10668912",
+                                "experiment": "SRX7347536",
+                                "study": "SRP214324",
+                                "sample": "SRS5807143",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM4213837: T166_invivo; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "111894027",
+                                    "ENA-BASE-COUNT": "14434329483",
+                                    "ENA-FIRST-PUBLIC": "2020-04-14",
+                                    "ENA-LAST-UPDATE": "2020-04-14"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/012/SRR10668912/SRR10668912_1.fastq.gz",
+                                        "md5": "c29596d50442fafcba572d79fbc22b03",
+                                        "size": "1999412510"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/012/SRR10668912/SRR10668912_2.fastq.gz",
+                                        "md5": "5558410698e0f02f724efcadfd88c315",
+                                        "size": "5115000549"
+                                    }
+                                ]
+                            },
+                            "SRR10668913": {
+                                "accession": "SRR10668913",
+                                "experiment": "SRX7347536",
+                                "study": "SRP214324",
+                                "sample": "SRS5807143",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM4213837: T166_invivo; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "112199848",
+                                    "ENA-BASE-COUNT": "14473780392",
+                                    "ENA-FIRST-PUBLIC": "2020-04-14",
+                                    "ENA-LAST-UPDATE": "2020-04-14"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/013/SRR10668913/SRR10668913_1.fastq.gz",
+                                        "md5": "b83f177febdf024e4a5464b8a9d02951",
+                                        "size": "1990794141"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/013/SRR10668913/SRR10668913_2.fastq.gz",
+                                        "md5": "6c6992dd0ef7050feaa2272f8287bcd6",
+                                        "size": "5097536888"
+                                    }
+                                ]
+                            },
+                            "SRR10668914": {
+                                "accession": "SRR10668914",
+                                "experiment": "SRX7347536",
+                                "study": "SRP214324",
+                                "sample": "SRS5807143",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM4213837: T166_invivo; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "113010867",
+                                    "ENA-BASE-COUNT": "14578401843",
+                                    "ENA-FIRST-PUBLIC": "2020-04-14",
+                                    "ENA-LAST-UPDATE": "2020-04-14"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/014/SRR10668914/SRR10668914_1.fastq.gz",
+                                        "md5": "24d9ec9294bc63873f10bb82a0e16c75",
+                                        "size": "2006899243"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/014/SRR10668914/SRR10668914_2.fastq.gz",
+                                        "md5": "b444bd1da707437934608341706f508b",
+                                        "size": "5166981738"
+                                    }
+                                ]
+                            },
+                            "SRR10668915": {
+                                "accession": "SRR10668915",
+                                "experiment": "SRX7347536",
+                                "study": "SRP214324",
+                                "sample": "SRS5807143",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM4213837: T166_invivo; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "112141974",
+                                    "ENA-BASE-COUNT": "14466314646",
+                                    "ENA-FIRST-PUBLIC": "2020-04-14",
+                                    "ENA-LAST-UPDATE": "2020-04-14"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/015/SRR10668915/SRR10668915_1.fastq.gz",
+                                        "md5": "1cf1c333284682605a09e8d6d3ad2b70",
+                                        "size": "1990162630"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/015/SRR10668915/SRR10668915_2.fastq.gz",
+                                        "md5": "2cc311021babab28ae9b077851e8a1f4",
+                                        "size": "5095480267"
+                                    }
+                                ]
+                            },
+                            "SRR10668916": {
+                                "accession": "SRR10668916",
+                                "experiment": "SRX7347536",
+                                "study": "SRP214324",
+                                "sample": "SRS5807143",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM4213837: T166_invivo; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "84714132",
+                                    "ENA-BASE-COUNT": "10928123028",
+                                    "ENA-FIRST-PUBLIC": "2020-04-14",
+                                    "ENA-LAST-UPDATE": "2020-04-14"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/016/SRR10668916/SRR10668916_1.fastq.gz",
+                                        "md5": "ae09ed4ba62d99c8a09f4adf70a3a295",
+                                        "size": "1514311359"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/016/SRR10668916/SRR10668916_2.fastq.gz",
+                                        "md5": "6d987168b91d1988f3040c13606cc47f",
+                                        "size": "3805363261"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

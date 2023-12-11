@@ -1,0 +1,58 @@
+{
+    "GSM3711762": {
+        "accession": "GSM3711762",
+        "platform": {
+            "accession": "GPL20301",
+            "title": "Illumina HiSeq 4000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4590158": {
+                "accession": "SRS4590158",
+                "title": "AT-05-SAT",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "adipose derived stromal vascular fraction (SVF)",
+                    "subject status": "obese individual",
+                    "diabetic status": "Diabetic",
+                    "tissue": "Subcutaneous adipose tissue",
+                    "cd34 sorting": "Not FACS Sorted",
+                    "ENA-SPOT-COUNT": "41047084",
+                    "ENA-BASE-COUNT": "4022614232",
+                    "ENA-FIRST-PUBLIC": "2019-11-05",
+                    "ENA-LAST-UPDATE": "2019-11-06"
+                },
+                "experiment": {
+                    "SRX5644465": {
+                        "accession": "SRX5644465",
+                        "title": "Illumina HiSeq 4000 sequencing; GSM3711762: AT-05-SAT; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 4000",
+                        "runs": {
+                            "SRR8856835": {
+                                "accession": "SRR8856835",
+                                "experiment": "SRX5644465",
+                                "study": "SRP190924",
+                                "sample": "SRS4590158",
+                                "title": "Illumina HiSeq 4000 sequencing; GSM3711762: AT-05-SAT; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "assembly": "GRCh38",
+                                    "ENA-SPOT-COUNT": "41047084",
+                                    "ENA-BASE-COUNT": "4022614232",
+                                    "ENA-FIRST-PUBLIC": "2019-11-07",
+                                    "ENA-LAST-UPDATE": "2019-11-07"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR885/SRR8856835/Ate_05_SC.bam.1",
+                                        "md5": "1b1867a32cfda4a8a94c383f362c636a",
+                                        "size": "10080373597"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

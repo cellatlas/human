@@ -1,0 +1,56 @@
+{
+    "GSM3302525": {
+        "accession": "GSM3302525",
+        "platform": {
+            "accession": "GPL18573",
+            "title": "Illumina NextSeq 500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS3572595": {
+                "accession": "SRS3572595",
+                "title": "AdultHuman-Spermatids_17-11",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Adult testis",
+                    "number of cells": "4348",
+                    "cell type": "Sta-Put enriched Spermatids",
+                    "ENA-SPOT-COUNT": "202957093",
+                    "ENA-BASE-COUNT": "20295709300",
+                    "ENA-FIRST-PUBLIC": "2018-11-07",
+                    "ENA-LAST-UPDATE": "2018-11-07"
+                },
+                "experiment": {
+                    "SRX4419806": {
+                        "accession": "SRX4419806",
+                        "title": "NextSeq 500 paired end sequencing; GSM3302525: AdultHuman-Spermatids_17-11; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "NextSeq 500",
+                        "runs": {
+                            "SRR7553901": {
+                                "accession": "SRR7553901",
+                                "experiment": "SRX4419806",
+                                "study": "SRP128724",
+                                "sample": "SRS3572595",
+                                "title": "NextSeq 500 paired end sequencing; GSM3302525: AdultHuman-Spermatids_17-11; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "assembly": "GRCh38",
+                                    "ENA-SPOT-COUNT": "202957093",
+                                    "ENA-BASE-COUNT": "20295709300",
+                                    "ENA-FIRST-PUBLIC": "2018-11-10",
+                                    "ENA-LAST-UPDATE": "2018-11-10"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/SRA645/SRA645804/bam/AdultHuman_Spermatids_17_11_possorted_genome_bam.bam",
+                                        "md5": "69ebc966c24ce67e918ebbfbc2d50c5c",
+                                        "size": "25049229620"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

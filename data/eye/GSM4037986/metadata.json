@@ -1,0 +1,1222 @@
+{
+    "GSM4037986": {
+        "accession": "GSM4037986",
+        "supplementary_files": [
+            [
+                {
+                    "filename": "GSM4037986_peripheral_donor_3_expression.tsv.gz",
+                    "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM4037nnn/GSM4037986/suppl/GSM4037986_peripheral_donor_3_expression.tsv.gz",
+                    "size": "3406282"
+                }
+            ]
+        ],
+        "experiments": {
+            "SRX6730015": {
+                "accession": "SRX6730015",
+                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                "runs": {
+                    "SRR9990755": {
+                        "accession": "SRR9990755",
+                        "experiment": {
+                            "accession": "SRX6730015",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218652",
+                            "title": "Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration",
+                            "abstract": "Purpose: The goals of this study were to identify cell specific expression patterns of the retinal pigment epithelium (RPE) and a variety of choroidal cell types originating from the macula and the periphery of human donor eyes, with a particular emphasis on identifying expression signatures of choroidal endothelial cells. Methods: Independent libraries were prepared for macular and peripheral samples of combined RPE/choroid from seven donors in two single cell sequencing experiments. In the first experiment, 8-mm macular and peripheral punches of RPE/choroid from Donors 1-3 were digested in papain prior to cryopreservation and subsequent GEM barcoding/library construction. Donors 1-2 had no noted ophthalmologic disease documented, while Donor 3 was diagnosed with age-related macular degeneration. In the second experiment, 12-mm macular and peripheral punches of RPE/choroid from Donors 4-7 were digested in collagenase II prior to cryopreservation, CD31-magentic bead enrichment and subsequent GEM barcoding/library construction. Donors 5-7 had no noted ophthalmologic disease documented, while Donor 4 was diagnosed with age-related macular degeneration. In both experiments, libraries were sequenced on a HiSeq4000. Sequenced reads were mapped to the human genome build hg19 will CellRanger(v3.0.1) and filters removed cells likely to be doublets or cells with a high proportion of mitochondrial reads. Clustering of cells with similar expression profiles was performed with Seurat (v3.0.2). Results: In the first experiment with unenriched RPE/choroid from donors 1-3, we recovered 4,355 cells post filtering with 40,177,477 corresponding reads. A total of 2,167 cells originated from the macula and 2,168 cells originated from the periphery. A total of 11 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type. Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Results: In the second experiment with CD31-enriched RPE/choroid from donors 4-7, we recovered 14,234 cells post filtering with 135,742,297 corresponding reads. A total of 7,647 cells originated from the macula and 6,587 cells originated from the periphery. A total of 8,521 of these cells were presumed endothelial cells. A total of 13 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type(s). Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Within each of the endothelial clusters (Clusters 5-8), differential expression analysis was performed between each cluster and the remaining endothelial cells. Conclusions: This study provides a large atlas of single-cell level gene expression patterns of the human retinal pigment epithelium and choroidal cell types. We identify expression patterns of most expected choroidal cell populations and describe macular versus peripheral regional differences. We additionally identify enriched transcripts in specific cell populations in age-related macular degeneration. We characterize gene expression patterns along the choroidal vascular tree, and identify populations of arterial, capillary, and venous endothelial cells. Our results show that single-cell sequencing can be performed on human RPE/choroid after cryopreservation, and that CD31 magnetic bead enrichment can be employed to enrich for endothelial cells for single-cell sequencing. Overall design: mRNA profiles for thousands of cells from macular and peripheral RPE/choroid isolates were generated from seven human donor eyes using 10X Genomics Chromium single-cell system followed by sequencing on an Illumina HiSeq 4000."
+                        },
+                        "sample": {
+                            "accession": "SRS5281874",
+                            "title": "Peripheral-8mm-rpe-cho-donor-3",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "RPE-choroid",
+                                "enrichment": "unenriched",
+                                "donor": "3",
+                                "tissue": "RPE-choroid",
+                                "location": "periphery",
+                                "punch-size": "8-mm",
+                                "ENA-SPOT-COUNT": "235055245",
+                                "ENA-BASE-COUNT": "62985387251",
+                                "ENA-FIRST-PUBLIC": "2019-10-31",
+                                "ENA-LAST-UPDATE": "2019-11-01"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "12354022",
+                            "ENA-BASE-COUNT": "3730914644",
+                            "ENA-FIRST-PUBLIC": "2019-10-31",
+                            "ENA-LAST-UPDATE": "2019-10-31"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/005/SRR9990755/SRR9990755_1.fastq.gz",
+                                "md5": "7ab90e6d0407028521485e678aae72e5",
+                                "size": "980867004"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/005/SRR9990755/SRR9990755_2.fastq.gz",
+                                "md5": "452d88dfd15b6eb9d591092921330efd",
+                                "size": "659214215"
+                            }
+                        ]
+                    },
+                    "SRR9990756": {
+                        "accession": "SRR9990756",
+                        "experiment": {
+                            "accession": "SRX6730015",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218652",
+                            "title": "Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration",
+                            "abstract": "Purpose: The goals of this study were to identify cell specific expression patterns of the retinal pigment epithelium (RPE) and a variety of choroidal cell types originating from the macula and the periphery of human donor eyes, with a particular emphasis on identifying expression signatures of choroidal endothelial cells. Methods: Independent libraries were prepared for macular and peripheral samples of combined RPE/choroid from seven donors in two single cell sequencing experiments. In the first experiment, 8-mm macular and peripheral punches of RPE/choroid from Donors 1-3 were digested in papain prior to cryopreservation and subsequent GEM barcoding/library construction. Donors 1-2 had no noted ophthalmologic disease documented, while Donor 3 was diagnosed with age-related macular degeneration. In the second experiment, 12-mm macular and peripheral punches of RPE/choroid from Donors 4-7 were digested in collagenase II prior to cryopreservation, CD31-magentic bead enrichment and subsequent GEM barcoding/library construction. Donors 5-7 had no noted ophthalmologic disease documented, while Donor 4 was diagnosed with age-related macular degeneration. In both experiments, libraries were sequenced on a HiSeq4000. Sequenced reads were mapped to the human genome build hg19 will CellRanger(v3.0.1) and filters removed cells likely to be doublets or cells with a high proportion of mitochondrial reads. Clustering of cells with similar expression profiles was performed with Seurat (v3.0.2). Results: In the first experiment with unenriched RPE/choroid from donors 1-3, we recovered 4,355 cells post filtering with 40,177,477 corresponding reads. A total of 2,167 cells originated from the macula and 2,168 cells originated from the periphery. A total of 11 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type. Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Results: In the second experiment with CD31-enriched RPE/choroid from donors 4-7, we recovered 14,234 cells post filtering with 135,742,297 corresponding reads. A total of 7,647 cells originated from the macula and 6,587 cells originated from the periphery. A total of 8,521 of these cells were presumed endothelial cells. A total of 13 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type(s). Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Within each of the endothelial clusters (Clusters 5-8), differential expression analysis was performed between each cluster and the remaining endothelial cells. Conclusions: This study provides a large atlas of single-cell level gene expression patterns of the human retinal pigment epithelium and choroidal cell types. We identify expression patterns of most expected choroidal cell populations and describe macular versus peripheral regional differences. We additionally identify enriched transcripts in specific cell populations in age-related macular degeneration. We characterize gene expression patterns along the choroidal vascular tree, and identify populations of arterial, capillary, and venous endothelial cells. Our results show that single-cell sequencing can be performed on human RPE/choroid after cryopreservation, and that CD31 magnetic bead enrichment can be employed to enrich for endothelial cells for single-cell sequencing. Overall design: mRNA profiles for thousands of cells from macular and peripheral RPE/choroid isolates were generated from seven human donor eyes using 10X Genomics Chromium single-cell system followed by sequencing on an Illumina HiSeq 4000."
+                        },
+                        "sample": {
+                            "accession": "SRS5281874",
+                            "title": "Peripheral-8mm-rpe-cho-donor-3",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "RPE-choroid",
+                                "enrichment": "unenriched",
+                                "donor": "3",
+                                "tissue": "RPE-choroid",
+                                "location": "periphery",
+                                "punch-size": "8-mm",
+                                "ENA-SPOT-COUNT": "235055245",
+                                "ENA-BASE-COUNT": "62985387251",
+                                "ENA-FIRST-PUBLIC": "2019-10-31",
+                                "ENA-LAST-UPDATE": "2019-11-01"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "9640531",
+                            "ENA-BASE-COUNT": "2911440362",
+                            "ENA-FIRST-PUBLIC": "2019-10-31",
+                            "ENA-LAST-UPDATE": "2019-10-31"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/006/SRR9990756/SRR9990756_1.fastq.gz",
+                                "md5": "746b81e42758d7fe3ef6eb9062acb34c",
+                                "size": "778092403"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/006/SRR9990756/SRR9990756_2.fastq.gz",
+                                "md5": "0f9d3c2e1eaeb18dd788ea2da83b363b",
+                                "size": "464695803"
+                            }
+                        ]
+                    },
+                    "SRR9990757": {
+                        "accession": "SRR9990757",
+                        "experiment": {
+                            "accession": "SRX6730015",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218652",
+                            "title": "Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration",
+                            "abstract": "Purpose: The goals of this study were to identify cell specific expression patterns of the retinal pigment epithelium (RPE) and a variety of choroidal cell types originating from the macula and the periphery of human donor eyes, with a particular emphasis on identifying expression signatures of choroidal endothelial cells. Methods: Independent libraries were prepared for macular and peripheral samples of combined RPE/choroid from seven donors in two single cell sequencing experiments. In the first experiment, 8-mm macular and peripheral punches of RPE/choroid from Donors 1-3 were digested in papain prior to cryopreservation and subsequent GEM barcoding/library construction. Donors 1-2 had no noted ophthalmologic disease documented, while Donor 3 was diagnosed with age-related macular degeneration. In the second experiment, 12-mm macular and peripheral punches of RPE/choroid from Donors 4-7 were digested in collagenase II prior to cryopreservation, CD31-magentic bead enrichment and subsequent GEM barcoding/library construction. Donors 5-7 had no noted ophthalmologic disease documented, while Donor 4 was diagnosed with age-related macular degeneration. In both experiments, libraries were sequenced on a HiSeq4000. Sequenced reads were mapped to the human genome build hg19 will CellRanger(v3.0.1) and filters removed cells likely to be doublets or cells with a high proportion of mitochondrial reads. Clustering of cells with similar expression profiles was performed with Seurat (v3.0.2). Results: In the first experiment with unenriched RPE/choroid from donors 1-3, we recovered 4,355 cells post filtering with 40,177,477 corresponding reads. A total of 2,167 cells originated from the macula and 2,168 cells originated from the periphery. A total of 11 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type. Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Results: In the second experiment with CD31-enriched RPE/choroid from donors 4-7, we recovered 14,234 cells post filtering with 135,742,297 corresponding reads. A total of 7,647 cells originated from the macula and 6,587 cells originated from the periphery. A total of 8,521 of these cells were presumed endothelial cells. A total of 13 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type(s). Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Within each of the endothelial clusters (Clusters 5-8), differential expression analysis was performed between each cluster and the remaining endothelial cells. Conclusions: This study provides a large atlas of single-cell level gene expression patterns of the human retinal pigment epithelium and choroidal cell types. We identify expression patterns of most expected choroidal cell populations and describe macular versus peripheral regional differences. We additionally identify enriched transcripts in specific cell populations in age-related macular degeneration. We characterize gene expression patterns along the choroidal vascular tree, and identify populations of arterial, capillary, and venous endothelial cells. Our results show that single-cell sequencing can be performed on human RPE/choroid after cryopreservation, and that CD31 magnetic bead enrichment can be employed to enrich for endothelial cells for single-cell sequencing. Overall design: mRNA profiles for thousands of cells from macular and peripheral RPE/choroid isolates were generated from seven human donor eyes using 10X Genomics Chromium single-cell system followed by sequencing on an Illumina HiSeq 4000."
+                        },
+                        "sample": {
+                            "accession": "SRS5281874",
+                            "title": "Peripheral-8mm-rpe-cho-donor-3",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "RPE-choroid",
+                                "enrichment": "unenriched",
+                                "donor": "3",
+                                "tissue": "RPE-choroid",
+                                "location": "periphery",
+                                "punch-size": "8-mm",
+                                "ENA-SPOT-COUNT": "235055245",
+                                "ENA-BASE-COUNT": "62985387251",
+                                "ENA-FIRST-PUBLIC": "2019-10-31",
+                                "ENA-LAST-UPDATE": "2019-11-01"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "9854894",
+                            "ENA-BASE-COUNT": "2976177988",
+                            "ENA-FIRST-PUBLIC": "2019-10-31",
+                            "ENA-LAST-UPDATE": "2019-10-31"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/007/SRR9990757/SRR9990757_1.fastq.gz",
+                                "md5": "17383fadb5781e55333cbedf93936715",
+                                "size": "795814402"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/007/SRR9990757/SRR9990757_2.fastq.gz",
+                                "md5": "70db74020fe0b9d96eb174bd88ec5f6e",
+                                "size": "484698748"
+                            }
+                        ]
+                    },
+                    "SRR9990758": {
+                        "accession": "SRR9990758",
+                        "experiment": {
+                            "accession": "SRX6730015",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218652",
+                            "title": "Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration",
+                            "abstract": "Purpose: The goals of this study were to identify cell specific expression patterns of the retinal pigment epithelium (RPE) and a variety of choroidal cell types originating from the macula and the periphery of human donor eyes, with a particular emphasis on identifying expression signatures of choroidal endothelial cells. Methods: Independent libraries were prepared for macular and peripheral samples of combined RPE/choroid from seven donors in two single cell sequencing experiments. In the first experiment, 8-mm macular and peripheral punches of RPE/choroid from Donors 1-3 were digested in papain prior to cryopreservation and subsequent GEM barcoding/library construction. Donors 1-2 had no noted ophthalmologic disease documented, while Donor 3 was diagnosed with age-related macular degeneration. In the second experiment, 12-mm macular and peripheral punches of RPE/choroid from Donors 4-7 were digested in collagenase II prior to cryopreservation, CD31-magentic bead enrichment and subsequent GEM barcoding/library construction. Donors 5-7 had no noted ophthalmologic disease documented, while Donor 4 was diagnosed with age-related macular degeneration. In both experiments, libraries were sequenced on a HiSeq4000. Sequenced reads were mapped to the human genome build hg19 will CellRanger(v3.0.1) and filters removed cells likely to be doublets or cells with a high proportion of mitochondrial reads. Clustering of cells with similar expression profiles was performed with Seurat (v3.0.2). Results: In the first experiment with unenriched RPE/choroid from donors 1-3, we recovered 4,355 cells post filtering with 40,177,477 corresponding reads. A total of 2,167 cells originated from the macula and 2,168 cells originated from the periphery. A total of 11 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type. Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Results: In the second experiment with CD31-enriched RPE/choroid from donors 4-7, we recovered 14,234 cells post filtering with 135,742,297 corresponding reads. A total of 7,647 cells originated from the macula and 6,587 cells originated from the periphery. A total of 8,521 of these cells were presumed endothelial cells. A total of 13 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type(s). Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Within each of the endothelial clusters (Clusters 5-8), differential expression analysis was performed between each cluster and the remaining endothelial cells. Conclusions: This study provides a large atlas of single-cell level gene expression patterns of the human retinal pigment epithelium and choroidal cell types. We identify expression patterns of most expected choroidal cell populations and describe macular versus peripheral regional differences. We additionally identify enriched transcripts in specific cell populations in age-related macular degeneration. We characterize gene expression patterns along the choroidal vascular tree, and identify populations of arterial, capillary, and venous endothelial cells. Our results show that single-cell sequencing can be performed on human RPE/choroid after cryopreservation, and that CD31 magnetic bead enrichment can be employed to enrich for endothelial cells for single-cell sequencing. Overall design: mRNA profiles for thousands of cells from macular and peripheral RPE/choroid isolates were generated from seven human donor eyes using 10X Genomics Chromium single-cell system followed by sequencing on an Illumina HiSeq 4000."
+                        },
+                        "sample": {
+                            "accession": "SRS5281874",
+                            "title": "Peripheral-8mm-rpe-cho-donor-3",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "RPE-choroid",
+                                "enrichment": "unenriched",
+                                "donor": "3",
+                                "tissue": "RPE-choroid",
+                                "location": "periphery",
+                                "punch-size": "8-mm",
+                                "ENA-SPOT-COUNT": "235055245",
+                                "ENA-BASE-COUNT": "62985387251",
+                                "ENA-FIRST-PUBLIC": "2019-10-31",
+                                "ENA-LAST-UPDATE": "2019-11-01"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "8495124",
+                            "ENA-BASE-COUNT": "2565527448",
+                            "ENA-FIRST-PUBLIC": "2019-10-31",
+                            "ENA-LAST-UPDATE": "2019-10-31"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/008/SRR9990758/SRR9990758_1.fastq.gz",
+                                "md5": "f0621fe394611b5757dcae09ebcb8dd6",
+                                "size": "687806383"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/008/SRR9990758/SRR9990758_2.fastq.gz",
+                                "md5": "a54d8bda0c7969bf6ded109ee14c75b0",
+                                "size": "427936991"
+                            }
+                        ]
+                    },
+                    "SRR9990759": {
+                        "accession": "SRR9990759",
+                        "experiment": {
+                            "accession": "SRX6730015",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218652",
+                            "title": "Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration",
+                            "abstract": "Purpose: The goals of this study were to identify cell specific expression patterns of the retinal pigment epithelium (RPE) and a variety of choroidal cell types originating from the macula and the periphery of human donor eyes, with a particular emphasis on identifying expression signatures of choroidal endothelial cells. Methods: Independent libraries were prepared for macular and peripheral samples of combined RPE/choroid from seven donors in two single cell sequencing experiments. In the first experiment, 8-mm macular and peripheral punches of RPE/choroid from Donors 1-3 were digested in papain prior to cryopreservation and subsequent GEM barcoding/library construction. Donors 1-2 had no noted ophthalmologic disease documented, while Donor 3 was diagnosed with age-related macular degeneration. In the second experiment, 12-mm macular and peripheral punches of RPE/choroid from Donors 4-7 were digested in collagenase II prior to cryopreservation, CD31-magentic bead enrichment and subsequent GEM barcoding/library construction. Donors 5-7 had no noted ophthalmologic disease documented, while Donor 4 was diagnosed with age-related macular degeneration. In both experiments, libraries were sequenced on a HiSeq4000. Sequenced reads were mapped to the human genome build hg19 will CellRanger(v3.0.1) and filters removed cells likely to be doublets or cells with a high proportion of mitochondrial reads. Clustering of cells with similar expression profiles was performed with Seurat (v3.0.2). Results: In the first experiment with unenriched RPE/choroid from donors 1-3, we recovered 4,355 cells post filtering with 40,177,477 corresponding reads. A total of 2,167 cells originated from the macula and 2,168 cells originated from the periphery. A total of 11 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type. Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Results: In the second experiment with CD31-enriched RPE/choroid from donors 4-7, we recovered 14,234 cells post filtering with 135,742,297 corresponding reads. A total of 7,647 cells originated from the macula and 6,587 cells originated from the periphery. A total of 8,521 of these cells were presumed endothelial cells. A total of 13 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type(s). Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Within each of the endothelial clusters (Clusters 5-8), differential expression analysis was performed between each cluster and the remaining endothelial cells. Conclusions: This study provides a large atlas of single-cell level gene expression patterns of the human retinal pigment epithelium and choroidal cell types. We identify expression patterns of most expected choroidal cell populations and describe macular versus peripheral regional differences. We additionally identify enriched transcripts in specific cell populations in age-related macular degeneration. We characterize gene expression patterns along the choroidal vascular tree, and identify populations of arterial, capillary, and venous endothelial cells. Our results show that single-cell sequencing can be performed on human RPE/choroid after cryopreservation, and that CD31 magnetic bead enrichment can be employed to enrich for endothelial cells for single-cell sequencing. Overall design: mRNA profiles for thousands of cells from macular and peripheral RPE/choroid isolates were generated from seven human donor eyes using 10X Genomics Chromium single-cell system followed by sequencing on an Illumina HiSeq 4000."
+                        },
+                        "sample": {
+                            "accession": "SRS5281874",
+                            "title": "Peripheral-8mm-rpe-cho-donor-3",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "RPE-choroid",
+                                "enrichment": "unenriched",
+                                "donor": "3",
+                                "tissue": "RPE-choroid",
+                                "location": "periphery",
+                                "punch-size": "8-mm",
+                                "ENA-SPOT-COUNT": "235055245",
+                                "ENA-BASE-COUNT": "62985387251",
+                                "ENA-FIRST-PUBLIC": "2019-10-31",
+                                "ENA-LAST-UPDATE": "2019-11-01"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "12736383",
+                            "ENA-BASE-COUNT": "3846387666",
+                            "ENA-FIRST-PUBLIC": "2019-10-31",
+                            "ENA-LAST-UPDATE": "2019-10-31"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/009/SRR9990759/SRR9990759_1.fastq.gz",
+                                "md5": "5466efb2f757cd1dbc46fc196bdbc018",
+                                "size": "1012142250"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/009/SRR9990759/SRR9990759_2.fastq.gz",
+                                "md5": "77fa2dd9d54a9ea3770fd012174f049a",
+                                "size": "653625552"
+                            }
+                        ]
+                    },
+                    "SRR9990760": {
+                        "accession": "SRR9990760",
+                        "experiment": {
+                            "accession": "SRX6730015",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218652",
+                            "title": "Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration",
+                            "abstract": "Purpose: The goals of this study were to identify cell specific expression patterns of the retinal pigment epithelium (RPE) and a variety of choroidal cell types originating from the macula and the periphery of human donor eyes, with a particular emphasis on identifying expression signatures of choroidal endothelial cells. Methods: Independent libraries were prepared for macular and peripheral samples of combined RPE/choroid from seven donors in two single cell sequencing experiments. In the first experiment, 8-mm macular and peripheral punches of RPE/choroid from Donors 1-3 were digested in papain prior to cryopreservation and subsequent GEM barcoding/library construction. Donors 1-2 had no noted ophthalmologic disease documented, while Donor 3 was diagnosed with age-related macular degeneration. In the second experiment, 12-mm macular and peripheral punches of RPE/choroid from Donors 4-7 were digested in collagenase II prior to cryopreservation, CD31-magentic bead enrichment and subsequent GEM barcoding/library construction. Donors 5-7 had no noted ophthalmologic disease documented, while Donor 4 was diagnosed with age-related macular degeneration. In both experiments, libraries were sequenced on a HiSeq4000. Sequenced reads were mapped to the human genome build hg19 will CellRanger(v3.0.1) and filters removed cells likely to be doublets or cells with a high proportion of mitochondrial reads. Clustering of cells with similar expression profiles was performed with Seurat (v3.0.2). Results: In the first experiment with unenriched RPE/choroid from donors 1-3, we recovered 4,355 cells post filtering with 40,177,477 corresponding reads. A total of 2,167 cells originated from the macula and 2,168 cells originated from the periphery. A total of 11 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type. Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Results: In the second experiment with CD31-enriched RPE/choroid from donors 4-7, we recovered 14,234 cells post filtering with 135,742,297 corresponding reads. A total of 7,647 cells originated from the macula and 6,587 cells originated from the periphery. A total of 8,521 of these cells were presumed endothelial cells. A total of 13 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type(s). Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Within each of the endothelial clusters (Clusters 5-8), differential expression analysis was performed between each cluster and the remaining endothelial cells. Conclusions: This study provides a large atlas of single-cell level gene expression patterns of the human retinal pigment epithelium and choroidal cell types. We identify expression patterns of most expected choroidal cell populations and describe macular versus peripheral regional differences. We additionally identify enriched transcripts in specific cell populations in age-related macular degeneration. We characterize gene expression patterns along the choroidal vascular tree, and identify populations of arterial, capillary, and venous endothelial cells. Our results show that single-cell sequencing can be performed on human RPE/choroid after cryopreservation, and that CD31 magnetic bead enrichment can be employed to enrich for endothelial cells for single-cell sequencing. Overall design: mRNA profiles for thousands of cells from macular and peripheral RPE/choroid isolates were generated from seven human donor eyes using 10X Genomics Chromium single-cell system followed by sequencing on an Illumina HiSeq 4000."
+                        },
+                        "sample": {
+                            "accession": "SRS5281874",
+                            "title": "Peripheral-8mm-rpe-cho-donor-3",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "RPE-choroid",
+                                "enrichment": "unenriched",
+                                "donor": "3",
+                                "tissue": "RPE-choroid",
+                                "location": "periphery",
+                                "punch-size": "8-mm",
+                                "ENA-SPOT-COUNT": "235055245",
+                                "ENA-BASE-COUNT": "62985387251",
+                                "ENA-FIRST-PUBLIC": "2019-10-31",
+                                "ENA-LAST-UPDATE": "2019-11-01"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "9996649",
+                            "ENA-BASE-COUNT": "3018987998",
+                            "ENA-FIRST-PUBLIC": "2019-10-31",
+                            "ENA-LAST-UPDATE": "2019-10-31"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/000/SRR9990760/SRR9990760_1.fastq.gz",
+                                "md5": "bec74fb78dcf8c0eea784ca0715b3f39",
+                                "size": "792538069"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/000/SRR9990760/SRR9990760_2.fastq.gz",
+                                "md5": "bd445ff1b8fd1fe81b1759a793896f5b",
+                                "size": "503074758"
+                            }
+                        ]
+                    },
+                    "SRR9990761": {
+                        "accession": "SRR9990761",
+                        "experiment": {
+                            "accession": "SRX6730015",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218652",
+                            "title": "Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration",
+                            "abstract": "Purpose: The goals of this study were to identify cell specific expression patterns of the retinal pigment epithelium (RPE) and a variety of choroidal cell types originating from the macula and the periphery of human donor eyes, with a particular emphasis on identifying expression signatures of choroidal endothelial cells. Methods: Independent libraries were prepared for macular and peripheral samples of combined RPE/choroid from seven donors in two single cell sequencing experiments. In the first experiment, 8-mm macular and peripheral punches of RPE/choroid from Donors 1-3 were digested in papain prior to cryopreservation and subsequent GEM barcoding/library construction. Donors 1-2 had no noted ophthalmologic disease documented, while Donor 3 was diagnosed with age-related macular degeneration. In the second experiment, 12-mm macular and peripheral punches of RPE/choroid from Donors 4-7 were digested in collagenase II prior to cryopreservation, CD31-magentic bead enrichment and subsequent GEM barcoding/library construction. Donors 5-7 had no noted ophthalmologic disease documented, while Donor 4 was diagnosed with age-related macular degeneration. In both experiments, libraries were sequenced on a HiSeq4000. Sequenced reads were mapped to the human genome build hg19 will CellRanger(v3.0.1) and filters removed cells likely to be doublets or cells with a high proportion of mitochondrial reads. Clustering of cells with similar expression profiles was performed with Seurat (v3.0.2). Results: In the first experiment with unenriched RPE/choroid from donors 1-3, we recovered 4,355 cells post filtering with 40,177,477 corresponding reads. A total of 2,167 cells originated from the macula and 2,168 cells originated from the periphery. A total of 11 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type. Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Results: In the second experiment with CD31-enriched RPE/choroid from donors 4-7, we recovered 14,234 cells post filtering with 135,742,297 corresponding reads. A total of 7,647 cells originated from the macula and 6,587 cells originated from the periphery. A total of 8,521 of these cells were presumed endothelial cells. A total of 13 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type(s). Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Within each of the endothelial clusters (Clusters 5-8), differential expression analysis was performed between each cluster and the remaining endothelial cells. Conclusions: This study provides a large atlas of single-cell level gene expression patterns of the human retinal pigment epithelium and choroidal cell types. We identify expression patterns of most expected choroidal cell populations and describe macular versus peripheral regional differences. We additionally identify enriched transcripts in specific cell populations in age-related macular degeneration. We characterize gene expression patterns along the choroidal vascular tree, and identify populations of arterial, capillary, and venous endothelial cells. Our results show that single-cell sequencing can be performed on human RPE/choroid after cryopreservation, and that CD31 magnetic bead enrichment can be employed to enrich for endothelial cells for single-cell sequencing. Overall design: mRNA profiles for thousands of cells from macular and peripheral RPE/choroid isolates were generated from seven human donor eyes using 10X Genomics Chromium single-cell system followed by sequencing on an Illumina HiSeq 4000."
+                        },
+                        "sample": {
+                            "accession": "SRS5281874",
+                            "title": "Peripheral-8mm-rpe-cho-donor-3",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "RPE-choroid",
+                                "enrichment": "unenriched",
+                                "donor": "3",
+                                "tissue": "RPE-choroid",
+                                "location": "periphery",
+                                "punch-size": "8-mm",
+                                "ENA-SPOT-COUNT": "235055245",
+                                "ENA-BASE-COUNT": "62985387251",
+                                "ENA-FIRST-PUBLIC": "2019-10-31",
+                                "ENA-LAST-UPDATE": "2019-11-01"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "10252994",
+                            "ENA-BASE-COUNT": "3096404188",
+                            "ENA-FIRST-PUBLIC": "2019-10-31",
+                            "ENA-LAST-UPDATE": "2019-10-31"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/001/SRR9990761/SRR9990761_1.fastq.gz",
+                                "md5": "d8c6775d512dd5791fab24de3d0a5c83",
+                                "size": "813170188"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/001/SRR9990761/SRR9990761_2.fastq.gz",
+                                "md5": "d4c2204090f2f1db97cd4b77053d39eb",
+                                "size": "528389271"
+                            }
+                        ]
+                    },
+                    "SRR9990762": {
+                        "accession": "SRR9990762",
+                        "experiment": {
+                            "accession": "SRX6730015",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218652",
+                            "title": "Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration",
+                            "abstract": "Purpose: The goals of this study were to identify cell specific expression patterns of the retinal pigment epithelium (RPE) and a variety of choroidal cell types originating from the macula and the periphery of human donor eyes, with a particular emphasis on identifying expression signatures of choroidal endothelial cells. Methods: Independent libraries were prepared for macular and peripheral samples of combined RPE/choroid from seven donors in two single cell sequencing experiments. In the first experiment, 8-mm macular and peripheral punches of RPE/choroid from Donors 1-3 were digested in papain prior to cryopreservation and subsequent GEM barcoding/library construction. Donors 1-2 had no noted ophthalmologic disease documented, while Donor 3 was diagnosed with age-related macular degeneration. In the second experiment, 12-mm macular and peripheral punches of RPE/choroid from Donors 4-7 were digested in collagenase II prior to cryopreservation, CD31-magentic bead enrichment and subsequent GEM barcoding/library construction. Donors 5-7 had no noted ophthalmologic disease documented, while Donor 4 was diagnosed with age-related macular degeneration. In both experiments, libraries were sequenced on a HiSeq4000. Sequenced reads were mapped to the human genome build hg19 will CellRanger(v3.0.1) and filters removed cells likely to be doublets or cells with a high proportion of mitochondrial reads. Clustering of cells with similar expression profiles was performed with Seurat (v3.0.2). Results: In the first experiment with unenriched RPE/choroid from donors 1-3, we recovered 4,355 cells post filtering with 40,177,477 corresponding reads. A total of 2,167 cells originated from the macula and 2,168 cells originated from the periphery. A total of 11 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type. Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Results: In the second experiment with CD31-enriched RPE/choroid from donors 4-7, we recovered 14,234 cells post filtering with 135,742,297 corresponding reads. A total of 7,647 cells originated from the macula and 6,587 cells originated from the periphery. A total of 8,521 of these cells were presumed endothelial cells. A total of 13 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type(s). Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Within each of the endothelial clusters (Clusters 5-8), differential expression analysis was performed between each cluster and the remaining endothelial cells. Conclusions: This study provides a large atlas of single-cell level gene expression patterns of the human retinal pigment epithelium and choroidal cell types. We identify expression patterns of most expected choroidal cell populations and describe macular versus peripheral regional differences. We additionally identify enriched transcripts in specific cell populations in age-related macular degeneration. We characterize gene expression patterns along the choroidal vascular tree, and identify populations of arterial, capillary, and venous endothelial cells. Our results show that single-cell sequencing can be performed on human RPE/choroid after cryopreservation, and that CD31 magnetic bead enrichment can be employed to enrich for endothelial cells for single-cell sequencing. Overall design: mRNA profiles for thousands of cells from macular and peripheral RPE/choroid isolates were generated from seven human donor eyes using 10X Genomics Chromium single-cell system followed by sequencing on an Illumina HiSeq 4000."
+                        },
+                        "sample": {
+                            "accession": "SRS5281874",
+                            "title": "Peripheral-8mm-rpe-cho-donor-3",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "RPE-choroid",
+                                "enrichment": "unenriched",
+                                "donor": "3",
+                                "tissue": "RPE-choroid",
+                                "location": "periphery",
+                                "punch-size": "8-mm",
+                                "ENA-SPOT-COUNT": "235055245",
+                                "ENA-BASE-COUNT": "62985387251",
+                                "ENA-FIRST-PUBLIC": "2019-10-31",
+                                "ENA-LAST-UPDATE": "2019-11-01"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "8795619",
+                            "ENA-BASE-COUNT": "2656276938",
+                            "ENA-FIRST-PUBLIC": "2019-10-31",
+                            "ENA-LAST-UPDATE": "2019-10-31"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/002/SRR9990762/SRR9990762_1.fastq.gz",
+                                "md5": "9c5c499cc017ba6c222b49bd569e03bd",
+                                "size": "700475759"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/002/SRR9990762/SRR9990762_2.fastq.gz",
+                                "md5": "1220c54c8a8493275be77bc49a92eafc",
+                                "size": "466052826"
+                            }
+                        ]
+                    },
+                    "SRR9990763": {
+                        "accession": "SRR9990763",
+                        "experiment": {
+                            "accession": "SRX6730015",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218652",
+                            "title": "Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration",
+                            "abstract": "Purpose: The goals of this study were to identify cell specific expression patterns of the retinal pigment epithelium (RPE) and a variety of choroidal cell types originating from the macula and the periphery of human donor eyes, with a particular emphasis on identifying expression signatures of choroidal endothelial cells. Methods: Independent libraries were prepared for macular and peripheral samples of combined RPE/choroid from seven donors in two single cell sequencing experiments. In the first experiment, 8-mm macular and peripheral punches of RPE/choroid from Donors 1-3 were digested in papain prior to cryopreservation and subsequent GEM barcoding/library construction. Donors 1-2 had no noted ophthalmologic disease documented, while Donor 3 was diagnosed with age-related macular degeneration. In the second experiment, 12-mm macular and peripheral punches of RPE/choroid from Donors 4-7 were digested in collagenase II prior to cryopreservation, CD31-magentic bead enrichment and subsequent GEM barcoding/library construction. Donors 5-7 had no noted ophthalmologic disease documented, while Donor 4 was diagnosed with age-related macular degeneration. In both experiments, libraries were sequenced on a HiSeq4000. Sequenced reads were mapped to the human genome build hg19 will CellRanger(v3.0.1) and filters removed cells likely to be doublets or cells with a high proportion of mitochondrial reads. Clustering of cells with similar expression profiles was performed with Seurat (v3.0.2). Results: In the first experiment with unenriched RPE/choroid from donors 1-3, we recovered 4,355 cells post filtering with 40,177,477 corresponding reads. A total of 2,167 cells originated from the macula and 2,168 cells originated from the periphery. A total of 11 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type. Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Results: In the second experiment with CD31-enriched RPE/choroid from donors 4-7, we recovered 14,234 cells post filtering with 135,742,297 corresponding reads. A total of 7,647 cells originated from the macula and 6,587 cells originated from the periphery. A total of 8,521 of these cells were presumed endothelial cells. A total of 13 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type(s). Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Within each of the endothelial clusters (Clusters 5-8), differential expression analysis was performed between each cluster and the remaining endothelial cells. Conclusions: This study provides a large atlas of single-cell level gene expression patterns of the human retinal pigment epithelium and choroidal cell types. We identify expression patterns of most expected choroidal cell populations and describe macular versus peripheral regional differences. We additionally identify enriched transcripts in specific cell populations in age-related macular degeneration. We characterize gene expression patterns along the choroidal vascular tree, and identify populations of arterial, capillary, and venous endothelial cells. Our results show that single-cell sequencing can be performed on human RPE/choroid after cryopreservation, and that CD31 magnetic bead enrichment can be employed to enrich for endothelial cells for single-cell sequencing. Overall design: mRNA profiles for thousands of cells from macular and peripheral RPE/choroid isolates were generated from seven human donor eyes using 10X Genomics Chromium single-cell system followed by sequencing on an Illumina HiSeq 4000."
+                        },
+                        "sample": {
+                            "accession": "SRS5281874",
+                            "title": "Peripheral-8mm-rpe-cho-donor-3",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "RPE-choroid",
+                                "enrichment": "unenriched",
+                                "donor": "3",
+                                "tissue": "RPE-choroid",
+                                "location": "periphery",
+                                "punch-size": "8-mm",
+                                "ENA-SPOT-COUNT": "235055245",
+                                "ENA-BASE-COUNT": "62985387251",
+                                "ENA-FIRST-PUBLIC": "2019-10-31",
+                                "ENA-LAST-UPDATE": "2019-11-01"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "12826574",
+                            "ENA-BASE-COUNT": "3873625348",
+                            "ENA-FIRST-PUBLIC": "2019-10-31",
+                            "ENA-LAST-UPDATE": "2019-10-31"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/003/SRR9990763/SRR9990763_1.fastq.gz",
+                                "md5": "01dc0885bb7f00d95617f3de7c22010a",
+                                "size": "1028466456"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/003/SRR9990763/SRR9990763_2.fastq.gz",
+                                "md5": "4390bc809c40bf95c6c040722594097f",
+                                "size": "664221141"
+                            }
+                        ]
+                    },
+                    "SRR9990764": {
+                        "accession": "SRR9990764",
+                        "experiment": {
+                            "accession": "SRX6730015",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218652",
+                            "title": "Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration",
+                            "abstract": "Purpose: The goals of this study were to identify cell specific expression patterns of the retinal pigment epithelium (RPE) and a variety of choroidal cell types originating from the macula and the periphery of human donor eyes, with a particular emphasis on identifying expression signatures of choroidal endothelial cells. Methods: Independent libraries were prepared for macular and peripheral samples of combined RPE/choroid from seven donors in two single cell sequencing experiments. In the first experiment, 8-mm macular and peripheral punches of RPE/choroid from Donors 1-3 were digested in papain prior to cryopreservation and subsequent GEM barcoding/library construction. Donors 1-2 had no noted ophthalmologic disease documented, while Donor 3 was diagnosed with age-related macular degeneration. In the second experiment, 12-mm macular and peripheral punches of RPE/choroid from Donors 4-7 were digested in collagenase II prior to cryopreservation, CD31-magentic bead enrichment and subsequent GEM barcoding/library construction. Donors 5-7 had no noted ophthalmologic disease documented, while Donor 4 was diagnosed with age-related macular degeneration. In both experiments, libraries were sequenced on a HiSeq4000. Sequenced reads were mapped to the human genome build hg19 will CellRanger(v3.0.1) and filters removed cells likely to be doublets or cells with a high proportion of mitochondrial reads. Clustering of cells with similar expression profiles was performed with Seurat (v3.0.2). Results: In the first experiment with unenriched RPE/choroid from donors 1-3, we recovered 4,355 cells post filtering with 40,177,477 corresponding reads. A total of 2,167 cells originated from the macula and 2,168 cells originated from the periphery. A total of 11 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type. Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Results: In the second experiment with CD31-enriched RPE/choroid from donors 4-7, we recovered 14,234 cells post filtering with 135,742,297 corresponding reads. A total of 7,647 cells originated from the macula and 6,587 cells originated from the periphery. A total of 8,521 of these cells were presumed endothelial cells. A total of 13 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type(s). Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Within each of the endothelial clusters (Clusters 5-8), differential expression analysis was performed between each cluster and the remaining endothelial cells. Conclusions: This study provides a large atlas of single-cell level gene expression patterns of the human retinal pigment epithelium and choroidal cell types. We identify expression patterns of most expected choroidal cell populations and describe macular versus peripheral regional differences. We additionally identify enriched transcripts in specific cell populations in age-related macular degeneration. We characterize gene expression patterns along the choroidal vascular tree, and identify populations of arterial, capillary, and venous endothelial cells. Our results show that single-cell sequencing can be performed on human RPE/choroid after cryopreservation, and that CD31 magnetic bead enrichment can be employed to enrich for endothelial cells for single-cell sequencing. Overall design: mRNA profiles for thousands of cells from macular and peripheral RPE/choroid isolates were generated from seven human donor eyes using 10X Genomics Chromium single-cell system followed by sequencing on an Illumina HiSeq 4000."
+                        },
+                        "sample": {
+                            "accession": "SRS5281874",
+                            "title": "Peripheral-8mm-rpe-cho-donor-3",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "RPE-choroid",
+                                "enrichment": "unenriched",
+                                "donor": "3",
+                                "tissue": "RPE-choroid",
+                                "location": "periphery",
+                                "punch-size": "8-mm",
+                                "ENA-SPOT-COUNT": "235055245",
+                                "ENA-BASE-COUNT": "62985387251",
+                                "ENA-FIRST-PUBLIC": "2019-10-31",
+                                "ENA-LAST-UPDATE": "2019-11-01"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "10078960",
+                            "ENA-BASE-COUNT": "3043845920",
+                            "ENA-FIRST-PUBLIC": "2019-10-31",
+                            "ENA-LAST-UPDATE": "2019-10-31"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/004/SRR9990764/SRR9990764_1.fastq.gz",
+                                "md5": "706936b843cf6bc755fd588176434ca4",
+                                "size": "806347467"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/004/SRR9990764/SRR9990764_2.fastq.gz",
+                                "md5": "687c987d1390dfe60878f784610019be",
+                                "size": "512134070"
+                            }
+                        ]
+                    },
+                    "SRR9990765": {
+                        "accession": "SRR9990765",
+                        "experiment": {
+                            "accession": "SRX6730015",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218652",
+                            "title": "Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration",
+                            "abstract": "Purpose: The goals of this study were to identify cell specific expression patterns of the retinal pigment epithelium (RPE) and a variety of choroidal cell types originating from the macula and the periphery of human donor eyes, with a particular emphasis on identifying expression signatures of choroidal endothelial cells. Methods: Independent libraries were prepared for macular and peripheral samples of combined RPE/choroid from seven donors in two single cell sequencing experiments. In the first experiment, 8-mm macular and peripheral punches of RPE/choroid from Donors 1-3 were digested in papain prior to cryopreservation and subsequent GEM barcoding/library construction. Donors 1-2 had no noted ophthalmologic disease documented, while Donor 3 was diagnosed with age-related macular degeneration. In the second experiment, 12-mm macular and peripheral punches of RPE/choroid from Donors 4-7 were digested in collagenase II prior to cryopreservation, CD31-magentic bead enrichment and subsequent GEM barcoding/library construction. Donors 5-7 had no noted ophthalmologic disease documented, while Donor 4 was diagnosed with age-related macular degeneration. In both experiments, libraries were sequenced on a HiSeq4000. Sequenced reads were mapped to the human genome build hg19 will CellRanger(v3.0.1) and filters removed cells likely to be doublets or cells with a high proportion of mitochondrial reads. Clustering of cells with similar expression profiles was performed with Seurat (v3.0.2). Results: In the first experiment with unenriched RPE/choroid from donors 1-3, we recovered 4,355 cells post filtering with 40,177,477 corresponding reads. A total of 2,167 cells originated from the macula and 2,168 cells originated from the periphery. A total of 11 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type. Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Results: In the second experiment with CD31-enriched RPE/choroid from donors 4-7, we recovered 14,234 cells post filtering with 135,742,297 corresponding reads. A total of 7,647 cells originated from the macula and 6,587 cells originated from the periphery. A total of 8,521 of these cells were presumed endothelial cells. A total of 13 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type(s). Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Within each of the endothelial clusters (Clusters 5-8), differential expression analysis was performed between each cluster and the remaining endothelial cells. Conclusions: This study provides a large atlas of single-cell level gene expression patterns of the human retinal pigment epithelium and choroidal cell types. We identify expression patterns of most expected choroidal cell populations and describe macular versus peripheral regional differences. We additionally identify enriched transcripts in specific cell populations in age-related macular degeneration. We characterize gene expression patterns along the choroidal vascular tree, and identify populations of arterial, capillary, and venous endothelial cells. Our results show that single-cell sequencing can be performed on human RPE/choroid after cryopreservation, and that CD31 magnetic bead enrichment can be employed to enrich for endothelial cells for single-cell sequencing. Overall design: mRNA profiles for thousands of cells from macular and peripheral RPE/choroid isolates were generated from seven human donor eyes using 10X Genomics Chromium single-cell system followed by sequencing on an Illumina HiSeq 4000."
+                        },
+                        "sample": {
+                            "accession": "SRS5281874",
+                            "title": "Peripheral-8mm-rpe-cho-donor-3",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "RPE-choroid",
+                                "enrichment": "unenriched",
+                                "donor": "3",
+                                "tissue": "RPE-choroid",
+                                "location": "periphery",
+                                "punch-size": "8-mm",
+                                "ENA-SPOT-COUNT": "235055245",
+                                "ENA-BASE-COUNT": "62985387251",
+                                "ENA-FIRST-PUBLIC": "2019-10-31",
+                                "ENA-LAST-UPDATE": "2019-11-01"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "10302536",
+                            "ENA-BASE-COUNT": "3111365872",
+                            "ENA-FIRST-PUBLIC": "2019-10-31",
+                            "ENA-LAST-UPDATE": "2019-10-31"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/005/SRR9990765/SRR9990765_1.fastq.gz",
+                                "md5": "dd2f281f30155e8531332f5737a9572a",
+                                "size": "824524845"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/005/SRR9990765/SRR9990765_2.fastq.gz",
+                                "md5": "08744457766ef96f051f1dcfdfa4c8b8",
+                                "size": "533777430"
+                            }
+                        ]
+                    },
+                    "SRR9990766": {
+                        "accession": "SRR9990766",
+                        "experiment": {
+                            "accession": "SRX6730015",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218652",
+                            "title": "Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration",
+                            "abstract": "Purpose: The goals of this study were to identify cell specific expression patterns of the retinal pigment epithelium (RPE) and a variety of choroidal cell types originating from the macula and the periphery of human donor eyes, with a particular emphasis on identifying expression signatures of choroidal endothelial cells. Methods: Independent libraries were prepared for macular and peripheral samples of combined RPE/choroid from seven donors in two single cell sequencing experiments. In the first experiment, 8-mm macular and peripheral punches of RPE/choroid from Donors 1-3 were digested in papain prior to cryopreservation and subsequent GEM barcoding/library construction. Donors 1-2 had no noted ophthalmologic disease documented, while Donor 3 was diagnosed with age-related macular degeneration. In the second experiment, 12-mm macular and peripheral punches of RPE/choroid from Donors 4-7 were digested in collagenase II prior to cryopreservation, CD31-magentic bead enrichment and subsequent GEM barcoding/library construction. Donors 5-7 had no noted ophthalmologic disease documented, while Donor 4 was diagnosed with age-related macular degeneration. In both experiments, libraries were sequenced on a HiSeq4000. Sequenced reads were mapped to the human genome build hg19 will CellRanger(v3.0.1) and filters removed cells likely to be doublets or cells with a high proportion of mitochondrial reads. Clustering of cells with similar expression profiles was performed with Seurat (v3.0.2). Results: In the first experiment with unenriched RPE/choroid from donors 1-3, we recovered 4,355 cells post filtering with 40,177,477 corresponding reads. A total of 2,167 cells originated from the macula and 2,168 cells originated from the periphery. A total of 11 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type. Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Results: In the second experiment with CD31-enriched RPE/choroid from donors 4-7, we recovered 14,234 cells post filtering with 135,742,297 corresponding reads. A total of 7,647 cells originated from the macula and 6,587 cells originated from the periphery. A total of 8,521 of these cells were presumed endothelial cells. A total of 13 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type(s). Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Within each of the endothelial clusters (Clusters 5-8), differential expression analysis was performed between each cluster and the remaining endothelial cells. Conclusions: This study provides a large atlas of single-cell level gene expression patterns of the human retinal pigment epithelium and choroidal cell types. We identify expression patterns of most expected choroidal cell populations and describe macular versus peripheral regional differences. We additionally identify enriched transcripts in specific cell populations in age-related macular degeneration. We characterize gene expression patterns along the choroidal vascular tree, and identify populations of arterial, capillary, and venous endothelial cells. Our results show that single-cell sequencing can be performed on human RPE/choroid after cryopreservation, and that CD31 magnetic bead enrichment can be employed to enrich for endothelial cells for single-cell sequencing. Overall design: mRNA profiles for thousands of cells from macular and peripheral RPE/choroid isolates were generated from seven human donor eyes using 10X Genomics Chromium single-cell system followed by sequencing on an Illumina HiSeq 4000."
+                        },
+                        "sample": {
+                            "accession": "SRS5281874",
+                            "title": "Peripheral-8mm-rpe-cho-donor-3",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "RPE-choroid",
+                                "enrichment": "unenriched",
+                                "donor": "3",
+                                "tissue": "RPE-choroid",
+                                "location": "periphery",
+                                "punch-size": "8-mm",
+                                "ENA-SPOT-COUNT": "235055245",
+                                "ENA-BASE-COUNT": "62985387251",
+                                "ENA-FIRST-PUBLIC": "2019-10-31",
+                                "ENA-LAST-UPDATE": "2019-11-01"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "9698232",
+                            "ENA-BASE-COUNT": "2928866064",
+                            "ENA-FIRST-PUBLIC": "2019-10-31",
+                            "ENA-LAST-UPDATE": "2019-10-31"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/006/SRR9990766/SRR9990766_1.fastq.gz",
+                                "md5": "6803242aed6f5f2c70cd65d114dd63e4",
+                                "size": "767956784"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/006/SRR9990766/SRR9990766_2.fastq.gz",
+                                "md5": "357dcf34baea8307d11571763e46a2ec",
+                                "size": "506292098"
+                            }
+                        ]
+                    },
+                    "SRR9990767": {
+                        "accession": "SRR9990767",
+                        "experiment": {
+                            "accession": "SRX6730015",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218652",
+                            "title": "Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration",
+                            "abstract": "Purpose: The goals of this study were to identify cell specific expression patterns of the retinal pigment epithelium (RPE) and a variety of choroidal cell types originating from the macula and the periphery of human donor eyes, with a particular emphasis on identifying expression signatures of choroidal endothelial cells. Methods: Independent libraries were prepared for macular and peripheral samples of combined RPE/choroid from seven donors in two single cell sequencing experiments. In the first experiment, 8-mm macular and peripheral punches of RPE/choroid from Donors 1-3 were digested in papain prior to cryopreservation and subsequent GEM barcoding/library construction. Donors 1-2 had no noted ophthalmologic disease documented, while Donor 3 was diagnosed with age-related macular degeneration. In the second experiment, 12-mm macular and peripheral punches of RPE/choroid from Donors 4-7 were digested in collagenase II prior to cryopreservation, CD31-magentic bead enrichment and subsequent GEM barcoding/library construction. Donors 5-7 had no noted ophthalmologic disease documented, while Donor 4 was diagnosed with age-related macular degeneration. In both experiments, libraries were sequenced on a HiSeq4000. Sequenced reads were mapped to the human genome build hg19 will CellRanger(v3.0.1) and filters removed cells likely to be doublets or cells with a high proportion of mitochondrial reads. Clustering of cells with similar expression profiles was performed with Seurat (v3.0.2). Results: In the first experiment with unenriched RPE/choroid from donors 1-3, we recovered 4,355 cells post filtering with 40,177,477 corresponding reads. A total of 2,167 cells originated from the macula and 2,168 cells originated from the periphery. A total of 11 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type. Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Results: In the second experiment with CD31-enriched RPE/choroid from donors 4-7, we recovered 14,234 cells post filtering with 135,742,297 corresponding reads. A total of 7,647 cells originated from the macula and 6,587 cells originated from the periphery. A total of 8,521 of these cells were presumed endothelial cells. A total of 13 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type(s). Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Within each of the endothelial clusters (Clusters 5-8), differential expression analysis was performed between each cluster and the remaining endothelial cells. Conclusions: This study provides a large atlas of single-cell level gene expression patterns of the human retinal pigment epithelium and choroidal cell types. We identify expression patterns of most expected choroidal cell populations and describe macular versus peripheral regional differences. We additionally identify enriched transcripts in specific cell populations in age-related macular degeneration. We characterize gene expression patterns along the choroidal vascular tree, and identify populations of arterial, capillary, and venous endothelial cells. Our results show that single-cell sequencing can be performed on human RPE/choroid after cryopreservation, and that CD31 magnetic bead enrichment can be employed to enrich for endothelial cells for single-cell sequencing. Overall design: mRNA profiles for thousands of cells from macular and peripheral RPE/choroid isolates were generated from seven human donor eyes using 10X Genomics Chromium single-cell system followed by sequencing on an Illumina HiSeq 4000."
+                        },
+                        "sample": {
+                            "accession": "SRS5281874",
+                            "title": "Peripheral-8mm-rpe-cho-donor-3",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "RPE-choroid",
+                                "enrichment": "unenriched",
+                                "donor": "3",
+                                "tissue": "RPE-choroid",
+                                "location": "periphery",
+                                "punch-size": "8-mm",
+                                "ENA-SPOT-COUNT": "235055245",
+                                "ENA-BASE-COUNT": "62985387251",
+                                "ENA-FIRST-PUBLIC": "2019-10-31",
+                                "ENA-LAST-UPDATE": "2019-11-01"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "8804256",
+                            "ENA-BASE-COUNT": "2658885312",
+                            "ENA-FIRST-PUBLIC": "2019-10-31",
+                            "ENA-LAST-UPDATE": "2019-10-31"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/007/SRR9990767/SRR9990767_1.fastq.gz",
+                                "md5": "c7c03adaca3498fbd483bdc227a728df",
+                                "size": "707908397"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/007/SRR9990767/SRR9990767_2.fastq.gz",
+                                "md5": "9e24f90e9629514b8a0485469710055d",
+                                "size": "473586454"
+                            }
+                        ]
+                    },
+                    "SRR9990768": {
+                        "accession": "SRR9990768",
+                        "experiment": {
+                            "accession": "SRX6730015",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218652",
+                            "title": "Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration",
+                            "abstract": "Purpose: The goals of this study were to identify cell specific expression patterns of the retinal pigment epithelium (RPE) and a variety of choroidal cell types originating from the macula and the periphery of human donor eyes, with a particular emphasis on identifying expression signatures of choroidal endothelial cells. Methods: Independent libraries were prepared for macular and peripheral samples of combined RPE/choroid from seven donors in two single cell sequencing experiments. In the first experiment, 8-mm macular and peripheral punches of RPE/choroid from Donors 1-3 were digested in papain prior to cryopreservation and subsequent GEM barcoding/library construction. Donors 1-2 had no noted ophthalmologic disease documented, while Donor 3 was diagnosed with age-related macular degeneration. In the second experiment, 12-mm macular and peripheral punches of RPE/choroid from Donors 4-7 were digested in collagenase II prior to cryopreservation, CD31-magentic bead enrichment and subsequent GEM barcoding/library construction. Donors 5-7 had no noted ophthalmologic disease documented, while Donor 4 was diagnosed with age-related macular degeneration. In both experiments, libraries were sequenced on a HiSeq4000. Sequenced reads were mapped to the human genome build hg19 will CellRanger(v3.0.1) and filters removed cells likely to be doublets or cells with a high proportion of mitochondrial reads. Clustering of cells with similar expression profiles was performed with Seurat (v3.0.2). Results: In the first experiment with unenriched RPE/choroid from donors 1-3, we recovered 4,355 cells post filtering with 40,177,477 corresponding reads. A total of 2,167 cells originated from the macula and 2,168 cells originated from the periphery. A total of 11 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type. Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Results: In the second experiment with CD31-enriched RPE/choroid from donors 4-7, we recovered 14,234 cells post filtering with 135,742,297 corresponding reads. A total of 7,647 cells originated from the macula and 6,587 cells originated from the periphery. A total of 8,521 of these cells were presumed endothelial cells. A total of 13 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type(s). Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Within each of the endothelial clusters (Clusters 5-8), differential expression analysis was performed between each cluster and the remaining endothelial cells. Conclusions: This study provides a large atlas of single-cell level gene expression patterns of the human retinal pigment epithelium and choroidal cell types. We identify expression patterns of most expected choroidal cell populations and describe macular versus peripheral regional differences. We additionally identify enriched transcripts in specific cell populations in age-related macular degeneration. We characterize gene expression patterns along the choroidal vascular tree, and identify populations of arterial, capillary, and venous endothelial cells. Our results show that single-cell sequencing can be performed on human RPE/choroid after cryopreservation, and that CD31 magnetic bead enrichment can be employed to enrich for endothelial cells for single-cell sequencing. Overall design: mRNA profiles for thousands of cells from macular and peripheral RPE/choroid isolates were generated from seven human donor eyes using 10X Genomics Chromium single-cell system followed by sequencing on an Illumina HiSeq 4000."
+                        },
+                        "sample": {
+                            "accession": "SRS5281874",
+                            "title": "Peripheral-8mm-rpe-cho-donor-3",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "RPE-choroid",
+                                "enrichment": "unenriched",
+                                "donor": "3",
+                                "tissue": "RPE-choroid",
+                                "location": "periphery",
+                                "punch-size": "8-mm",
+                                "ENA-SPOT-COUNT": "235055245",
+                                "ENA-BASE-COUNT": "62985387251",
+                                "ENA-FIRST-PUBLIC": "2019-10-31",
+                                "ENA-LAST-UPDATE": "2019-11-01"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "8357382",
+                            "ENA-BASE-COUNT": "2523929364",
+                            "ENA-FIRST-PUBLIC": "2019-10-31",
+                            "ENA-LAST-UPDATE": "2019-10-31"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/008/SRR9990768/SRR9990768_1.fastq.gz",
+                                "md5": "def9cd0ba4e10b000ff704c5eafbf879",
+                                "size": "691152383"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/008/SRR9990768/SRR9990768_2.fastq.gz",
+                                "md5": "2f605b40b1a76e8e70322059a907b9df",
+                                "size": "497108139"
+                            }
+                        ]
+                    },
+                    "SRR9990769": {
+                        "accession": "SRR9990769",
+                        "experiment": {
+                            "accession": "SRX6730015",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218652",
+                            "title": "Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration",
+                            "abstract": "Purpose: The goals of this study were to identify cell specific expression patterns of the retinal pigment epithelium (RPE) and a variety of choroidal cell types originating from the macula and the periphery of human donor eyes, with a particular emphasis on identifying expression signatures of choroidal endothelial cells. Methods: Independent libraries were prepared for macular and peripheral samples of combined RPE/choroid from seven donors in two single cell sequencing experiments. In the first experiment, 8-mm macular and peripheral punches of RPE/choroid from Donors 1-3 were digested in papain prior to cryopreservation and subsequent GEM barcoding/library construction. Donors 1-2 had no noted ophthalmologic disease documented, while Donor 3 was diagnosed with age-related macular degeneration. In the second experiment, 12-mm macular and peripheral punches of RPE/choroid from Donors 4-7 were digested in collagenase II prior to cryopreservation, CD31-magentic bead enrichment and subsequent GEM barcoding/library construction. Donors 5-7 had no noted ophthalmologic disease documented, while Donor 4 was diagnosed with age-related macular degeneration. In both experiments, libraries were sequenced on a HiSeq4000. Sequenced reads were mapped to the human genome build hg19 will CellRanger(v3.0.1) and filters removed cells likely to be doublets or cells with a high proportion of mitochondrial reads. Clustering of cells with similar expression profiles was performed with Seurat (v3.0.2). Results: In the first experiment with unenriched RPE/choroid from donors 1-3, we recovered 4,355 cells post filtering with 40,177,477 corresponding reads. A total of 2,167 cells originated from the macula and 2,168 cells originated from the periphery. A total of 11 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type. Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Results: In the second experiment with CD31-enriched RPE/choroid from donors 4-7, we recovered 14,234 cells post filtering with 135,742,297 corresponding reads. A total of 7,647 cells originated from the macula and 6,587 cells originated from the periphery. A total of 8,521 of these cells were presumed endothelial cells. A total of 13 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type(s). Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Within each of the endothelial clusters (Clusters 5-8), differential expression analysis was performed between each cluster and the remaining endothelial cells. Conclusions: This study provides a large atlas of single-cell level gene expression patterns of the human retinal pigment epithelium and choroidal cell types. We identify expression patterns of most expected choroidal cell populations and describe macular versus peripheral regional differences. We additionally identify enriched transcripts in specific cell populations in age-related macular degeneration. We characterize gene expression patterns along the choroidal vascular tree, and identify populations of arterial, capillary, and venous endothelial cells. Our results show that single-cell sequencing can be performed on human RPE/choroid after cryopreservation, and that CD31 magnetic bead enrichment can be employed to enrich for endothelial cells for single-cell sequencing. Overall design: mRNA profiles for thousands of cells from macular and peripheral RPE/choroid isolates were generated from seven human donor eyes using 10X Genomics Chromium single-cell system followed by sequencing on an Illumina HiSeq 4000."
+                        },
+                        "sample": {
+                            "accession": "SRS5281874",
+                            "title": "Peripheral-8mm-rpe-cho-donor-3",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "RPE-choroid",
+                                "enrichment": "unenriched",
+                                "donor": "3",
+                                "tissue": "RPE-choroid",
+                                "location": "periphery",
+                                "punch-size": "8-mm",
+                                "ENA-SPOT-COUNT": "235055245",
+                                "ENA-BASE-COUNT": "62985387251",
+                                "ENA-FIRST-PUBLIC": "2019-10-31",
+                                "ENA-LAST-UPDATE": "2019-11-01"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "6367860",
+                            "ENA-BASE-COUNT": "1923093720",
+                            "ENA-FIRST-PUBLIC": "2019-10-31",
+                            "ENA-LAST-UPDATE": "2019-10-31"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/009/SRR9990769/SRR9990769_1.fastq.gz",
+                                "md5": "b6abab445c12ea524a636b7ae6837bd1",
+                                "size": "525391492"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/009/SRR9990769/SRR9990769_2.fastq.gz",
+                                "md5": "3ae33c050e4dfc9ecd89313bebd31ecf",
+                                "size": "375904444"
+                            }
+                        ]
+                    },
+                    "SRR9990770": {
+                        "accession": "SRR9990770",
+                        "experiment": {
+                            "accession": "SRX6730015",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218652",
+                            "title": "Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration",
+                            "abstract": "Purpose: The goals of this study were to identify cell specific expression patterns of the retinal pigment epithelium (RPE) and a variety of choroidal cell types originating from the macula and the periphery of human donor eyes, with a particular emphasis on identifying expression signatures of choroidal endothelial cells. Methods: Independent libraries were prepared for macular and peripheral samples of combined RPE/choroid from seven donors in two single cell sequencing experiments. In the first experiment, 8-mm macular and peripheral punches of RPE/choroid from Donors 1-3 were digested in papain prior to cryopreservation and subsequent GEM barcoding/library construction. Donors 1-2 had no noted ophthalmologic disease documented, while Donor 3 was diagnosed with age-related macular degeneration. In the second experiment, 12-mm macular and peripheral punches of RPE/choroid from Donors 4-7 were digested in collagenase II prior to cryopreservation, CD31-magentic bead enrichment and subsequent GEM barcoding/library construction. Donors 5-7 had no noted ophthalmologic disease documented, while Donor 4 was diagnosed with age-related macular degeneration. In both experiments, libraries were sequenced on a HiSeq4000. Sequenced reads were mapped to the human genome build hg19 will CellRanger(v3.0.1) and filters removed cells likely to be doublets or cells with a high proportion of mitochondrial reads. Clustering of cells with similar expression profiles was performed with Seurat (v3.0.2). Results: In the first experiment with unenriched RPE/choroid from donors 1-3, we recovered 4,355 cells post filtering with 40,177,477 corresponding reads. A total of 2,167 cells originated from the macula and 2,168 cells originated from the periphery. A total of 11 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type. Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Results: In the second experiment with CD31-enriched RPE/choroid from donors 4-7, we recovered 14,234 cells post filtering with 135,742,297 corresponding reads. A total of 7,647 cells originated from the macula and 6,587 cells originated from the periphery. A total of 8,521 of these cells were presumed endothelial cells. A total of 13 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type(s). Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Within each of the endothelial clusters (Clusters 5-8), differential expression analysis was performed between each cluster and the remaining endothelial cells. Conclusions: This study provides a large atlas of single-cell level gene expression patterns of the human retinal pigment epithelium and choroidal cell types. We identify expression patterns of most expected choroidal cell populations and describe macular versus peripheral regional differences. We additionally identify enriched transcripts in specific cell populations in age-related macular degeneration. We characterize gene expression patterns along the choroidal vascular tree, and identify populations of arterial, capillary, and venous endothelial cells. Our results show that single-cell sequencing can be performed on human RPE/choroid after cryopreservation, and that CD31 magnetic bead enrichment can be employed to enrich for endothelial cells for single-cell sequencing. Overall design: mRNA profiles for thousands of cells from macular and peripheral RPE/choroid isolates were generated from seven human donor eyes using 10X Genomics Chromium single-cell system followed by sequencing on an Illumina HiSeq 4000."
+                        },
+                        "sample": {
+                            "accession": "SRS5281874",
+                            "title": "Peripheral-8mm-rpe-cho-donor-3",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "RPE-choroid",
+                                "enrichment": "unenriched",
+                                "donor": "3",
+                                "tissue": "RPE-choroid",
+                                "location": "periphery",
+                                "punch-size": "8-mm",
+                                "ENA-SPOT-COUNT": "235055245",
+                                "ENA-BASE-COUNT": "62985387251",
+                                "ENA-FIRST-PUBLIC": "2019-10-31",
+                                "ENA-LAST-UPDATE": "2019-11-01"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "6479330",
+                            "ENA-BASE-COUNT": "1956757660",
+                            "ENA-FIRST-PUBLIC": "2019-10-31",
+                            "ENA-LAST-UPDATE": "2019-10-31"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/000/SRR9990770/SRR9990770_1.fastq.gz",
+                                "md5": "763681327eb062f9ceaacd4b3e961f1e",
+                                "size": "534513233"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/000/SRR9990770/SRR9990770_2.fastq.gz",
+                                "md5": "2f3fe5d388ab96cebd1e8ddc188487c5",
+                                "size": "383536300"
+                            }
+                        ]
+                    },
+                    "SRR9990771": {
+                        "accession": "SRR9990771",
+                        "experiment": {
+                            "accession": "SRX6730015",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218652",
+                            "title": "Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration",
+                            "abstract": "Purpose: The goals of this study were to identify cell specific expression patterns of the retinal pigment epithelium (RPE) and a variety of choroidal cell types originating from the macula and the periphery of human donor eyes, with a particular emphasis on identifying expression signatures of choroidal endothelial cells. Methods: Independent libraries were prepared for macular and peripheral samples of combined RPE/choroid from seven donors in two single cell sequencing experiments. In the first experiment, 8-mm macular and peripheral punches of RPE/choroid from Donors 1-3 were digested in papain prior to cryopreservation and subsequent GEM barcoding/library construction. Donors 1-2 had no noted ophthalmologic disease documented, while Donor 3 was diagnosed with age-related macular degeneration. In the second experiment, 12-mm macular and peripheral punches of RPE/choroid from Donors 4-7 were digested in collagenase II prior to cryopreservation, CD31-magentic bead enrichment and subsequent GEM barcoding/library construction. Donors 5-7 had no noted ophthalmologic disease documented, while Donor 4 was diagnosed with age-related macular degeneration. In both experiments, libraries were sequenced on a HiSeq4000. Sequenced reads were mapped to the human genome build hg19 will CellRanger(v3.0.1) and filters removed cells likely to be doublets or cells with a high proportion of mitochondrial reads. Clustering of cells with similar expression profiles was performed with Seurat (v3.0.2). Results: In the first experiment with unenriched RPE/choroid from donors 1-3, we recovered 4,355 cells post filtering with 40,177,477 corresponding reads. A total of 2,167 cells originated from the macula and 2,168 cells originated from the periphery. A total of 11 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type. Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Results: In the second experiment with CD31-enriched RPE/choroid from donors 4-7, we recovered 14,234 cells post filtering with 135,742,297 corresponding reads. A total of 7,647 cells originated from the macula and 6,587 cells originated from the periphery. A total of 8,521 of these cells were presumed endothelial cells. A total of 13 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type(s). Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Within each of the endothelial clusters (Clusters 5-8), differential expression analysis was performed between each cluster and the remaining endothelial cells. Conclusions: This study provides a large atlas of single-cell level gene expression patterns of the human retinal pigment epithelium and choroidal cell types. We identify expression patterns of most expected choroidal cell populations and describe macular versus peripheral regional differences. We additionally identify enriched transcripts in specific cell populations in age-related macular degeneration. We characterize gene expression patterns along the choroidal vascular tree, and identify populations of arterial, capillary, and venous endothelial cells. Our results show that single-cell sequencing can be performed on human RPE/choroid after cryopreservation, and that CD31 magnetic bead enrichment can be employed to enrich for endothelial cells for single-cell sequencing. Overall design: mRNA profiles for thousands of cells from macular and peripheral RPE/choroid isolates were generated from seven human donor eyes using 10X Genomics Chromium single-cell system followed by sequencing on an Illumina HiSeq 4000."
+                        },
+                        "sample": {
+                            "accession": "SRS5281874",
+                            "title": "Peripheral-8mm-rpe-cho-donor-3",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "RPE-choroid",
+                                "enrichment": "unenriched",
+                                "donor": "3",
+                                "tissue": "RPE-choroid",
+                                "location": "periphery",
+                                "punch-size": "8-mm",
+                                "ENA-SPOT-COUNT": "235055245",
+                                "ENA-BASE-COUNT": "62985387251",
+                                "ENA-FIRST-PUBLIC": "2019-10-31",
+                                "ENA-LAST-UPDATE": "2019-11-01"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "5659565",
+                            "ENA-BASE-COUNT": "1709188630",
+                            "ENA-FIRST-PUBLIC": "2019-10-31",
+                            "ENA-LAST-UPDATE": "2019-10-31"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/001/SRR9990771/SRR9990771_1.fastq.gz",
+                                "md5": "622c12a169fa99a0fdaf36d9d34a7764",
+                                "size": "468687846"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/001/SRR9990771/SRR9990771_2.fastq.gz",
+                                "md5": "e3c5209bd864a7f807e9b3af6f3818a9",
+                                "size": "345262137"
+                            }
+                        ]
+                    },
+                    "SRR9990772": {
+                        "accession": "SRR9990772",
+                        "experiment": {
+                            "accession": "SRX6730015",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218652",
+                            "title": "Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration",
+                            "abstract": "Purpose: The goals of this study were to identify cell specific expression patterns of the retinal pigment epithelium (RPE) and a variety of choroidal cell types originating from the macula and the periphery of human donor eyes, with a particular emphasis on identifying expression signatures of choroidal endothelial cells. Methods: Independent libraries were prepared for macular and peripheral samples of combined RPE/choroid from seven donors in two single cell sequencing experiments. In the first experiment, 8-mm macular and peripheral punches of RPE/choroid from Donors 1-3 were digested in papain prior to cryopreservation and subsequent GEM barcoding/library construction. Donors 1-2 had no noted ophthalmologic disease documented, while Donor 3 was diagnosed with age-related macular degeneration. In the second experiment, 12-mm macular and peripheral punches of RPE/choroid from Donors 4-7 were digested in collagenase II prior to cryopreservation, CD31-magentic bead enrichment and subsequent GEM barcoding/library construction. Donors 5-7 had no noted ophthalmologic disease documented, while Donor 4 was diagnosed with age-related macular degeneration. In both experiments, libraries were sequenced on a HiSeq4000. Sequenced reads were mapped to the human genome build hg19 will CellRanger(v3.0.1) and filters removed cells likely to be doublets or cells with a high proportion of mitochondrial reads. Clustering of cells with similar expression profiles was performed with Seurat (v3.0.2). Results: In the first experiment with unenriched RPE/choroid from donors 1-3, we recovered 4,355 cells post filtering with 40,177,477 corresponding reads. A total of 2,167 cells originated from the macula and 2,168 cells originated from the periphery. A total of 11 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type. Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Results: In the second experiment with CD31-enriched RPE/choroid from donors 4-7, we recovered 14,234 cells post filtering with 135,742,297 corresponding reads. A total of 7,647 cells originated from the macula and 6,587 cells originated from the periphery. A total of 8,521 of these cells were presumed endothelial cells. A total of 13 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type(s). Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Within each of the endothelial clusters (Clusters 5-8), differential expression analysis was performed between each cluster and the remaining endothelial cells. Conclusions: This study provides a large atlas of single-cell level gene expression patterns of the human retinal pigment epithelium and choroidal cell types. We identify expression patterns of most expected choroidal cell populations and describe macular versus peripheral regional differences. We additionally identify enriched transcripts in specific cell populations in age-related macular degeneration. We characterize gene expression patterns along the choroidal vascular tree, and identify populations of arterial, capillary, and venous endothelial cells. Our results show that single-cell sequencing can be performed on human RPE/choroid after cryopreservation, and that CD31 magnetic bead enrichment can be employed to enrich for endothelial cells for single-cell sequencing. Overall design: mRNA profiles for thousands of cells from macular and peripheral RPE/choroid isolates were generated from seven human donor eyes using 10X Genomics Chromium single-cell system followed by sequencing on an Illumina HiSeq 4000."
+                        },
+                        "sample": {
+                            "accession": "SRS5281874",
+                            "title": "Peripheral-8mm-rpe-cho-donor-3",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "RPE-choroid",
+                                "enrichment": "unenriched",
+                                "donor": "3",
+                                "tissue": "RPE-choroid",
+                                "location": "periphery",
+                                "punch-size": "8-mm",
+                                "ENA-SPOT-COUNT": "235055245",
+                                "ENA-BASE-COUNT": "62985387251",
+                                "ENA-FIRST-PUBLIC": "2019-10-31",
+                                "ENA-LAST-UPDATE": "2019-11-01"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "9918710",
+                            "ENA-BASE-COUNT": "2995450420",
+                            "ENA-FIRST-PUBLIC": "2019-10-31",
+                            "ENA-LAST-UPDATE": "2019-10-31"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/002/SRR9990772/SRR9990772_1.fastq.gz",
+                                "md5": "4f5b021f0395500418be087a720cb72c",
+                                "size": "785749609"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/002/SRR9990772/SRR9990772_2.fastq.gz",
+                                "md5": "baaa633a859edfc1d3373d0242ef34f3",
+                                "size": "526988301"
+                            }
+                        ]
+                    },
+                    "SRR9990773": {
+                        "accession": "SRR9990773",
+                        "experiment": {
+                            "accession": "SRX6730015",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218652",
+                            "title": "Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration",
+                            "abstract": "Purpose: The goals of this study were to identify cell specific expression patterns of the retinal pigment epithelium (RPE) and a variety of choroidal cell types originating from the macula and the periphery of human donor eyes, with a particular emphasis on identifying expression signatures of choroidal endothelial cells. Methods: Independent libraries were prepared for macular and peripheral samples of combined RPE/choroid from seven donors in two single cell sequencing experiments. In the first experiment, 8-mm macular and peripheral punches of RPE/choroid from Donors 1-3 were digested in papain prior to cryopreservation and subsequent GEM barcoding/library construction. Donors 1-2 had no noted ophthalmologic disease documented, while Donor 3 was diagnosed with age-related macular degeneration. In the second experiment, 12-mm macular and peripheral punches of RPE/choroid from Donors 4-7 were digested in collagenase II prior to cryopreservation, CD31-magentic bead enrichment and subsequent GEM barcoding/library construction. Donors 5-7 had no noted ophthalmologic disease documented, while Donor 4 was diagnosed with age-related macular degeneration. In both experiments, libraries were sequenced on a HiSeq4000. Sequenced reads were mapped to the human genome build hg19 will CellRanger(v3.0.1) and filters removed cells likely to be doublets or cells with a high proportion of mitochondrial reads. Clustering of cells with similar expression profiles was performed with Seurat (v3.0.2). Results: In the first experiment with unenriched RPE/choroid from donors 1-3, we recovered 4,355 cells post filtering with 40,177,477 corresponding reads. A total of 2,167 cells originated from the macula and 2,168 cells originated from the periphery. A total of 11 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type. Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Results: In the second experiment with CD31-enriched RPE/choroid from donors 4-7, we recovered 14,234 cells post filtering with 135,742,297 corresponding reads. A total of 7,647 cells originated from the macula and 6,587 cells originated from the periphery. A total of 8,521 of these cells were presumed endothelial cells. A total of 13 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type(s). Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Within each of the endothelial clusters (Clusters 5-8), differential expression analysis was performed between each cluster and the remaining endothelial cells. Conclusions: This study provides a large atlas of single-cell level gene expression patterns of the human retinal pigment epithelium and choroidal cell types. We identify expression patterns of most expected choroidal cell populations and describe macular versus peripheral regional differences. We additionally identify enriched transcripts in specific cell populations in age-related macular degeneration. We characterize gene expression patterns along the choroidal vascular tree, and identify populations of arterial, capillary, and venous endothelial cells. Our results show that single-cell sequencing can be performed on human RPE/choroid after cryopreservation, and that CD31 magnetic bead enrichment can be employed to enrich for endothelial cells for single-cell sequencing. Overall design: mRNA profiles for thousands of cells from macular and peripheral RPE/choroid isolates were generated from seven human donor eyes using 10X Genomics Chromium single-cell system followed by sequencing on an Illumina HiSeq 4000."
+                        },
+                        "sample": {
+                            "accession": "SRS5281874",
+                            "title": "Peripheral-8mm-rpe-cho-donor-3",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "RPE-choroid",
+                                "enrichment": "unenriched",
+                                "donor": "3",
+                                "tissue": "RPE-choroid",
+                                "location": "periphery",
+                                "punch-size": "8-mm",
+                                "ENA-SPOT-COUNT": "235055245",
+                                "ENA-BASE-COUNT": "62985387251",
+                                "ENA-FIRST-PUBLIC": "2019-10-31",
+                                "ENA-LAST-UPDATE": "2019-11-01"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "8502064",
+                            "ENA-BASE-COUNT": "2567623328",
+                            "ENA-FIRST-PUBLIC": "2019-10-31",
+                            "ENA-LAST-UPDATE": "2019-10-31"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/003/SRR9990773/SRR9990773_1.fastq.gz",
+                                "md5": "b2fb556c4c2706bdcf737b473f4330f1",
+                                "size": "678328790"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/003/SRR9990773/SRR9990773_2.fastq.gz",
+                                "md5": "d7f780561c9a689ebc8cd98595462e9a",
+                                "size": "471282652"
+                            }
+                        ]
+                    },
+                    "SRR9990774": {
+                        "accession": "SRR9990774",
+                        "experiment": {
+                            "accession": "SRX6730015",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218652",
+                            "title": "Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration",
+                            "abstract": "Purpose: The goals of this study were to identify cell specific expression patterns of the retinal pigment epithelium (RPE) and a variety of choroidal cell types originating from the macula and the periphery of human donor eyes, with a particular emphasis on identifying expression signatures of choroidal endothelial cells. Methods: Independent libraries were prepared for macular and peripheral samples of combined RPE/choroid from seven donors in two single cell sequencing experiments. In the first experiment, 8-mm macular and peripheral punches of RPE/choroid from Donors 1-3 were digested in papain prior to cryopreservation and subsequent GEM barcoding/library construction. Donors 1-2 had no noted ophthalmologic disease documented, while Donor 3 was diagnosed with age-related macular degeneration. In the second experiment, 12-mm macular and peripheral punches of RPE/choroid from Donors 4-7 were digested in collagenase II prior to cryopreservation, CD31-magentic bead enrichment and subsequent GEM barcoding/library construction. Donors 5-7 had no noted ophthalmologic disease documented, while Donor 4 was diagnosed with age-related macular degeneration. In both experiments, libraries were sequenced on a HiSeq4000. Sequenced reads were mapped to the human genome build hg19 will CellRanger(v3.0.1) and filters removed cells likely to be doublets or cells with a high proportion of mitochondrial reads. Clustering of cells with similar expression profiles was performed with Seurat (v3.0.2). Results: In the first experiment with unenriched RPE/choroid from donors 1-3, we recovered 4,355 cells post filtering with 40,177,477 corresponding reads. A total of 2,167 cells originated from the macula and 2,168 cells originated from the periphery. A total of 11 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type. Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Results: In the second experiment with CD31-enriched RPE/choroid from donors 4-7, we recovered 14,234 cells post filtering with 135,742,297 corresponding reads. A total of 7,647 cells originated from the macula and 6,587 cells originated from the periphery. A total of 8,521 of these cells were presumed endothelial cells. A total of 13 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type(s). Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Within each of the endothelial clusters (Clusters 5-8), differential expression analysis was performed between each cluster and the remaining endothelial cells. Conclusions: This study provides a large atlas of single-cell level gene expression patterns of the human retinal pigment epithelium and choroidal cell types. We identify expression patterns of most expected choroidal cell populations and describe macular versus peripheral regional differences. We additionally identify enriched transcripts in specific cell populations in age-related macular degeneration. We characterize gene expression patterns along the choroidal vascular tree, and identify populations of arterial, capillary, and venous endothelial cells. Our results show that single-cell sequencing can be performed on human RPE/choroid after cryopreservation, and that CD31 magnetic bead enrichment can be employed to enrich for endothelial cells for single-cell sequencing. Overall design: mRNA profiles for thousands of cells from macular and peripheral RPE/choroid isolates were generated from seven human donor eyes using 10X Genomics Chromium single-cell system followed by sequencing on an Illumina HiSeq 4000."
+                        },
+                        "sample": {
+                            "accession": "SRS5281874",
+                            "title": "Peripheral-8mm-rpe-cho-donor-3",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "RPE-choroid",
+                                "enrichment": "unenriched",
+                                "donor": "3",
+                                "tissue": "RPE-choroid",
+                                "location": "periphery",
+                                "punch-size": "8-mm",
+                                "ENA-SPOT-COUNT": "235055245",
+                                "ENA-BASE-COUNT": "62985387251",
+                                "ENA-FIRST-PUBLIC": "2019-10-31",
+                                "ENA-LAST-UPDATE": "2019-11-01"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "13244512",
+                            "ENA-BASE-COUNT": "1576096928",
+                            "ENA-FIRST-PUBLIC": "2019-10-31",
+                            "ENA-LAST-UPDATE": "2019-10-31"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/004/SRR9990774/SRR9990774_1.fastq.gz",
+                                "md5": "be715ba8a30fab8e892e85e3a595683b",
+                                "size": "236928860"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/004/SRR9990774/SRR9990774_2.fastq.gz",
+                                "md5": "9b4cb77b468412004e41cc58dc6fc40a",
+                                "size": "837262027"
+                            }
+                        ]
+                    },
+                    "SRR9990775": {
+                        "accession": "SRR9990775",
+                        "experiment": {
+                            "accession": "SRX6730015",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218652",
+                            "title": "Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration",
+                            "abstract": "Purpose: The goals of this study were to identify cell specific expression patterns of the retinal pigment epithelium (RPE) and a variety of choroidal cell types originating from the macula and the periphery of human donor eyes, with a particular emphasis on identifying expression signatures of choroidal endothelial cells. Methods: Independent libraries were prepared for macular and peripheral samples of combined RPE/choroid from seven donors in two single cell sequencing experiments. In the first experiment, 8-mm macular and peripheral punches of RPE/choroid from Donors 1-3 were digested in papain prior to cryopreservation and subsequent GEM barcoding/library construction. Donors 1-2 had no noted ophthalmologic disease documented, while Donor 3 was diagnosed with age-related macular degeneration. In the second experiment, 12-mm macular and peripheral punches of RPE/choroid from Donors 4-7 were digested in collagenase II prior to cryopreservation, CD31-magentic bead enrichment and subsequent GEM barcoding/library construction. Donors 5-7 had no noted ophthalmologic disease documented, while Donor 4 was diagnosed with age-related macular degeneration. In both experiments, libraries were sequenced on a HiSeq4000. Sequenced reads were mapped to the human genome build hg19 will CellRanger(v3.0.1) and filters removed cells likely to be doublets or cells with a high proportion of mitochondrial reads. Clustering of cells with similar expression profiles was performed with Seurat (v3.0.2). Results: In the first experiment with unenriched RPE/choroid from donors 1-3, we recovered 4,355 cells post filtering with 40,177,477 corresponding reads. A total of 2,167 cells originated from the macula and 2,168 cells originated from the periphery. A total of 11 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type. Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Results: In the second experiment with CD31-enriched RPE/choroid from donors 4-7, we recovered 14,234 cells post filtering with 135,742,297 corresponding reads. A total of 7,647 cells originated from the macula and 6,587 cells originated from the periphery. A total of 8,521 of these cells were presumed endothelial cells. A total of 13 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type(s). Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Within each of the endothelial clusters (Clusters 5-8), differential expression analysis was performed between each cluster and the remaining endothelial cells. Conclusions: This study provides a large atlas of single-cell level gene expression patterns of the human retinal pigment epithelium and choroidal cell types. We identify expression patterns of most expected choroidal cell populations and describe macular versus peripheral regional differences. We additionally identify enriched transcripts in specific cell populations in age-related macular degeneration. We characterize gene expression patterns along the choroidal vascular tree, and identify populations of arterial, capillary, and venous endothelial cells. Our results show that single-cell sequencing can be performed on human RPE/choroid after cryopreservation, and that CD31 magnetic bead enrichment can be employed to enrich for endothelial cells for single-cell sequencing. Overall design: mRNA profiles for thousands of cells from macular and peripheral RPE/choroid isolates were generated from seven human donor eyes using 10X Genomics Chromium single-cell system followed by sequencing on an Illumina HiSeq 4000."
+                        },
+                        "sample": {
+                            "accession": "SRS5281874",
+                            "title": "Peripheral-8mm-rpe-cho-donor-3",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "RPE-choroid",
+                                "enrichment": "unenriched",
+                                "donor": "3",
+                                "tissue": "RPE-choroid",
+                                "location": "periphery",
+                                "punch-size": "8-mm",
+                                "ENA-SPOT-COUNT": "235055245",
+                                "ENA-BASE-COUNT": "62985387251",
+                                "ENA-FIRST-PUBLIC": "2019-10-31",
+                                "ENA-LAST-UPDATE": "2019-11-01"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "10602579",
+                            "ENA-BASE-COUNT": "1261706901",
+                            "ENA-FIRST-PUBLIC": "2019-10-31",
+                            "ENA-LAST-UPDATE": "2019-10-31"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/005/SRR9990775/SRR9990775_1.fastq.gz",
+                                "md5": "998a2531dee61f927f5b14af5b181368",
+                                "size": "189386703"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/005/SRR9990775/SRR9990775_2.fastq.gz",
+                                "md5": "9c3b052de7e1789ae04f50c480a4bfaa",
+                                "size": "665066907"
+                            }
+                        ]
+                    },
+                    "SRR9990776": {
+                        "accession": "SRR9990776",
+                        "experiment": {
+                            "accession": "SRX6730015",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218652",
+                            "title": "Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration",
+                            "abstract": "Purpose: The goals of this study were to identify cell specific expression patterns of the retinal pigment epithelium (RPE) and a variety of choroidal cell types originating from the macula and the periphery of human donor eyes, with a particular emphasis on identifying expression signatures of choroidal endothelial cells. Methods: Independent libraries were prepared for macular and peripheral samples of combined RPE/choroid from seven donors in two single cell sequencing experiments. In the first experiment, 8-mm macular and peripheral punches of RPE/choroid from Donors 1-3 were digested in papain prior to cryopreservation and subsequent GEM barcoding/library construction. Donors 1-2 had no noted ophthalmologic disease documented, while Donor 3 was diagnosed with age-related macular degeneration. In the second experiment, 12-mm macular and peripheral punches of RPE/choroid from Donors 4-7 were digested in collagenase II prior to cryopreservation, CD31-magentic bead enrichment and subsequent GEM barcoding/library construction. Donors 5-7 had no noted ophthalmologic disease documented, while Donor 4 was diagnosed with age-related macular degeneration. In both experiments, libraries were sequenced on a HiSeq4000. Sequenced reads were mapped to the human genome build hg19 will CellRanger(v3.0.1) and filters removed cells likely to be doublets or cells with a high proportion of mitochondrial reads. Clustering of cells with similar expression profiles was performed with Seurat (v3.0.2). Results: In the first experiment with unenriched RPE/choroid from donors 1-3, we recovered 4,355 cells post filtering with 40,177,477 corresponding reads. A total of 2,167 cells originated from the macula and 2,168 cells originated from the periphery. A total of 11 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type. Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Results: In the second experiment with CD31-enriched RPE/choroid from donors 4-7, we recovered 14,234 cells post filtering with 135,742,297 corresponding reads. A total of 7,647 cells originated from the macula and 6,587 cells originated from the periphery. A total of 8,521 of these cells were presumed endothelial cells. A total of 13 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type(s). Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Within each of the endothelial clusters (Clusters 5-8), differential expression analysis was performed between each cluster and the remaining endothelial cells. Conclusions: This study provides a large atlas of single-cell level gene expression patterns of the human retinal pigment epithelium and choroidal cell types. We identify expression patterns of most expected choroidal cell populations and describe macular versus peripheral regional differences. We additionally identify enriched transcripts in specific cell populations in age-related macular degeneration. We characterize gene expression patterns along the choroidal vascular tree, and identify populations of arterial, capillary, and venous endothelial cells. Our results show that single-cell sequencing can be performed on human RPE/choroid after cryopreservation, and that CD31 magnetic bead enrichment can be employed to enrich for endothelial cells for single-cell sequencing. Overall design: mRNA profiles for thousands of cells from macular and peripheral RPE/choroid isolates were generated from seven human donor eyes using 10X Genomics Chromium single-cell system followed by sequencing on an Illumina HiSeq 4000."
+                        },
+                        "sample": {
+                            "accession": "SRS5281874",
+                            "title": "Peripheral-8mm-rpe-cho-donor-3",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "RPE-choroid",
+                                "enrichment": "unenriched",
+                                "donor": "3",
+                                "tissue": "RPE-choroid",
+                                "location": "periphery",
+                                "punch-size": "8-mm",
+                                "ENA-SPOT-COUNT": "235055245",
+                                "ENA-BASE-COUNT": "62985387251",
+                                "ENA-FIRST-PUBLIC": "2019-10-31",
+                                "ENA-LAST-UPDATE": "2019-11-01"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "10547702",
+                            "ENA-BASE-COUNT": "1255176538",
+                            "ENA-FIRST-PUBLIC": "2019-10-31",
+                            "ENA-LAST-UPDATE": "2019-10-31"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/006/SRR9990776/SRR9990776_1.fastq.gz",
+                                "md5": "6eda9dd97285d742b24573fd31252e81",
+                                "size": "188425557"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/006/SRR9990776/SRR9990776_2.fastq.gz",
+                                "md5": "bc673417001a42477ab4f84f22fcdbcb",
+                                "size": "676008771"
+                            }
+                        ]
+                    },
+                    "SRR9990777": {
+                        "accession": "SRR9990777",
+                        "experiment": {
+                            "accession": "SRX6730015",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218652",
+                            "title": "Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration",
+                            "abstract": "Purpose: The goals of this study were to identify cell specific expression patterns of the retinal pigment epithelium (RPE) and a variety of choroidal cell types originating from the macula and the periphery of human donor eyes, with a particular emphasis on identifying expression signatures of choroidal endothelial cells. Methods: Independent libraries were prepared for macular and peripheral samples of combined RPE/choroid from seven donors in two single cell sequencing experiments. In the first experiment, 8-mm macular and peripheral punches of RPE/choroid from Donors 1-3 were digested in papain prior to cryopreservation and subsequent GEM barcoding/library construction. Donors 1-2 had no noted ophthalmologic disease documented, while Donor 3 was diagnosed with age-related macular degeneration. In the second experiment, 12-mm macular and peripheral punches of RPE/choroid from Donors 4-7 were digested in collagenase II prior to cryopreservation, CD31-magentic bead enrichment and subsequent GEM barcoding/library construction. Donors 5-7 had no noted ophthalmologic disease documented, while Donor 4 was diagnosed with age-related macular degeneration. In both experiments, libraries were sequenced on a HiSeq4000. Sequenced reads were mapped to the human genome build hg19 will CellRanger(v3.0.1) and filters removed cells likely to be doublets or cells with a high proportion of mitochondrial reads. Clustering of cells with similar expression profiles was performed with Seurat (v3.0.2). Results: In the first experiment with unenriched RPE/choroid from donors 1-3, we recovered 4,355 cells post filtering with 40,177,477 corresponding reads. A total of 2,167 cells originated from the macula and 2,168 cells originated from the periphery. A total of 11 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type. Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Results: In the second experiment with CD31-enriched RPE/choroid from donors 4-7, we recovered 14,234 cells post filtering with 135,742,297 corresponding reads. A total of 7,647 cells originated from the macula and 6,587 cells originated from the periphery. A total of 8,521 of these cells were presumed endothelial cells. A total of 13 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type(s). Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Within each of the endothelial clusters (Clusters 5-8), differential expression analysis was performed between each cluster and the remaining endothelial cells. Conclusions: This study provides a large atlas of single-cell level gene expression patterns of the human retinal pigment epithelium and choroidal cell types. We identify expression patterns of most expected choroidal cell populations and describe macular versus peripheral regional differences. We additionally identify enriched transcripts in specific cell populations in age-related macular degeneration. We characterize gene expression patterns along the choroidal vascular tree, and identify populations of arterial, capillary, and venous endothelial cells. Our results show that single-cell sequencing can be performed on human RPE/choroid after cryopreservation, and that CD31 magnetic bead enrichment can be employed to enrich for endothelial cells for single-cell sequencing. Overall design: mRNA profiles for thousands of cells from macular and peripheral RPE/choroid isolates were generated from seven human donor eyes using 10X Genomics Chromium single-cell system followed by sequencing on an Illumina HiSeq 4000."
+                        },
+                        "sample": {
+                            "accession": "SRS5281874",
+                            "title": "Peripheral-8mm-rpe-cho-donor-3",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "RPE-choroid",
+                                "enrichment": "unenriched",
+                                "donor": "3",
+                                "tissue": "RPE-choroid",
+                                "location": "periphery",
+                                "punch-size": "8-mm",
+                                "ENA-SPOT-COUNT": "235055245",
+                                "ENA-BASE-COUNT": "62985387251",
+                                "ENA-FIRST-PUBLIC": "2019-10-31",
+                                "ENA-LAST-UPDATE": "2019-11-01"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "9328140",
+                            "ENA-BASE-COUNT": "1110048660",
+                            "ENA-FIRST-PUBLIC": "2019-10-31",
+                            "ENA-LAST-UPDATE": "2019-10-31"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/007/SRR9990777/SRR9990777_1.fastq.gz",
+                                "md5": "c451f5736e7643ba843f6cf16abe538a",
+                                "size": "166399371"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/007/SRR9990777/SRR9990777_2.fastq.gz",
+                                "md5": "ed9f91b98ff6123d6f506a9fdec4c980",
+                                "size": "598745008"
+                            }
+                        ]
+                    },
+                    "SRR9990778": {
+                        "accession": "SRR9990778",
+                        "experiment": {
+                            "accession": "SRX6730015",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218652",
+                            "title": "Single-cell transcriptomics of the human retinal pigment epithelium and choroid in health and macular degeneration",
+                            "abstract": "Purpose: The goals of this study were to identify cell specific expression patterns of the retinal pigment epithelium (RPE) and a variety of choroidal cell types originating from the macula and the periphery of human donor eyes, with a particular emphasis on identifying expression signatures of choroidal endothelial cells. Methods: Independent libraries were prepared for macular and peripheral samples of combined RPE/choroid from seven donors in two single cell sequencing experiments. In the first experiment, 8-mm macular and peripheral punches of RPE/choroid from Donors 1-3 were digested in papain prior to cryopreservation and subsequent GEM barcoding/library construction. Donors 1-2 had no noted ophthalmologic disease documented, while Donor 3 was diagnosed with age-related macular degeneration. In the second experiment, 12-mm macular and peripheral punches of RPE/choroid from Donors 4-7 were digested in collagenase II prior to cryopreservation, CD31-magentic bead enrichment and subsequent GEM barcoding/library construction. Donors 5-7 had no noted ophthalmologic disease documented, while Donor 4 was diagnosed with age-related macular degeneration. In both experiments, libraries were sequenced on a HiSeq4000. Sequenced reads were mapped to the human genome build hg19 will CellRanger(v3.0.1) and filters removed cells likely to be doublets or cells with a high proportion of mitochondrial reads. Clustering of cells with similar expression profiles was performed with Seurat (v3.0.2). Results: In the first experiment with unenriched RPE/choroid from donors 1-3, we recovered 4,355 cells post filtering with 40,177,477 corresponding reads. A total of 2,167 cells originated from the macula and 2,168 cells originated from the periphery. A total of 11 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type. Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Results: In the second experiment with CD31-enriched RPE/choroid from donors 4-7, we recovered 14,234 cells post filtering with 135,742,297 corresponding reads. A total of 7,647 cells originated from the macula and 6,587 cells originated from the periphery. A total of 8,521 of these cells were presumed endothelial cells. A total of 13 clusters were identified, and highly enriched genes in each cluster were used to classify clusters into their presumed dominant cell type(s). Differential expression analysis was performed between cells of macular and peripheral origin in each cluster and between donors with and without a history of age-related macular degeneration. Within each of the endothelial clusters (Clusters 5-8), differential expression analysis was performed between each cluster and the remaining endothelial cells. Conclusions: This study provides a large atlas of single-cell level gene expression patterns of the human retinal pigment epithelium and choroidal cell types. We identify expression patterns of most expected choroidal cell populations and describe macular versus peripheral regional differences. We additionally identify enriched transcripts in specific cell populations in age-related macular degeneration. We characterize gene expression patterns along the choroidal vascular tree, and identify populations of arterial, capillary, and venous endothelial cells. Our results show that single-cell sequencing can be performed on human RPE/choroid after cryopreservation, and that CD31 magnetic bead enrichment can be employed to enrich for endothelial cells for single-cell sequencing. Overall design: mRNA profiles for thousands of cells from macular and peripheral RPE/choroid isolates were generated from seven human donor eyes using 10X Genomics Chromium single-cell system followed by sequencing on an Illumina HiSeq 4000."
+                        },
+                        "sample": {
+                            "accession": "SRS5281874",
+                            "title": "Peripheral-8mm-rpe-cho-donor-3",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "RPE-choroid",
+                                "enrichment": "unenriched",
+                                "donor": "3",
+                                "tissue": "RPE-choroid",
+                                "location": "periphery",
+                                "punch-size": "8-mm",
+                                "ENA-SPOT-COUNT": "235055245",
+                                "ENA-BASE-COUNT": "62985387251",
+                                "ENA-FIRST-PUBLIC": "2019-10-31",
+                                "ENA-LAST-UPDATE": "2019-11-01"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037986: Peripheral-8mm-rpe-cho-donor-3; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "12210627",
+                            "ENA-BASE-COUNT": "3687609354",
+                            "ENA-FIRST-PUBLIC": "2019-10-31",
+                            "ENA-LAST-UPDATE": "2019-10-31"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/008/SRR9990778/SRR9990778_1.fastq.gz",
+                                "md5": "857c15bc823b70c2a24c2662bfb8324e",
+                                "size": "987554523"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/008/SRR9990778/SRR9990778_2.fastq.gz",
+                                "md5": "9e25691e3c67ae8b9da3fd2b1b8b934b",
+                                "size": "599211301"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

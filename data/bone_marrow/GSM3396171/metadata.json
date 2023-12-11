@@ -1,0 +1,73 @@
+{
+    "GSM3396171": {
+        "accession": "GSM3396171",
+        "supplementary_files": [
+            {
+                "filename": "GSM3396171_barcodes_K.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3396nnn/GSM3396171/suppl/GSM3396171_barcodes_K.tsv.gz",
+                "size": "29256"
+            },
+            {
+                "filename": "GSM3396171_genes_K.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3396nnn/GSM3396171/suppl/GSM3396171_genes_K.tsv.gz",
+                "size": "264785"
+            },
+            {
+                "filename": "GSM3396171_matrix_K.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3396nnn/GSM3396171/suppl/GSM3396171_matrix_K.mtx.gz",
+                "size": "22855906"
+            }
+        ],
+        "platform": {
+            "accession": "GPL21290",
+            "title": "Illumina HiSeq 3000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS3805255": {
+                "accession": "SRS3805255",
+                "title": "Bone marrow K",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Bone marrow",
+                    "cell type": "bone marrow cells",
+                    "age": "84 years old",
+                    "ENA-SPOT-COUNT": "159251889",
+                    "ENA-BASE-COUNT": "15606685122",
+                    "ENA-FIRST-PUBLIC": "2018-09-22",
+                    "ENA-LAST-UPDATE": "2018-09-22"
+                },
+                "experiment": {
+                    "SRX4720047": {
+                        "accession": "SRX4720047",
+                        "title": "Illumina HiSeq 3000 paired end sequencing; GSM3396171: Bone marrow K; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 3000",
+                        "runs": {
+                            "SRR7881409": {
+                                "accession": "SRR7881409",
+                                "experiment": "SRX4720047",
+                                "study": "SRP162214",
+                                "sample": "SRS3805255",
+                                "title": "Illumina HiSeq 3000 paired end sequencing; GSM3396171: Bone marrow K; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "assembly": "GRCh38",
+                                    "ENA-SPOT-COUNT": "159251889",
+                                    "ENA-BASE-COUNT": "15606685122",
+                                    "ENA-FIRST-PUBLIC": "2018-09-26",
+                                    "ENA-LAST-UPDATE": "2018-09-26"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/SRA779/SRA779509/bam/possorted_genome_bam_K.bam",
+                                        "md5": "e545632b0eb0cb2edb3b178cd4881bcb",
+                                        "size": "31194967062"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "GSM3732366": {
+        "accession": "GSM3732366",
+        "supplementary_files": [
+            {
+                "filename": "GSM3732366_barcodes_pbmc3_mrna.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3732nnn/GSM3732366/suppl/GSM3732366_barcodes_pbmc3_mrna.tsv.gz",
+                "size": "26245"
+            },
+            {
+                "filename": "GSM3732366_features_pbmc3_mrna.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3732nnn/GSM3732366/suppl/GSM3732366_features_pbmc3_mrna.tsv.gz",
+                "size": "304728"
+            },
+            {
+                "filename": "GSM3732366_matrix_pbmc3_mrna.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3732nnn/GSM3732366/suppl/GSM3732366_matrix_pbmc3_mrna.mtx.gz",
+                "size": "15359630"
+            }
+        ],
+        "platform": {
+            "accession": "GPL24676",
+            "title": "Illumina NovaSeq 6000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4667087": {
+                "accession": "SRS4667087",
+                "title": "pbmc3_mrna",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Human PBMCs",
+                    "cell type": "Human PBMCs",
+                    "ENA-SPOT-COUNT": "183591956",
+                    "ENA-BASE-COUNT": "55444770712",
+                    "ENA-FIRST-PUBLIC": "2019-10-03",
+                    "ENA-LAST-UPDATE": "2019-10-04"
+                },
+                "experiment": {
+                    "SRX5729462": {
+                        "accession": "SRX5729462",
+                        "title": "Illumina NovaSeq 6000 paired end sequencing; GSM3732366: pbmc3_mrna; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina NovaSeq 6000",
+                        "runs": {
+                            "SRR8949484": {
+                                "accession": "SRR8949484",
+                                "experiment": "SRX5729462",
+                                "study": "SRP193719",
+                                "sample": "SRS4667087",
+                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM3732366: pbmc3_mrna; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "183591956",
+                                    "ENA-BASE-COUNT": "55444770712",
+                                    "ENA-FIRST-PUBLIC": "2019-10-07",
+                                    "ENA-LAST-UPDATE": "2019-10-07"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR894/004/SRR8949484/SRR8949484_1.fastq.gz",
+                                        "md5": "1e7092d0a117524172160ed73c232232",
+                                        "size": "16484151156"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR894/004/SRR8949484/SRR8949484_2.fastq.gz",
+                                        "md5": "c0e88cdb202a9ed385f1e0d12e168945",
+                                        "size": "12855754978"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

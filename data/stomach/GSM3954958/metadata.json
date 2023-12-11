@@ -1,0 +1,145 @@
+{
+    "GSM3954958": {
+        "accession": "GSM3954958",
+        "supplementary_files": [
+            {
+                "filename": "GSM3954958_processed_EGC.txt.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3954nnn/GSM3954958/suppl/GSM3954958_processed_EGC.txt.gz",
+                "size": "8740616"
+            }
+        ],
+        "platform": {
+            "accession": "GPL20795",
+            "title": "HiSeq X Ten (Homo sapiens)"
+        },
+        "sample": {
+            "SRS5119601": {
+                "accession": "SRS5119601",
+                "title": "Early gastric cancer",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "stomach",
+                    "Sex": "male",
+                    "age": "67",
+                    "pathological lesions": "Early gastric caner",
+                    "subject id": "P8",
+                    "agent": "None",
+                    "ENA-SPOT-COUNT": "437014224",
+                    "ENA-BASE-COUNT": "131104267200",
+                    "ENA-FIRST-PUBLIC": "2019-07-22",
+                    "ENA-LAST-UPDATE": "2019-07-22"
+                },
+                "experiment": {
+                    "SRX6471037": {
+                        "accession": "SRX6471037",
+                        "title": "HiSeq X Ten paired end sequencing; GSM3954958: Early gastric cancer; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "HiSeq X Ten",
+                        "runs": {
+                            "SRR9713160": {
+                                "accession": "SRR9713160",
+                                "experiment": "SRX6471037",
+                                "study": "SRP215370",
+                                "sample": "SRS5119601",
+                                "title": "HiSeq X Ten paired end sequencing; GSM3954958: Early gastric cancer; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "93745109",
+                                    "ENA-BASE-COUNT": "28123532700",
+                                    "ENA-FIRST-PUBLIC": "2019-07-23",
+                                    "ENA-LAST-UPDATE": "2019-07-23"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/000/SRR9713160/SRR9713160_1.fastq.gz",
+                                        "md5": "6078f4765c2d71e4ba4c1e5e7aaf36bc",
+                                        "size": "8279227692"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/000/SRR9713160/SRR9713160_2.fastq.gz",
+                                        "md5": "c31c24f764537db95da0cd134f6e41eb",
+                                        "size": "8233642853"
+                                    }
+                                ]
+                            },
+                            "SRR9713161": {
+                                "accession": "SRR9713161",
+                                "experiment": "SRX6471037",
+                                "study": "SRP215370",
+                                "sample": "SRS5119601",
+                                "title": "HiSeq X Ten paired end sequencing; GSM3954958: Early gastric cancer; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "86290505",
+                                    "ENA-BASE-COUNT": "25887151500",
+                                    "ENA-FIRST-PUBLIC": "2019-07-23",
+                                    "ENA-LAST-UPDATE": "2019-07-23"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/001/SRR9713161/SRR9713161_1.fastq.gz",
+                                        "md5": "a3967180f083e98999c8aa025d7136f9",
+                                        "size": "7628092371"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/001/SRR9713161/SRR9713161_2.fastq.gz",
+                                        "md5": "bf04e36fb79d568b610a3c600cf103ad",
+                                        "size": "7588527662"
+                                    }
+                                ]
+                            },
+                            "SRR9713162": {
+                                "accession": "SRR9713162",
+                                "experiment": "SRX6471037",
+                                "study": "SRP215370",
+                                "sample": "SRS5119601",
+                                "title": "HiSeq X Ten paired end sequencing; GSM3954958: Early gastric cancer; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "132282270",
+                                    "ENA-BASE-COUNT": "39684681000",
+                                    "ENA-FIRST-PUBLIC": "2019-07-23",
+                                    "ENA-LAST-UPDATE": "2019-07-23"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/002/SRR9713162/SRR9713162_1.fastq.gz",
+                                        "md5": "7346d1bb3b998fb4a2e020561642d46e",
+                                        "size": "11702136793"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/002/SRR9713162/SRR9713162_2.fastq.gz",
+                                        "md5": "adf6e52715ebec65e0161939f12f4e1e",
+                                        "size": "11699197522"
+                                    }
+                                ]
+                            },
+                            "SRR9713163": {
+                                "accession": "SRR9713163",
+                                "experiment": "SRX6471037",
+                                "study": "SRP215370",
+                                "sample": "SRS5119601",
+                                "title": "HiSeq X Ten paired end sequencing; GSM3954958: Early gastric cancer; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "124696340",
+                                    "ENA-BASE-COUNT": "37408902000",
+                                    "ENA-FIRST-PUBLIC": "2019-07-23",
+                                    "ENA-LAST-UPDATE": "2019-07-23"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/003/SRR9713163/SRR9713163_1.fastq.gz",
+                                        "md5": "6c41afd8077b1e1af3ec65fa31f67493",
+                                        "size": "11035375910"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/003/SRR9713163/SRR9713163_2.fastq.gz",
+                                        "md5": "600246db0ee286c07d2bf6cc5f0bd72e",
+                                        "size": "10974956462"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

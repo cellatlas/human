@@ -1,0 +1,59 @@
+{
+    "GSM3758115": {
+        "accession": "GSM3758115",
+        "platform": {
+            "accession": "GPL20795",
+            "title": "HiSeq X Ten (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4742705": {
+                "accession": "SRS4742705",
+                "title": "skin samples from subject y1",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "skin",
+                    "subject": "y1, 25y/o",
+                    "ENA-SPOT-COUNT": "322091192",
+                    "ENA-BASE-COUNT": "32209119200",
+                    "ENA-FIRST-PUBLIC": "2020-04-14",
+                    "ENA-LAST-UPDATE": "2020-08-01"
+                },
+                "experiment": {
+                    "SRX5813544": {
+                        "accession": "SRX5813544",
+                        "title": "HiSeq X Ten paired end sequencing; GSM3758115: skin samples from subject y1; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "HiSeq X Ten",
+                        "runs": {
+                            "SRR9036396": {
+                                "accession": "SRR9036396",
+                                "experiment": "SRX5813544",
+                                "study": "SRP197355",
+                                "sample": "SRS4742705",
+                                "title": "HiSeq X Ten paired end sequencing; GSM3758115: skin samples from subject y1; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "322091192",
+                                    "ENA-BASE-COUNT": "32209119200",
+                                    "ENA-FIRST-PUBLIC": "2020-04-14",
+                                    "ENA-LAST-UPDATE": "2020-04-14"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR903/006/SRR9036396/SRR9036396_1.fastq.gz",
+                                        "md5": "cb5886e526207e0235bb06322f78cfdc",
+                                        "size": "6243226443"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR903/006/SRR9036396/SRR9036396_2.fastq.gz",
+                                        "md5": "4b03d78494b71e0cd0b06082b5c4f88d",
+                                        "size": "16716409185"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

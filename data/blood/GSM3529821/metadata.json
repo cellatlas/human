@@ -1,0 +1,74 @@
+{
+    "GSM3529821": {
+        "accession": "GSM3529821",
+        "supplementary_files": [
+            {
+                "filename": "GSM3529821_barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3529nnn/GSM3529821/suppl/GSM3529821_barcodes.tsv.gz",
+                "size": "27990"
+            },
+            {
+                "filename": "GSM3529821_genes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3529nnn/GSM3529821/suppl/GSM3529821_genes.tsv.gz",
+                "size": "259446"
+            },
+            {
+                "filename": "GSM3529821_matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3529nnn/GSM3529821/suppl/GSM3529821_matrix.mtx.gz",
+                "size": "51226488"
+            }
+        ],
+        "experiments": {
+            "SRX5178631": {
+                "accession": "SRX5178631",
+                "title": "Illumina HiSeq 2500 sequencing; GSM3529821: Activated myeloid cells at day 1 pi; Homo sapiens; RNA-Seq",
+                "runs": {
+                    "SRR8368442": {
+                        "accession": "SRR8368442",
+                        "experiment": {
+                            "accession": "SRX5178631",
+                            "title": "Illumina HiSeq 2500 sequencing; GSM3529821: Activated myeloid cells at day 1 pi; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 2500"
+                        },
+                        "study": {
+                            "accession": "SRP174407",
+                            "title": "Single-Cell Transcriptome Analysis of CD34+ Stem Cell-Derived Myeloid Cells Infected With Human Cytomegalovirus",
+                            "abstract": "Myeloid cells are important sites of lytic and latent infection by human cytomegalovirus (CMV). We previously showed that only a small subset of myeloid cells differentiated from CD34+ hematopoietic stem cells is permissive to CMV replication, underscoring the heterogeneous nature of these populations. The exact identity of susceptible and resistant cell types, and the cellular features characterizing permissive cells, however, could not be dissected using averaging transcriptional analysis tools such as microarrays and, hence, remained enigmatic. Here, we profile the transcriptomes of ~ 7000 individual cells at day one post-infection using the 10X genomics platform. We show that viral transcripts are detectable in the majority of the cells, suggesting that virion entry is unlikely to be the main target of cellular restriction mechanisms. We further show that viral replication occurs in a small but specific sub-group of cells transcriptionally related to, and likely derived from, a cluster of cells expressing markers of Colony Forming Unit \u00e2\u20ac\u201c Granulocyte, Erythrocyte, Monocyte, Megakaryocyte (CFU-GEMM) oligopotent progenitors. Compared to the remainder of the population, CFU-GEMM cells are enriched in transcripts with functions in mitochondrial energy production, cell proliferation, RNA processing and protein synthesis, and express similar or higher levels of interferon-related genes. While expression levels of the former are maintained in infected cells, the latter are strongly down-regulated. We thus propose that the preferential infection of CFU-GEMM cells may be due to the presence of a pre-established pro-viral environment, requiring minimal optimization efforts from viral effectors, rather than to the absence of specific restriction factors. Together, these findings identify a potentially new population of myeloid cells susceptible to CMV replication, and provide a possible rationale for their preferential infection. Overall design: The 10x Genomics Chromium platform was used for single cell RNA sequencing of a population of myeloid cells differentiated from CD34+ hematopoietic progenitors and infected with CMV strain TB40/E."
+                        },
+                        "sample": {
+                            "accession": "SRS4185885",
+                            "title": "Activated myeloid cells at day 1 pi",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "Activated myeloid cells infected with TB40/E at 1 dpi",
+                                "cell type": "Activated myeloid cells",
+                                "virus": "TB40/E",
+                                "time point": "Day 1 post-infection",
+                                "ENA-SPOT-COUNT": "301474803",
+                                "ENA-BASE-COUNT": "29544530694",
+                                "ENA-FIRST-PUBLIC": "2019-03-14",
+                                "ENA-LAST-UPDATE": "2019-03-14"
+                            }
+                        },
+                        "title": "Illumina HiSeq 2500 sequencing; GSM3529821: Activated myeloid cells at day 1 pi; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "assembly": "GRCh37",
+                            "ENA-SPOT-COUNT": "301474803",
+                            "ENA-BASE-COUNT": "29544530694",
+                            "ENA-FIRST-PUBLIC": "2019-03-14",
+                            "ENA-LAST-UPDATE": "2019-03-14"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/002/SRR8368442/SRR8368442.fastq.gz",
+                                "md5": "02f2c7d22a75785d5ef4ea443f8475f9",
+                                "size": "13097071980"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "GSM3755696": {
+        "accession": "GSM3755696",
+        "supplementary_files": [
+            {
+                "filename": "GSM3755696_Xbarcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3755nnn/GSM3755696/suppl/GSM3755696_Xbarcodes.tsv.gz",
+                "size": "21236"
+            },
+            {
+                "filename": "GSM3755696_Xfeatures.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3755nnn/GSM3755696/suppl/GSM3755696_Xfeatures.tsv.gz",
+                "size": "318733"
+            },
+            {
+                "filename": "GSM3755696_Xmatrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3755nnn/GSM3755696/suppl/GSM3755696_Xmatrix.mtx.gz",
+                "size": "15608529"
+            }
+        ],
+        "experiments": {
+            "SRX5807018": {
+                "accession": "SRX5807018",
+                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3755696: Long-term PD rep1; Homo sapiens; RNA-Seq",
+                "runs": {
+                    "SRR9029607": {
+                        "accession": "SRR9029607",
+                        "experiment": {
+                            "accession": "SRX5807018",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM3755696: Long-term PD rep1; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP197094",
+                            "title": "Single cell transcriptome of peritoneal cells",
+                            "abstract": "To define the transcriptomic landscape of human mesothelial cells in response to PD, we analyzed single cell transcriptomes including cells dissociated from normal peritoneum (hernia surgery, n = 3), and peritoneal cells from effluent of short-term PD patients (PD less than 2 weeks, n = 6) and from long-term PD patients (PD more than 6 years, n = 4) ,we demonstrate that mesothelial cells develop hyperglycolysis, a metabolic alteration that is correlated with the development of peritoneal fibrosis. Overall design: We studied cells dissociated from normal peritoneum (hernia surgery, n = 3  ), and peritoneal cells from effluent of short-term PD patients (PD less than 2 weeks, n = 6) and from long-term PD patients (PD more than 6 years, n = 4)"
+                        },
+                        "sample": {
+                            "accession": "SRS4736480",
+                            "title": "Long-term PD rep1",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "Peritoneal dialysis fluid",
+                                "sample type": "Peritoneal cells from effluent of long-term PD patients",
+                                "ENA-SPOT-COUNT": "317938826",
+                                "ENA-BASE-COUNT": "39424414424",
+                                "ENA-FIRST-PUBLIC": "2019-06-10",
+                                "ENA-LAST-UPDATE": "2019-06-11"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM3755696: Long-term PD rep1; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "317938826",
+                            "ENA-BASE-COUNT": "39424414424",
+                            "ENA-FIRST-PUBLIC": "2019-06-11",
+                            "ENA-LAST-UPDATE": "2019-06-11"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR902/007/SRR9029607/SRR9029607_1.fastq.gz",
+                                "md5": "9ac03177ec495ec262be2a9a5b655aa9",
+                                "size": "5171173108"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR902/007/SRR9029607/SRR9029607_2.fastq.gz",
+                                "md5": "9889bb451920d64d6b0d40b6ab48e2cf",
+                                "size": "14011101860"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

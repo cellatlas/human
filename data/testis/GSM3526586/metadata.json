@@ -1,0 +1,353 @@
+{
+    "GSM3526586": {
+        "accession": "GSM3526586",
+        "supplementary_files": [
+            {
+                "filename": "GSM3526586_D7total_barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3526nnn/GSM3526586/suppl/GSM3526586_D7total_barcodes.tsv.gz",
+                "size": "21328"
+            },
+            {
+                "filename": "GSM3526586_D7total_genes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3526nnn/GSM3526586/suppl/GSM3526586_D7total_genes.tsv.gz",
+                "size": "257280"
+            },
+            {
+                "filename": "GSM3526586_D7total_matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3526nnn/GSM3526586/suppl/GSM3526586_D7total_matrix.mtx.gz",
+                "size": "23462541"
+            }
+        ],
+        "platform": {
+            "accession": "GPL20301",
+            "title": "Illumina HiSeq 4000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4181126": {
+                "accession": "SRS4181126",
+                "title": "neonatal day 7 unfractionated",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "neonatal",
+                    "tissue": "Testis",
+                    "age": "7 days",
+                    "sample": "D7_T",
+                    "ENA-SPOT-COUNT": "133517194",
+                    "ENA-BASE-COUNT": "16556132056",
+                    "ENA-FIRST-PUBLIC": "2018-12-23",
+                    "ENA-LAST-UPDATE": "2018-12-23"
+                },
+                "experiment": {
+                    "SRX5173700": {
+                        "accession": "SRX5173700",
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526586: neonatal day 7 unfractionated; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 4000",
+                        "runs": {
+                            "SRR8363270": {
+                                "accession": "SRR8363270",
+                                "experiment": "SRX5173700",
+                                "study": "SRP174204",
+                                "sample": "SRS4181126",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526586: neonatal day 7 unfractionated; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "11941722",
+                                    "ENA-BASE-COUNT": "1480773528",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/000/SRR8363270/SRR8363270_1.fastq.gz",
+                                        "md5": "7c61abc2de86fcd41d3f10b39ea1ccd6",
+                                        "size": "219568578"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/000/SRR8363270/SRR8363270_2.fastq.gz",
+                                        "md5": "875309569382246a73a04554fc066f00",
+                                        "size": "863554573"
+                                    }
+                                ]
+                            },
+                            "SRR8363271": {
+                                "accession": "SRR8363271",
+                                "experiment": "SRX5173700",
+                                "study": "SRP174204",
+                                "sample": "SRS4181126",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526586: neonatal day 7 unfractionated; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "11104931",
+                                    "ENA-BASE-COUNT": "1377011444",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/001/SRR8363271/SRR8363271_1.fastq.gz",
+                                        "md5": "c371b80efbcdf9e1bf0f849328c7f7ad",
+                                        "size": "203361088"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/001/SRR8363271/SRR8363271_2.fastq.gz",
+                                        "md5": "6c6e74c05dacd0e8f37f02b8b7bdc682",
+                                        "size": "802150802"
+                                    }
+                                ]
+                            },
+                            "SRR8363272": {
+                                "accession": "SRR8363272",
+                                "experiment": "SRX5173700",
+                                "study": "SRP174204",
+                                "sample": "SRS4181126",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526586: neonatal day 7 unfractionated; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "11188125",
+                                    "ENA-BASE-COUNT": "1387327500",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/002/SRR8363272/SRR8363272_1.fastq.gz",
+                                        "md5": "8b8bdba875ce3bf74b585fc76a4d04f2",
+                                        "size": "203764719"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/002/SRR8363272/SRR8363272_2.fastq.gz",
+                                        "md5": "f804c6ba8b505c616c2917682f4961cf",
+                                        "size": "802371255"
+                                    }
+                                ]
+                            },
+                            "SRR8363273": {
+                                "accession": "SRR8363273",
+                                "experiment": "SRX5173700",
+                                "study": "SRP174204",
+                                "sample": "SRS4181126",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526586: neonatal day 7 unfractionated; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "11082427",
+                                    "ENA-BASE-COUNT": "1374220948",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/003/SRR8363273/SRR8363273_1.fastq.gz",
+                                        "md5": "35001fccc8d7f38b9eef8ba8a17e243f",
+                                        "size": "202587261"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/003/SRR8363273/SRR8363273_2.fastq.gz",
+                                        "md5": "357dc1b8e65461eeaa78f5b761b08226",
+                                        "size": "796218975"
+                                    }
+                                ]
+                            },
+                            "SRR8363274": {
+                                "accession": "SRR8363274",
+                                "experiment": "SRX5173700",
+                                "study": "SRP174204",
+                                "sample": "SRS4181126",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526586: neonatal day 7 unfractionated; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "12023098",
+                                    "ENA-BASE-COUNT": "1490864152",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/004/SRR8363274/SRR8363274_1.fastq.gz",
+                                        "md5": "6aff03786f73dc4ce1f674e15682e502",
+                                        "size": "219799989"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/004/SRR8363274/SRR8363274_2.fastq.gz",
+                                        "md5": "12b048118bbd79e5bdb7bce26e27fa45",
+                                        "size": "863593899"
+                                    }
+                                ]
+                            },
+                            "SRR8363275": {
+                                "accession": "SRR8363275",
+                                "experiment": "SRX5173700",
+                                "study": "SRP174204",
+                                "sample": "SRS4181126",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526586: neonatal day 7 unfractionated; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "11920772",
+                                    "ENA-BASE-COUNT": "1478175728",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/005/SRR8363275/SRR8363275_1.fastq.gz",
+                                        "md5": "77de439ffdc8da496dfc7171b58f3112",
+                                        "size": "218751774"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/005/SRR8363275/SRR8363275_2.fastq.gz",
+                                        "md5": "f4aefa6a88160443a393cecba46d8704",
+                                        "size": "857573265"
+                                    }
+                                ]
+                            },
+                            "SRR8363276": {
+                                "accession": "SRR8363276",
+                                "experiment": "SRX5173700",
+                                "study": "SRP174204",
+                                "sample": "SRS4181126",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526586: neonatal day 7 unfractionated; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "12197577",
+                                    "ENA-BASE-COUNT": "1512499548",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/006/SRR8363276/SRR8363276_1.fastq.gz",
+                                        "md5": "7a7b6a1cc0abc4e30482b3bbe5d715a3",
+                                        "size": "224303850"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/006/SRR8363276/SRR8363276_2.fastq.gz",
+                                        "md5": "af4cfc3896753d3e9cf130dec16f9b13",
+                                        "size": "886449729"
+                                    }
+                                ]
+                            },
+                            "SRR8363277": {
+                                "accession": "SRR8363277",
+                                "experiment": "SRX5173700",
+                                "study": "SRP174204",
+                                "sample": "SRS4181126",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526586: neonatal day 7 unfractionated; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "12307918",
+                                    "ENA-BASE-COUNT": "1526181832",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/007/SRR8363277/SRR8363277_1.fastq.gz",
+                                        "md5": "d565af9b4a98da1983334f3b76e15812",
+                                        "size": "224976644"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/007/SRR8363277/SRR8363277_2.fastq.gz",
+                                        "md5": "d2ca424e3fca187b9b6ee01c6baeae96",
+                                        "size": "889188734"
+                                    }
+                                ]
+                            },
+                            "SRR8363278": {
+                                "accession": "SRR8363278",
+                                "experiment": "SRX5173700",
+                                "study": "SRP174204",
+                                "sample": "SRS4181126",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526586: neonatal day 7 unfractionated; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "12190264",
+                                    "ENA-BASE-COUNT": "1511592736",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/008/SRR8363278/SRR8363278_1.fastq.gz",
+                                        "md5": "b1daa0b97bfd911b5063f5468d4c2b57",
+                                        "size": "223643103"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/008/SRR8363278/SRR8363278_2.fastq.gz",
+                                        "md5": "3c48af96463df4c6c2d5ae7cb38e1393",
+                                        "size": "881602870"
+                                    }
+                                ]
+                            },
+                            "SRR8363279": {
+                                "accession": "SRR8363279",
+                                "experiment": "SRX5173700",
+                                "study": "SRP174204",
+                                "sample": "SRS4181126",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526586: neonatal day 7 unfractionated; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "9150679",
+                                    "ENA-BASE-COUNT": "1134684196",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/009/SRR8363279/SRR8363279_1.fastq.gz",
+                                        "md5": "ca212db43a26477a1f5a16dc99f5104c",
+                                        "size": "168472026"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/009/SRR8363279/SRR8363279_2.fastq.gz",
+                                        "md5": "9f6cb3106f45309139e39dccdde502a9",
+                                        "size": "658909106"
+                                    }
+                                ]
+                            },
+                            "SRR8363280": {
+                                "accession": "SRR8363280",
+                                "experiment": "SRX5173700",
+                                "study": "SRP174204",
+                                "sample": "SRS4181126",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526586: neonatal day 7 unfractionated; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "9261634",
+                                    "ENA-BASE-COUNT": "1148442616",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/000/SRR8363280/SRR8363280_1.fastq.gz",
+                                        "md5": "634aa0d040ed2c8deb592a5e152126b7",
+                                        "size": "169478378"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/000/SRR8363280/SRR8363280_2.fastq.gz",
+                                        "md5": "f321e94f33ba7eb4b8f216596357465f",
+                                        "size": "662211116"
+                                    }
+                                ]
+                            },
+                            "SRR8363281": {
+                                "accession": "SRR8363281",
+                                "experiment": "SRX5173700",
+                                "study": "SRP174204",
+                                "sample": "SRS4181126",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3526586: neonatal day 7 unfractionated; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "9148047",
+                                    "ENA-BASE-COUNT": "1134357828",
+                                    "ENA-FIRST-PUBLIC": "2018-12-25",
+                                    "ENA-LAST-UPDATE": "2018-12-25"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/001/SRR8363281/SRR8363281_1.fastq.gz",
+                                        "md5": "2218dd40ae79762eb9d99c0f1d62966a",
+                                        "size": "168011053"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/001/SRR8363281/SRR8363281_2.fastq.gz",
+                                        "md5": "8ec3c877e6adc100e4b9c4b676d1f2bb",
+                                        "size": "655267076"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "GSM3558027": {
+        "accession": "GSM3558027",
+        "supplementary_files": [
+            [
+                {
+                    "filename": "GSM3558027_P5_barcodes.tsv.gz",
+                    "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3558nnn/GSM3558027/suppl/GSM3558027_P5_barcodes.tsv.gz",
+                    "size": "15829"
+                }
+            ],
+            [
+                {
+                    "filename": "GSM3558027_P5_genes.tsv.gz",
+                    "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3558nnn/GSM3558027/suppl/GSM3558027_P5_genes.tsv.gz",
+                    "size": "264786"
+                }
+            ],
+            [
+                {
+                    "filename": "GSM3558027_P5_matrix.mtx.gz",
+                    "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3558nnn/GSM3558027/suppl/GSM3558027_P5_matrix.mtx.gz",
+                    "size": "15780966"
+                }
+            ]
+        ],
+        "experiments": {
+            "SRX5236433": {
+                "accession": "SRX5236433",
+                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3558027: Patient1_Nonmalignant after the patient progressed on the therapy; Homo sapiens; RNA-Seq",
+                "runs": {
+                    "SRR8428607": {
+                        "accession": "SRR8428607",
+                        "experiment": {
+                            "accession": "SRX5236433",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM3558027: Patient1_Nonmalignant after the patient progressed on the therapy; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP178218",
+                            "title": "Single-cell profiling of cutaneous T-cell lymphoma after treatment with vorinostat and photophoresis.",
+                            "abstract": "Cutaneous T cell lymphomas (CTCL), encompassing a spectrum of T-cell lymphoproliferative disorders involving the skin, have collectively increased in incidence over the last 40 years. S\u00c3\u00a9zary syndrome (SS) is an aggressive form of CTCL characterized by significant presence of malignant cells in both the blood and skin. The guarded prognosis for SS reflects a lack of reliably effective therapy, due in part to an incomplete understanding of disease pathogenesis. Using single-cell sequencing of RNA at the induction of vorinostat and photopherisis treatment (GSE122703) and at the progression on therapy. We identifed thea decrease conventional SS cell markers on therapy and an increase in the number of cells expressing FOXP3+. Overall design: Single-cell RNA sequencing was performed on CD4+ T cells isolated from the blood of a patient with Sezary Syndrome using the 10x genomics 5-prime expression profiling kits. The peripheral blood sample was separated into cancerous (P4, CD3+CD4+CD5brightSSChi) and noncancerous (P5, CD3+CD4+CD5intSSCint)."
+                        },
+                        "sample": {
+                            "accession": "SRS4239508",
+                            "title": "Patient1_Nonmalignant after the patient progressed on the therapy",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "PBMC",
+                                "condition": "Normal PBMC T Cells",
+                                "cell type": "CD3+CD4+CD5intSSCint",
+                                "ENA-SPOT-COUNT": "319003448",
+                                "ENA-BASE-COUNT": "96339041296",
+                                "ENA-FIRST-PUBLIC": "2019-06-27",
+                                "ENA-LAST-UPDATE": "2019-06-27"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM3558027: Patient1_Nonmalignant after the patient progressed on the therapy; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "319003448",
+                            "ENA-BASE-COUNT": "96339041296",
+                            "ENA-FIRST-PUBLIC": "2019-06-28",
+                            "ENA-LAST-UPDATE": "2019-06-28"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR842/007/SRR8428607/SRR8428607_1.fastq.gz",
+                                "md5": "7bf16ce846ab6038162dcd11357cbb4c",
+                                "size": "25375824107"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR842/007/SRR8428607/SRR8428607_2.fastq.gz",
+                                "md5": "4cd2adbf2a9fc8e823c7461e9239f774",
+                                "size": "29711938421"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

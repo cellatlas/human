@@ -1,0 +1,70 @@
+{
+    "GSM3954947": {
+        "accession": "GSM3954947",
+        "supplementary_files": [
+            {
+                "filename": "GSM3954947_processed_NAG2.txt.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3954nnn/GSM3954947/suppl/GSM3954947_processed_NAG2.txt.gz",
+                "size": "2909224"
+            }
+        ],
+        "platform": {
+            "accession": "GPL20795",
+            "title": "HiSeq X Ten (Homo sapiens)"
+        },
+        "sample": {
+            "SRS5119603": {
+                "accession": "SRS5119603",
+                "title": "Non-atrophic gastritis 2",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "stomach",
+                    "Sex": "female",
+                    "age": "56",
+                    "pathological lesions": "Normal",
+                    "subject id": "P2",
+                    "agent": "None",
+                    "ENA-SPOT-COUNT": "412510114",
+                    "ENA-BASE-COUNT": "123753034200",
+                    "ENA-FIRST-PUBLIC": "2019-07-22",
+                    "ENA-LAST-UPDATE": "2019-07-22"
+                },
+                "experiment": {
+                    "SRX6471039": {
+                        "accession": "SRX6471039",
+                        "title": "HiSeq X Ten paired end sequencing; GSM3954947: Non-atrophic gastritis 2; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "HiSeq X Ten",
+                        "runs": {
+                            "SRR9713118": {
+                                "accession": "SRR9713118",
+                                "experiment": "SRX6471039",
+                                "study": "SRP215370",
+                                "sample": "SRS5119603",
+                                "title": "HiSeq X Ten paired end sequencing; GSM3954947: Non-atrophic gastritis 2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "412510114",
+                                    "ENA-BASE-COUNT": "123753034200",
+                                    "ENA-FIRST-PUBLIC": "2019-07-23",
+                                    "ENA-LAST-UPDATE": "2019-07-23"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/008/SRR9713118/SRR9713118_1.fastq.gz",
+                                        "md5": "afbca1be567066ed2633faa1a0a0142c",
+                                        "size": "36822179439"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/008/SRR9713118/SRR9713118_2.fastq.gz",
+                                        "md5": "1b987bbcdfff6dd54de0fd7bd6e4ff63",
+                                        "size": "37752627722"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

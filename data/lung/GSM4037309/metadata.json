@@ -1,0 +1,389 @@
+{
+    "GSM4037309": {
+        "accession": "GSM4037309",
+        "experiments": {
+            "SRX6726377": {
+                "accession": "SRX6726377",
+                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037309: Lung Biopsy, VUHD69; Homo sapiens; RNA-Seq",
+                "runs": {
+                    "SRR9985356": {
+                        "accession": "SRR9985356",
+                        "experiment": {
+                            "accession": "SRX6726377",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037309: Lung Biopsy, VUHD69; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218543",
+                            "title": "Single-cell RNA-sequencing reveals profibrotic roles of distinct epithelial and mesenchymal lineages in pulmonary fibrosis",
+                            "abstract": "Pulmonary fibrosis (PF) is a form of chronic lung disease characterized by progressive destruction of normal alveolar gas-exchange surfaces and accumulation of extracellular matrix (ECM). In order to comprehensively define the cell types, mechanisms and mediators driving ECM deposition and fibrotic remodeling in lungs with pulmonary fibrosis, we performed single-cell RNA-sequencing (scRNA-seq) of single-cell suspensions generated from non-fibrotic control and PF lungs. Analysis of over 114,000 cells from 20 PF and 10 control lungs identified 31 distinct cell types. We identified multiple distinct lineages directly contribute to ECM expansion, including a novel HAS1hi fibroblast subtype and a previously undescribed KRT5-/KRT17+, collagen and ECM-producing epithelial cell population that was highly enriched in PF lungs. Together these data provide high-resolution insights into the basic mechanisms of pulmonary fibrosis, and indicate a direct profibrotic role of the lung epithelium in PF pathogenesis. Overall design: We performed single-cell RNA-sequencing (scRNA-seq) of single-cell suspensions generated from non-fibrotic control and pulmonary fibrosis (PF) lungs"
+                        },
+                        "sample": {
+                            "accession": "SRS5278353",
+                            "title": "Lung Biopsy, control, VUHD69",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "Lung Biopsy",
+                                "disease state": "control",
+                                "tissue": "Lung Biopsy",
+                                "ENA-SPOT-COUNT": "64358680",
+                                "ENA-BASE-COUNT": "10554823520",
+                                "ENA-FIRST-PUBLIC": "2019-09-06",
+                                "ENA-LAST-UPDATE": "2019-09-06"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037309: Lung Biopsy, VUHD69; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "7682002",
+                            "ENA-BASE-COUNT": "1259848328",
+                            "ENA-FIRST-PUBLIC": "2019-09-08",
+                            "ENA-LAST-UPDATE": "2019-09-08"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/006/SRR9985356/SRR9985356_1.fastq.gz",
+                                "md5": "89247b2a1dc33b1192882d8cf7ce61c5",
+                                "size": "411993429"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/006/SRR9985356/SRR9985356_2.fastq.gz",
+                                "md5": "cb6706dfd55df8726bad2cf68750e28f",
+                                "size": "442078703"
+                            }
+                        ]
+                    },
+                    "SRR9985357": {
+                        "accession": "SRR9985357",
+                        "experiment": {
+                            "accession": "SRX6726377",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037309: Lung Biopsy, VUHD69; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218543",
+                            "title": "Single-cell RNA-sequencing reveals profibrotic roles of distinct epithelial and mesenchymal lineages in pulmonary fibrosis",
+                            "abstract": "Pulmonary fibrosis (PF) is a form of chronic lung disease characterized by progressive destruction of normal alveolar gas-exchange surfaces and accumulation of extracellular matrix (ECM). In order to comprehensively define the cell types, mechanisms and mediators driving ECM deposition and fibrotic remodeling in lungs with pulmonary fibrosis, we performed single-cell RNA-sequencing (scRNA-seq) of single-cell suspensions generated from non-fibrotic control and PF lungs. Analysis of over 114,000 cells from 20 PF and 10 control lungs identified 31 distinct cell types. We identified multiple distinct lineages directly contribute to ECM expansion, including a novel HAS1hi fibroblast subtype and a previously undescribed KRT5-/KRT17+, collagen and ECM-producing epithelial cell population that was highly enriched in PF lungs. Together these data provide high-resolution insights into the basic mechanisms of pulmonary fibrosis, and indicate a direct profibrotic role of the lung epithelium in PF pathogenesis. Overall design: We performed single-cell RNA-sequencing (scRNA-seq) of single-cell suspensions generated from non-fibrotic control and pulmonary fibrosis (PF) lungs"
+                        },
+                        "sample": {
+                            "accession": "SRS5278353",
+                            "title": "Lung Biopsy, control, VUHD69",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "Lung Biopsy",
+                                "disease state": "control",
+                                "tissue": "Lung Biopsy",
+                                "ENA-SPOT-COUNT": "64358680",
+                                "ENA-BASE-COUNT": "10554823520",
+                                "ENA-FIRST-PUBLIC": "2019-09-06",
+                                "ENA-LAST-UPDATE": "2019-09-06"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037309: Lung Biopsy, VUHD69; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "11217468",
+                            "ENA-BASE-COUNT": "1839664752",
+                            "ENA-FIRST-PUBLIC": "2019-09-08",
+                            "ENA-LAST-UPDATE": "2019-09-08"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/007/SRR9985357/SRR9985357_1.fastq.gz",
+                                "md5": "38db95d22a6713e0c2f123f89e73160b",
+                                "size": "500696745"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/007/SRR9985357/SRR9985357_2.fastq.gz",
+                                "md5": "8f41396383cf7a92e438861903bf20c9",
+                                "size": "603025356"
+                            }
+                        ]
+                    },
+                    "SRR9985358": {
+                        "accession": "SRR9985358",
+                        "experiment": {
+                            "accession": "SRX6726377",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037309: Lung Biopsy, VUHD69; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218543",
+                            "title": "Single-cell RNA-sequencing reveals profibrotic roles of distinct epithelial and mesenchymal lineages in pulmonary fibrosis",
+                            "abstract": "Pulmonary fibrosis (PF) is a form of chronic lung disease characterized by progressive destruction of normal alveolar gas-exchange surfaces and accumulation of extracellular matrix (ECM). In order to comprehensively define the cell types, mechanisms and mediators driving ECM deposition and fibrotic remodeling in lungs with pulmonary fibrosis, we performed single-cell RNA-sequencing (scRNA-seq) of single-cell suspensions generated from non-fibrotic control and PF lungs. Analysis of over 114,000 cells from 20 PF and 10 control lungs identified 31 distinct cell types. We identified multiple distinct lineages directly contribute to ECM expansion, including a novel HAS1hi fibroblast subtype and a previously undescribed KRT5-/KRT17+, collagen and ECM-producing epithelial cell population that was highly enriched in PF lungs. Together these data provide high-resolution insights into the basic mechanisms of pulmonary fibrosis, and indicate a direct profibrotic role of the lung epithelium in PF pathogenesis. Overall design: We performed single-cell RNA-sequencing (scRNA-seq) of single-cell suspensions generated from non-fibrotic control and pulmonary fibrosis (PF) lungs"
+                        },
+                        "sample": {
+                            "accession": "SRS5278353",
+                            "title": "Lung Biopsy, control, VUHD69",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "Lung Biopsy",
+                                "disease state": "control",
+                                "tissue": "Lung Biopsy",
+                                "ENA-SPOT-COUNT": "64358680",
+                                "ENA-BASE-COUNT": "10554823520",
+                                "ENA-FIRST-PUBLIC": "2019-09-06",
+                                "ENA-LAST-UPDATE": "2019-09-06"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037309: Lung Biopsy, VUHD69; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "5301647",
+                            "ENA-BASE-COUNT": "869470108",
+                            "ENA-FIRST-PUBLIC": "2019-09-08",
+                            "ENA-LAST-UPDATE": "2019-09-08"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/008/SRR9985358/SRR9985358_1.fastq.gz",
+                                "md5": "3aa38c95d0514fbb3eeb17e74fa9a759",
+                                "size": "282688824"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/008/SRR9985358/SRR9985358_2.fastq.gz",
+                                "md5": "bb001490b73c3873ee5b859335e2cec2",
+                                "size": "300336081"
+                            }
+                        ]
+                    },
+                    "SRR9985359": {
+                        "accession": "SRR9985359",
+                        "experiment": {
+                            "accession": "SRX6726377",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037309: Lung Biopsy, VUHD69; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218543",
+                            "title": "Single-cell RNA-sequencing reveals profibrotic roles of distinct epithelial and mesenchymal lineages in pulmonary fibrosis",
+                            "abstract": "Pulmonary fibrosis (PF) is a form of chronic lung disease characterized by progressive destruction of normal alveolar gas-exchange surfaces and accumulation of extracellular matrix (ECM). In order to comprehensively define the cell types, mechanisms and mediators driving ECM deposition and fibrotic remodeling in lungs with pulmonary fibrosis, we performed single-cell RNA-sequencing (scRNA-seq) of single-cell suspensions generated from non-fibrotic control and PF lungs. Analysis of over 114,000 cells from 20 PF and 10 control lungs identified 31 distinct cell types. We identified multiple distinct lineages directly contribute to ECM expansion, including a novel HAS1hi fibroblast subtype and a previously undescribed KRT5-/KRT17+, collagen and ECM-producing epithelial cell population that was highly enriched in PF lungs. Together these data provide high-resolution insights into the basic mechanisms of pulmonary fibrosis, and indicate a direct profibrotic role of the lung epithelium in PF pathogenesis. Overall design: We performed single-cell RNA-sequencing (scRNA-seq) of single-cell suspensions generated from non-fibrotic control and pulmonary fibrosis (PF) lungs"
+                        },
+                        "sample": {
+                            "accession": "SRS5278353",
+                            "title": "Lung Biopsy, control, VUHD69",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "Lung Biopsy",
+                                "disease state": "control",
+                                "tissue": "Lung Biopsy",
+                                "ENA-SPOT-COUNT": "64358680",
+                                "ENA-BASE-COUNT": "10554823520",
+                                "ENA-FIRST-PUBLIC": "2019-09-06",
+                                "ENA-LAST-UPDATE": "2019-09-06"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037309: Lung Biopsy, VUHD69; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "7757162",
+                            "ENA-BASE-COUNT": "1272174568",
+                            "ENA-FIRST-PUBLIC": "2019-09-08",
+                            "ENA-LAST-UPDATE": "2019-09-08"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/009/SRR9985359/SRR9985359_1.fastq.gz",
+                                "md5": "a7abb110fb67b9eeddc6c123eb017fd0",
+                                "size": "343612130"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/009/SRR9985359/SRR9985359_2.fastq.gz",
+                                "md5": "cc25979c1e9fa16a90530f2212fdc940",
+                                "size": "410362366"
+                            }
+                        ]
+                    },
+                    "SRR9985360": {
+                        "accession": "SRR9985360",
+                        "experiment": {
+                            "accession": "SRX6726377",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037309: Lung Biopsy, VUHD69; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218543",
+                            "title": "Single-cell RNA-sequencing reveals profibrotic roles of distinct epithelial and mesenchymal lineages in pulmonary fibrosis",
+                            "abstract": "Pulmonary fibrosis (PF) is a form of chronic lung disease characterized by progressive destruction of normal alveolar gas-exchange surfaces and accumulation of extracellular matrix (ECM). In order to comprehensively define the cell types, mechanisms and mediators driving ECM deposition and fibrotic remodeling in lungs with pulmonary fibrosis, we performed single-cell RNA-sequencing (scRNA-seq) of single-cell suspensions generated from non-fibrotic control and PF lungs. Analysis of over 114,000 cells from 20 PF and 10 control lungs identified 31 distinct cell types. We identified multiple distinct lineages directly contribute to ECM expansion, including a novel HAS1hi fibroblast subtype and a previously undescribed KRT5-/KRT17+, collagen and ECM-producing epithelial cell population that was highly enriched in PF lungs. Together these data provide high-resolution insights into the basic mechanisms of pulmonary fibrosis, and indicate a direct profibrotic role of the lung epithelium in PF pathogenesis. Overall design: We performed single-cell RNA-sequencing (scRNA-seq) of single-cell suspensions generated from non-fibrotic control and pulmonary fibrosis (PF) lungs"
+                        },
+                        "sample": {
+                            "accession": "SRS5278353",
+                            "title": "Lung Biopsy, control, VUHD69",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "Lung Biopsy",
+                                "disease state": "control",
+                                "tissue": "Lung Biopsy",
+                                "ENA-SPOT-COUNT": "64358680",
+                                "ENA-BASE-COUNT": "10554823520",
+                                "ENA-FIRST-PUBLIC": "2019-09-06",
+                                "ENA-LAST-UPDATE": "2019-09-06"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037309: Lung Biopsy, VUHD69; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "5922797",
+                            "ENA-BASE-COUNT": "971338708",
+                            "ENA-FIRST-PUBLIC": "2019-09-08",
+                            "ENA-LAST-UPDATE": "2019-09-08"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/000/SRR9985360/SRR9985360_1.fastq.gz",
+                                "md5": "269e85d8afc6cd303b502bc8d5f00849",
+                                "size": "317910928"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/000/SRR9985360/SRR9985360_2.fastq.gz",
+                                "md5": "07fdbb752e7cef1a4b8783e221a5b190",
+                                "size": "342445593"
+                            }
+                        ]
+                    },
+                    "SRR9985361": {
+                        "accession": "SRR9985361",
+                        "experiment": {
+                            "accession": "SRX6726377",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037309: Lung Biopsy, VUHD69; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218543",
+                            "title": "Single-cell RNA-sequencing reveals profibrotic roles of distinct epithelial and mesenchymal lineages in pulmonary fibrosis",
+                            "abstract": "Pulmonary fibrosis (PF) is a form of chronic lung disease characterized by progressive destruction of normal alveolar gas-exchange surfaces and accumulation of extracellular matrix (ECM). In order to comprehensively define the cell types, mechanisms and mediators driving ECM deposition and fibrotic remodeling in lungs with pulmonary fibrosis, we performed single-cell RNA-sequencing (scRNA-seq) of single-cell suspensions generated from non-fibrotic control and PF lungs. Analysis of over 114,000 cells from 20 PF and 10 control lungs identified 31 distinct cell types. We identified multiple distinct lineages directly contribute to ECM expansion, including a novel HAS1hi fibroblast subtype and a previously undescribed KRT5-/KRT17+, collagen and ECM-producing epithelial cell population that was highly enriched in PF lungs. Together these data provide high-resolution insights into the basic mechanisms of pulmonary fibrosis, and indicate a direct profibrotic role of the lung epithelium in PF pathogenesis. Overall design: We performed single-cell RNA-sequencing (scRNA-seq) of single-cell suspensions generated from non-fibrotic control and pulmonary fibrosis (PF) lungs"
+                        },
+                        "sample": {
+                            "accession": "SRS5278353",
+                            "title": "Lung Biopsy, control, VUHD69",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "Lung Biopsy",
+                                "disease state": "control",
+                                "tissue": "Lung Biopsy",
+                                "ENA-SPOT-COUNT": "64358680",
+                                "ENA-BASE-COUNT": "10554823520",
+                                "ENA-FIRST-PUBLIC": "2019-09-06",
+                                "ENA-LAST-UPDATE": "2019-09-06"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037309: Lung Biopsy, VUHD69; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "8623939",
+                            "ENA-BASE-COUNT": "1414325996",
+                            "ENA-FIRST-PUBLIC": "2019-09-08",
+                            "ENA-LAST-UPDATE": "2019-09-08"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/001/SRR9985361/SRR9985361_1.fastq.gz",
+                                "md5": "c754d1094a4708e4d0501f4e48e29c8f",
+                                "size": "385412969"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/001/SRR9985361/SRR9985361_2.fastq.gz",
+                                "md5": "38649d6c2bc14b0abcc1b17098468532",
+                                "size": "466426955"
+                            }
+                        ]
+                    },
+                    "SRR9985362": {
+                        "accession": "SRR9985362",
+                        "experiment": {
+                            "accession": "SRX6726377",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037309: Lung Biopsy, VUHD69; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218543",
+                            "title": "Single-cell RNA-sequencing reveals profibrotic roles of distinct epithelial and mesenchymal lineages in pulmonary fibrosis",
+                            "abstract": "Pulmonary fibrosis (PF) is a form of chronic lung disease characterized by progressive destruction of normal alveolar gas-exchange surfaces and accumulation of extracellular matrix (ECM). In order to comprehensively define the cell types, mechanisms and mediators driving ECM deposition and fibrotic remodeling in lungs with pulmonary fibrosis, we performed single-cell RNA-sequencing (scRNA-seq) of single-cell suspensions generated from non-fibrotic control and PF lungs. Analysis of over 114,000 cells from 20 PF and 10 control lungs identified 31 distinct cell types. We identified multiple distinct lineages directly contribute to ECM expansion, including a novel HAS1hi fibroblast subtype and a previously undescribed KRT5-/KRT17+, collagen and ECM-producing epithelial cell population that was highly enriched in PF lungs. Together these data provide high-resolution insights into the basic mechanisms of pulmonary fibrosis, and indicate a direct profibrotic role of the lung epithelium in PF pathogenesis. Overall design: We performed single-cell RNA-sequencing (scRNA-seq) of single-cell suspensions generated from non-fibrotic control and pulmonary fibrosis (PF) lungs"
+                        },
+                        "sample": {
+                            "accession": "SRS5278353",
+                            "title": "Lung Biopsy, control, VUHD69",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "Lung Biopsy",
+                                "disease state": "control",
+                                "tissue": "Lung Biopsy",
+                                "ENA-SPOT-COUNT": "64358680",
+                                "ENA-BASE-COUNT": "10554823520",
+                                "ENA-FIRST-PUBLIC": "2019-09-06",
+                                "ENA-LAST-UPDATE": "2019-09-06"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037309: Lung Biopsy, VUHD69; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "7261139",
+                            "ENA-BASE-COUNT": "1190826796",
+                            "ENA-FIRST-PUBLIC": "2019-09-08",
+                            "ENA-LAST-UPDATE": "2019-09-08"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/002/SRR9985362/SRR9985362_1.fastq.gz",
+                                "md5": "8b607223b8e3b2d4336d9edccdeafb1e",
+                                "size": "388950409"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/002/SRR9985362/SRR9985362_2.fastq.gz",
+                                "md5": "88afbce717a24085b7efb490d0703163",
+                                "size": "412160173"
+                            }
+                        ]
+                    },
+                    "SRR9985363": {
+                        "accession": "SRR9985363",
+                        "experiment": {
+                            "accession": "SRX6726377",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037309: Lung Biopsy, VUHD69; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP218543",
+                            "title": "Single-cell RNA-sequencing reveals profibrotic roles of distinct epithelial and mesenchymal lineages in pulmonary fibrosis",
+                            "abstract": "Pulmonary fibrosis (PF) is a form of chronic lung disease characterized by progressive destruction of normal alveolar gas-exchange surfaces and accumulation of extracellular matrix (ECM). In order to comprehensively define the cell types, mechanisms and mediators driving ECM deposition and fibrotic remodeling in lungs with pulmonary fibrosis, we performed single-cell RNA-sequencing (scRNA-seq) of single-cell suspensions generated from non-fibrotic control and PF lungs. Analysis of over 114,000 cells from 20 PF and 10 control lungs identified 31 distinct cell types. We identified multiple distinct lineages directly contribute to ECM expansion, including a novel HAS1hi fibroblast subtype and a previously undescribed KRT5-/KRT17+, collagen and ECM-producing epithelial cell population that was highly enriched in PF lungs. Together these data provide high-resolution insights into the basic mechanisms of pulmonary fibrosis, and indicate a direct profibrotic role of the lung epithelium in PF pathogenesis. Overall design: We performed single-cell RNA-sequencing (scRNA-seq) of single-cell suspensions generated from non-fibrotic control and pulmonary fibrosis (PF) lungs"
+                        },
+                        "sample": {
+                            "accession": "SRS5278353",
+                            "title": "Lung Biopsy, control, VUHD69",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "Lung Biopsy",
+                                "disease state": "control",
+                                "tissue": "Lung Biopsy",
+                                "ENA-SPOT-COUNT": "64358680",
+                                "ENA-BASE-COUNT": "10554823520",
+                                "ENA-FIRST-PUBLIC": "2019-09-06",
+                                "ENA-LAST-UPDATE": "2019-09-06"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037309: Lung Biopsy, VUHD69; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "ENA-SPOT-COUNT": "10592526",
+                            "ENA-BASE-COUNT": "1737174264",
+                            "ENA-FIRST-PUBLIC": "2019-09-08",
+                            "ENA-LAST-UPDATE": "2019-09-08"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/003/SRR9985363/SRR9985363_1.fastq.gz",
+                                "md5": "e168663c71918520a75896dbea4f45bb",
+                                "size": "472183915"
+                            },
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/003/SRR9985363/SRR9985363_2.fastq.gz",
+                                "md5": "d057cdefd98e4fd49f83ce682e490c74",
+                                "size": "562632150"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

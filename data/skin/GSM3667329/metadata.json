@@ -1,0 +1,210 @@
+{
+    "GSM3667329": {
+        "accession": "GSM3667329",
+        "supplementary_files": [
+            {
+                "filename": "GSM3667329_SC125_S3_barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3667nnn/GSM3667329/suppl/GSM3667329_SC125_S3_barcodes.tsv.gz",
+                "size": "7649"
+            },
+            {
+                "filename": "GSM3667329_SC125_S3_genes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3667nnn/GSM3667329/suppl/GSM3667329_SC125_S3_genes.tsv.gz",
+                "size": "257281"
+            },
+            {
+                "filename": "GSM3667329_SC125_S3_matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3667nnn/GSM3667329/suppl/GSM3667329_SC125_S3_matrix.mtx.gz",
+                "size": "13469230"
+            }
+        ],
+        "experiments": {
+            "SRX5521353": {
+                "accession": "SRX5521353",
+                "title": "NextSeq 500 paired end sequencing; GSM3667329: scRNA data of skin cells from healthy donor_sample_SC125; Homo sapiens; RNA-Seq",
+                "runs": {
+                    "SRR8728161": {
+                        "accession": "SRR8728161",
+                        "experiment": {
+                            "accession": "SRX5521353",
+                            "title": "NextSeq 500 paired end sequencing; GSM3667329: scRNA data of skin cells from healthy donor_sample_SC125; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "NextSeq 500"
+                        },
+                        "study": {
+                            "accession": "SRP188007",
+                            "title": "A Bayesian mixture model for clustering droplet-based single cell transcriptomic data from population studies",
+                            "abstract": "Abstract: The recently developed droplet-based single cell transcriptome sequencing (scRNA-seq) technology makes it feasible to perform a population-scale scRNA-seq study, in which the transcriptome is measured for tens of thousands of single cells from multiple individuals. Despite the advances of many clustering methods, there are few tailored methods for population-scale scRNA-seq studies. Here, we develop a BAyesian Mixture Model for Single Cell sequencing (BAMM-SC) method to cluster scRNA-seq data from multiple individuals simultaneously. BAMM-SC takes raw count data as input and accounts for data heterogeneity and batch effect among multiple individuals in a unified Bayesian hierarchical model framework. Results from applications of BAMM-SC to in-house experimental scRNA-seq datasets using blood and lung cells from humans or mice demonstrate that BAMM-SC outperformed existing clustering methods with considerable improved clustering accuracy, particularly in the presence of heterogeneity among individuals. Data purpose: To evaluate the performance of BAMM-SC for clustering droplet-based scRNA-seq data in population-based study, we performed single cell RNA-seq on peripheral blood mononuclear cells (PBMC) isolated from whole blood obtained from 4 healthy donors, and on lung cells isolated from streptococcus pneumonia (SP) infected and na\u00efve mice. Overall design: Peripheral blood mononuclear cells (PBMC) from healthy donors, skin cells from the dorsal mid-forearm of healthy donors, and lung cells from streptococcus pneumonia (SP) infected and na\u00efve mice"
+                        },
+                        "sample": {
+                            "accession": "SRS4488612",
+                            "title": "scRNA data of skin cells from healthy donor_sample_SC125",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "scRNA data of skin cells from healthy donor",
+                                "subject status": "healthy",
+                                "tissue": "dorsal mid-forearm",
+                                "cell type": "skin cells",
+                                "ENA-SPOT-COUNT": "175746906",
+                                "ENA-BASE-COUNT": "17223196788",
+                                "ENA-FIRST-PUBLIC": "2019-03-15",
+                                "ENA-LAST-UPDATE": "2019-03-15"
+                            }
+                        },
+                        "title": "NextSeq 500 paired end sequencing; GSM3667329: scRNA data of skin cells from healthy donor_sample_SC125; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "loader": "fastq-load.py",
+                            "options": "--platform=Illumina --readTypes=TBT --read1PairFiles=SC125_S3_L001_R1_001.fastq.gz --read2PairFiles=SC125_S3_L001_R2_001.fastq.gz --read3PairFiles=SC125_S3_L001_I1_001.fastq.gz",
+                            "ENA-SPOT-COUNT": "45216855",
+                            "ENA-BASE-COUNT": "4431251790",
+                            "ENA-FIRST-PUBLIC": "2019-11-01",
+                            "ENA-LAST-UPDATE": "2019-11-01"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR872/001/SRR8728161/SRR8728161.fastq.gz",
+                                "md5": "79221152a033ca2743edc952e16ceae3",
+                                "size": "3030007855"
+                            }
+                        ]
+                    },
+                    "SRR8728162": {
+                        "accession": "SRR8728162",
+                        "experiment": {
+                            "accession": "SRX5521353",
+                            "title": "NextSeq 500 paired end sequencing; GSM3667329: scRNA data of skin cells from healthy donor_sample_SC125; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "NextSeq 500"
+                        },
+                        "study": {
+                            "accession": "SRP188007",
+                            "title": "A Bayesian mixture model for clustering droplet-based single cell transcriptomic data from population studies",
+                            "abstract": "Abstract: The recently developed droplet-based single cell transcriptome sequencing (scRNA-seq) technology makes it feasible to perform a population-scale scRNA-seq study, in which the transcriptome is measured for tens of thousands of single cells from multiple individuals. Despite the advances of many clustering methods, there are few tailored methods for population-scale scRNA-seq studies. Here, we develop a BAyesian Mixture Model for Single Cell sequencing (BAMM-SC) method to cluster scRNA-seq data from multiple individuals simultaneously. BAMM-SC takes raw count data as input and accounts for data heterogeneity and batch effect among multiple individuals in a unified Bayesian hierarchical model framework. Results from applications of BAMM-SC to in-house experimental scRNA-seq datasets using blood and lung cells from humans or mice demonstrate that BAMM-SC outperformed existing clustering methods with considerable improved clustering accuracy, particularly in the presence of heterogeneity among individuals. Data purpose: To evaluate the performance of BAMM-SC for clustering droplet-based scRNA-seq data in population-based study, we performed single cell RNA-seq on peripheral blood mononuclear cells (PBMC) isolated from whole blood obtained from 4 healthy donors, and on lung cells isolated from streptococcus pneumonia (SP) infected and na\u00efve mice. Overall design: Peripheral blood mononuclear cells (PBMC) from healthy donors, skin cells from the dorsal mid-forearm of healthy donors, and lung cells from streptococcus pneumonia (SP) infected and na\u00efve mice"
+                        },
+                        "sample": {
+                            "accession": "SRS4488612",
+                            "title": "scRNA data of skin cells from healthy donor_sample_SC125",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "scRNA data of skin cells from healthy donor",
+                                "subject status": "healthy",
+                                "tissue": "dorsal mid-forearm",
+                                "cell type": "skin cells",
+                                "ENA-SPOT-COUNT": "175746906",
+                                "ENA-BASE-COUNT": "17223196788",
+                                "ENA-FIRST-PUBLIC": "2019-03-15",
+                                "ENA-LAST-UPDATE": "2019-03-15"
+                            }
+                        },
+                        "title": "NextSeq 500 paired end sequencing; GSM3667329: scRNA data of skin cells from healthy donor_sample_SC125; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "loader": "fastq-load.py",
+                            "options": "--platform=Illumina --readTypes=TBT --read1PairFiles=SC125_S3_L002_R1_001.fastq.gz --read2PairFiles=SC125_S3_L002_R2_001.fastq.gz --read3PairFiles=SC125_S3_L002_I1_001.fastq.gz",
+                            "ENA-SPOT-COUNT": "42967024",
+                            "ENA-BASE-COUNT": "4210768352",
+                            "ENA-FIRST-PUBLIC": "2019-11-01",
+                            "ENA-LAST-UPDATE": "2019-11-01"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR872/002/SRR8728162/SRR8728162.fastq.gz",
+                                "md5": "aebf693cf056808618ad0b0465749602",
+                                "size": "2918295331"
+                            }
+                        ]
+                    },
+                    "SRR8728163": {
+                        "accession": "SRR8728163",
+                        "experiment": {
+                            "accession": "SRX5521353",
+                            "title": "NextSeq 500 paired end sequencing; GSM3667329: scRNA data of skin cells from healthy donor_sample_SC125; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "NextSeq 500"
+                        },
+                        "study": {
+                            "accession": "SRP188007",
+                            "title": "A Bayesian mixture model for clustering droplet-based single cell transcriptomic data from population studies",
+                            "abstract": "Abstract: The recently developed droplet-based single cell transcriptome sequencing (scRNA-seq) technology makes it feasible to perform a population-scale scRNA-seq study, in which the transcriptome is measured for tens of thousands of single cells from multiple individuals. Despite the advances of many clustering methods, there are few tailored methods for population-scale scRNA-seq studies. Here, we develop a BAyesian Mixture Model for Single Cell sequencing (BAMM-SC) method to cluster scRNA-seq data from multiple individuals simultaneously. BAMM-SC takes raw count data as input and accounts for data heterogeneity and batch effect among multiple individuals in a unified Bayesian hierarchical model framework. Results from applications of BAMM-SC to in-house experimental scRNA-seq datasets using blood and lung cells from humans or mice demonstrate that BAMM-SC outperformed existing clustering methods with considerable improved clustering accuracy, particularly in the presence of heterogeneity among individuals. Data purpose: To evaluate the performance of BAMM-SC for clustering droplet-based scRNA-seq data in population-based study, we performed single cell RNA-seq on peripheral blood mononuclear cells (PBMC) isolated from whole blood obtained from 4 healthy donors, and on lung cells isolated from streptococcus pneumonia (SP) infected and na\u00efve mice. Overall design: Peripheral blood mononuclear cells (PBMC) from healthy donors, skin cells from the dorsal mid-forearm of healthy donors, and lung cells from streptococcus pneumonia (SP) infected and na\u00efve mice"
+                        },
+                        "sample": {
+                            "accession": "SRS4488612",
+                            "title": "scRNA data of skin cells from healthy donor_sample_SC125",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "scRNA data of skin cells from healthy donor",
+                                "subject status": "healthy",
+                                "tissue": "dorsal mid-forearm",
+                                "cell type": "skin cells",
+                                "ENA-SPOT-COUNT": "175746906",
+                                "ENA-BASE-COUNT": "17223196788",
+                                "ENA-FIRST-PUBLIC": "2019-03-15",
+                                "ENA-LAST-UPDATE": "2019-03-15"
+                            }
+                        },
+                        "title": "NextSeq 500 paired end sequencing; GSM3667329: scRNA data of skin cells from healthy donor_sample_SC125; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "loader": "fastq-load.py",
+                            "options": "--platform=Illumina --readTypes=TBT --read1PairFiles=SC125_S3_L003_R1_001.fastq.gz --read2PairFiles=SC125_S3_L003_R2_001.fastq.gz --read3PairFiles=SC125_S3_L003_I1_001.fastq.gz",
+                            "ENA-SPOT-COUNT": "45074860",
+                            "ENA-BASE-COUNT": "4417336280",
+                            "ENA-FIRST-PUBLIC": "2019-11-01",
+                            "ENA-LAST-UPDATE": "2019-11-01"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR872/003/SRR8728163/SRR8728163.fastq.gz",
+                                "md5": "48e57f29ee69b387d6520dbbf81b966d",
+                                "size": "3028409630"
+                            }
+                        ]
+                    },
+                    "SRR8728164": {
+                        "accession": "SRR8728164",
+                        "experiment": {
+                            "accession": "SRX5521353",
+                            "title": "NextSeq 500 paired end sequencing; GSM3667329: scRNA data of skin cells from healthy donor_sample_SC125; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "NextSeq 500"
+                        },
+                        "study": {
+                            "accession": "SRP188007",
+                            "title": "A Bayesian mixture model for clustering droplet-based single cell transcriptomic data from population studies",
+                            "abstract": "Abstract: The recently developed droplet-based single cell transcriptome sequencing (scRNA-seq) technology makes it feasible to perform a population-scale scRNA-seq study, in which the transcriptome is measured for tens of thousands of single cells from multiple individuals. Despite the advances of many clustering methods, there are few tailored methods for population-scale scRNA-seq studies. Here, we develop a BAyesian Mixture Model for Single Cell sequencing (BAMM-SC) method to cluster scRNA-seq data from multiple individuals simultaneously. BAMM-SC takes raw count data as input and accounts for data heterogeneity and batch effect among multiple individuals in a unified Bayesian hierarchical model framework. Results from applications of BAMM-SC to in-house experimental scRNA-seq datasets using blood and lung cells from humans or mice demonstrate that BAMM-SC outperformed existing clustering methods with considerable improved clustering accuracy, particularly in the presence of heterogeneity among individuals. Data purpose: To evaluate the performance of BAMM-SC for clustering droplet-based scRNA-seq data in population-based study, we performed single cell RNA-seq on peripheral blood mononuclear cells (PBMC) isolated from whole blood obtained from 4 healthy donors, and on lung cells isolated from streptococcus pneumonia (SP) infected and na\u00efve mice. Overall design: Peripheral blood mononuclear cells (PBMC) from healthy donors, skin cells from the dorsal mid-forearm of healthy donors, and lung cells from streptococcus pneumonia (SP) infected and na\u00efve mice"
+                        },
+                        "sample": {
+                            "accession": "SRS4488612",
+                            "title": "scRNA data of skin cells from healthy donor_sample_SC125",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "scRNA data of skin cells from healthy donor",
+                                "subject status": "healthy",
+                                "tissue": "dorsal mid-forearm",
+                                "cell type": "skin cells",
+                                "ENA-SPOT-COUNT": "175746906",
+                                "ENA-BASE-COUNT": "17223196788",
+                                "ENA-FIRST-PUBLIC": "2019-03-15",
+                                "ENA-LAST-UPDATE": "2019-03-15"
+                            }
+                        },
+                        "title": "NextSeq 500 paired end sequencing; GSM3667329: scRNA data of skin cells from healthy donor_sample_SC125; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "loader": "fastq-load.py",
+                            "options": "--platform=Illumina --readTypes=TBT --read1PairFiles=SC125_S3_L004_R1_001.fastq.gz --read2PairFiles=SC125_S3_L004_R2_001.fastq.gz --read3PairFiles=SC125_S3_L004_I1_001.fastq.gz",
+                            "ENA-SPOT-COUNT": "42488167",
+                            "ENA-BASE-COUNT": "4163840366",
+                            "ENA-FIRST-PUBLIC": "2019-11-01",
+                            "ENA-LAST-UPDATE": "2019-11-01"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR872/004/SRR8728164/SRR8728164.fastq.gz",
+                                "md5": "418ec96203c2f2fb8839e9bccbe96406",
+                                "size": "2908023771"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

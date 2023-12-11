@@ -1,0 +1,63 @@
+{
+    "GSM3773119": {
+        "accession": "GSM3773119",
+        "platform": {
+            "accession": "GPL16791",
+            "title": "Illumina HiSeq 2500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4778311": {
+                "accession": "SRS4778311",
+                "title": "Current Smoker 2",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Bronchial brushings",
+                    "smoking status": "Current Smoker",
+                    "pack years": "13.75",
+                    "co ppm": "9",
+                    "age": "49",
+                    "Sex": "female",
+                    "ENA-SPOT-COUNT": "19311152",
+                    "ENA-BASE-COUNT": "1255224880",
+                    "ENA-FIRST-PUBLIC": "2019-09-28",
+                    "ENA-LAST-UPDATE": "2019-09-29"
+                },
+                "experiment": {
+                    "SRX5854441": {
+                        "accession": "SRX5854441",
+                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM3773119: Current Smoker 2; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 2500",
+                        "runs": {
+                            "SRR9079183": {
+                                "accession": "SRR9079183",
+                                "experiment": "SRX5854441",
+                                "study": "SRP198757",
+                                "sample": "SRS4778311",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM3773119: Current Smoker 2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "19311152",
+                                    "ENA-BASE-COUNT": "1255224880",
+                                    "ENA-FIRST-PUBLIC": "2019-09-28",
+                                    "ENA-LAST-UPDATE": "2019-09-28"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR907/003/SRR9079183/SRR9079183_1.fastq.gz",
+                                        "md5": "51093780fa64d9c0b1e1c958fd0ad7e5",
+                                        "size": "217292560"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR907/003/SRR9079183/SRR9079183_2.fastq.gz",
+                                        "md5": "5ba334e4ac5e3f04b7b105d951f69567",
+                                        "size": "640340804"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

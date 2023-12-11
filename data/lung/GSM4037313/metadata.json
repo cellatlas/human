@@ -1,0 +1,235 @@
+{
+    "GSM4037313": {
+        "accession": "GSM4037313",
+        "platform": {
+            "accession": "GPL24676",
+            "title": "Illumina NovaSeq 6000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS5278357": {
+                "accession": "SRS5278357",
+                "title": "Lung Biopsy, control, THD0001",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Lung Biopsy",
+                    "disease state": "control",
+                    "tissue": "Lung Biopsy",
+                    "ENA-SPOT-COUNT": "161706693",
+                    "ENA-BASE-COUNT": "34928645688",
+                    "ENA-FIRST-PUBLIC": "2019-09-06",
+                    "ENA-LAST-UPDATE": "2019-09-06"
+                },
+                "experiment": {
+                    "SRX6726381": {
+                        "accession": "SRX6726381",
+                        "title": "Illumina NovaSeq 6000 paired end sequencing; GSM4037313: Lung Biopsy, THD0001; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina NovaSeq 6000",
+                        "runs": {
+                            "SRR9985374": {
+                                "accession": "SRR9985374",
+                                "experiment": "SRX6726381",
+                                "study": "SRP218543",
+                                "sample": "SRS5278357",
+                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM4037313: Lung Biopsy, THD0001; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "26261641",
+                                    "ENA-BASE-COUNT": "5672514456",
+                                    "ENA-FIRST-PUBLIC": "2019-09-08",
+                                    "ENA-LAST-UPDATE": "2019-09-08"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/004/SRR9985374/SRR9985374_1.fastq.gz",
+                                        "md5": "2b7700b26ea7bf2c3892385ddffb1d60",
+                                        "size": "1385293060"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/004/SRR9985374/SRR9985374_2.fastq.gz",
+                                        "md5": "84f9b0ad02de6bb5b739518cd44d19f7",
+                                        "size": "1416816544"
+                                    }
+                                ]
+                            },
+                            "SRR9985375": {
+                                "accession": "SRR9985375",
+                                "experiment": "SRX6726381",
+                                "study": "SRP218543",
+                                "sample": "SRS5278357",
+                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM4037313: Lung Biopsy, THD0001; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "25947138",
+                                    "ENA-BASE-COUNT": "5604581808",
+                                    "ENA-FIRST-PUBLIC": "2019-09-08",
+                                    "ENA-LAST-UPDATE": "2019-09-08"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/005/SRR9985375/SRR9985375_1.fastq.gz",
+                                        "md5": "25af16063f2743aaa9f6b96337e5bf80",
+                                        "size": "1377622860"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/005/SRR9985375/SRR9985375_2.fastq.gz",
+                                        "md5": "7fc777c0010852d4ffd87b76374e56e5",
+                                        "size": "1403861618"
+                                    }
+                                ]
+                            },
+                            "SRR9985376": {
+                                "accession": "SRR9985376",
+                                "experiment": "SRX6726381",
+                                "study": "SRP218543",
+                                "sample": "SRS5278357",
+                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM4037313: Lung Biopsy, THD0001; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "10351108",
+                                    "ENA-BASE-COUNT": "2235839328",
+                                    "ENA-FIRST-PUBLIC": "2019-09-08",
+                                    "ENA-LAST-UPDATE": "2019-09-08"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/006/SRR9985376/SRR9985376_1.fastq.gz",
+                                        "md5": "dcf78e532b881421efe9063517d871ad",
+                                        "size": "546034449"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/006/SRR9985376/SRR9985376_2.fastq.gz",
+                                        "md5": "2ff771a4556e56c67dee0721f522ff44",
+                                        "size": "571078780"
+                                    }
+                                ]
+                            },
+                            "SRR9985377": {
+                                "accession": "SRR9985377",
+                                "experiment": "SRX6726381",
+                                "study": "SRP218543",
+                                "sample": "SRS5278357",
+                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM4037313: Lung Biopsy, THD0001; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "10252804",
+                                    "ENA-BASE-COUNT": "2214605664",
+                                    "ENA-FIRST-PUBLIC": "2019-09-08",
+                                    "ENA-LAST-UPDATE": "2019-09-08"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/007/SRR9985377/SRR9985377_1.fastq.gz",
+                                        "md5": "e25c3842d04a0e7ed638fbbac0b9a761",
+                                        "size": "544026538"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/007/SRR9985377/SRR9985377_2.fastq.gz",
+                                        "md5": "f487a4d8a74fb2c65385b92480d38f8a",
+                                        "size": "568059912"
+                                    }
+                                ]
+                            },
+                            "SRR9985378": {
+                                "accession": "SRR9985378",
+                                "experiment": "SRX6726381",
+                                "study": "SRP218543",
+                                "sample": "SRS5278357",
+                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM4037313: Lung Biopsy, THD0001; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "23423078",
+                                    "ENA-BASE-COUNT": "5059384848",
+                                    "ENA-FIRST-PUBLIC": "2019-09-08",
+                                    "ENA-LAST-UPDATE": "2019-09-08"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/008/SRR9985378/SRR9985378_1.fastq.gz",
+                                        "md5": "77bc72e6460dd52f124ee997cf88dfd0",
+                                        "size": "1234283845"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/008/SRR9985378/SRR9985378_2.fastq.gz",
+                                        "md5": "0a44c6c24094c2a6bf6cf6e51a80aee2",
+                                        "size": "1261118553"
+                                    }
+                                ]
+                            },
+                            "SRR9985379": {
+                                "accession": "SRR9985379",
+                                "experiment": "SRX6726381",
+                                "study": "SRP218543",
+                                "sample": "SRS5278357",
+                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM4037313: Lung Biopsy, THD0001; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "23132450",
+                                    "ENA-BASE-COUNT": "4996609200",
+                                    "ENA-FIRST-PUBLIC": "2019-09-08",
+                                    "ENA-LAST-UPDATE": "2019-09-08"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/009/SRR9985379/SRR9985379_1.fastq.gz",
+                                        "md5": "d782ea822ef9368b3e9714d31b65f51e",
+                                        "size": "1226596248"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/009/SRR9985379/SRR9985379_2.fastq.gz",
+                                        "md5": "60e65b8ca6080e9ecf197d54c14a8bf2",
+                                        "size": "1249566171"
+                                    }
+                                ]
+                            },
+                            "SRR9985380": {
+                                "accession": "SRR9985380",
+                                "experiment": "SRX6726381",
+                                "study": "SRP218543",
+                                "sample": "SRS5278357",
+                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM4037313: Lung Biopsy, THD0001; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "21251335",
+                                    "ENA-BASE-COUNT": "4590288360",
+                                    "ENA-FIRST-PUBLIC": "2019-09-08",
+                                    "ENA-LAST-UPDATE": "2019-09-08"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/000/SRR9985380/SRR9985380_1.fastq.gz",
+                                        "md5": "a5e422edeee2b1b63fabf6cca8431971",
+                                        "size": "1112809617"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/000/SRR9985380/SRR9985380_2.fastq.gz",
+                                        "md5": "f060962b6786f20b79892f00d430d0c3",
+                                        "size": "1129632814"
+                                    }
+                                ]
+                            },
+                            "SRR9985381": {
+                                "accession": "SRR9985381",
+                                "experiment": "SRX6726381",
+                                "study": "SRP218543",
+                                "sample": "SRS5278357",
+                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM4037313: Lung Biopsy, THD0001; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "21087139",
+                                    "ENA-BASE-COUNT": "4554822024",
+                                    "ENA-FIRST-PUBLIC": "2019-09-08",
+                                    "ENA-LAST-UPDATE": "2019-09-08"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/001/SRR9985381/SRR9985381_1.fastq.gz",
+                                        "md5": "a144c1969c6ecef94e07ae4b2708e74e",
+                                        "size": "1111131442"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/001/SRR9985381/SRR9985381_2.fastq.gz",
+                                        "md5": "d7d3c3413f2385b3aa3e65238ed078da",
+                                        "size": "1123799750"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

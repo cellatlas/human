@@ -1,0 +1,144 @@
+{
+    "GSM3576413": {
+        "accession": "GSM3576413",
+        "supplementary_files": [
+            {
+                "filename": "GSM3576413_U4_pBMC_cell-gene_UMI_table.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3576nnn/GSM3576413/suppl/GSM3576413_U4_pBMC_cell-gene_UMI_table.tsv.gz",
+                "size": "4605726"
+            }
+        ],
+        "platform": {
+            "accession": "GPL20301",
+            "title": "Illumina HiSeq 4000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4283305": {
+                "accession": "SRS4283305",
+                "title": "U4_PBMC_10x_scRNA",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Blood immune cell",
+                    "subject status": "UC",
+                    "tissue": "PBMC",
+                    "cell subtype surface markers": "CD45+",
+                    "cell subtype": "immune cells",
+                    "ENA-SPOT-COUNT": "48642054",
+                    "ENA-BASE-COUNT": "6031614696",
+                    "ENA-FIRST-PUBLIC": "2020-07-18",
+                    "ENA-LAST-UPDATE": "2020-07-18"
+                },
+                "experiment": {
+                    "SRX5283557": {
+                        "accession": "SRX5283557",
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM3576413: U4_PBMC_10x_scRNA; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 4000",
+                        "runs": {
+                            "SRR8478505": {
+                                "accession": "SRR8478505",
+                                "experiment": "SRX5283557",
+                                "study": "SRP181666",
+                                "sample": "SRS4283305",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3576413: U4_PBMC_10x_scRNA; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "8733529",
+                                    "ENA-BASE-COUNT": "1082957596",
+                                    "ENA-FIRST-PUBLIC": "2020-07-19",
+                                    "ENA-LAST-UPDATE": "2020-07-19"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/005/SRR8478505/SRR8478505_1.fastq.gz",
+                                        "md5": "ca5a05a9aacc97eafddaba0193eec41a",
+                                        "size": "170348542"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/005/SRR8478505/SRR8478505_2.fastq.gz",
+                                        "md5": "91ad3704bb7d774052c2c9f343ec2724",
+                                        "size": "553987740"
+                                    }
+                                ]
+                            },
+                            "SRR8478506": {
+                                "accession": "SRR8478506",
+                                "experiment": "SRX5283557",
+                                "study": "SRP181666",
+                                "sample": "SRS4283305",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3576413: U4_PBMC_10x_scRNA; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "16491841",
+                                    "ENA-BASE-COUNT": "2044988284",
+                                    "ENA-FIRST-PUBLIC": "2020-07-19",
+                                    "ENA-LAST-UPDATE": "2020-07-19"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/006/SRR8478506/SRR8478506_1.fastq.gz",
+                                        "md5": "a9ed71788273350d9043eae45a5476d3",
+                                        "size": "323739657"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/006/SRR8478506/SRR8478506_2.fastq.gz",
+                                        "md5": "051a2bc9af73aa67929732f266631714",
+                                        "size": "1065144967"
+                                    }
+                                ]
+                            },
+                            "SRR8478507": {
+                                "accession": "SRR8478507",
+                                "experiment": "SRX5283557",
+                                "study": "SRP181666",
+                                "sample": "SRS4283305",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3576413: U4_PBMC_10x_scRNA; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "14194522",
+                                    "ENA-BASE-COUNT": "1760120728",
+                                    "ENA-FIRST-PUBLIC": "2020-07-19",
+                                    "ENA-LAST-UPDATE": "2020-07-19"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/007/SRR8478507/SRR8478507_1.fastq.gz",
+                                        "md5": "57d1ae0999751d6bff2a2d0de10d6dc7",
+                                        "size": "277064227"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/007/SRR8478507/SRR8478507_2.fastq.gz",
+                                        "md5": "b962066ca35509c315a8193e53e7458e",
+                                        "size": "890048867"
+                                    }
+                                ]
+                            },
+                            "SRR8478508": {
+                                "accession": "SRR8478508",
+                                "experiment": "SRX5283557",
+                                "study": "SRP181666",
+                                "sample": "SRS4283305",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3576413: U4_PBMC_10x_scRNA; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-SPOT-COUNT": "9222162",
+                                    "ENA-BASE-COUNT": "1143548088",
+                                    "ENA-FIRST-PUBLIC": "2020-07-19",
+                                    "ENA-LAST-UPDATE": "2020-07-19"
+                                },
+                                "files": [
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/008/SRR8478508/SRR8478508_1.fastq.gz",
+                                        "md5": "56009aa1c20119f7afc1a66a3c30d2a8",
+                                        "size": "180604557"
+                                    },
+                                    {
+                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/008/SRR8478508/SRR8478508_2.fastq.gz",
+                                        "md5": "8675d2a54030d85c2350492e4c0abf47",
+                                        "size": "591228459"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "GSM3360833": {
+        "accession": "GSM3360833",
+        "experiments": {
+            "SRX4623329": {
+                "accession": "SRX4623329",
+                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3360833: GW16_Hippocampus; Homo sapiens; RNA-Seq",
+                "runs": {
+                    "SRR7767734": {
+                        "accession": "SRR7767734",
+                        "experiment": {
+                            "accession": "SRX4623329",
+                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM3360833: GW16_Hippocampus; Homo sapiens; RNA-Seq",
+                            "platform": "ILLUMINA",
+                            "instrument": "Illumina HiSeq 4000"
+                        },
+                        "study": {
+                            "accession": "SRP159104",
+                            "title": "Characterization of the transcriptional landscape of human developing hippocampus by scRNA-seq",
+                            "abstract": "Human hippocampus enabled further processing of higher brain functions. However, very little is known about human hippocampus development, which is largely accomplished during fetal stage. Our current study elucidates the transcriptomic profiling of the developing human fetal hippocampus using single-cell RNA-seq (scRNA-seq), allowing us to reconstruct the order of neurogenesis and their lineage relationships. Overall design: Single cell RNA sequencing for 30416 cells from 7 human fetal hippocampus."
+                        },
+                        "sample": {
+                            "accession": "SRS3725283",
+                            "title": "GW16_Hippocampus",
+                            "organism": "Homo sapiens",
+                            "attributes": {
+                                "source_name": "human embryonic hippocampus",
+                                "gestational week": "GW16",
+                                "tissue": "hippocampus",
+                                "ENA-SPOT-COUNT": "268465163",
+                                "ENA-BASE-COUNT": "40269774450",
+                                "ENA-FIRST-PUBLIC": "2019-11-15",
+                                "ENA-LAST-UPDATE": "2019-11-15"
+                            }
+                        },
+                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM3360833: GW16_Hippocampus; Homo sapiens; RNA-Seq",
+                        "attributes": {
+                            "assembly": "GRCh37",
+                            "ENA-SPOT-COUNT": "268465163",
+                            "ENA-BASE-COUNT": "40269774450",
+                            "ENA-FIRST-PUBLIC": "2019-11-21",
+                            "ENA-LAST-UPDATE": "2019-11-21"
+                        },
+                        "files": [
+                            {
+                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR776/SRR7767734/GW16_Hippocampus_possorted_genome_bam.bam.1",
+                                "md5": "bc188af577b6a9063e8767f76662d912",
+                                "size": "76966685944"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
