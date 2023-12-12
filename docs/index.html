@@ -60,7 +60,7 @@
 
       // using jquery, load the json file, only when the document is ready
       $(document).ready(function () {
-        $.getJSON("/metrics.json", function (data) {
+        $.getJSON("metrics.json", function (data) {
           // for each item in the json file, append a row to the table
           $("#metadata-table tbody").append(formatRows(data));
           let table = new DataTable("#metadata-table", {
