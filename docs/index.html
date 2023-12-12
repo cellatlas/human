@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css"
+    />
+    <script>
+      function numberWithCommas(x) {
+        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      }
+      function formatRow(observation, index = 0) {
+        // use backticks and insert the variables into the string
+        return `
+                <tr>
+                    <td>${index}</td>
+                    <td><a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=${
+                      observation.obs
+                    }" target="_blank">${observation.obs}</a></td>
+                    <td>${observation.tissue}</td>
+                    <td>${numberWithCommas(observation.n_processed)}</td>
+                    <td>${numberWithCommas(
+                      observation.n_pseudoaligned
+                    )} (${numberWithCommas(
+          Math.round(
+            (observation.n_pseudoaligned / observation.n_processed) * 100
+          )
+        )})</td>
+                    <td>${numberWithCommas(
+                      observation.n_unique
+                    )} (${numberWithCommas(
+          Math.round((observation.n_unique / observation.n_processed) * 100)
+        )})</td>
+                    <td>${numberWithCommas(
+                      Math.round(observation.elapsed / 60)
+                    )}</td>
+                    <td>${numberWithCommas(observation.ncells)}</td>
+                    <td>${numberWithCommas(observation.ngenes)}</td>
+                    <td>${numberWithCommas(
+                      Math.round(observation.avg_per_cell)
+                    )}</td>
+                    <td>${numberWithCommas(
+                      Math.round(observation.avg_per_gene)
+                    )}</td>
+                    <td>${numberWithCommas(observation.min_cell)}</td>
+                    <td>${numberWithCommas(observation.max_cell)}</td>
+                </tr>
+            `;
+      }
+      function formatRows(observations) {
+        return observations
+          .map((observation, idx) => formatRow(observation, idx + 1))
+          .join("");
+      }
+
+      // using jquery, load the json file, only when the document is ready
+      $(document).ready(function () {
+        $.getJSON("/metrics.json", function (data) {
+          // for each item in the json file, append a row to the table
+          $("#metadata-table tbody").append(formatRows(data));
+          let table = new DataTable("#metadata-table", {
+            paging: false,
+            searching: true,
+            info: true,
+            order: [[0, "asc"]],
+          });
+        });
+      });
+    </script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        /* background-color: #f0f0f0; */
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 20px;
+        background-color: #ffffff; /* White background for the table container */
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 1600px;
+        border: 1px solid #e0e0e0; /* Light border for the table */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); /* Subtle shadow around the table */
+      }
+      /*This will work on every browser*/
+      .table-fixed thead th {
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        z-index: 999;
+      }
+
+      th,
+      td {
+        border-bottom: 1px solid #e0e0e0; /* Horizontal borders between rows */
+        text-align: right;
+        padding: 15px 8px; /* Increased vertical padding for rows */
+      }
+
+      th {
+        background-color: #f7f7f7; /* Light gray header */
+      }
+
+      tr:hover {
+        background-color: #fafafa; /* Hover effect for rows */
+      }
+      a[target="_blank"]::after {
+        content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+        margin: 0 3px 0 5px;
+      }
+
+      @media (max-width: 600px) {
+        th,
+        td {
+          font-size: 12px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1 style="text-align: center">Commons Cell Atlas</h1>
+      <div class="container">
+        <table id="metadata-table" class="table-fixed">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Observation</th>
+              <th>Tissue</th>
+              <th>Reads</th>
+              <th>Aligned (%)</th>
+              <th>Unique (%)</th>
+              <th>Alignment time (min)</th>
+              <th>Cells</th>
+              <th>Genes</th>
+              <th>Avg. per cell</th>
+              <th>Avg. per gene</th>
+              <th>Min cell</th>
+              <th>Max cell</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
+
