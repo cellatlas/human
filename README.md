@@ -1,4 +1,4 @@
-# Human Commons Cell atlas
+# Human Commons Cell Atlas
 This GitHub reposotiry for the Human Commons Cell Atlas contains uniformly preprocessed and filtered count matrices and cell type assignments that span 27 Human organs as well as marker gene lists for 31 Human organs. The count matrices are in the `data` folder and the marker gene lists in the `markers` folder. 
 
 The repository has the following structure (note: the repository is large):
