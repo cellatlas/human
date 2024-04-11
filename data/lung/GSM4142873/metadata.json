@@ -1,0 +1,43 @@
+{
+    "GSM4142873": {
+        "accession": "GSM4142873",
+        "supplementary_files": [
+            {
+                "filename": "GSM4142873_Patient4_barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM4142nnn/GSM4142873/suppl/GSM4142873_Patient4_barcodes.tsv.gz",
+                "size": "20921369"
+            },
+            {
+                "filename": "GSM4142873_Patient4_features.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM4142nnn/GSM4142873/suppl/GSM4142873_Patient4_features.tsv.gz",
+                "size": "304728"
+            },
+            {
+                "filename": "GSM4142873_Patient4_matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM4142nnn/GSM4142873/suppl/GSM4142873_Patient4_matrix.mtx.gz",
+                "size": "119176787"
+            }
+        ],
+        "platform": {
+            "accession": "GPL18573",
+            "title": "Illumina NextSeq 500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS5583561": {
+                "accession": "SRS5583561",
+                "title": "single cell RNAseq [Patient 4]",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "human respiratory epithelium",
+                    "tissue": "Respiratory epithelium",
+                    "age": "Adult",
+                    "ENA-SPOT-COUNT": 301208775,
+                    "ENA-BASE-COUNT": 27409998525,
+                    "ENA-FIRST-PUBLIC": "2019-12-20",
+                    "ENA-LAST-UPDATE": "2019-12-20"
+                },
+                "experiment": "SRX7067044"
+            }
+        }
+    }
+}
