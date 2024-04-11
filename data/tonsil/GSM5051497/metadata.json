@@ -1,0 +1,33 @@
+{
+    "GSM5051497": {
+        "accession": "GSM5051497",
+        "supplementary_files": [
+            {
+                "filename": "GSM5051497_Tonsil_3a_scRNA_seq_raw_feature_bc_matrix_mtx.tsv.tar.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM5051nnn/GSM5051497/suppl/GSM5051497_Tonsil_3a_scRNA_seq_raw_feature_bc_matrix_mtx.tsv.tar.gz",
+                "size": "101675943"
+            }
+        ],
+        "platform": {
+            "accession": "GPL24676",
+            "title": "Illumina NovaSeq 6000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS8158066": {
+                "accession": "SRS8158066",
+                "title": "Tonsil_3a_scRNA_seq",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Tonsil_scRNA-seq",
+                    "subject status": "children and adults undergoing routine tonsillectomy",
+                    "tissue": "tonsil",
+                    "ENA-SPOT-COUNT": 368545092,
+                    "ENA-BASE-COUNT": 53893020246,
+                    "ENA-FIRST-PUBLIC": "2021-03-17",
+                    "ENA-LAST-UPDATE": "2021-09-18"
+                },
+                "experiment": "SRX9986858"
+            }
+        }
+    }
+}
