@@ -18,61 +18,27 @@
                 "size": "12799113"
             }
         ],
-        "experiments": {
-            "SRX5728927": {
-                "accession": "SRX5728927",
-                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3734297: 10 month cortical organoids; Homo sapiens; RNA-Seq",
-                "runs": {
-                    "SRR8948934": {
-                        "accession": "SRR8948934",
-                        "experiment": {
-                            "accession": "SRX5728927",
-                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM3734297: 10 month cortical organoids; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "Illumina HiSeq 4000"
-                        },
-                        "study": {
-                            "accession": "SRP193683",
-                            "title": "Nested oscillatory dynamics in cortical organoids model early human brain network development",
-                            "abstract": "We characterized the different cell types and their differential gene expression patterns in 1, 3, 6, and 10 month-old cortical organoids. Overall design: Profling of single cell RNA-Seq for 1, 3, 6, and 10 month-old human cortical organoids"
-                        },
-                        "sample": {
-                            "accession": "SRS4666814",
-                            "title": "10 month cortical organoids",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "Cortical organoids",
-                                "cell line": "WT - iPSC",
-                                "passage": "37",
-                                "age of organoid": "10 month",
-                                "reprogramming strategy": "Retroviral",
-                                "ENA-SPOT-COUNT": "112754126",
-                                "ENA-BASE-COUNT": "13981511624",
-                                "ENA-FIRST-PUBLIC": "2019-04-28",
-                                "ENA-LAST-UPDATE": "2019-04-28"
-                            }
-                        },
-                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM3734297: 10 month cortical organoids; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "ENA-SPOT-COUNT": "112754126",
-                            "ENA-BASE-COUNT": "13981511624",
-                            "ENA-FIRST-PUBLIC": "2019-04-29",
-                            "ENA-LAST-UPDATE": "2019-04-29"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR894/004/SRR8948934/SRR8948934_1.fastq.gz",
-                                "md5": "e5982c27d9580ff6ac31b307f349000b",
-                                "size": "2071062119"
-                            },
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR894/004/SRR8948934/SRR8948934_2.fastq.gz",
-                                "md5": "6c29a67365b35e97287637d543af8196",
-                                "size": "7477869240"
-                            }
-                        ]
-                    }
-                }
+        "platform": {
+            "accession": "GPL20301",
+            "title": "Illumina HiSeq 4000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4666814": {
+                "accession": "SRS4666814",
+                "title": "10 month cortical organoids",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Cortical organoids",
+                    "cell line": "WT - iPSC",
+                    "passage": "37",
+                    "age of organoid": "10 month",
+                    "reprogramming strategy": "Retroviral",
+                    "ENA-SPOT-COUNT": 112754126,
+                    "ENA-BASE-COUNT": 13981511624,
+                    "ENA-FIRST-PUBLIC": "2019-04-28",
+                    "ENA-LAST-UPDATE": "2019-04-28"
+                },
+                "experiment": "SRX5728927"
             }
         }
     }
