@@ -18,54 +18,24 @@
                 "size": "10316704"
             }
         ],
-        "experiments": {
-            "SRX4643789": {
-                "accession": "SRX4643789",
-                "title": "Illumina HiSeq 2500 paired end sequencing; GSM3375767: tonsil CD14+ cells; Homo sapiens; RNA-Seq",
-                "runs": {
-                    "SRR7788869": {
-                        "accession": "SRR7788869",
-                        "experiment": {
-                            "accession": "SRX4643789",
-                            "title": "Illumina HiSeq 2500 paired end sequencing; GSM3375767: tonsil CD14+ cells; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "Illumina HiSeq 2500"
-                        },
-                        "study": {
-                            "accession": "SRP159650",
-                            "title": "Single-cell RNA-seq analysis of human tonsil CD14+ cells",
-                            "abstract": "We performed single-cell RNA-seq on CD14+ cells isolated from the tonsils of one healthy donor. We used the 10x chromium technology. Overall design: Tonsil phagocytes were prepared by centrifugation on a Ficoll gradient. Dendritic cells and macrophages were enriched by negative selection using magnetic beads. Cell populations were further isolated by cell sorting. Cellular suspensions (3500 cells) were loaded on a 10X Chromium instrument (10X Genomics) according to manufacturer's protocol."
-                        },
-                        "sample": {
-                            "accession": "SRS3741870",
-                            "title": "tonsil CD14+ cells",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "tonsil CD14+ cells",
-                                "individual": "donor 1",
-                                "ENA-SPOT-COUNT": "199264201",
-                                "ENA-BASE-COUNT": "19527891698",
-                                "ENA-FIRST-PUBLIC": "2019-04-28",
-                                "ENA-LAST-UPDATE": "2019-04-28"
-                            }
-                        },
-                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM3375767: tonsil CD14+ cells; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "assembly": "GRCh38",
-                            "ENA-SPOT-COUNT": "199264201",
-                            "ENA-BASE-COUNT": "19527891698",
-                            "ENA-FIRST-PUBLIC": "2019-04-29",
-                            "ENA-LAST-UPDATE": "2019-04-29"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR778/009/SRR7788869/SRR7788869.fastq.gz",
-                                "md5": "aef9b3c0ed3671ed42cb6abc9965b600",
-                                "size": "9888209130"
-                            }
-                        ]
-                    }
-                }
+        "platform": {
+            "accession": "GPL16791",
+            "title": "Illumina HiSeq 2500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS3741870": {
+                "accession": "SRS3741870",
+                "title": "tonsil CD14+ cells",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "tonsil CD14+ cells",
+                    "individual": "donor 1",
+                    "ENA-SPOT-COUNT": 199264201,
+                    "ENA-BASE-COUNT": 19527891698,
+                    "ENA-FIRST-PUBLIC": "2019-04-28",
+                    "ENA-LAST-UPDATE": "2019-04-28"
+                },
+                "experiment": "SRX4643789"
             }
         }
     }
