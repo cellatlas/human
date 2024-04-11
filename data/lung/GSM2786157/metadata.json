@@ -1,55 +1,25 @@
 {
     "GSM2786157": {
         "accession": "GSM2786157",
-        "experiments": {
-            "SRX3189946": {
-                "accession": "SRX3189946",
-                "title": "NextSeq 500 sequencing; GSM2786157: proximal; Homo sapiens; RNA-Seq",
-                "runs": {
-                    "SRR6042036": {
-                        "accession": "SRR6042036",
-                        "experiment": {
-                            "accession": "SRX3189946",
-                            "title": "NextSeq 500 sequencing; GSM2786157: proximal; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "NextSeq 500"
-                        },
-                        "study": {
-                            "accession": "SRP117754",
-                            "title": "Single cell transcriptomic profiling of pluripotent stem cell-derived SCGB3A2+ airway epithelium reveals fate plasticity  *- 10x Chromium: bronchospheres vs. alveolospheres day 41*",
-                            "abstract": "Many lung diseases involve alterations in the cellular identity of the lung epithelium. Improved insight into airway development and the changes to cellular identity that result from abnormal signaling may therefore improve understanding of the etiology of these complex diseases. We have previously described a protocol to generate epithelial airway spheres from human pluripotent stem cells (hPSCs), but still poorly understand the identity, development, and heterogeneity of these early airway cells. Here we use novel murine and human PSC lines to study developing secretory cells derived in vitro from hPSCs. Using an SCGB3A2CherryPicker (SC) reporter system together with population-based or single-cell global transcriptomic profiling we track, purify, and analyze hPSC-derived putative secretory airway progenitors and find that SC+ cells are enriched for expression of airway epithelial markers, including secretory cell markers, SCGB3A2 and SCGB1A1. Unexpectedly, some SC+ human cells also co-express distal type 2 cell genes, including SFTPC, ABCA3, NAPSA, CTSH and functional lamellar bodies, suggesting a significant level of plasticity within the hPSC-derived secretory population relative to concurrently generated proximal airway TP63+ cells or distal alveolar SFTPC+ cells. We establish that this plasticity is minimized by inhibiting low levels of endogenous canonical Wnt signaling post-lung specification, thus depleting the co-expressed type 2 cell program. Taken together, these findings suggest that, similar to in vivo mouse genetic models and diseased human lungs, hPSC-derived airway cells exhibit cellular plasticity in response to signaling cues, providing a human model system in which to study cellular identity in a disease-relevant context. Overall design: Single-cell RNA-seq; NKX2-1 GFP + lung progenitors in proximal or distal media"
-                        },
-                        "sample": {
-                            "accession": "SRS2517316",
-                            "title": "proximal",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "NKX2-1 GFP + lung progenitors in proximal media",
-                                "media": "proximal",
-                                "cell type": "NKX2-1 GFP + lung progenitors",
-                                "ENA-SPOT-COUNT": "109406227",
-                                "ENA-BASE-COUNT": "10721810246",
-                                "ENA-FIRST-PUBLIC": "2018-03-01",
-                                "ENA-LAST-UPDATE": "2018-03-02"
-                            }
-                        },
-                        "title": "NextSeq 500 sequencing; GSM2786157: proximal; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "assembly": "hg19",
-                            "ENA-SPOT-COUNT": "109406227",
-                            "ENA-BASE-COUNT": "10721810246",
-                            "ENA-FIRST-PUBLIC": "2018-03-03",
-                            "ENA-LAST-UPDATE": "2018-03-03"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/SRA608/SRA608611/bam/proximal_possorted_genome_bam.bam",
-                                "md5": "1a31c26b121c90037094aaf15f044fc9",
-                                "size": "19689441457"
-                            }
-                        ]
-                    }
-                }
+        "platform": {
+            "accession": "GPL18573",
+            "title": "Illumina NextSeq 500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS2517316": {
+                "accession": "SRS2517316",
+                "title": "proximal",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "NKX2-1 GFP + lung progenitors in proximal media",
+                    "media": "proximal",
+                    "cell type": "NKX2-1 GFP + lung progenitors",
+                    "ENA-SPOT-COUNT": 109406227,
+                    "ENA-BASE-COUNT": 10721810246,
+                    "ENA-FIRST-PUBLIC": "2018-03-01",
+                    "ENA-LAST-UPDATE": "2018-03-02"
+                },
+                "experiment": "SRX3189946"
             }
         }
     }
