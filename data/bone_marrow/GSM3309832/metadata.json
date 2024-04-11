@@ -18,62 +18,32 @@
                 "size": "33390633"
             }
         ],
-        "experiments": {
-            "SRX4478352": {
-                "accession": "SRX4478352",
-                "title": "Illumina HiSeq 2500 paired end sequencing; GSM3309832: 10x.ET01; Homo sapiens; RNA-Seq",
-                "runs": {
-                    "SRR7613775": {
-                        "accession": "SRR7613775",
-                        "experiment": {
-                            "accession": "SRX4478352",
-                            "title": "Illumina HiSeq 2500 paired end sequencing; GSM3309832: 10x.ET01; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "Illumina HiSeq 2500"
-                        },
-                        "study": {
-                            "accession": "SRP155569",
-                            "title": "RNA-seq of Single-Cell Genotyping of Transcriptomes",
-                            "abstract": "Somatic cancer driver mutations may result in distinctly diverging phenotypic outputs. Thus, a common driver lesion may result in cancer subtypes with distinct clinical presentations and outcomes. The diverging phenotypic outputs of mutations result from the superimposition of the mutations with distinct progenitor cell populations that have differing lineage potential. However, our ability to test this hypothesis has been challenged by currently available tools. For example, flow cytometry is limited in its inability to resolve lineage commitment of early progenitors. Single-cell RNA sequencing (scRNA-seq) may provide higher resolution mapping of the early progenitor populations as long as high throughput technology is available to sequence thousands of single cells. Nevertheless, high throughput scRNA-seq is limited in its inability to jointly and robustly detect the mutational status and the transcriptional profile from the same cell.  To overcome these limitations, we propose the use of scRNA-seq combined with targeted mutation sequencing from transcrptional read-outs. Overall design: We apply this method to study myeloid neopasms, in which the comlex process of hematopoiesis is corrupted by mutated stem and progenitor cells."
-                        },
-                        "sample": {
-                            "accession": "SRS3603372",
-                            "title": "10x.ET01",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "ET01, scRNA-seq",
-                                "source": "BMMC",
-                                "targeted mutation": "CALR exon9 L367Rfs*46 (c.1099_1150del)",
-                                "Sex": "female",
-                                "age": "69",
-                                "diagnosis": "ET",
-                                "pb blast count": "0",
-                                "bm blast count": "0.03",
-                                "bm fibrosis": "MF-1/3",
-                                "treatment": "Aspirin; previously hydroxyurea",
-                                "ENA-SPOT-COUNT": "90890199",
-                                "ENA-BASE-COUNT": "8907239502",
-                                "ENA-FIRST-PUBLIC": "2019-01-02",
-                                "ENA-LAST-UPDATE": "2019-06-02"
-                            }
-                        },
-                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM3309832: 10x.ET01; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "assembly": "GRCh38",
-                            "ENA-SPOT-COUNT": "90890199",
-                            "ENA-BASE-COUNT": "8907239502",
-                            "ENA-FIRST-PUBLIC": "2019-01-03",
-                            "ENA-LAST-UPDATE": "2019-06-05"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR761/005/SRR7613775/SRR7613775.fastq.gz",
-                                "md5": "db2c5b63cba684bc8e521b8f62b84a21",
-                                "size": "3027459858"
-                            }
-                        ]
-                    }
-                }
+        "platform": {
+            "accession": "GPL16791",
+            "title": "Illumina HiSeq 2500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS3603372": {
+                "accession": "SRS3603372",
+                "title": "10x.ET01",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "ET01, scRNA-seq",
+                    "source": "BMMC",
+                    "targeted mutation": "CALR exon9 L367Rfs*46 (c.1099_1150del)",
+                    "Sex": "female",
+                    "age": "69",
+                    "diagnosis": "ET",
+                    "pb blast count": "0",
+                    "bm blast count": "0.03",
+                    "bm fibrosis": "MF-1/3",
+                    "treatment": "Aspirin; previously hydroxyurea",
+                    "ENA-SPOT-COUNT": 90890199,
+                    "ENA-BASE-COUNT": 8907239502,
+                    "ENA-FIRST-PUBLIC": "2019-01-02",
+                    "ENA-LAST-UPDATE": "2019-06-02"
+                },
+                "experiment": "SRX4478352"
             }
         }
     }
