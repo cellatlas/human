@@ -2,80 +2,40 @@
     "GSM3732364": {
         "accession": "GSM3732364",
         "supplementary_files": [
-            [
-                {
-                    "filename": "GSM3732364_barcodes_pbmc2_mrna.tsv.gz",
-                    "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3732nnn/GSM3732364/suppl/GSM3732364_barcodes_pbmc2_mrna.tsv.gz",
-                    "size": "20830"
-                }
-            ],
-            [
-                {
-                    "filename": "GSM3732364_features_pbmc2_mrna.tsv.gz",
-                    "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3732nnn/GSM3732364/suppl/GSM3732364_features_pbmc2_mrna.tsv.gz",
-                    "size": "304728"
-                }
-            ],
-            [
-                {
-                    "filename": "GSM3732364_matrix_pbmc2_mrna.mtx.gz",
-                    "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3732nnn/GSM3732364/suppl/GSM3732364_matrix_pbmc2_mrna.mtx.gz",
-                    "size": "13913503"
-                }
-            ]
+            {
+                "filename": "GSM3732364_barcodes_pbmc2_mrna.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3732nnn/GSM3732364/suppl/GSM3732364_barcodes_pbmc2_mrna.tsv.gz",
+                "size": "20830"
+            },
+            {
+                "filename": "GSM3732364_features_pbmc2_mrna.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3732nnn/GSM3732364/suppl/GSM3732364_features_pbmc2_mrna.tsv.gz",
+                "size": "304728"
+            },
+            {
+                "filename": "GSM3732364_matrix_pbmc2_mrna.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3732nnn/GSM3732364/suppl/GSM3732364_matrix_pbmc2_mrna.mtx.gz",
+                "size": "13913503"
+            }
         ],
-        "experiments": {
-            "SRX5729460": {
-                "accession": "SRX5729460",
-                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM3732364: pbmc2_mrna; Homo sapiens; RNA-Seq",
-                "runs": {
-                    "SRR8949482": {
-                        "accession": "SRR8949482",
-                        "experiment": {
-                            "accession": "SRX5729460",
-                            "title": "Illumina NovaSeq 6000 paired end sequencing; GSM3732364: pbmc2_mrna; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "Illumina NovaSeq 6000"
-                        },
-                        "study": {
-                            "accession": "SRP193719",
-                            "title": "Simultaneous measurement of DNA repair activities and mRNA abundance in single cells",
-                            "abstract": "New methods that measure the static abundance of DNA, RNA, and proteins in single cells are rapidly transforming biology. But these methods do not provide insight into dynamic cellular activities, precluding a complete understanding of cellular heterogeneity. We developed a method to measure enzymatic activities in single cells and used it to simultaneously measure DNA repair enzyme activities and mRNA expression. By including polyadenylated DNA hairpin substrates with defined lesions in a single-cell mRNA sequencing experiment, we measured repair activities by capturing repair intermediates and products catalyzed by activities in single cells. Overall design: Single cell mRNA sequencing libraries and matching DNA repair activity libraries from the 10X genomics platform."
-                        },
-                        "sample": {
-                            "accession": "SRS4667085",
-                            "title": "pbmc2_mrna",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "Human PBMCs",
-                                "cell type": "Human PBMCs",
-                                "ENA-SPOT-COUNT": "146307283",
-                                "ENA-BASE-COUNT": "44184799466",
-                                "ENA-FIRST-PUBLIC": "2019-10-03",
-                                "ENA-LAST-UPDATE": "2019-10-04"
-                            }
-                        },
-                        "title": "Illumina NovaSeq 6000 paired end sequencing; GSM3732364: pbmc2_mrna; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "ENA-SPOT-COUNT": "146307283",
-                            "ENA-BASE-COUNT": "44184799466",
-                            "ENA-FIRST-PUBLIC": "2019-10-07",
-                            "ENA-LAST-UPDATE": "2019-10-07"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR894/002/SRR8949482/SRR8949482_1.fastq.gz",
-                                "md5": "53a1eb2dfbea5a0fa9f283af3f6e039a",
-                                "size": "13019874351"
-                            },
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR894/002/SRR8949482/SRR8949482_2.fastq.gz",
-                                "md5": "0df2fb9bb5ed7f2561ead0f664e011da",
-                                "size": "10126114555"
-                            }
-                        ]
-                    }
-                }
+        "platform": {
+            "accession": "GPL24676",
+            "title": "Illumina NovaSeq 6000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4667085": {
+                "accession": "SRS4667085",
+                "title": "pbmc2_mrna",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Human PBMCs",
+                    "cell type": "Human PBMCs",
+                    "ENA-SPOT-COUNT": 146307283,
+                    "ENA-BASE-COUNT": 44184799466,
+                    "ENA-FIRST-PUBLIC": "2019-10-03",
+                    "ENA-LAST-UPDATE": "2019-10-04"
+                },
+                "experiment": "SRX5729460"
             }
         }
     }
