@@ -1,0 +1,28 @@
+{
+    "GSM3439987": {
+        "accession": "GSM3439987",
+        "platform": {
+            "accession": "GPL16479",
+            "title": "Illumina MiSeq (Drosophila melanogaster)"
+        },
+        "sample": {
+            "SRS3957859": {
+                "accession": "SRS3957859",
+                "title": "\u00ce\u201dHel-C_rep2",
+                "organism": "Drosophila melanogaster",
+                "attributes": {
+                    "source_name": "Ovarian Somatic Cells (OSC)",
+                    "cell type": "Ovarian Somatic Cells (OSC)",
+                    "plasmid": "Yb delta-Hel-C",
+                    "antibody": "Flag (Medical & Biological Laboratories, M185-3L)",
+                    "sirna": "siYb",
+                    "ENA-SPOT-COUNT": 1836885,
+                    "ENA-BASE-COUNT": 93681135,
+                    "ENA-FIRST-PUBLIC": "2019-04-30",
+                    "ENA-LAST-UPDATE": "2019-05-01"
+                },
+                "experiment": "SRX4912480"
+            }
+        }
+    }
+}
