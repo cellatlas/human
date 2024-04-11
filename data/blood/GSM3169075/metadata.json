@@ -23,42 +23,12 @@
                     "cell type": "Peripheral blood mononuclear cells (PBMCs)",
                     "barcode coordinate": "tag CB",
                     "umi coordinate": "tag UB",
-                    "ENA-SPOT-COUNT": "124786723",
-                    "ENA-BASE-COUNT": "12603459023",
+                    "ENA-SPOT-COUNT": 124786723,
+                    "ENA-BASE-COUNT": 12603459023,
                     "ENA-FIRST-PUBLIC": "2018-07-29",
                     "ENA-LAST-UPDATE": "2018-07-29"
                 },
-                "experiment": {
-                    "SRX4149408": {
-                        "accession": "SRX4149408",
-                        "title": "Illumina HiSeq 2500 sequencing; GSM3169075: Healthy human PBMCs; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "Illumina HiSeq 2500",
-                        "runs": {
-                            "SRR7244582": {
-                                "accession": "SRR7244582",
-                                "experiment": "SRX4149408",
-                                "study": "SRP149496",
-                                "sample": "SRS3363004",
-                                "title": "Illumina HiSeq 2500 sequencing; GSM3169075: Healthy human PBMCs; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "assembly": "GRCh38",
-                                    "ENA-SPOT-COUNT": "124786723",
-                                    "ENA-BASE-COUNT": "12603459023",
-                                    "ENA-FIRST-PUBLIC": "2018-07-30",
-                                    "ENA-LAST-UPDATE": "2018-07-30"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/SRA713/SRA713577/bam/possorted_genome_bam.bam",
-                                        "md5": "7bedae8a0b2505bbfdea050fbe0835f3",
-                                        "size": "37210620969"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX4149408"
             }
         }
     }
