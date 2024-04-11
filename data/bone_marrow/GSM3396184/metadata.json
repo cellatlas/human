@@ -18,55 +18,25 @@
                 "size": "17707248"
             }
         ],
-        "experiments": {
-            "SRX4720060": {
-                "accession": "SRX4720060",
-                "title": "Illumina HiSeq 3000 paired end sequencing; GSM3396184: Bone marrow U; Homo sapiens; RNA-Seq",
-                "runs": {
-                    "SRR7881422": {
-                        "accession": "SRR7881422",
-                        "experiment": {
-                            "accession": "SRX4720060",
-                            "title": "Illumina HiSeq 3000 paired end sequencing; GSM3396184: Bone marrow U; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "Illumina HiSeq 3000"
-                        },
-                        "study": {
-                            "accession": "SRP162214",
-                            "title": "Human Bone Marrow Assessment by Single Cell RNA Sequencing, Mass Cytometry and Flow Cytometry [scRNA]",
-                            "abstract": "New techniques for single-cell analysis have led to insights into hematopoiesis and the immune system, but the ability of these techniques to cross-validate and reproducibly identify the biological variation in diverse human samples is currently unproven. We therefore performed a comprehensive assessment of human bone marrow cells using both single-cell RNA sequencing and multiparameter flow cytometry from twenty healthy adult human donors across a broad age range. These data characterize variation between healthy donors as well as age-associated changes in cell population frequencies. Direct comparison of techniques revealed discrepancy in the quantification of T lymphocyte and natural killer cell populations. Orthogonal validation of immunophenotyping using mass cytometry demonstrated good correlation with flow cytometry. Technical replicates using single-cell RNA sequencing matched robustly, while biological replicates showed variation. Given the increasing use of single-cell technologies in translational research, this resource serves as an important reference dataset and highlights opportunities for further refinement. [Funding source] Project Number: 1ZIAHL006163-05 Contact PI / Project Leader: HOURIGAN, CHRISTOPHER Title: DETECTION, PREVENTION AND TREATMENT OF ACUTE MYELOID LEUKEMIA (AML) RELAPSE. Awardee Organization: NATIONAL HEART, LUNG, AND BLOOD INSTITUTE Overall design: Using standard operating procedures, mononuclear cells from 20 healthy donors' bone marrow aspirates were isolated using Ficoll density gradient separation and cryopreserved in 90% FBS/ 10% DMSO for storage in 72 liquid nitrogen. scRNAseq was performed using 10X Genomics Single Cell 3' Solution, version 2 according to manufacturer's instructions (protocol rev A). Libraries were sequenced on HiSeq3000. Droplet-based scRNAseq of bone marrow mononuclear cells for all donor samples was performed with goal minimum sequencing depth of 50,000 reads/cell and detected a mean of 880 genes/cells (range 575-1,390 gene/cell)."
-                        },
-                        "sample": {
-                            "accession": "SRS3805268",
-                            "title": "Bone marrow U",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "Bone marrow",
-                                "cell type": "bone marrow cells",
-                                "age": "46 years old",
-                                "ENA-SPOT-COUNT": "178726885",
-                                "ENA-BASE-COUNT": "17515234730",
-                                "ENA-FIRST-PUBLIC": "2018-09-22",
-                                "ENA-LAST-UPDATE": "2018-09-22"
-                            }
-                        },
-                        "title": "Illumina HiSeq 3000 paired end sequencing; GSM3396184: Bone marrow U; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "assembly": "GRCh38",
-                            "ENA-SPOT-COUNT": "178726885",
-                            "ENA-BASE-COUNT": "17515234730",
-                            "ENA-FIRST-PUBLIC": "2018-09-26",
-                            "ENA-LAST-UPDATE": "2018-09-26"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/SRA779/SRA779509/bam/possorted_genome_bam_U.bam",
-                                "md5": "e51e1324bd6bf0429605b21d03469a38",
-                                "size": "37253867569"
-                            }
-                        ]
-                    }
-                }
+        "platform": {
+            "accession": "GPL21290",
+            "title": "Illumina HiSeq 3000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS3805268": {
+                "accession": "SRS3805268",
+                "title": "Bone marrow U",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Bone marrow",
+                    "cell type": "bone marrow cells",
+                    "age": "46 years old",
+                    "ENA-SPOT-COUNT": 178726885,
+                    "ENA-BASE-COUNT": 17515234730,
+                    "ENA-FIRST-PUBLIC": "2018-09-22",
+                    "ENA-LAST-UPDATE": "2018-09-22"
+                },
+                "experiment": "SRX4720060"
             }
         }
     }
