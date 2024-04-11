@@ -1,60 +1,26 @@
 {
     "GSM3587011": {
         "accession": "GSM3587011",
-        "experiments": {
-            "SRX5317413": {
-                "accession": "SRX5317413",
-                "title": "HiSeq X Ten paired end sequencing; GSM3587011: Colon-2; Homo sapiens; RNA-Seq",
-                "runs": {
-                    "SRR8513797": {
-                        "accession": "SRR8513797",
-                        "experiment": {
-                            "accession": "SRX5317413",
-                            "title": "HiSeq X Ten paired end sequencing; GSM3587011: Colon-2; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "HiSeq X Ten"
-                        },
-                        "study": {
-                            "accession": "SRP183081",
-                            "title": "Single-cell transcriptome analysis reveals differential nutrient absorption functions in human intestine",
-                            "abstract": "14537 epithelial cells from adult human ileum, colon and rectum are performed single-cell transcriptome analysis, cell types and signature genes are presented, so as new representative genes. Bases on the gene expression pattern, difference of cell types, signaling changes, absorption funciton, inmmunity and hormone activity are analyzed. In addition, species diversity is briefly performed by analysis of human and mouse ileum single-cell database. Overall design: identify cell consititution and function difference of ileum, colon and rectum at single-cell level."
-                        },
-                        "sample": {
-                            "accession": "SRS4313820",
-                            "title": "Colon-2",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "adult human colon epithelial cells",
-                                "cell type": "Epithelia cell",
-                                "tissue": "large intestine",
-                                "age of human": "67",
-                                "ENA-SPOT-COUNT": "412164297",
-                                "ENA-BASE-COUNT": "123649289100",
-                                "ENA-FIRST-PUBLIC": "2019-10-23",
-                                "ENA-LAST-UPDATE": "2019-10-23"
-                            }
-                        },
-                        "title": "HiSeq X Ten paired end sequencing; GSM3587011: Colon-2; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "ENA-SPOT-COUNT": "412164297",
-                            "ENA-BASE-COUNT": "123649289100",
-                            "ENA-FIRST-PUBLIC": "2019-10-23",
-                            "ENA-LAST-UPDATE": "2019-10-23"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR851/007/SRR8513797/SRR8513797_1.fastq.gz",
-                                "md5": "26958d15b6c7291d0bc4e5b897876e56",
-                                "size": "35302275710"
-                            },
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR851/007/SRR8513797/SRR8513797_2.fastq.gz",
-                                "md5": "cf5e207a00cf9e2b42392baf7ac0b14a",
-                                "size": "38255800538"
-                            }
-                        ]
-                    }
-                }
+        "platform": {
+            "accession": "GPL20795",
+            "title": "HiSeq X Ten (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4313820": {
+                "accession": "SRS4313820",
+                "title": "Colon-2",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "adult human colon epithelial cells",
+                    "cell type": "Epithelia cell",
+                    "tissue": "large intestine",
+                    "age of human": "67",
+                    "ENA-SPOT-COUNT": 412164297,
+                    "ENA-BASE-COUNT": 123649289100,
+                    "ENA-FIRST-PUBLIC": "2019-10-23",
+                    "ENA-LAST-UPDATE": "2019-10-23"
+                },
+                "experiment": "SRX5317413"
             }
         }
     }
