@@ -30,46 +30,12 @@
                 "attributes": {
                     "source_name": "Peritoneal dialysis fluid",
                     "sample type": "Peritoneal cells from effluent of long-term PD patients",
-                    "ENA-SPOT-COUNT": "331852037",
-                    "ENA-BASE-COUNT": "41149652588",
+                    "ENA-SPOT-COUNT": 331852037,
+                    "ENA-BASE-COUNT": 41149652588,
                     "ENA-FIRST-PUBLIC": "2019-06-10",
                     "ENA-LAST-UPDATE": "2019-06-11"
                 },
-                "experiment": {
-                    "SRX5807019": {
-                        "accession": "SRX5807019",
-                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM3755697: Long-term PD rep2; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "Illumina HiSeq 4000",
-                        "runs": {
-                            "SRR9029608": {
-                                "accession": "SRR9029608",
-                                "experiment": "SRX5807019",
-                                "study": "SRP197094",
-                                "sample": "SRS4736481",
-                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3755697: Long-term PD rep2; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "ENA-SPOT-COUNT": "331852037",
-                                    "ENA-BASE-COUNT": "41149652588",
-                                    "ENA-FIRST-PUBLIC": "2019-06-11",
-                                    "ENA-LAST-UPDATE": "2019-06-11"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR902/008/SRR9029608/SRR9029608_1.fastq.gz",
-                                        "md5": "cf157e8c1d0d1ba39db3e688dfe35882",
-                                        "size": "5535081446"
-                                    },
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR902/008/SRR9029608/SRR9029608_2.fastq.gz",
-                                        "md5": "2ea09777c9493976d65b8dc689ad2646",
-                                        "size": "14418277498"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX5807019"
             }
         }
     }
