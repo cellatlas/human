@@ -25,42 +25,12 @@
                     "age": "21",
                     "treatment": "THC",
                     "subject id": "S2",
-                    "ENA-SPOT-COUNT": "79047949",
-                    "ENA-BASE-COUNT": "7746699002",
+                    "ENA-SPOT-COUNT": 79047949,
+                    "ENA-BASE-COUNT": 7746699002,
                     "ENA-FIRST-PUBLIC": "2020-04-15",
                     "ENA-LAST-UPDATE": "2020-04-15"
                 },
-                "experiment": {
-                    "SRX5727024": {
-                        "accession": "SRX5727024",
-                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM3734181: Post-THC-S2; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "Illumina HiSeq 2500",
-                        "runs": {
-                            "SRR8947009": {
-                                "accession": "SRR8947009",
-                                "experiment": "SRX5727024",
-                                "study": "SRP193557",
-                                "sample": "SRS4665019",
-                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM3734181: Post-THC-S2; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "assembly": "GRCh38",
-                                    "ENA-SPOT-COUNT": "79047949",
-                                    "ENA-BASE-COUNT": "7746699002",
-                                    "ENA-FIRST-PUBLIC": "2020-04-16",
-                                    "ENA-LAST-UPDATE": "2020-04-16"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR894/SRR8947009/SA1218_85_HHT_possorted_genome_bam.bam",
-                                        "md5": "06bd38c94877afd7457cfe72f6f2fc6d",
-                                        "size": "19426247952"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX5727024"
             }
         }
     }
