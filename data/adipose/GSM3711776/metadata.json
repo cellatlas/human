@@ -16,42 +16,12 @@
                     "diabetic status": "Diabetic",
                     "tissue": "Visceral adipose tissue",
                     "cd34 sorting": "Not FACS Sorted",
-                    "ENA-SPOT-COUNT": "74361343",
-                    "ENA-BASE-COUNT": "7287411614",
+                    "ENA-SPOT-COUNT": 74361343,
+                    "ENA-BASE-COUNT": 7287411614,
                     "ENA-FIRST-PUBLIC": "2019-11-05",
                     "ENA-LAST-UPDATE": "2019-11-06"
                 },
-                "experiment": {
-                    "SRX5644487": {
-                        "accession": "SRX5644487",
-                        "title": "Illumina HiSeq 4000 sequencing; GSM3711776: AT-13-VAT; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "Illumina HiSeq 4000",
-                        "runs": {
-                            "SRR8856849": {
-                                "accession": "SRR8856849",
-                                "experiment": "SRX5644487",
-                                "study": "SRP190924",
-                                "sample": "SRS4590180",
-                                "title": "Illumina HiSeq 4000 sequencing; GSM3711776: AT-13-VAT; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "assembly": "GRCh38",
-                                    "ENA-SPOT-COUNT": "74361343",
-                                    "ENA-BASE-COUNT": "7287411614",
-                                    "ENA-FIRST-PUBLIC": "2019-11-07",
-                                    "ENA-LAST-UPDATE": "2019-11-07"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR885/SRR8856849/Ate_13_IA.bam.1",
-                                        "md5": "9a0c1c00b17c30a9f7e4867d68a9a95f",
-                                        "size": "15354197281"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX5644487"
             }
         }
     }
