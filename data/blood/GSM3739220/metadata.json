@@ -18,216 +18,32 @@
                 "size": "273439"
             }
         ],
-        "experiments": {
-            "SRX5767044": {
-                "accession": "SRX5767044",
-                "title": "Illumina HiSeq 2500 paired end sequencing; GSM3739220: 10x.MF03; Homo sapiens; RNA-Seq",
-                "runs": {
-                    "SRR8987937": {
-                        "accession": "SRR8987937",
-                        "experiment": {
-                            "accession": "SRX5767044",
-                            "title": "Illumina HiSeq 2500 paired end sequencing; GSM3739220: 10x.MF03; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "Illumina HiSeq 2500"
-                        },
-                        "study": {
-                            "accession": "SRP155569",
-                            "title": "RNA-seq of Single-Cell Genotyping of Transcriptomes",
-                            "abstract": "Somatic cancer driver mutations may result in distinctly diverging phenotypic outputs. Thus, a common driver lesion may result in cancer subtypes with distinct clinical presentations and outcomes. The diverging phenotypic outputs of mutations result from the superimposition of the mutations with distinct progenitor cell populations that have differing lineage potential. However, our ability to test this hypothesis has been challenged by currently available tools. For example, flow cytometry is limited in its inability to resolve lineage commitment of early progenitors. Single-cell RNA sequencing (scRNA-seq) may provide higher resolution mapping of the early progenitor populations as long as high throughput technology is available to sequence thousands of single cells. Nevertheless, high throughput scRNA-seq is limited in its inability to jointly and robustly detect the mutational status and the transcriptional profile from the same cell.  To overcome these limitations, we propose the use of scRNA-seq combined with targeted mutation sequencing from transcrptional read-outs. Overall design: We apply this method to study myeloid neopasms, in which the comlex process of hematopoiesis is corrupted by mutated stem and progenitor cells."
-                        },
-                        "sample": {
-                            "accession": "SRS4701338",
-                            "title": "10x.MF03",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "MF03, scRNA-seq",
-                                "source": "PBMC",
-                                "targeted mutation": "CALR exon9 L367Rfs*46 (c.1099_1150del)",
-                                "Sex": "male",
-                                "age": "59",
-                                "diagnosis": "MF",
-                                "pb blast count": "0%",
-                                "bm blast count": "<5%",
-                                "bm fibrosis": "MF-3/3",
-                                "treatment": "Aspirin",
-                                "ENA-SPOT-COUNT": "152513640",
-                                "ENA-BASE-COUNT": "14946336720",
-                                "ENA-FIRST-PUBLIC": "2019-06-02",
-                                "ENA-LAST-UPDATE": "2019-06-02"
-                            }
-                        },
-                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM3739220: 10x.MF03; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "loader": "fastq-load.py",
-                            "options": "--readTypes=TTB --read1PairFiles=MF04_FC_S3_L003_I1_001.fastq.gz --read2PairFiles=MF04_FC_S3_L003_R1_001.fastq.gz --read3PairFiles=MF04_FC_S3_L003_R2_001.fastq.gz",
-                            "ENA-SPOT-COUNT": "49507470",
-                            "ENA-BASE-COUNT": "4851732060",
-                            "ENA-FIRST-PUBLIC": "2019-06-05",
-                            "ENA-LAST-UPDATE": "2019-06-05"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR898/007/SRR8987937/SRR8987937.fastq.gz",
-                                "md5": "0a3f93a504787c86523db670ce1a1b62",
-                                "size": "3867156269"
-                            }
-                        ]
-                    },
-                    "SRR8987938": {
-                        "accession": "SRR8987938",
-                        "experiment": {
-                            "accession": "SRX5767044",
-                            "title": "Illumina HiSeq 2500 paired end sequencing; GSM3739220: 10x.MF03; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "Illumina HiSeq 2500"
-                        },
-                        "study": {
-                            "accession": "SRP155569",
-                            "title": "RNA-seq of Single-Cell Genotyping of Transcriptomes",
-                            "abstract": "Somatic cancer driver mutations may result in distinctly diverging phenotypic outputs. Thus, a common driver lesion may result in cancer subtypes with distinct clinical presentations and outcomes. The diverging phenotypic outputs of mutations result from the superimposition of the mutations with distinct progenitor cell populations that have differing lineage potential. However, our ability to test this hypothesis has been challenged by currently available tools. For example, flow cytometry is limited in its inability to resolve lineage commitment of early progenitors. Single-cell RNA sequencing (scRNA-seq) may provide higher resolution mapping of the early progenitor populations as long as high throughput technology is available to sequence thousands of single cells. Nevertheless, high throughput scRNA-seq is limited in its inability to jointly and robustly detect the mutational status and the transcriptional profile from the same cell.  To overcome these limitations, we propose the use of scRNA-seq combined with targeted mutation sequencing from transcrptional read-outs. Overall design: We apply this method to study myeloid neopasms, in which the comlex process of hematopoiesis is corrupted by mutated stem and progenitor cells."
-                        },
-                        "sample": {
-                            "accession": "SRS4701338",
-                            "title": "10x.MF03",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "MF03, scRNA-seq",
-                                "source": "PBMC",
-                                "targeted mutation": "CALR exon9 L367Rfs*46 (c.1099_1150del)",
-                                "Sex": "male",
-                                "age": "59",
-                                "diagnosis": "MF",
-                                "pb blast count": "0%",
-                                "bm blast count": "<5%",
-                                "bm fibrosis": "MF-3/3",
-                                "treatment": "Aspirin",
-                                "ENA-SPOT-COUNT": "152513640",
-                                "ENA-BASE-COUNT": "14946336720",
-                                "ENA-FIRST-PUBLIC": "2019-06-02",
-                                "ENA-LAST-UPDATE": "2019-06-02"
-                            }
-                        },
-                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM3739220: 10x.MF03; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "loader": "fastq-load.py",
-                            "options": "--readTypes=TTB --read1PairFiles=MF04_FC_S3_L004_I1_001.fastq.gz --read2PairFiles=MF04_FC_S3_L004_R1_001.fastq.gz --read3PairFiles=MF04_FC_S3_L004_R2_001.fastq.gz",
-                            "ENA-SPOT-COUNT": "50388296",
-                            "ENA-BASE-COUNT": "4938053008",
-                            "ENA-FIRST-PUBLIC": "2019-06-05",
-                            "ENA-LAST-UPDATE": "2019-06-05"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR898/008/SRR8987938/SRR8987938.fastq.gz",
-                                "md5": "874327866498d5e6a62d3d0aab9ad415",
-                                "size": "3911053011"
-                            }
-                        ]
-                    },
-                    "SRR8987939": {
-                        "accession": "SRR8987939",
-                        "experiment": {
-                            "accession": "SRX5767044",
-                            "title": "Illumina HiSeq 2500 paired end sequencing; GSM3739220: 10x.MF03; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "Illumina HiSeq 2500"
-                        },
-                        "study": {
-                            "accession": "SRP155569",
-                            "title": "RNA-seq of Single-Cell Genotyping of Transcriptomes",
-                            "abstract": "Somatic cancer driver mutations may result in distinctly diverging phenotypic outputs. Thus, a common driver lesion may result in cancer subtypes with distinct clinical presentations and outcomes. The diverging phenotypic outputs of mutations result from the superimposition of the mutations with distinct progenitor cell populations that have differing lineage potential. However, our ability to test this hypothesis has been challenged by currently available tools. For example, flow cytometry is limited in its inability to resolve lineage commitment of early progenitors. Single-cell RNA sequencing (scRNA-seq) may provide higher resolution mapping of the early progenitor populations as long as high throughput technology is available to sequence thousands of single cells. Nevertheless, high throughput scRNA-seq is limited in its inability to jointly and robustly detect the mutational status and the transcriptional profile from the same cell.  To overcome these limitations, we propose the use of scRNA-seq combined with targeted mutation sequencing from transcrptional read-outs. Overall design: We apply this method to study myeloid neopasms, in which the comlex process of hematopoiesis is corrupted by mutated stem and progenitor cells."
-                        },
-                        "sample": {
-                            "accession": "SRS4701338",
-                            "title": "10x.MF03",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "MF03, scRNA-seq",
-                                "source": "PBMC",
-                                "targeted mutation": "CALR exon9 L367Rfs*46 (c.1099_1150del)",
-                                "Sex": "male",
-                                "age": "59",
-                                "diagnosis": "MF",
-                                "pb blast count": "0%",
-                                "bm blast count": "<5%",
-                                "bm fibrosis": "MF-3/3",
-                                "treatment": "Aspirin",
-                                "ENA-SPOT-COUNT": "152513640",
-                                "ENA-BASE-COUNT": "14946336720",
-                                "ENA-FIRST-PUBLIC": "2019-06-02",
-                                "ENA-LAST-UPDATE": "2019-06-02"
-                            }
-                        },
-                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM3739220: 10x.MF03; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "loader": "fastq-load.py",
-                            "options": "--readTypes=TTB --read1PairFiles=MF04_FC_S3_L005_I1_001.fastq.gz --read2PairFiles=MF04_FC_S3_L005_R1_001.fastq.gz --read3PairFiles=MF04_FC_S3_L005_R2_001.fastq.gz",
-                            "ENA-SPOT-COUNT": "26308326",
-                            "ENA-BASE-COUNT": "2578215948",
-                            "ENA-FIRST-PUBLIC": "2019-06-05",
-                            "ENA-LAST-UPDATE": "2019-06-05"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR898/009/SRR8987939/SRR8987939.fastq.gz",
-                                "md5": "b5c90cc6ec7c02f955533aa1d516def2",
-                                "size": "2050122986"
-                            }
-                        ]
-                    },
-                    "SRR8987940": {
-                        "accession": "SRR8987940",
-                        "experiment": {
-                            "accession": "SRX5767044",
-                            "title": "Illumina HiSeq 2500 paired end sequencing; GSM3739220: 10x.MF03; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "Illumina HiSeq 2500"
-                        },
-                        "study": {
-                            "accession": "SRP155569",
-                            "title": "RNA-seq of Single-Cell Genotyping of Transcriptomes",
-                            "abstract": "Somatic cancer driver mutations may result in distinctly diverging phenotypic outputs. Thus, a common driver lesion may result in cancer subtypes with distinct clinical presentations and outcomes. The diverging phenotypic outputs of mutations result from the superimposition of the mutations with distinct progenitor cell populations that have differing lineage potential. However, our ability to test this hypothesis has been challenged by currently available tools. For example, flow cytometry is limited in its inability to resolve lineage commitment of early progenitors. Single-cell RNA sequencing (scRNA-seq) may provide higher resolution mapping of the early progenitor populations as long as high throughput technology is available to sequence thousands of single cells. Nevertheless, high throughput scRNA-seq is limited in its inability to jointly and robustly detect the mutational status and the transcriptional profile from the same cell.  To overcome these limitations, we propose the use of scRNA-seq combined with targeted mutation sequencing from transcrptional read-outs. Overall design: We apply this method to study myeloid neopasms, in which the comlex process of hematopoiesis is corrupted by mutated stem and progenitor cells."
-                        },
-                        "sample": {
-                            "accession": "SRS4701338",
-                            "title": "10x.MF03",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "MF03, scRNA-seq",
-                                "source": "PBMC",
-                                "targeted mutation": "CALR exon9 L367Rfs*46 (c.1099_1150del)",
-                                "Sex": "male",
-                                "age": "59",
-                                "diagnosis": "MF",
-                                "pb blast count": "0%",
-                                "bm blast count": "<5%",
-                                "bm fibrosis": "MF-3/3",
-                                "treatment": "Aspirin",
-                                "ENA-SPOT-COUNT": "152513640",
-                                "ENA-BASE-COUNT": "14946336720",
-                                "ENA-FIRST-PUBLIC": "2019-06-02",
-                                "ENA-LAST-UPDATE": "2019-06-02"
-                            }
-                        },
-                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM3739220: 10x.MF03; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "loader": "fastq-load.py",
-                            "options": "--readTypes=TTB --read1PairFiles=MF04_FC_S3_L006_I1_001.fastq.gz --read2PairFiles=MF04_FC_S3_L006_R1_001.fastq.gz --read3PairFiles=MF04_FC_S3_L006_R2_001.fastq.gz",
-                            "ENA-SPOT-COUNT": "26309548",
-                            "ENA-BASE-COUNT": "2578335704",
-                            "ENA-FIRST-PUBLIC": "2019-06-05",
-                            "ENA-LAST-UPDATE": "2019-06-05"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR898/000/SRR8987940/SRR8987940.fastq.gz",
-                                "md5": "72740db5243a7dfd858b1cdc400ab0f1",
-                                "size": "2085151554"
-                            }
-                        ]
-                    }
-                }
+        "platform": {
+            "accession": "GPL16791",
+            "title": "Illumina HiSeq 2500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4701338": {
+                "accession": "SRS4701338",
+                "title": "10x.MF03",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "MF03, scRNA-seq",
+                    "source": "PBMC",
+                    "targeted mutation": "CALR exon9 L367Rfs*46 (c.1099_1150del)",
+                    "Sex": "male",
+                    "age": "59",
+                    "diagnosis": "MF",
+                    "pb blast count": "0%",
+                    "bm blast count": "<5%",
+                    "bm fibrosis": "MF-3/3",
+                    "treatment": "Aspirin",
+                    "ENA-SPOT-COUNT": 152513640,
+                    "ENA-BASE-COUNT": 14946336720,
+                    "ENA-FIRST-PUBLIC": "2019-06-02",
+                    "ENA-LAST-UPDATE": "2019-06-02"
+                },
+                "experiment": "SRX5767044"
             }
         }
     }
