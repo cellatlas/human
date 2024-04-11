@@ -1,0 +1,32 @@
+{
+    "GSM3319046": {
+        "accession": "GSM3319046",
+        "supplementary_files": [
+            {
+                "filename": "GSM3319046_sample_3-5_filtered_gene_bc_matrices_h5.h5",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3319nnn/GSM3319046/suppl/GSM3319046_sample_3-5_filtered_gene_bc_matrices_h5.h5",
+                "size": "977027"
+            }
+        ],
+        "platform": {
+            "accession": "GPL20301",
+            "title": "Illumina HiSeq 4000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS3627888": {
+                "accession": "SRS3627888",
+                "title": "sample_3-5",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Adult Ovary Tissue",
+                    "patient id": "P0",
+                    "batch": "2",
+                    "tissue": "stroma",
+                    "ENA-FIRST-PUBLIC": "2019-06-02",
+                    "ENA-LAST-UPDATE": "2019-06-02"
+                },
+                "experiment": "SRX4507873"
+            }
+        }
+    }
+}
