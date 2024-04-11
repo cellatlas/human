@@ -18,200 +18,25 @@
                 "size": "68025222"
             }
         ],
-        "experiments": {
-            "SRX4646944": {
-                "accession": "SRX4646944",
-                "title": "Illumina HiSeq 2500 paired end sequencing; GSM3377672: D18 SIX2CRE lineage tracing organoid; Homo sapiens; RNA-Seq",
-                "runs": {
-                    "SRR7791891": {
-                        "accession": "SRR7791891",
-                        "experiment": {
-                            "accession": "SRX4646944",
-                            "title": "Illumina HiSeq 2500 paired end sequencing; GSM3377672: D18 SIX2CRE lineage tracing organoid; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "Illumina HiSeq 2500"
-                        },
-                        "study": {
-                            "accession": "SRP159805",
-                            "title": "Fate-mapping within human iPSC-derived kidney organoids reveals conserved mammalian nephron progenitor lineage relationships.",
-                            "abstract": "Early human kidney development is poorly documented due to tissue inaccessibility and a lack of genetic tractability. Here we combine reprogramming, CRISPR/Cas9 gene-editing and organoid technologies to study the nephron lineage in a human context. We confirm the presence of a SIX2+ population in early kidney organoids with a transcriptional profile akin to human fetal nephron progenitors. Using lineage-tracing analyses, we show that SIX2-expressing cells contribute to nephron formation but not to the putative collecting duct epithelium. Labeling of SIX2+ cells at various time-points during organoid differentiation revealed a markedly reduced capacity for these cells to contribute to nephron formation over time. This suggests human kidney organoids lack a true nephron progenitor niche, as the developing kidney does in vivo, capable of both self-renewal and ongoing nephrogeneis. Nonetheless, human iPSC-derived kidney tissue maintains previously identified lineage relationships, which supports the utility of in vitro organoid models for interrogating the molecular and cellular basis of early human development. Overall design: Single cell RNA-seq generated on a 10x Chromium genomics platform from iPSC-derived human kidney organoids. Each sample represents 6 pooled organoids derived from a single well of a transwell plate, generated from individual iPSC-derived reporter lines and harvested at either Day 18 (D18) or Day 25 (D25) of the differentiation protocol. The aggregated data contains 5365 cells (1865 from D18 and 3500 from D25) that passed QC and contains populations representing stroma, early/late nephron segments (podocytes, progenitors and proximal tubule) and distal tubule/collecting duct, as well as small off-target populations with similarity to neurons and muscle."
-                        },
-                        "sample": {
-                            "accession": "SRS3744978",
-                            "title": "D18 SIX2CRE lineage tracing organoid",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "SIX2:cre/GAPDH:dual lineage tracing reporter",
-                                "cell type": "iPSC-derived kidney organoid",
-                                "day of differentiation": "18",
-                                "ENA-SPOT-COUNT": "257889474",
-                                "ENA-BASE-COUNT": "52093673748",
-                                "ENA-FIRST-PUBLIC": "2019-03-14",
-                                "ENA-LAST-UPDATE": "2019-03-14"
-                            }
-                        },
-                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM3377672: D18 SIX2CRE lineage tracing organoid; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "ENA-SPOT-COUNT": "65669785",
-                            "ENA-BASE-COUNT": "13265296570",
-                            "ENA-FIRST-PUBLIC": "2019-03-14",
-                            "ENA-LAST-UPDATE": "2019-03-14"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR779/001/SRR7791891/SRR7791891_1.fastq.gz",
-                                "md5": "f74f5de3f4a0579cda6e9d0b6cbf276f",
-                                "size": "3763031342"
-                            },
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR779/001/SRR7791891/SRR7791891_2.fastq.gz",
-                                "md5": "ec1d9c86b0379d2122958e21f0a0054c",
-                                "size": "5145956469"
-                            }
-                        ]
-                    },
-                    "SRR7791892": {
-                        "accession": "SRR7791892",
-                        "experiment": {
-                            "accession": "SRX4646944",
-                            "title": "Illumina HiSeq 2500 paired end sequencing; GSM3377672: D18 SIX2CRE lineage tracing organoid; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "Illumina HiSeq 2500"
-                        },
-                        "study": {
-                            "accession": "SRP159805",
-                            "title": "Fate-mapping within human iPSC-derived kidney organoids reveals conserved mammalian nephron progenitor lineage relationships.",
-                            "abstract": "Early human kidney development is poorly documented due to tissue inaccessibility and a lack of genetic tractability. Here we combine reprogramming, CRISPR/Cas9 gene-editing and organoid technologies to study the nephron lineage in a human context. We confirm the presence of a SIX2+ population in early kidney organoids with a transcriptional profile akin to human fetal nephron progenitors. Using lineage-tracing analyses, we show that SIX2-expressing cells contribute to nephron formation but not to the putative collecting duct epithelium. Labeling of SIX2+ cells at various time-points during organoid differentiation revealed a markedly reduced capacity for these cells to contribute to nephron formation over time. This suggests human kidney organoids lack a true nephron progenitor niche, as the developing kidney does in vivo, capable of both self-renewal and ongoing nephrogeneis. Nonetheless, human iPSC-derived kidney tissue maintains previously identified lineage relationships, which supports the utility of in vitro organoid models for interrogating the molecular and cellular basis of early human development. Overall design: Single cell RNA-seq generated on a 10x Chromium genomics platform from iPSC-derived human kidney organoids. Each sample represents 6 pooled organoids derived from a single well of a transwell plate, generated from individual iPSC-derived reporter lines and harvested at either Day 18 (D18) or Day 25 (D25) of the differentiation protocol. The aggregated data contains 5365 cells (1865 from D18 and 3500 from D25) that passed QC and contains populations representing stroma, early/late nephron segments (podocytes, progenitors and proximal tubule) and distal tubule/collecting duct, as well as small off-target populations with similarity to neurons and muscle."
-                        },
-                        "sample": {
-                            "accession": "SRS3744978",
-                            "title": "D18 SIX2CRE lineage tracing organoid",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "SIX2:cre/GAPDH:dual lineage tracing reporter",
-                                "cell type": "iPSC-derived kidney organoid",
-                                "day of differentiation": "18",
-                                "ENA-SPOT-COUNT": "257889474",
-                                "ENA-BASE-COUNT": "52093673748",
-                                "ENA-FIRST-PUBLIC": "2019-03-14",
-                                "ENA-LAST-UPDATE": "2019-03-14"
-                            }
-                        },
-                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM3377672: D18 SIX2CRE lineage tracing organoid; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "ENA-SPOT-COUNT": "54744131",
-                            "ENA-BASE-COUNT": "11058314462",
-                            "ENA-FIRST-PUBLIC": "2019-03-14",
-                            "ENA-LAST-UPDATE": "2019-03-14"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR779/002/SRR7791892/SRR7791892_1.fastq.gz",
-                                "md5": "4fe4633fbedf415ecc0227ec134bac8d",
-                                "size": "3157071998"
-                            },
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR779/002/SRR7791892/SRR7791892_2.fastq.gz",
-                                "md5": "f607b89815617c0782262c258ba63495",
-                                "size": "4272251362"
-                            }
-                        ]
-                    },
-                    "SRR7791893": {
-                        "accession": "SRR7791893",
-                        "experiment": {
-                            "accession": "SRX4646944",
-                            "title": "Illumina HiSeq 2500 paired end sequencing; GSM3377672: D18 SIX2CRE lineage tracing organoid; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "Illumina HiSeq 2500"
-                        },
-                        "study": {
-                            "accession": "SRP159805",
-                            "title": "Fate-mapping within human iPSC-derived kidney organoids reveals conserved mammalian nephron progenitor lineage relationships.",
-                            "abstract": "Early human kidney development is poorly documented due to tissue inaccessibility and a lack of genetic tractability. Here we combine reprogramming, CRISPR/Cas9 gene-editing and organoid technologies to study the nephron lineage in a human context. We confirm the presence of a SIX2+ population in early kidney organoids with a transcriptional profile akin to human fetal nephron progenitors. Using lineage-tracing analyses, we show that SIX2-expressing cells contribute to nephron formation but not to the putative collecting duct epithelium. Labeling of SIX2+ cells at various time-points during organoid differentiation revealed a markedly reduced capacity for these cells to contribute to nephron formation over time. This suggests human kidney organoids lack a true nephron progenitor niche, as the developing kidney does in vivo, capable of both self-renewal and ongoing nephrogeneis. Nonetheless, human iPSC-derived kidney tissue maintains previously identified lineage relationships, which supports the utility of in vitro organoid models for interrogating the molecular and cellular basis of early human development. Overall design: Single cell RNA-seq generated on a 10x Chromium genomics platform from iPSC-derived human kidney organoids. Each sample represents 6 pooled organoids derived from a single well of a transwell plate, generated from individual iPSC-derived reporter lines and harvested at either Day 18 (D18) or Day 25 (D25) of the differentiation protocol. The aggregated data contains 5365 cells (1865 from D18 and 3500 from D25) that passed QC and contains populations representing stroma, early/late nephron segments (podocytes, progenitors and proximal tubule) and distal tubule/collecting duct, as well as small off-target populations with similarity to neurons and muscle."
-                        },
-                        "sample": {
-                            "accession": "SRS3744978",
-                            "title": "D18 SIX2CRE lineage tracing organoid",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "SIX2:cre/GAPDH:dual lineage tracing reporter",
-                                "cell type": "iPSC-derived kidney organoid",
-                                "day of differentiation": "18",
-                                "ENA-SPOT-COUNT": "257889474",
-                                "ENA-BASE-COUNT": "52093673748",
-                                "ENA-FIRST-PUBLIC": "2019-03-14",
-                                "ENA-LAST-UPDATE": "2019-03-14"
-                            }
-                        },
-                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM3377672: D18 SIX2CRE lineage tracing organoid; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "ENA-SPOT-COUNT": "80589712",
-                            "ENA-BASE-COUNT": "16279121824",
-                            "ENA-FIRST-PUBLIC": "2019-03-14",
-                            "ENA-LAST-UPDATE": "2019-03-14"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR779/003/SRR7791893/SRR7791893_1.fastq.gz",
-                                "md5": "39f67f41b40529aa155d20dac91f7acc",
-                                "size": "4646828455"
-                            },
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR779/003/SRR7791893/SRR7791893_2.fastq.gz",
-                                "md5": "75157c409222e7efa2696e3180dff4ad",
-                                "size": "6266481943"
-                            }
-                        ]
-                    },
-                    "SRR7791894": {
-                        "accession": "SRR7791894",
-                        "experiment": {
-                            "accession": "SRX4646944",
-                            "title": "Illumina HiSeq 2500 paired end sequencing; GSM3377672: D18 SIX2CRE lineage tracing organoid; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "Illumina HiSeq 2500"
-                        },
-                        "study": {
-                            "accession": "SRP159805",
-                            "title": "Fate-mapping within human iPSC-derived kidney organoids reveals conserved mammalian nephron progenitor lineage relationships.",
-                            "abstract": "Early human kidney development is poorly documented due to tissue inaccessibility and a lack of genetic tractability. Here we combine reprogramming, CRISPR/Cas9 gene-editing and organoid technologies to study the nephron lineage in a human context. We confirm the presence of a SIX2+ population in early kidney organoids with a transcriptional profile akin to human fetal nephron progenitors. Using lineage-tracing analyses, we show that SIX2-expressing cells contribute to nephron formation but not to the putative collecting duct epithelium. Labeling of SIX2+ cells at various time-points during organoid differentiation revealed a markedly reduced capacity for these cells to contribute to nephron formation over time. This suggests human kidney organoids lack a true nephron progenitor niche, as the developing kidney does in vivo, capable of both self-renewal and ongoing nephrogeneis. Nonetheless, human iPSC-derived kidney tissue maintains previously identified lineage relationships, which supports the utility of in vitro organoid models for interrogating the molecular and cellular basis of early human development. Overall design: Single cell RNA-seq generated on a 10x Chromium genomics platform from iPSC-derived human kidney organoids. Each sample represents 6 pooled organoids derived from a single well of a transwell plate, generated from individual iPSC-derived reporter lines and harvested at either Day 18 (D18) or Day 25 (D25) of the differentiation protocol. The aggregated data contains 5365 cells (1865 from D18 and 3500 from D25) that passed QC and contains populations representing stroma, early/late nephron segments (podocytes, progenitors and proximal tubule) and distal tubule/collecting duct, as well as small off-target populations with similarity to neurons and muscle."
-                        },
-                        "sample": {
-                            "accession": "SRS3744978",
-                            "title": "D18 SIX2CRE lineage tracing organoid",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "SIX2:cre/GAPDH:dual lineage tracing reporter",
-                                "cell type": "iPSC-derived kidney organoid",
-                                "day of differentiation": "18",
-                                "ENA-SPOT-COUNT": "257889474",
-                                "ENA-BASE-COUNT": "52093673748",
-                                "ENA-FIRST-PUBLIC": "2019-03-14",
-                                "ENA-LAST-UPDATE": "2019-03-14"
-                            }
-                        },
-                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM3377672: D18 SIX2CRE lineage tracing organoid; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "ENA-SPOT-COUNT": "56885846",
-                            "ENA-BASE-COUNT": "11490940892",
-                            "ENA-FIRST-PUBLIC": "2019-03-14",
-                            "ENA-LAST-UPDATE": "2019-03-14"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR779/004/SRR7791894/SRR7791894_1.fastq.gz",
-                                "md5": "db95d14e5c74d86dc882c71235361c64",
-                                "size": "3320183386"
-                            },
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR779/004/SRR7791894/SRR7791894_2.fastq.gz",
-                                "md5": "bb4d9b8597dae4c4d603319cd745768f",
-                                "size": "4409017679"
-                            }
-                        ]
-                    }
-                }
+        "platform": {
+            "accession": "GPL16791",
+            "title": "Illumina HiSeq 2500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS3744978": {
+                "accession": "SRS3744978",
+                "title": "D18 SIX2CRE lineage tracing organoid",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "SIX2:cre/GAPDH:dual lineage tracing reporter",
+                    "cell type": "iPSC-derived kidney organoid",
+                    "day of differentiation": "18",
+                    "ENA-SPOT-COUNT": 257889474,
+                    "ENA-BASE-COUNT": 52093673748,
+                    "ENA-FIRST-PUBLIC": "2019-03-14",
+                    "ENA-LAST-UPDATE": "2019-03-14"
+                },
+                "experiment": "SRX4646944"
             }
         }
     }
