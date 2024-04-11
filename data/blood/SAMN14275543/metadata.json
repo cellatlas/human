@@ -1,0 +1,27 @@
+{
+    "SAMN14275543": {
+        "accession": "SAMN14275543",
+        "sample": {
+            "accession": "SRS6250956",
+            "title": "Homo sapiens",
+            "organism": "Homo sapiens",
+            "attributes": {
+                "isolate": "321-05",
+                "age": "29",
+                "biomaterial_provider": "Ellebedy Lab at Washington University in St Louis",
+                "sex": "male",
+                "tissue": "PBMC",
+                "sequencing": "10x Genomics VDJ + 5' gene expression",
+                "timepoint": "d60",
+                "enrichment": "none",
+                "replicate": "1",
+                "BioSampleModel": "Human",
+                "ENA-SPOT-COUNT": 661696216,
+                "ENA-BASE-COUNT": 199832257232,
+                "ENA-FIRST-PUBLIC": "2020-08-13",
+                "ENA-LAST-UPDATE": "2020-08-13"
+            },
+            "experiment": "SRX7845465,SRX7845488"
+        }
+    }
+}
