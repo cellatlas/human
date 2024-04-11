@@ -1,0 +1,44 @@
+{
+    "GSM4145204": {
+        "accession": "GSM4145204",
+        "supplementary_files": [
+            {
+                "filename": "GSM4145204_kidney1_barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM4145nnn/GSM4145204/suppl/GSM4145204_kidney1_barcodes.tsv.gz",
+                "size": "40386"
+            },
+            {
+                "filename": "GSM4145204_kidney1_features.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM4145nnn/GSM4145204/suppl/GSM4145204_kidney1_features.tsv.gz",
+                "size": "304728"
+            },
+            {
+                "filename": "GSM4145204_kidney1_matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM4145nnn/GSM4145204/suppl/GSM4145204_kidney1_matrix.mtx.gz",
+                "size": "30447330"
+            }
+        ],
+        "platform": {
+            "accession": "GPL20795",
+            "title": "HiSeq X Ten (Homo sapiens)"
+        },
+        "sample": {
+            "SRS5594662": {
+                "accession": "SRS5594662",
+                "title": "Patient 1 Kidney Homogenate",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Kidney",
+                    "subject id": "Patient/donor 1",
+                    "subject status": "normal",
+                    "sample type": "Total Kidney Homogenate",
+                    "ENA-SPOT-COUNT": 114234317,
+                    "ENA-BASE-COUNT": 11194963066,
+                    "ENA-FIRST-PUBLIC": "2019-11-02",
+                    "ENA-LAST-UPDATE": "2019-11-02"
+                },
+                "experiment": "SRX7078890"
+            }
+        }
+    }
+}
