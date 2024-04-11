@@ -16,42 +16,12 @@
                     "subject id": "donor 2",
                     "tissue": "testicle",
                     "cell type": "testicular cells",
-                    "ENA-SPOT-COUNT": "117961579",
-                    "ENA-BASE-COUNT": "11796157900",
+                    "ENA-SPOT-COUNT": 117961579,
+                    "ENA-BASE-COUNT": 11796157900,
                     "ENA-FIRST-PUBLIC": "2018-10-16",
                     "ENA-LAST-UPDATE": "2018-10-17"
                 },
-                "experiment": {
-                    "SRX3815588": {
-                        "accession": "SRX3815588",
-                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM3052919: Donor2_scRNA-seq_rep1; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "Illumina HiSeq 2500",
-                        "runs": {
-                            "SRR6860521": {
-                                "accession": "SRR6860521",
-                                "experiment": "SRX3815588",
-                                "study": "SRP135999",
-                                "sample": "SRS3065427",
-                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM3052919: Donor2_scRNA-seq_rep1; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "assembly": "hg38",
-                                    "ENA-SPOT-COUNT": "117961579",
-                                    "ENA-BASE-COUNT": "11796157900",
-                                    "ENA-FIRST-PUBLIC": "2018-10-16",
-                                    "ENA-LAST-UPDATE": "2018-10-16"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/SRA667/SRA667709/bam/14737X1.bam",
-                                        "md5": "802bbd60658d4ac689475d165b95721e",
-                                        "size": "27373466499"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX3815588"
             }
         }
     }
