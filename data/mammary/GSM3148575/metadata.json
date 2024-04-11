@@ -32,121 +32,12 @@
                     "donor": "BC09",
                     "cell type": "CD3+ leukocytes",
                     "resident tissue": "breast tumor",
-                    "ENA-SPOT-COUNT": "176167942",
-                    "ENA-BASE-COUNT": "22197160692",
+                    "ENA-SPOT-COUNT": 176167942,
+                    "ENA-BASE-COUNT": 22197160692,
                     "ENA-FIRST-PUBLIC": "2018-06-29",
                     "ENA-LAST-UPDATE": "2018-06-29"
                 },
-                "experiment": {
-                    "SRX4108604": {
-                        "accession": "SRX4108604",
-                        "title": "NextSeq 500 paired end sequencing; GSM3148575: BC09_TUMOR1; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "NextSeq 500",
-                        "runs": {
-                            "SRR7191896": {
-                                "accession": "SRR7191896",
-                                "experiment": "SRX4108604",
-                                "study": "SRP148594",
-                                "sample": "SRS3324254",
-                                "title": "NextSeq 500 paired end sequencing; GSM3148575: BC09_TUMOR1; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "ENA-SPOT-COUNT": "45638026",
-                                    "ENA-BASE-COUNT": "5750391276",
-                                    "ENA-FIRST-PUBLIC": "2018-06-29",
-                                    "ENA-LAST-UPDATE": "2018-06-29"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/006/SRR7191896/SRR7191896_1.fastq.gz",
-                                        "md5": "5a05acb23d811fced2faf7e94f9248e2",
-                                        "size": "858435163"
-                                    },
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/006/SRR7191896/SRR7191896_2.fastq.gz",
-                                        "md5": "032fb853e7a381304054bb1377875298",
-                                        "size": "2496614061"
-                                    }
-                                ]
-                            },
-                            "SRR7191897": {
-                                "accession": "SRR7191897",
-                                "experiment": "SRX4108604",
-                                "study": "SRP148594",
-                                "sample": "SRS3324254",
-                                "title": "NextSeq 500 paired end sequencing; GSM3148575: BC09_TUMOR1; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "ENA-SPOT-COUNT": "44257249",
-                                    "ENA-BASE-COUNT": "5576413374",
-                                    "ENA-FIRST-PUBLIC": "2018-06-29",
-                                    "ENA-LAST-UPDATE": "2018-06-29"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/007/SRR7191897/SRR7191897_1.fastq.gz",
-                                        "md5": "e67079d3f562557ebcb8658b343a45b1",
-                                        "size": "823705427"
-                                    },
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/007/SRR7191897/SRR7191897_2.fastq.gz",
-                                        "md5": "c20bbb354b9cd5fd5fb24c9e797dbc83",
-                                        "size": "2382215301"
-                                    }
-                                ]
-                            },
-                            "SRR7191898": {
-                                "accession": "SRR7191898",
-                                "experiment": "SRX4108604",
-                                "study": "SRP148594",
-                                "sample": "SRS3324254",
-                                "title": "NextSeq 500 paired end sequencing; GSM3148575: BC09_TUMOR1; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "ENA-SPOT-COUNT": "42187575",
-                                    "ENA-BASE-COUNT": "5315634450",
-                                    "ENA-FIRST-PUBLIC": "2018-06-29",
-                                    "ENA-LAST-UPDATE": "2018-06-29"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/008/SRR7191898/SRR7191898_1.fastq.gz",
-                                        "md5": "ea428fe1d48fb785f11118336b158951",
-                                        "size": "783069435"
-                                    },
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/008/SRR7191898/SRR7191898_2.fastq.gz",
-                                        "md5": "69868bf7b3c59507d92b500a228f01d5",
-                                        "size": "2262413554"
-                                    }
-                                ]
-                            },
-                            "SRR7191899": {
-                                "accession": "SRR7191899",
-                                "experiment": "SRX4108604",
-                                "study": "SRP148594",
-                                "sample": "SRS3324254",
-                                "title": "NextSeq 500 paired end sequencing; GSM3148575: BC09_TUMOR1; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "ENA-SPOT-COUNT": "44085092",
-                                    "ENA-BASE-COUNT": "5554721592",
-                                    "ENA-FIRST-PUBLIC": "2018-06-29",
-                                    "ENA-LAST-UPDATE": "2018-06-29"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/009/SRR7191899/SRR7191899_1.fastq.gz",
-                                        "md5": "7a9e543d76eca29cdb8da7502583fe2d",
-                                        "size": "828959200"
-                                    },
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/009/SRR7191899/SRR7191899_2.fastq.gz",
-                                        "md5": "06c7d2b5b1556cc3b5cd7aa53151639a",
-                                        "size": "2391282031"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX4108604"
             }
         }
     }
