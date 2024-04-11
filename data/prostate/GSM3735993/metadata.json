@@ -32,65 +32,12 @@
                     "cell type": "Primary Epithelial Cells",
                     "tissue": "Prostate",
                     "culture condition": "Cell culture plate",
-                    "ENA-SPOT-COUNT": "164281631",
-                    "ENA-BASE-COUNT": "16428163100",
+                    "ENA-SPOT-COUNT": 164281631,
+                    "ENA-BASE-COUNT": 16428163100,
                     "ENA-FIRST-PUBLIC": "2019-07-12",
                     "ENA-LAST-UPDATE": "2019-07-13"
                 },
-                "experiment": {
-                    "SRX5735811": {
-                        "accession": "SRX5735811",
-                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM3735993: Monolayer; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "Illumina HiSeq 4000",
-                        "runs": {
-                            "SRR8956098": {
-                                "accession": "SRR8956098",
-                                "experiment": "SRX5735811",
-                                "study": "SRP193859",
-                                "sample": "SRS4672671",
-                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3735993: Monolayer; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "loader": "fastq-load.py",
-                                    "options": "--readTypes=TBT --read1PairFiles=Nonn_S2_L002_R1_001.fastq.gz --read2PairFiles=Nonn_S2_L002_R2_001.fastq.gz --read3PairFiles=Nonn_S2_L002_I1_001.fastq.gz",
-                                    "ENA-SPOT-COUNT": "81256003",
-                                    "ENA-BASE-COUNT": "8125600300",
-                                    "ENA-FIRST-PUBLIC": "2019-07-12",
-                                    "ENA-LAST-UPDATE": "2019-07-12"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR895/008/SRR8956098/SRR8956098.fastq.gz",
-                                        "md5": "f5b56d6491675ec2329bb440c839cc60",
-                                        "size": "5756071754"
-                                    }
-                                ]
-                            },
-                            "SRR8956099": {
-                                "accession": "SRR8956099",
-                                "experiment": "SRX5735811",
-                                "study": "SRP193859",
-                                "sample": "SRS4672671",
-                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3735993: Monolayer; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "loader": "fastq-load.py",
-                                    "options": "--readTypes=TBT --read1PairFiles=Nonn_S2_L003_R1_001.fastq.gz --read2PairFiles=Nonn_S2_L003_R2_001.fastq.gz --read3PairFiles=Nonn_S2_L003_I1_001.fastq.gz",
-                                    "ENA-SPOT-COUNT": "83025628",
-                                    "ENA-BASE-COUNT": "8302562800",
-                                    "ENA-FIRST-PUBLIC": "2019-07-12",
-                                    "ENA-LAST-UPDATE": "2019-07-12"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR895/009/SRR8956099/SRR8956099.fastq.gz",
-                                        "md5": "3de278e3a290383c3f6fba775107f24c",
-                                        "size": "5850195959"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX5735811"
             }
         }
     }
