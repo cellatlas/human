@@ -18,196 +18,24 @@
                 "size": "48022077"
             }
         ],
-        "experiments": {
-            "SRX4089486": {
-                "accession": "SRX4089486",
-                "title": "NextSeq 500 paired end sequencing; GSM3143601: w16 human embryonic kidney; Homo sapiens; RNA-Seq",
-                "runs": {
-                    "SRR7171580": {
-                        "accession": "SRR7171580",
-                        "experiment": {
-                            "accession": "SRX4089486",
-                            "title": "NextSeq 500 paired end sequencing; GSM3143601: w16 human embryonic kidney; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "NextSeq 500"
-                        },
-                        "study": {
-                            "accession": "SRP147554",
-                            "title": "Single cell RNA-sequencing of human fetal kidneys",
-                            "abstract": "10X-based scRNA-seq data human fetal kidneys at 5 different ages Overall design: w9, w11, w13, w16 and w18 human fetal kidneys"
-                        },
-                        "sample": {
-                            "accession": "SRS3306242",
-                            "title": "w16 human embryonic kidney",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "disociated human embryonic kidney",
-                                "tissue": "embryonic kidney",
-                                "ENA-SPOT-COUNT": "169704081",
-                                "ENA-BASE-COUNT": "23588867259",
-                                "ENA-FIRST-PUBLIC": "2019-02-22",
-                                "ENA-LAST-UPDATE": "2019-02-23"
-                            }
-                        },
-                        "title": "NextSeq 500 paired end sequencing; GSM3143601: w16 human embryonic kidney; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "ENA-SPOT-COUNT": "39214367",
-                            "ENA-BASE-COUNT": "5450797013",
-                            "ENA-FIRST-PUBLIC": "2019-02-22",
-                            "ENA-LAST-UPDATE": "2019-02-22"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR717/000/SRR7171580/SRR7171580_1.fastq.gz",
-                                "md5": "b016a7048feaabe5306e637dc08deca9",
-                                "size": "757511324"
-                            },
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR717/000/SRR7171580/SRR7171580_2.fastq.gz",
-                                "md5": "69de2bb10db527a5791b872a30254a6a",
-                                "size": "2930778599"
-                            }
-                        ]
-                    },
-                    "SRR7171581": {
-                        "accession": "SRR7171581",
-                        "experiment": {
-                            "accession": "SRX4089486",
-                            "title": "NextSeq 500 paired end sequencing; GSM3143601: w16 human embryonic kidney; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "NextSeq 500"
-                        },
-                        "study": {
-                            "accession": "SRP147554",
-                            "title": "Single cell RNA-sequencing of human fetal kidneys",
-                            "abstract": "10X-based scRNA-seq data human fetal kidneys at 5 different ages Overall design: w9, w11, w13, w16 and w18 human fetal kidneys"
-                        },
-                        "sample": {
-                            "accession": "SRS3306242",
-                            "title": "w16 human embryonic kidney",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "disociated human embryonic kidney",
-                                "tissue": "embryonic kidney",
-                                "ENA-SPOT-COUNT": "169704081",
-                                "ENA-BASE-COUNT": "23588867259",
-                                "ENA-FIRST-PUBLIC": "2019-02-22",
-                                "ENA-LAST-UPDATE": "2019-02-23"
-                            }
-                        },
-                        "title": "NextSeq 500 paired end sequencing; GSM3143601: w16 human embryonic kidney; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "ENA-SPOT-COUNT": "40494331",
-                            "ENA-BASE-COUNT": "5628712009",
-                            "ENA-FIRST-PUBLIC": "2019-02-22",
-                            "ENA-LAST-UPDATE": "2019-02-22"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR717/001/SRR7171581/SRR7171581_1.fastq.gz",
-                                "md5": "c7f2b0a22bc0c50645d0b15fc52e4fdb",
-                                "size": "780222300"
-                            },
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR717/001/SRR7171581/SRR7171581_2.fastq.gz",
-                                "md5": "70b6c6b501486aac3550b83ba423dc89",
-                                "size": "2989597570"
-                            }
-                        ]
-                    },
-                    "SRR7171582": {
-                        "accession": "SRR7171582",
-                        "experiment": {
-                            "accession": "SRX4089486",
-                            "title": "NextSeq 500 paired end sequencing; GSM3143601: w16 human embryonic kidney; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "NextSeq 500"
-                        },
-                        "study": {
-                            "accession": "SRP147554",
-                            "title": "Single cell RNA-sequencing of human fetal kidneys",
-                            "abstract": "10X-based scRNA-seq data human fetal kidneys at 5 different ages Overall design: w9, w11, w13, w16 and w18 human fetal kidneys"
-                        },
-                        "sample": {
-                            "accession": "SRS3306242",
-                            "title": "w16 human embryonic kidney",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "disociated human embryonic kidney",
-                                "tissue": "embryonic kidney",
-                                "ENA-SPOT-COUNT": "169704081",
-                                "ENA-BASE-COUNT": "23588867259",
-                                "ENA-FIRST-PUBLIC": "2019-02-22",
-                                "ENA-LAST-UPDATE": "2019-02-23"
-                            }
-                        },
-                        "title": "NextSeq 500 paired end sequencing; GSM3143601: w16 human embryonic kidney; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "ENA-SPOT-COUNT": "44316845",
-                            "ENA-BASE-COUNT": "6160041455",
-                            "ENA-FIRST-PUBLIC": "2019-02-22",
-                            "ENA-LAST-UPDATE": "2019-02-22"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR717/002/SRR7171582/SRR7171582_1.fastq.gz",
-                                "md5": "730cfdc4fecb32c174064272442afa50",
-                                "size": "843198883"
-                            },
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR717/002/SRR7171582/SRR7171582_2.fastq.gz",
-                                "md5": "6457a0b1917a60db6cbc43e90a67808f",
-                                "size": "3188720256"
-                            }
-                        ]
-                    },
-                    "SRR7171583": {
-                        "accession": "SRR7171583",
-                        "experiment": {
-                            "accession": "SRX4089486",
-                            "title": "NextSeq 500 paired end sequencing; GSM3143601: w16 human embryonic kidney; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "NextSeq 500"
-                        },
-                        "study": {
-                            "accession": "SRP147554",
-                            "title": "Single cell RNA-sequencing of human fetal kidneys",
-                            "abstract": "10X-based scRNA-seq data human fetal kidneys at 5 different ages Overall design: w9, w11, w13, w16 and w18 human fetal kidneys"
-                        },
-                        "sample": {
-                            "accession": "SRS3306242",
-                            "title": "w16 human embryonic kidney",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "disociated human embryonic kidney",
-                                "tissue": "embryonic kidney",
-                                "ENA-SPOT-COUNT": "169704081",
-                                "ENA-BASE-COUNT": "23588867259",
-                                "ENA-FIRST-PUBLIC": "2019-02-22",
-                                "ENA-LAST-UPDATE": "2019-02-23"
-                            }
-                        },
-                        "title": "NextSeq 500 paired end sequencing; GSM3143601: w16 human embryonic kidney; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "ENA-SPOT-COUNT": "45678538",
-                            "ENA-BASE-COUNT": "6349316782",
-                            "ENA-FIRST-PUBLIC": "2019-02-22",
-                            "ENA-LAST-UPDATE": "2019-02-22"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR717/003/SRR7171583/SRR7171583_1.fastq.gz",
-                                "md5": "cfd3479a97b7345c94774a9e1742159c",
-                                "size": "864591695"
-                            },
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR717/003/SRR7171583/SRR7171583_2.fastq.gz",
-                                "md5": "0edffa8d63eca6ad10e46e28232db5cf",
-                                "size": "3185964846"
-                            }
-                        ]
-                    }
-                }
+        "platform": {
+            "accession": "GPL18573",
+            "title": "Illumina NextSeq 500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS3306242": {
+                "accession": "SRS3306242",
+                "title": "w16 human embryonic kidney",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "disociated human embryonic kidney",
+                    "tissue": "embryonic kidney",
+                    "ENA-SPOT-COUNT": 169704081,
+                    "ENA-BASE-COUNT": 23588867259,
+                    "ENA-FIRST-PUBLIC": "2019-02-22",
+                    "ENA-LAST-UPDATE": "2019-02-23"
+                },
+                "experiment": "SRX4089486"
             }
         }
     }
