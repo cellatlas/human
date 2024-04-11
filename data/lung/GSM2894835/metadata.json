@@ -18,56 +18,26 @@
                 "size": "72755333"
             }
         ],
-        "experiments": {
-            "SRX3483300": {
-                "accession": "SRX3483300",
-                "title": "Illumina HiSeq 2500 paired end sequencing; GSM2894835: adult mourin lung stromal cells from proximal portion enriched in airways; Homo sapiens; RNA-Seq",
-                "runs": {
-                    "SRR6389865": {
-                        "accession": "SRR6389865",
-                        "experiment": {
-                            "accession": "SRX3483300",
-                            "title": "Illumina HiSeq 2500 paired end sequencing; GSM2894835: adult mourin lung stromal cells from proximal portion enriched in airways; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "Illumina HiSeq 2500"
-                        },
-                        "study": {
-                            "accession": "SRP127054",
-                            "title": "Hedgehog gradient in the stroma maintains niche diversity and organ function [scRNA-seq]",
-                            "abstract": "Two single-cell transcriptional analyses were performed on adult human lung distal and proximal stromal cells, respectively. We isolated lung specimen from both the proximal portion enriched in airways and distal portion enriched in alveoli separately. The lung fragments were then dissociated to single cells and FACSorted for stromal cells based on negative expression of epithelial, hematopoietic, and endothelial markers (EPCAM-/CD45-/CD11b-/CD31-). Library preparation was performed separately for the proximal and distal-derived stromal cells so that each subset has distinctive barcodes to determine anatomical origin, and approximately 10,000 cells were captured from each specimen. The results demonstrate that the proximal and distal human lung stromal subsets demonstrate significant overlap of homologous genes with their murine counterparts generated from Gli2+ murine stroma single-cell transcriptional analysis. Overall design: We isolated the adult human lung specimen from both the proximal portion enriched in airways and distal portion enriched in alveoli separately. Then the lung tissues were dissociated to single cells, stained with anti-CD45-APC-Cy7, anti-CD11b-APC-Cy7, anti-CD31-APC-Cy7 and anti-Epcam-APC-Cy7 and DRAQ7, and subjected to FACS to select live stromal cells. Doublets and dead cells were excluded based on forward scatter, side scatter and DRAQ7 fluorescence. The hematopoietic cells were excluded by stained with anti-CD45-APC-Cy7 and anti-CD11b-APC-Cy7, the endothelial cells were excluded by stained with anti-CD31-APC-Cy7, and the epithelial cells were excluded by stained with anti-Epcam-APC-Cy7. Then the stromal cells were sorted and prepared using the 10X single cell instrument and v1 10X single cell kits according to standard protocol. Single cell sequencing of adult human lung stromal populations were performed by using the HiSeq2500."
-                        },
-                        "sample": {
-                            "accession": "SRS2769051",
-                            "title": "adult mourin lung stromal cells from proximal portion enriched in airways",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "adult human lung proximal airway stromal cells",
-                                "tissue": "lung",
-                                "developmental stage": "adult",
-                                "cell type": "lung distal alveolar stromal cells",
-                                "ENA-SPOT-COUNT": "199732510",
-                                "ENA-BASE-COUNT": "19573785980",
-                                "ENA-FIRST-PUBLIC": "2018-08-09",
-                                "ENA-LAST-UPDATE": "2018-08-09"
-                            }
-                        },
-                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM2894835: adult mourin lung stromal cells from proximal portion enriched in airways; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "assembly": "hg19",
-                            "ENA-SPOT-COUNT": "199732510",
-                            "ENA-BASE-COUNT": "19573785980",
-                            "ENA-FIRST-PUBLIC": "2018-08-10",
-                            "ENA-LAST-UPDATE": "2018-08-10"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR638/SRR6389865/possorted_genome_bam.bam",
-                                "md5": "0afc123660206523ef34a2ed46a53022",
-                                "size": "30592475629"
-                            }
-                        ]
-                    }
-                }
+        "platform": {
+            "accession": "GPL16791",
+            "title": "Illumina HiSeq 2500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS2769051": {
+                "accession": "SRS2769051",
+                "title": "adult mourin lung stromal cells from proximal portion enriched in airways",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "adult human lung proximal airway stromal cells",
+                    "tissue": "lung",
+                    "developmental stage": "adult",
+                    "cell type": "lung distal alveolar stromal cells",
+                    "ENA-SPOT-COUNT": 199732510,
+                    "ENA-BASE-COUNT": 19573785980,
+                    "ENA-FIRST-PUBLIC": "2018-08-09",
+                    "ENA-LAST-UPDATE": "2018-08-09"
+                },
+                "experiment": "SRX3483300"
             }
         }
     }
