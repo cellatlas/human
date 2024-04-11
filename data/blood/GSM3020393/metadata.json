@@ -1,0 +1,29 @@
+{
+    "GSM3020393": {
+        "accession": "GSM3020393",
+        "platform": {
+            "accession": "GPL20301",
+            "title": "Illumina HiSeq 4000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS2991641": {
+                "accession": "SRS2991641",
+                "title": "scRNA-seq on PBMCs from patient CLL1 after 0 days of ibrutinib treatment",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "PBMCs_CLL patient after 0 days of ibrutinib treatment",
+                    "donor_id": "CLL1",
+                    "donor_type": "chronic lymphocytic leukemia patient",
+                    "treatment_timepoint_days": "0",
+                    "cell type": "Peripheral blood mononuclear cells (PBMCs)",
+                    "replicate": "1",
+                    "ENA-SPOT-COUNT": 82755108,
+                    "ENA-BASE-COUNT": 13323572388,
+                    "ENA-FIRST-PUBLIC": "2019-02-23",
+                    "ENA-LAST-UPDATE": "2019-02-23"
+                },
+                "experiment": "SRX3734629"
+            }
+        }
+    }
+}
