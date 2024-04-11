@@ -16,42 +16,12 @@
                     "diabetic status": "Non Diabetic",
                     "tissue": "Visceral adipose tissue",
                     "cd34 sorting": "Not FACS Sorted",
-                    "ENA-SPOT-COUNT": "84697047",
-                    "ENA-BASE-COUNT": "8300310606",
+                    "ENA-SPOT-COUNT": 84697047,
+                    "ENA-BASE-COUNT": 8300310606,
                     "ENA-FIRST-PUBLIC": "2019-11-05",
                     "ENA-LAST-UPDATE": "2019-11-06"
                 },
-                "experiment": {
-                    "SRX5644491": {
-                        "accession": "SRX5644491",
-                        "title": "Illumina HiSeq 4000 sequencing; GSM3711780: AT-15-VAT; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "Illumina HiSeq 4000",
-                        "runs": {
-                            "SRR8856853": {
-                                "accession": "SRR8856853",
-                                "experiment": "SRX5644491",
-                                "study": "SRP190924",
-                                "sample": "SRS4590184",
-                                "title": "Illumina HiSeq 4000 sequencing; GSM3711780: AT-15-VAT; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "assembly": "GRCh38",
-                                    "ENA-SPOT-COUNT": "84697047",
-                                    "ENA-BASE-COUNT": "8300310606",
-                                    "ENA-FIRST-PUBLIC": "2019-11-07",
-                                    "ENA-LAST-UPDATE": "2019-11-07"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR885/SRR8856853/Ate_15_IA.bam.1",
-                                        "md5": "a74b2990e02aebfa3ba13480a7150334",
-                                        "size": "14957081426"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX5644491"
             }
         }
     }
