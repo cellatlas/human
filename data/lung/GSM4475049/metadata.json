@@ -23,48 +23,12 @@
                     "tissue": "lung",
                     "sample type": "bronchoalveolar lavage fluid (BALF)",
                     "cell subsets": "CD45+",
-                    "ENA-SPOT-COUNT": "921018693",
-                    "ENA-BASE-COUNT": "278147645286",
+                    "ENA-SPOT-COUNT": 921018693,
+                    "ENA-BASE-COUNT": 278147645286,
                     "ENA-FIRST-PUBLIC": "2020-04-23",
                     "ENA-LAST-UPDATE": "2020-04-24"
                 },
-                "experiment": {
-                    "SRX8108993": {
-                        "accession": "SRX8108993",
-                        "title": "BGISEQ-500 paired end sequencing; GSM4475049: C52 (scRNA-seq); Homo sapiens; RNA-Seq",
-                        "platform": "BGISEQ",
-                        "instrument": "BGISEQ-500",
-                        "runs": {
-                            "SRR11537947": {
-                                "accession": "SRR11537947",
-                                "experiment": "SRX8108993",
-                                "study": "SRP250732",
-                                "sample": "SRS6474079",
-                                "title": "BGISEQ-500 paired end sequencing; GSM4475049: C52 (scRNA-seq); Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "loader": "fastq-load.py",
-                                    "options": "--platform=Illumina --read1PairFiles=\"C52_R1.fastq.gz\" --read2PairFiles=\"C52_R2.fastq.gz\"",
-                                    "ENA-SPOT-COUNT": "921018693",
-                                    "ENA-BASE-COUNT": "278147645286",
-                                    "ENA-FIRST-PUBLIC": "2020-04-23",
-                                    "ENA-LAST-UPDATE": "2020-08-01"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/047/SRR11537947/SRR11537947_1.fastq.gz",
-                                        "md5": "fa3c469538e6782f62370575e87bb8a3",
-                                        "size": "81729319865"
-                                    },
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/047/SRR11537947/SRR11537947_2.fastq.gz",
-                                        "md5": "2cdc4ac6c9f2709734070c203b506a0b",
-                                        "size": "82224478956"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX8108993"
             }
         }
     }
