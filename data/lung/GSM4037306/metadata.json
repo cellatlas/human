@@ -14,46 +14,12 @@
                     "source_name": "Lung Biopsy",
                     "disease state": "control",
                     "tissue": "Lung Biopsy",
-                    "ENA-SPOT-COUNT": "367034952",
-                    "ENA-BASE-COUNT": "110110485600",
+                    "ENA-SPOT-COUNT": 367034952,
+                    "ENA-BASE-COUNT": 110110485600,
                     "ENA-FIRST-PUBLIC": "2019-09-06",
                     "ENA-LAST-UPDATE": "2019-09-06"
                 },
-                "experiment": {
-                    "SRX6726374": {
-                        "accession": "SRX6726374",
-                        "title": "Illumina NovaSeq 6000 paired end sequencing; GSM4037306: Lung Biopsy, VUHD68; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "Illumina NovaSeq 6000",
-                        "runs": {
-                            "SRR9985353": {
-                                "accession": "SRR9985353",
-                                "experiment": "SRX6726374",
-                                "study": "SRP218543",
-                                "sample": "SRS5278350",
-                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM4037306: Lung Biopsy, VUHD68; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "ENA-SPOT-COUNT": "367034952",
-                                    "ENA-BASE-COUNT": "110110485600",
-                                    "ENA-FIRST-PUBLIC": "2019-09-08",
-                                    "ENA-LAST-UPDATE": "2019-09-08"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/003/SRR9985353/SRR9985353_1.fastq.gz",
-                                        "md5": "3f5b145e8372e9f4dedee56dc3e3692c",
-                                        "size": "22714246456"
-                                    },
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/003/SRR9985353/SRR9985353_2.fastq.gz",
-                                        "md5": "fb07300d2338d5840723c4b19daa01c4",
-                                        "size": "24251036369"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX6726374"
             }
         }
     }
