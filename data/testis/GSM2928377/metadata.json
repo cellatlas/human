@@ -31,42 +31,12 @@
                     "source_name": "Adult testis",
                     "number of cells": "4082",
                     "cell type": "Spermatogonia",
-                    "ENA-SPOT-COUNT": "311123552",
-                    "ENA-BASE-COUNT": "30490108096",
+                    "ENA-SPOT-COUNT": 311123552,
+                    "ENA-BASE-COUNT": 30490108096,
                     "ENA-FIRST-PUBLIC": "2018-11-07",
                     "ENA-LAST-UPDATE": "2018-11-07"
                 },
-                "experiment": {
-                    "SRX3549434": {
-                        "accession": "SRX3549434",
-                        "title": "Illumina HiSeq 3000 paired end sequencing; GSM2928377: HumanSpermatogonia_17-1; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "Illumina HiSeq 3000",
-                        "runs": {
-                            "SRR6459187": {
-                                "accession": "SRR6459187",
-                                "experiment": "SRX3549434",
-                                "study": "SRP128724",
-                                "sample": "SRS2823404",
-                                "title": "Illumina HiSeq 3000 paired end sequencing; GSM2928377: HumanSpermatogonia_17-1; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "assembly": "GRCh38",
-                                    "ENA-SPOT-COUNT": "311123552",
-                                    "ENA-BASE-COUNT": "30490108096",
-                                    "ENA-FIRST-PUBLIC": "2018-11-10",
-                                    "ENA-LAST-UPDATE": "2018-11-10"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR645/007/SRR6459187/SRR6459187.fastq.gz",
-                                        "md5": "bd7a0c361041ba7e0ac6e83a678f3657",
-                                        "size": "13550790301"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX3549434"
             }
         }
     }
