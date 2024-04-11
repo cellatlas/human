@@ -23,43 +23,12 @@
                     "tissue": "lung",
                     "sample type": "bronchoalveolar lavage fluid (BALF)",
                     "cell subsets": "Total cell",
-                    "ENA-SPOT-COUNT": "1141207862",
-                    "ENA-BASE-COUNT": "71815537722",
+                    "ENA-SPOT-COUNT": 1141207862,
+                    "ENA-BASE-COUNT": 71815537722,
                     "ENA-FIRST-PUBLIC": "2020-04-23",
                     "ENA-LAST-UPDATE": "2020-04-24"
                 },
-                "experiment": {
-                    "SRX8108996": {
-                        "accession": "SRX8108996",
-                        "title": "BGISEQ-500 paired end sequencing; GSM4475052: C149 (scRNA-seq); Homo sapiens; RNA-Seq",
-                        "platform": "BGISEQ",
-                        "instrument": "BGISEQ-500",
-                        "runs": {
-                            "SRR11537950": {
-                                "accession": "SRR11537950",
-                                "experiment": "SRX8108996",
-                                "study": "SRP250732",
-                                "sample": "SRS6474082",
-                                "title": "BGISEQ-500 paired end sequencing; GSM4475052: C149 (scRNA-seq); Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "loader": "fastq-load.py",
-                                    "options": "--read1PairFiles=\"C149_R1.fastq.gz\"  --read2PairFiles=\"C149_R2.fastq.gz\"",
-                                    "ENA-SPOT-COUNT": "1141207862",
-                                    "ENA-BASE-COUNT": "71815537722",
-                                    "ENA-FIRST-PUBLIC": "2020-04-23",
-                                    "ENA-LAST-UPDATE": "2020-07-30"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/050/SRR11537950/SRR11537950.fastq.gz",
-                                        "md5": "6966ed6fc0ea9e6bf2c5a9f2f935b8eb",
-                                        "size": "62963815494"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX8108996"
             }
         }
     }
