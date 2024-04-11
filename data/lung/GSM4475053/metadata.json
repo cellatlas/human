@@ -1,0 +1,35 @@
+{
+    "GSM4475053": {
+        "accession": "GSM4475053",
+        "supplementary_files": [
+            {
+                "filename": "GSM4475053_C152_filtered_feature_bc_matrix.h5",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM4475nnn/GSM4475053/suppl/GSM4475053_C152_filtered_feature_bc_matrix.h5",
+                "size": "14036158"
+            }
+        ],
+        "platform": {
+            "accession": "GPL23227",
+            "title": "BGISEQ-500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS6474083": {
+                "accession": "SRS6474083",
+                "title": "C152 (scRNA-seq)",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "BALF",
+                    "patient group": "severe COVID-19 patient",
+                    "tissue": "lung",
+                    "sample type": "bronchoalveolar lavage fluid (BALF)",
+                    "cell subsets": "Total cell",
+                    "ENA-SPOT-COUNT": 1293931602,
+                    "ENA-BASE-COUNT": 81393980908,
+                    "ENA-FIRST-PUBLIC": "2020-04-23",
+                    "ENA-LAST-UPDATE": "2020-04-24"
+                },
+                "experiment": "SRX8108997"
+            }
+        }
+    }
+}
