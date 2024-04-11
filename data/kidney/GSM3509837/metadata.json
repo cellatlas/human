@@ -18,200 +18,25 @@
                 "size": "2134430"
             }
         ],
-        "experiments": {
-            "SRX5126511": {
-                "accession": "SRX5126511",
-                "title": "NextSeq 500 paired end sequencing; GSM3509837: Week 9 fetal kidney; Homo sapiens; RNA-Seq",
-                "runs": {
-                    "SRR8313155": {
-                        "accession": "SRR8313155",
-                        "experiment": {
-                            "accession": "SRX5126511",
-                            "title": "NextSeq 500 paired end sequencing; GSM3509837: Week 9 fetal kidney; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "NextSeq 500"
-                        },
-                        "study": {
-                            "accession": "SRP147554",
-                            "title": "Single cell RNA-sequencing of human fetal kidneys",
-                            "abstract": "10X-based scRNA-seq data human fetal kidneys at 5 different ages Overall design: w9, w11, w13, w16 and w18 human fetal kidneys"
-                        },
-                        "sample": {
-                            "accession": "SRS4139632",
-                            "title": "Week 9 fetal kidney",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "disociated human embryonic kidney",
-                                "age": "Week 9",
-                                "tissue": "embryonic kidney",
-                                "ENA-SPOT-COUNT": "54940972",
-                                "ENA-BASE-COUNT": "8680673576",
-                                "ENA-FIRST-PUBLIC": "2019-02-22",
-                                "ENA-LAST-UPDATE": "2019-02-23"
-                            }
-                        },
-                        "title": "NextSeq 500 paired end sequencing; GSM3509837: Week 9 fetal kidney; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "ENA-SPOT-COUNT": "14574877",
-                            "ENA-BASE-COUNT": "2302830566",
-                            "ENA-FIRST-PUBLIC": "2019-02-22",
-                            "ENA-LAST-UPDATE": "2019-02-22"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR831/005/SRR8313155/SRR8313155_1.fastq.gz",
-                                "md5": "b9bbe93d072e726143b80991815efde0",
-                                "size": "244692577"
-                            },
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR831/005/SRR8313155/SRR8313155_2.fastq.gz",
-                                "md5": "4b920b9956eef4b73797394795ab089f",
-                                "size": "1317522223"
-                            }
-                        ]
-                    },
-                    "SRR8313156": {
-                        "accession": "SRR8313156",
-                        "experiment": {
-                            "accession": "SRX5126511",
-                            "title": "NextSeq 500 paired end sequencing; GSM3509837: Week 9 fetal kidney; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "NextSeq 500"
-                        },
-                        "study": {
-                            "accession": "SRP147554",
-                            "title": "Single cell RNA-sequencing of human fetal kidneys",
-                            "abstract": "10X-based scRNA-seq data human fetal kidneys at 5 different ages Overall design: w9, w11, w13, w16 and w18 human fetal kidneys"
-                        },
-                        "sample": {
-                            "accession": "SRS4139632",
-                            "title": "Week 9 fetal kidney",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "disociated human embryonic kidney",
-                                "age": "Week 9",
-                                "tissue": "embryonic kidney",
-                                "ENA-SPOT-COUNT": "54940972",
-                                "ENA-BASE-COUNT": "8680673576",
-                                "ENA-FIRST-PUBLIC": "2019-02-22",
-                                "ENA-LAST-UPDATE": "2019-02-23"
-                            }
-                        },
-                        "title": "NextSeq 500 paired end sequencing; GSM3509837: Week 9 fetal kidney; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "ENA-SPOT-COUNT": "11764989",
-                            "ENA-BASE-COUNT": "1858868262",
-                            "ENA-FIRST-PUBLIC": "2019-02-22",
-                            "ENA-LAST-UPDATE": "2019-02-22"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR831/006/SRR8313156/SRR8313156_1.fastq.gz",
-                                "md5": "47fa190093abf1b42b0292ae2b179fd4",
-                                "size": "199689138"
-                            },
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR831/006/SRR8313156/SRR8313156_2.fastq.gz",
-                                "md5": "4d79ded113aa5893cdd18c367722ddf2",
-                                "size": "1081867663"
-                            }
-                        ]
-                    },
-                    "SRR8313157": {
-                        "accession": "SRR8313157",
-                        "experiment": {
-                            "accession": "SRX5126511",
-                            "title": "NextSeq 500 paired end sequencing; GSM3509837: Week 9 fetal kidney; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "NextSeq 500"
-                        },
-                        "study": {
-                            "accession": "SRP147554",
-                            "title": "Single cell RNA-sequencing of human fetal kidneys",
-                            "abstract": "10X-based scRNA-seq data human fetal kidneys at 5 different ages Overall design: w9, w11, w13, w16 and w18 human fetal kidneys"
-                        },
-                        "sample": {
-                            "accession": "SRS4139632",
-                            "title": "Week 9 fetal kidney",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "disociated human embryonic kidney",
-                                "age": "Week 9",
-                                "tissue": "embryonic kidney",
-                                "ENA-SPOT-COUNT": "54940972",
-                                "ENA-BASE-COUNT": "8680673576",
-                                "ENA-FIRST-PUBLIC": "2019-02-22",
-                                "ENA-LAST-UPDATE": "2019-02-23"
-                            }
-                        },
-                        "title": "NextSeq 500 paired end sequencing; GSM3509837: Week 9 fetal kidney; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "ENA-SPOT-COUNT": "14908832",
-                            "ENA-BASE-COUNT": "2355595456",
-                            "ENA-FIRST-PUBLIC": "2019-02-22",
-                            "ENA-LAST-UPDATE": "2019-02-22"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR831/007/SRR8313157/SRR8313157_1.fastq.gz",
-                                "md5": "64a417999e408bdc114f6c983ce1ab61",
-                                "size": "244433511"
-                            },
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR831/007/SRR8313157/SRR8313157_2.fastq.gz",
-                                "md5": "b8fbeaefed7fe1a0847318ca3273b611",
-                                "size": "1350376586"
-                            }
-                        ]
-                    },
-                    "SRR8313158": {
-                        "accession": "SRR8313158",
-                        "experiment": {
-                            "accession": "SRX5126511",
-                            "title": "NextSeq 500 paired end sequencing; GSM3509837: Week 9 fetal kidney; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "NextSeq 500"
-                        },
-                        "study": {
-                            "accession": "SRP147554",
-                            "title": "Single cell RNA-sequencing of human fetal kidneys",
-                            "abstract": "10X-based scRNA-seq data human fetal kidneys at 5 different ages Overall design: w9, w11, w13, w16 and w18 human fetal kidneys"
-                        },
-                        "sample": {
-                            "accession": "SRS4139632",
-                            "title": "Week 9 fetal kidney",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "disociated human embryonic kidney",
-                                "age": "Week 9",
-                                "tissue": "embryonic kidney",
-                                "ENA-SPOT-COUNT": "54940972",
-                                "ENA-BASE-COUNT": "8680673576",
-                                "ENA-FIRST-PUBLIC": "2019-02-22",
-                                "ENA-LAST-UPDATE": "2019-02-23"
-                            }
-                        },
-                        "title": "NextSeq 500 paired end sequencing; GSM3509837: Week 9 fetal kidney; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "ENA-SPOT-COUNT": "13692274",
-                            "ENA-BASE-COUNT": "2163379292",
-                            "ENA-FIRST-PUBLIC": "2019-02-22",
-                            "ENA-LAST-UPDATE": "2019-02-22"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR831/008/SRR8313158/SRR8313158_1.fastq.gz",
-                                "md5": "d33672cd1e28c78924a9836012e4f713",
-                                "size": "225752786"
-                            },
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR831/008/SRR8313158/SRR8313158_2.fastq.gz",
-                                "md5": "287f6bbd99830ef2fb88513f80d7863b",
-                                "size": "1257918209"
-                            }
-                        ]
-                    }
-                }
+        "platform": {
+            "accession": "GPL18573",
+            "title": "Illumina NextSeq 500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4139632": {
+                "accession": "SRS4139632",
+                "title": "Week 9 fetal kidney",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "disociated human embryonic kidney",
+                    "age": "Week 9",
+                    "tissue": "embryonic kidney",
+                    "ENA-SPOT-COUNT": 54940972,
+                    "ENA-BASE-COUNT": 8680673576,
+                    "ENA-FIRST-PUBLIC": "2019-02-22",
+                    "ENA-LAST-UPDATE": "2019-02-23"
+                },
+                "experiment": "SRX5126511"
             }
         }
     }
