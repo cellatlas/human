@@ -15,42 +15,12 @@
                     "cell type": "mesenchymal stem cells (MSCs)",
                     "treatment": "none",
                     "passage": "3",
-                    "ENA-SPOT-COUNT": "195138455",
-                    "ENA-BASE-COUNT": "19123568590",
+                    "ENA-SPOT-COUNT": 195138455,
+                    "ENA-BASE-COUNT": 19123568590,
                     "ENA-FIRST-PUBLIC": "2019-06-01",
                     "ENA-LAST-UPDATE": "2019-06-01"
                 },
-                "experiment": {
-                    "SRX4146514": {
-                        "accession": "SRX4146514",
-                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM3168248: EM1_un_scRNA-Seq; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "Illumina HiSeq 2500",
-                        "runs": {
-                            "SRR7240733": {
-                                "accession": "SRR7240733",
-                                "experiment": "SRX4146514",
-                                "study": "SRP149428",
-                                "sample": "SRS3360132",
-                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM3168248: EM1_un_scRNA-Seq; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "assembly": "hg19",
-                                    "ENA-SPOT-COUNT": "195138455",
-                                    "ENA-BASE-COUNT": "19123568590",
-                                    "ENA-FIRST-PUBLIC": "2019-06-01",
-                                    "ENA-LAST-UPDATE": "2019-06-01"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR724/003/SRR7240733/SRR7240733.fastq.gz",
-                                        "md5": "9f0438363e9cbf4e2c1aac479a26aef1",
-                                        "size": "9105621878"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX4146514"
             }
         }
     }
