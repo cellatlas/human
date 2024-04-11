@@ -15,42 +15,12 @@
                     "treatment": "Pre-CCB",
                     "cell type": "PBMCs",
                     "cell subtype": "Sorted live B-cells",
-                    "ENA-SPOT-COUNT": "56395860",
-                    "ENA-BASE-COUNT": "5526794280",
+                    "ENA-SPOT-COUNT": 56395860,
+                    "ENA-BASE-COUNT": 5526794280,
                     "ENA-FIRST-PUBLIC": "2017-11-30",
                     "ENA-LAST-UPDATE": "2017-11-30"
                 },
-                "experiment": {
-                    "SRX3243674": {
-                        "accession": "SRX3243674",
-                        "title": "Illumina HiSeq 2500 sequencing; GSM2803967: B cells pre therapy single cell RNA seq; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "Illumina HiSeq 2500",
-                        "runs": {
-                            "SRR6131318": {
-                                "accession": "SRR6131318",
-                                "experiment": "SRX3243674",
-                                "study": "SRP119425",
-                                "sample": "SRS2566664",
-                                "title": "Illumina HiSeq 2500 sequencing; GSM2803967: B cells pre therapy single cell RNA seq; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "assembly": "hg38",
-                                    "ENA-SPOT-COUNT": "56395860",
-                                    "ENA-BASE-COUNT": "5526794280",
-                                    "ENA-FIRST-PUBLIC": "2017-12-01",
-                                    "ENA-LAST-UPDATE": "2017-12-01"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/SRA617/SRA617020/bam/lk2.bam",
-                                        "md5": "02bbe6f00c7e13911708b1254b81f293",
-                                        "size": "16638584563"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX3243674"
             }
         }
     }
