@@ -8,52 +8,24 @@
                 "size": "6387901"
             }
         ],
-        "experiments": {
-            "SRX4507862": {
-                "accession": "SRX4507862",
-                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3319036: sample_1-5; Homo sapiens; RNA-Seq",
-                "runs": {
-                    "SRR7644621": {
-                        "accession": "SRR7644621",
-                        "experiment": {
-                            "accession": "SRX4507862",
-                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM3319036: sample_1-5; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "Illumina HiSeq 4000"
-                        },
-                        "study": {
-                            "accession": "SRP156350",
-                            "title": "Single-cell analysis of adult human ovary using 10X genomics",
-                            "abstract": "The ovary is perhaps the most dynamic organ in the human body, only rivaled by the uterus. The molecular mechanisms that regulate follicular growth and regression, ensuring ovarian tissue homeostasis, remain elusive. We have performed single-cell RNA-sequencing using human adult ovaries to provide a map of the molecular signature of growing and regressing follicular populations. We have identified different types of granulosa and theca cells and detected local production of components of the complement system by (atretic) theca cells and stromal cells. We also have detected a mixture of adaptive and innate immune cells, as well as several types of endothelial and smooth muscle cells to aid the remodeling process. Our results highlight the relevance of mapping whole adult organs at the single-cell level and reflect ongoing efforts to map the human body. The association between complement system and follicular remodeling may provide key insights in reproductive biology and (in)fertility. Overall design: 31 tissue samples from 5 ovaries were used for single-cell and cluster analysis"
-                        },
-                        "sample": {
-                            "accession": "SRS3627875",
-                            "title": "sample_1-5",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "Adult Ovary Tissue",
-                                "patient id": "P7",
-                                "batch": "2",
-                                "tissue": "Follicle 2-5mm",
-                                "ENA-FIRST-PUBLIC": "2019-06-02",
-                                "ENA-LAST-UPDATE": "2019-06-02"
-                            }
-                        },
-                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM3319036: sample_1-5; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "assembly": "GRCh38",
-                            "ENA-FIRST-PUBLIC": "2019-06-03",
-                            "ENA-LAST-UPDATE": "2019-06-15"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR764/SRR7644621/sample_1_5.bam.1",
-                                "md5": "d3213631a5251c35212258acebfe7396",
-                                "size": "5423104317"
-                            }
-                        ]
-                    }
-                }
+        "platform": {
+            "accession": "GPL20301",
+            "title": "Illumina HiSeq 4000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS3627875": {
+                "accession": "SRS3627875",
+                "title": "sample_1-5",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Adult Ovary Tissue",
+                    "patient id": "P7",
+                    "batch": "2",
+                    "tissue": "Follicle 2-5mm",
+                    "ENA-FIRST-PUBLIC": "2019-06-02",
+                    "ENA-LAST-UPDATE": "2019-06-02"
+                },
+                "experiment": "SRX4507862"
             }
         }
     }
