@@ -1,0 +1,48 @@
+{
+    "GSM3731527": {
+        "accession": "GSM3731527",
+        "supplementary_files": [
+            {
+                "filename": "GSM3731527_Human_liver_organoids_barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3731nnn/GSM3731527/suppl/GSM3731527_Human_liver_organoids_barcodes.tsv.gz",
+                "size": "17212"
+            },
+            {
+                "filename": "GSM3731527_Human_liver_organoids_cloupe.cloupe.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3731nnn/GSM3731527/suppl/GSM3731527_Human_liver_organoids_cloupe.cloupe.gz",
+                "size": "55634023"
+            },
+            {
+                "filename": "GSM3731527_Human_liver_organoids_genes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3731nnn/GSM3731527/suppl/GSM3731527_Human_liver_organoids_genes.tsv.gz",
+                "size": "257294"
+            },
+            {
+                "filename": "GSM3731527_Human_liver_organoids_matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3731nnn/GSM3731527/suppl/GSM3731527_Human_liver_organoids_matrix.mtx.gz",
+                "size": "29926848"
+            }
+        ],
+        "platform": {
+            "accession": "GPL16791",
+            "title": "Illumina HiSeq 2500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4651465": {
+                "accession": "SRS4651465",
+                "title": "Human liver organoids",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Human liver organoids",
+                    "cell type": "iPSC derived human liver organoids",
+                    "cultured day": "day33",
+                    "ENA-SPOT-COUNT": 100085280,
+                    "ENA-BASE-COUNT": 14712536160,
+                    "ENA-FIRST-PUBLIC": "2019-08-01",
+                    "ENA-LAST-UPDATE": "2019-08-01"
+                },
+                "experiment": "SRX5712719"
+            }
+        }
+    }
+}
