@@ -24,121 +24,12 @@
                     "pathological lesions": "Chronic atrophic gastritis",
                     "subject id": "P4",
                     "agent": "None",
-                    "ENA-SPOT-COUNT": "484893774",
-                    "ENA-BASE-COUNT": "145468132200",
+                    "ENA-SPOT-COUNT": 484893774,
+                    "ENA-BASE-COUNT": 145468132200,
                     "ENA-FIRST-PUBLIC": "2019-07-22",
                     "ENA-LAST-UPDATE": "2019-07-22"
                 },
-                "experiment": {
-                    "SRX6471029": {
-                        "accession": "SRX6471029",
-                        "title": "HiSeq X Ten paired end sequencing; GSM3954950: Chronic atrophic gastritis 2; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "HiSeq X Ten",
-                        "runs": {
-                            "SRR9713127": {
-                                "accession": "SRR9713127",
-                                "experiment": "SRX6471029",
-                                "study": "SRP215370",
-                                "sample": "SRS5119593",
-                                "title": "HiSeq X Ten paired end sequencing; GSM3954950: Chronic atrophic gastritis 2; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "ENA-SPOT-COUNT": "105897210",
-                                    "ENA-BASE-COUNT": "31769163000",
-                                    "ENA-FIRST-PUBLIC": "2019-07-23",
-                                    "ENA-LAST-UPDATE": "2019-07-23"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/007/SRR9713127/SRR9713127_1.fastq.gz",
-                                        "md5": "a91134fae195b618ae93020f9ef75ee5",
-                                        "size": "9289242121"
-                                    },
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/007/SRR9713127/SRR9713127_2.fastq.gz",
-                                        "md5": "dd2961e69e21d7c062df140bbc4ecf2f",
-                                        "size": "9185034137"
-                                    }
-                                ]
-                            },
-                            "SRR9713128": {
-                                "accession": "SRR9713128",
-                                "experiment": "SRX6471029",
-                                "study": "SRP215370",
-                                "sample": "SRS5119593",
-                                "title": "HiSeq X Ten paired end sequencing; GSM3954950: Chronic atrophic gastritis 2; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "ENA-SPOT-COUNT": "123969877",
-                                    "ENA-BASE-COUNT": "37190963100",
-                                    "ENA-FIRST-PUBLIC": "2019-07-23",
-                                    "ENA-LAST-UPDATE": "2019-07-23"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/008/SRR9713128/SRR9713128_1.fastq.gz",
-                                        "md5": "fc9f1b5fdb184183c61e69307842586b",
-                                        "size": "10874742488"
-                                    },
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/008/SRR9713128/SRR9713128_2.fastq.gz",
-                                        "md5": "36bb98e98b3674a98c477ba35410dc85",
-                                        "size": "10789546770"
-                                    }
-                                ]
-                            },
-                            "SRR9713129": {
-                                "accession": "SRR9713129",
-                                "experiment": "SRX6471029",
-                                "study": "SRP215370",
-                                "sample": "SRS5119593",
-                                "title": "HiSeq X Ten paired end sequencing; GSM3954950: Chronic atrophic gastritis 2; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "ENA-SPOT-COUNT": "140305621",
-                                    "ENA-BASE-COUNT": "42091686300",
-                                    "ENA-FIRST-PUBLIC": "2019-07-23",
-                                    "ENA-LAST-UPDATE": "2019-07-23"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/009/SRR9713129/SRR9713129_1.fastq.gz",
-                                        "md5": "cbd0b4fb7c38f74190c038cd74faeda7",
-                                        "size": "12339744620"
-                                    },
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/009/SRR9713129/SRR9713129_2.fastq.gz",
-                                        "md5": "c18f9c11491127c7628dfb404bb1af92",
-                                        "size": "12249571218"
-                                    }
-                                ]
-                            },
-                            "SRR9713130": {
-                                "accession": "SRR9713130",
-                                "experiment": "SRX6471029",
-                                "study": "SRP215370",
-                                "sample": "SRS5119593",
-                                "title": "HiSeq X Ten paired end sequencing; GSM3954950: Chronic atrophic gastritis 2; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "ENA-SPOT-COUNT": "114721066",
-                                    "ENA-BASE-COUNT": "34416319800",
-                                    "ENA-FIRST-PUBLIC": "2019-07-23",
-                                    "ENA-LAST-UPDATE": "2019-07-23"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/000/SRR9713130/SRR9713130_1.fastq.gz",
-                                        "md5": "47e4e38511a526809ca0257b62ed42e2",
-                                        "size": "10080836445"
-                                    },
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/000/SRR9713130/SRR9713130_2.fastq.gz",
-                                        "md5": "aad02361895f1b004a13c2c681e33ed5",
-                                        "size": "9966430123"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX6471029"
             }
         }
     }
