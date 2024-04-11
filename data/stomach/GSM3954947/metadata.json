@@ -24,46 +24,12 @@
                     "pathological lesions": "Normal",
                     "subject id": "P2",
                     "agent": "None",
-                    "ENA-SPOT-COUNT": "412510114",
-                    "ENA-BASE-COUNT": "123753034200",
+                    "ENA-SPOT-COUNT": 412510114,
+                    "ENA-BASE-COUNT": 123753034200,
                     "ENA-FIRST-PUBLIC": "2019-07-22",
                     "ENA-LAST-UPDATE": "2019-07-22"
                 },
-                "experiment": {
-                    "SRX6471039": {
-                        "accession": "SRX6471039",
-                        "title": "HiSeq X Ten paired end sequencing; GSM3954947: Non-atrophic gastritis 2; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "HiSeq X Ten",
-                        "runs": {
-                            "SRR9713118": {
-                                "accession": "SRR9713118",
-                                "experiment": "SRX6471039",
-                                "study": "SRP215370",
-                                "sample": "SRS5119603",
-                                "title": "HiSeq X Ten paired end sequencing; GSM3954947: Non-atrophic gastritis 2; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "ENA-SPOT-COUNT": "412510114",
-                                    "ENA-BASE-COUNT": "123753034200",
-                                    "ENA-FIRST-PUBLIC": "2019-07-23",
-                                    "ENA-LAST-UPDATE": "2019-07-23"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/008/SRR9713118/SRR9713118_1.fastq.gz",
-                                        "md5": "afbca1be567066ed2633faa1a0a0142c",
-                                        "size": "36822179439"
-                                    },
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/008/SRR9713118/SRR9713118_2.fastq.gz",
-                                        "md5": "1b987bbcdfff6dd54de0fd7bd6e4ff63",
-                                        "size": "37752627722"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX6471039"
             }
         }
     }
