@@ -32,42 +32,12 @@
                     "developing stage": "Week 17",
                     "tissue": "kidney",
                     "cell type": "human embryonic kidney cortex cells",
-                    "ENA-SPOT-COUNT": "166964865",
-                    "ENA-BASE-COUNT": "20097526918",
+                    "ENA-SPOT-COUNT": 166964865,
+                    "ENA-BASE-COUNT": 20097526918,
                     "ENA-FIRST-PUBLIC": "2018-04-14",
                     "ENA-LAST-UPDATE": "2018-04-15"
                 },
-                "experiment": {
-                    "SRX3869031": {
-                        "accession": "SRX3869031",
-                        "title": "NextSeq 500 paired end sequencing; GSM3073089: human week 17 kidney cortex single cell RNA-Seq, Kidney 2 [H17w_K2]; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "NextSeq 500",
-                        "runs": {
-                            "SRR6921771": {
-                                "accession": "SRR6921771",
-                                "experiment": "SRX3869031",
-                                "study": "SRP136849",
-                                "sample": "SRS3112006",
-                                "title": "NextSeq 500 paired end sequencing; GSM3073089: human week 17 kidney cortex single cell RNA-Seq, Kidney 2 [H17w_K2]; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "assembly": "GRCh37.p13",
-                                    "ENA-SPOT-COUNT": "166964865",
-                                    "ENA-BASE-COUNT": "20097526918",
-                                    "ENA-FIRST-PUBLIC": "2018-04-18",
-                                    "ENA-LAST-UPDATE": "2018-04-18"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/SRA678/SRA678017/bam/H17w_K2.bam",
-                                        "md5": "8a43ad3c352904067782b1a5dba1030a",
-                                        "size": "24983653453"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX3869031"
             }
         }
     }
