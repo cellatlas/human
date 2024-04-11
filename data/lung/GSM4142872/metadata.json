@@ -1,0 +1,43 @@
+{
+    "GSM4142872": {
+        "accession": "GSM4142872",
+        "supplementary_files": [
+            {
+                "filename": "GSM4142872_Patient3_barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM4142nnn/GSM4142872/suppl/GSM4142872_Patient3_barcodes.tsv.gz",
+                "size": "20921369"
+            },
+            {
+                "filename": "GSM4142872_Patient3_features.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM4142nnn/GSM4142872/suppl/GSM4142872_Patient3_features.tsv.gz",
+                "size": "304728"
+            },
+            {
+                "filename": "GSM4142872_Patient3_matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM4142nnn/GSM4142872/suppl/GSM4142872_Patient3_matrix.mtx.gz",
+                "size": "136305083"
+            }
+        ],
+        "platform": {
+            "accession": "GPL18573",
+            "title": "Illumina NextSeq 500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS5583560": {
+                "accession": "SRS5583560",
+                "title": "single cell RNAseq [Patient 3]",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "human olfactory epithelium",
+                    "tissue": "Olfactory epithelium",
+                    "age": "Adult",
+                    "ENA-SPOT-COUNT": 296554900,
+                    "ENA-BASE-COUNT": 29062380200,
+                    "ENA-FIRST-PUBLIC": "2019-12-20",
+                    "ENA-LAST-UPDATE": "2019-12-20"
+                },
+                "experiment": "SRX7067043"
+            }
+        }
+    }
+}
