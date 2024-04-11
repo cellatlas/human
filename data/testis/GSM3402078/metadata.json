@@ -16,42 +16,12 @@
                     "age": "13 months",
                     "tissue": "Testicle",
                     "cell type": "Testicular cells",
-                    "ENA-SPOT-COUNT": "116305612",
-                    "ENA-BASE-COUNT": "11630561200",
+                    "ENA-SPOT-COUNT": 116305612,
+                    "ENA-BASE-COUNT": 11630561200,
                     "ENA-FIRST-PUBLIC": "2018-10-16",
                     "ENA-LAST-UPDATE": "2018-10-17"
                 },
-                "experiment": {
-                    "SRX4741350": {
-                        "accession": "SRX4741350",
-                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM3402078: Infant1_scRNA-seq_rep1; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "Illumina HiSeq 2500",
-                        "runs": {
-                            "SRR7904997": {
-                                "accession": "SRR7904997",
-                                "experiment": "SRX4741350",
-                                "study": "SRP162662",
-                                "sample": "SRS3822680",
-                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM3402078: Infant1_scRNA-seq_rep1; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "assembly": "hg38",
-                                    "ENA-SPOT-COUNT": "116305612",
-                                    "ENA-BASE-COUNT": "11630561200",
-                                    "ENA-FIRST-PUBLIC": "2018-10-16",
-                                    "ENA-LAST-UPDATE": "2018-10-16"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/SRA784/SRA784242/bam/15187X1.bam",
-                                        "md5": "fd919f7535e2d9ca345837b45f55d56f",
-                                        "size": "19913194612"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX4741350"
             }
         }
     }
