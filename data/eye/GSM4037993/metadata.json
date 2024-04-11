@@ -24,121 +24,12 @@
                     "tissue": "RPE-choroid",
                     "location": "periphery",
                     "punch-size": "12-mm",
-                    "ENA-SPOT-COUNT": "348113504",
-                    "ENA-BASE-COUNT": "41425506976",
+                    "ENA-SPOT-COUNT": 348113504,
+                    "ENA-BASE-COUNT": 41425506976,
                     "ENA-FIRST-PUBLIC": "2019-10-31",
                     "ENA-LAST-UPDATE": "2019-11-01"
                 },
-                "experiment": {
-                    "SRX6730022": {
-                        "accession": "SRX6730022",
-                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037993: Peripheral-12mm-cd31-enriched-donor-6; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "Illumina HiSeq 4000",
-                        "runs": {
-                            "SRR9990683": {
-                                "accession": "SRR9990683",
-                                "experiment": "SRX6730022",
-                                "study": "SRP218652",
-                                "sample": "SRS5281881",
-                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037993: Peripheral-12mm-cd31-enriched-donor-6; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "ENA-SPOT-COUNT": "106568478",
-                                    "ENA-BASE-COUNT": "12681648882",
-                                    "ENA-FIRST-PUBLIC": "2019-10-31",
-                                    "ENA-LAST-UPDATE": "2019-10-31"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/003/SRR9990683/SRR9990683_1.fastq.gz",
-                                        "md5": "6766f213ad3e1f0c3a9c37e6b2c162f0",
-                                        "size": "2004007743"
-                                    },
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/003/SRR9990683/SRR9990683_2.fastq.gz",
-                                        "md5": "d234aa158005bef18146f05f732a82d2",
-                                        "size": "7112503701"
-                                    }
-                                ]
-                            },
-                            "SRR9990684": {
-                                "accession": "SRR9990684",
-                                "experiment": "SRX6730022",
-                                "study": "SRP218652",
-                                "sample": "SRS5281881",
-                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037993: Peripheral-12mm-cd31-enriched-donor-6; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "ENA-SPOT-COUNT": "76366210",
-                                    "ENA-BASE-COUNT": "9087578990",
-                                    "ENA-FIRST-PUBLIC": "2019-10-31",
-                                    "ENA-LAST-UPDATE": "2019-10-31"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/004/SRR9990684/SRR9990684_1.fastq.gz",
-                                        "md5": "eda7c33208c7fc64c41ad219dbcbb0d8",
-                                        "size": "1434437216"
-                                    },
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/004/SRR9990684/SRR9990684_2.fastq.gz",
-                                        "md5": "d10c66567ca7627b79ade7370d9e5819",
-                                        "size": "5180838446"
-                                    }
-                                ]
-                            },
-                            "SRR9990685": {
-                                "accession": "SRR9990685",
-                                "experiment": "SRX6730022",
-                                "study": "SRP218652",
-                                "sample": "SRS5281881",
-                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037993: Peripheral-12mm-cd31-enriched-donor-6; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "ENA-SPOT-COUNT": "86022545",
-                                    "ENA-BASE-COUNT": "10236682855",
-                                    "ENA-FIRST-PUBLIC": "2019-10-31",
-                                    "ENA-LAST-UPDATE": "2019-10-31"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/005/SRR9990685/SRR9990685_1.fastq.gz",
-                                        "md5": "6d5fe4821343ebb253c9497c9085fad5",
-                                        "size": "1613454070"
-                                    },
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/005/SRR9990685/SRR9990685_2.fastq.gz",
-                                        "md5": "66018bdd879365eade3ad6fe67a44623",
-                                        "size": "5576091771"
-                                    }
-                                ]
-                            },
-                            "SRR9990686": {
-                                "accession": "SRR9990686",
-                                "experiment": "SRX6730022",
-                                "study": "SRP218652",
-                                "sample": "SRS5281881",
-                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM4037993: Peripheral-12mm-cd31-enriched-donor-6; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "ENA-SPOT-COUNT": "79156271",
-                                    "ENA-BASE-COUNT": "9419596249",
-                                    "ENA-FIRST-PUBLIC": "2019-10-31",
-                                    "ENA-LAST-UPDATE": "2019-10-31"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/006/SRR9990686/SRR9990686_1.fastq.gz",
-                                        "md5": "0644ce8edad143bf5d395cab4c7d8bea",
-                                        "size": "1483715835"
-                                    },
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/006/SRR9990686/SRR9990686_2.fastq.gz",
-                                        "md5": "b9bcc04c68565d70e6b730aced1b5e8d",
-                                        "size": "5305159207"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX6730022"
             }
         }
     }
