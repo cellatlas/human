@@ -14,42 +14,12 @@
                     "source_name": "human embryonic hippocampus",
                     "gestational week": "GW18",
                     "tissue": "hippocampus",
-                    "ENA-SPOT-COUNT": "354981101",
-                    "ENA-BASE-COUNT": "53247165150",
+                    "ENA-SPOT-COUNT": 354981101,
+                    "ENA-BASE-COUNT": 53247165150,
                     "ENA-FIRST-PUBLIC": "2019-11-15",
                     "ENA-LAST-UPDATE": "2019-11-15"
                 },
-                "experiment": {
-                    "SRX4623330": {
-                        "accession": "SRX4623330",
-                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM3360834: GW18_Hippocampus; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "Illumina HiSeq 4000",
-                        "runs": {
-                            "SRR7767735": {
-                                "accession": "SRR7767735",
-                                "experiment": "SRX4623330",
-                                "study": "SRP159104",
-                                "sample": "SRS3725284",
-                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3360834: GW18_Hippocampus; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "assembly": "GRCh37",
-                                    "ENA-SPOT-COUNT": "354981101",
-                                    "ENA-BASE-COUNT": "53247165150",
-                                    "ENA-FIRST-PUBLIC": "2019-11-21",
-                                    "ENA-LAST-UPDATE": "2019-11-21"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR776/SRR7767735/GW18_Hippocampus_possorted_genome_bam.bam.1",
-                                        "md5": "8fceecca4273c40d2b84cdfd5c66424d",
-                                        "size": "104444855521"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX4623330"
             }
         }
     }
