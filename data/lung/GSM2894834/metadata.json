@@ -1,0 +1,44 @@
+{
+    "GSM2894834": {
+        "accession": "GSM2894834",
+        "supplementary_files": [
+            {
+                "filename": "GSM2894834_distal_barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM2894nnn/GSM2894834/suppl/GSM2894834_distal_barcodes.tsv.gz",
+                "size": "40296"
+            },
+            {
+                "filename": "GSM2894834_distal_genes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM2894nnn/GSM2894834/suppl/GSM2894834_distal_genes.tsv.gz",
+                "size": "257279"
+            },
+            {
+                "filename": "GSM2894834_distal_matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM2894nnn/GSM2894834/suppl/GSM2894834_distal_matrix.mtx.gz",
+                "size": "71871418"
+            }
+        ],
+        "platform": {
+            "accession": "GPL16791",
+            "title": "Illumina HiSeq 2500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS2769050": {
+                "accession": "SRS2769050",
+                "title": "adult human lung stromal cells from distal portion enriched in alveoli",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "adult human lung distal alveolar stromal cells",
+                    "tissue": "lung",
+                    "developmental stage": "adult",
+                    "cell type": "lung distal alveolar stromal cells",
+                    "ENA-SPOT-COUNT": 202098510,
+                    "ENA-BASE-COUNT": 19805653980,
+                    "ENA-FIRST-PUBLIC": "2018-08-09",
+                    "ENA-LAST-UPDATE": "2018-08-09"
+                },
+                "experiment": "SRX3483299"
+            }
+        }
+    }
+}
