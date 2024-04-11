@@ -15,48 +15,12 @@
                     "age": "70",
                     "Sex": "male",
                     "tissue": "Left external oblique",
-                    "ENA-SPOT-COUNT": "230378709",
-                    "ENA-BASE-COUNT": "19351811556",
+                    "ENA-SPOT-COUNT": 230378709,
+                    "ENA-BASE-COUNT": 19351811556,
                     "ENA-FIRST-PUBLIC": "2020-06-03",
                     "ENA-LAST-UPDATE": "2020-06-04"
                 },
-                "experiment": {
-                    "SRX7566593": {
-                        "accession": "SRX7566593",
-                        "title": "NextSeq 500 paired end sequencing; GSM4272899: hu09_092718; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "NextSeq 500",
-                        "runs": {
-                            "SRR10897766": {
-                                "accession": "SRR10897766",
-                                "experiment": "SRX7566593",
-                                "study": "SRP242029",
-                                "sample": "SRS6002998",
-                                "title": "NextSeq 500 paired end sequencing; GSM4272899: hu09_092718; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "loader": "fastq-load.py",
-                                    "options": "--readTypes=TBB --read1PairFiles=Sample_84100_HFVWYBGX9_hu_092718_I1.fastq.gz --read2PairFiles=Sample_84100_HFVWYBGX9_hu_092718_R1.fastq.gz --read3PairFiles=Sample_84100_HFVWYBGX9_hu_092718_R2.fastq.gz",
-                                    "ENA-SPOT-COUNT": "230378709",
-                                    "ENA-BASE-COUNT": "19351811556",
-                                    "ENA-FIRST-PUBLIC": "2020-06-03",
-                                    "ENA-LAST-UPDATE": "2020-06-03"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR108/066/SRR10897766/SRR10897766_1.fastq.gz",
-                                        "md5": "952b4edc66c219d43af5c577e6e84c8e",
-                                        "size": "5229819273"
-                                    },
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR108/066/SRR10897766/SRR10897766_2.fastq.gz",
-                                        "md5": "a429600d2c8c712c4cd74439b3215c3c",
-                                        "size": "9480789761"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX7566593"
             }
         }
     }
