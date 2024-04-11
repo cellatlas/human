@@ -31,46 +31,12 @@
                     "source_name": "Testicular cells",
                     "tissue": "testis",
                     "syndrome": "Klinefelter",
-                    "ENA-SPOT-COUNT": "219812292",
-                    "ENA-BASE-COUNT": "66383312184",
+                    "ENA-SPOT-COUNT": 219812292,
+                    "ENA-BASE-COUNT": 66383312184,
                     "ENA-FIRST-PUBLIC": "2019-09-01",
                     "ENA-LAST-UPDATE": "2019-09-01"
                 },
-                "experiment": {
-                    "SRX5722806": {
-                        "accession": "SRX5722806",
-                        "title": "Illumina NovaSeq 6000 paired end sequencing; GSM3732871: single-cell RNAseq; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "Illumina NovaSeq 6000",
-                        "runs": {
-                            "SRR8942607": {
-                                "accession": "SRR8942607",
-                                "experiment": "SRX5722806",
-                                "study": "SRP193364",
-                                "sample": "SRS4661019",
-                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM3732871: single-cell RNAseq; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "ENA-SPOT-COUNT": "219812292",
-                                    "ENA-BASE-COUNT": "66383312184",
-                                    "ENA-FIRST-PUBLIC": "2019-09-02",
-                                    "ENA-LAST-UPDATE": "2019-09-02"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR894/007/SRR8942607/SRR8942607_1.fastq.gz",
-                                        "md5": "76c265ae7c271039e28d271ab316bdb4",
-                                        "size": "17198905089"
-                                    },
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR894/007/SRR8942607/SRR8942607_2.fastq.gz",
-                                        "md5": "1f3fa3c55deb355f7a23bf2adef155b4",
-                                        "size": "15915742261"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX5722806"
             }
         }
     }
