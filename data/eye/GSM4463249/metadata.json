@@ -1,0 +1,25 @@
+{
+    "GSM4463249": {
+        "accession": "GSM4463249",
+        "platform": {
+            "accession": "GPL16791",
+            "title": "Illumina HiSeq 2500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS6456859": {
+                "accession": "SRS6456859",
+                "title": "H9RimS1 (Pt9-LT)",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Human corneoscleral segment, 56 y/o F",
+                    "tissue": "Human corneoscleral segment",
+                    "age": "56 y/o",
+                    "Sex": "female",
+                    "ENA-FIRST-PUBLIC": "2020-05-20",
+                    "ENA-LAST-UPDATE": "2020-05-21"
+                },
+                "experiment": "SRX8090008"
+            }
+        }
+    }
+}
