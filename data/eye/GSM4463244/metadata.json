@@ -1,0 +1,25 @@
+{
+    "GSM4463244": {
+        "accession": "GSM4463244",
+        "platform": {
+            "accession": "GPL16791",
+            "title": "Illumina HiSeq 2500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS6456858": {
+                "accession": "SRS6456858",
+                "title": "H4TMS1 (Pt4-LT)",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Human trabecular meshwork, 64 y/o M",
+                    "tissue": "Human trabecular meshwork",
+                    "age": "64 y/o",
+                    "Sex": "male",
+                    "ENA-FIRST-PUBLIC": "2020-05-20",
+                    "ENA-LAST-UPDATE": "2020-05-21"
+                },
+                "experiment": "SRX8090007"
+            }
+        }
+    }
+}
