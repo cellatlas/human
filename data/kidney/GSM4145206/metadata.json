@@ -1,0 +1,41 @@
+{
+    "GSM4145206": {
+        "accession": "GSM4145206",
+        "supplementary_files": [
+            {
+                "accession": "GSM4145206",
+                "filename": "GSM4145206_kidney3_barcodes.tsv.gz",
+                "filetype": null,
+                "filesize": 52156,
+                "filenumber": 1,
+                "md5": null,
+                "urltype": "ftp",
+                "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4145nnn/GSM4145206/suppl/GSM4145206_kidney3_barcodes.tsv.gz"
+            },
+            {
+                "accession": "GSM4145206",
+                "filename": "GSM4145206_kidney3_features.tsv.gz",
+                "filetype": null,
+                "filesize": 304728,
+                "filenumber": 2,
+                "md5": null,
+                "urltype": "ftp",
+                "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4145nnn/GSM4145206/suppl/GSM4145206_kidney3_features.tsv.gz"
+            },
+            {
+                "accession": "GSM4145206",
+                "filename": "GSM4145206_kidney3_matrix.mtx.gz",
+                "filetype": null,
+                "filesize": 31721139,
+                "filenumber": 3,
+                "md5": null,
+                "urltype": "ftp",
+                "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4145nnn/GSM4145206/suppl/GSM4145206_kidney3_matrix.mtx.gz"
+            }
+        ],
+        "platform": {
+            "accession": "GPL20795",
+            "title": "HiSeq X Ten (Homo sapiens)"
+        }
+    }
+}
