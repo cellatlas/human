@@ -8,57 +8,27 @@
                 "size": "38880150"
             }
         ],
-        "experiments": {
-            "SRX4912118": {
-                "accession": "SRX4912118",
-                "title": "NextSeq 500 paired end sequencing; GSM3439923: HAECs_Pneumacult_ALI47; Homo sapiens; RNA-Seq",
-                "runs": {
-                    "SRR8085161": {
-                        "accession": "SRR8085161",
-                        "experiment": {
-                            "accession": "SRX4912118",
-                            "title": "NextSeq 500 paired end sequencing; GSM3439923: HAECs_Pneumacult_ALI47; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "NextSeq 500"
-                        },
-                        "study": {
-                            "accession": "SRP166983",
-                            "title": "Single-cell RNA-seq reveals novel cell differentiation dynamics during human airway epithelium regeneration",
-                            "abstract": "The upper airway epithelium is mainly composed of 4 cell types: multiciliated, goblet, secretory and basal cells. It constitutes an efficient first line of defense of the respiratory tract against a large panel of inhaled substances. Upon injury, regeneration of this epithelium through proliferation and differentiation events can restore a proper mucociliary function. In chronic airway diseases, such as chronic obstructive pulmonary disease or asthma, the injured epithelium frequently displays defective repair leading to tissue remodeling, characterized by a loss of multiciliated cells and mucus hyper-secretion. This situation emphasizes the need to accurately delineate the drivers of differentiation dynamics and cell fate in human airway epithelium. We have used single cell transcriptomics to characterize the sequence of cellular and molecular processes taking place during human airway mucociliary epithelium regeneration in vitro. A comparison with single-cell data from fresh human and pig airway samples, and from in vitro mouse tracheal epithelial cells confirmed our findings in several distinct mammalian species. Single-cell RNA-seq in the airways provides novel insights in differentiation dynamics with the identification of alternative cell trajectories, novel cell subpopulations and by mapping the activation and repression of key signaling pathways. Overall design: Single-cell RNA-seq of airway epithelial cells from various origins: human in vitro time course differentiation, human bronchial biopsy, human nasal brushing, human nasal turbinate, mouse in vitro differentiation and pig trachea"
-                        },
-                        "sample": {
-                            "accession": "SRS3984787",
-                            "title": "HAECs_Pneumacult_ALI47",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "Human airway epithellial cells differentiated in Pneumacult medium for 47 days",
-                                "cell type": "airway epithelial cells (HAECs)",
-                                "differentiation day": "47",
-                                "cell origin": "Primary culture",
-                                "donor": "D275",
-                                "ENA-SPOT-COUNT": "178053132",
-                                "ENA-BASE-COUNT": "17449206936",
-                                "ENA-FIRST-PUBLIC": "2019-09-21",
-                                "ENA-LAST-UPDATE": "2019-09-21"
-                            }
-                        },
-                        "title": "NextSeq 500 paired end sequencing; GSM3439923: HAECs_Pneumacult_ALI47; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "assembly": "hg19",
-                            "ENA-SPOT-COUNT": "178053132",
-                            "ENA-BASE-COUNT": "17449206936",
-                            "ENA-FIRST-PUBLIC": "2019-09-22",
-                            "ENA-LAST-UPDATE": "2019-09-22"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR808/001/SRR8085161/SRR8085161.fastq.gz",
-                                "md5": "969e67fdad2b3977f8cb52e63fa7f40a",
-                                "size": "6360975513"
-                            }
-                        ]
-                    }
-                }
+        "platform": {
+            "accession": "GPL18573",
+            "title": "Illumina NextSeq 500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS3984787": {
+                "accession": "SRS3984787",
+                "title": "HAECs_Pneumacult_ALI47",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Human airway epithellial cells differentiated in Pneumacult medium for 47 days",
+                    "cell type": "airway epithelial cells (HAECs)",
+                    "differentiation day": "47",
+                    "cell origin": "Primary culture",
+                    "donor": "D275",
+                    "ENA-SPOT-COUNT": 178053132,
+                    "ENA-BASE-COUNT": 17449206936,
+                    "ENA-FIRST-PUBLIC": "2019-09-21",
+                    "ENA-LAST-UPDATE": "2019-09-21"
+                },
+                "experiment": "SRX4912118"
             }
         }
     }
