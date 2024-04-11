@@ -1,0 +1,42 @@
+{
+    "GSM3723358": {
+        "accession": "GSM3723358",
+        "supplementary_files": [
+            {
+                "filename": "GSM3723358_Sample2_barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3723nnn/GSM3723358/suppl/GSM3723358_Sample2_barcodes.tsv.gz",
+                "size": "15275"
+            },
+            {
+                "filename": "GSM3723358_Sample2_genes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3723nnn/GSM3723358/suppl/GSM3723358_Sample2_genes.tsv.gz",
+                "size": "264505"
+            },
+            {
+                "filename": "GSM3723358_Sample2_matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3723nnn/GSM3723358/suppl/GSM3723358_Sample2_matrix.mtx.gz",
+                "size": "24879261"
+            }
+        ],
+        "platform": {
+            "accession": "GPL20795",
+            "title": "HiSeq X Ten (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4629240": {
+                "accession": "SRS4629240",
+                "title": "Patient 2 Bladder Homogenate",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Bladder",
+                    "tissue": "Total Bladder Homogenate",
+                    "ENA-SPOT-COUNT": 608520509,
+                    "ENA-BASE-COUNT": 63663762853,
+                    "ENA-FIRST-PUBLIC": "2019-08-29",
+                    "ENA-LAST-UPDATE": "2019-08-30"
+                },
+                "experiment": "SRX5689353"
+            }
+        }
+    }
+}
