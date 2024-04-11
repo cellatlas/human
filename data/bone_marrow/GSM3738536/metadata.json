@@ -18,200 +18,28 @@
                 "size": "3110652"
             }
         ],
-        "experiments": {
-            "SRX5763720": {
-                "accession": "SRX5763720",
-                "title": "NextSeq 500 paired end sequencing; GSM3738536: 24y_F_BM; Homo sapiens; RNA-Seq",
-                "runs": {
-                    "SRR8984431": {
-                        "accession": "SRR8984431",
-                        "experiment": {
-                            "accession": "SRX5763720",
-                            "title": "NextSeq 500 paired end sequencing; GSM3738536: 24y_F_BM; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "NextSeq 500"
-                        },
-                        "study": {
-                            "accession": "SRP194123",
-                            "title": "The Developmental Heterogeneity of Human Natural Killer Cells Defined by Single-cell Transcriptome",
-                            "abstract": "The heterogeneity of human NK cells has not been fully-defined. Using single-cell RNA-sequencing technology, we find more human NK subsets than previously defined by cell surface markers. The transcriptome-based pseudotime analysis support that CD56bright NK cells are precursors of CD56dim NK cells with identification of a transitional stage. Our data significantly expand our understanding of the heterogeneity and development of human NK cells. Overall design: Single-cell RNA-sequencing analysis of NK cells from bone marrow of six healthy donors, blood of two healthy donors and a blood sample from a donor with GATA2T354M mutation"
-                        },
-                        "sample": {
-                            "accession": "SRS4698189",
-                            "title": "24y_F_BM",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "Bone marrow",
-                                "tissue": "Bone marrow",
-                                "cell type": "NK cells",
-                                "sorting population": "Lin-CD7+",
-                                "genotype/variation": "healthy donor",
-                                "gender": "female",
-                                "ENA-SPOT-COUNT": "116590475",
-                                "ENA-BASE-COUNT": "11425866550",
-                                "ENA-FIRST-PUBLIC": "2019-07-16",
-                                "ENA-LAST-UPDATE": "2019-07-16"
-                            }
-                        },
-                        "title": "NextSeq 500 paired end sequencing; GSM3738536: 24y_F_BM; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "loader": "fastq-load.py",
-                            "options": "--readTypes=TTB --read1PairFiles=24y_F_BM_S1_L001_I1_001.fastq.gz --read2PairFiles=24y_F_BM_S1_L001_R1_001.fastq.gz --read3PairFiles=24y_F_BM_S1_L001_R2_001.fastq.gz",
-                            "ENA-SPOT-COUNT": "29716480",
-                            "ENA-BASE-COUNT": "2912215040",
-                            "ENA-FIRST-PUBLIC": "2019-07-16",
-                            "ENA-LAST-UPDATE": "2019-07-16"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR898/001/SRR8984431/SRR8984431.fastq.gz",
-                                "md5": "a62f28534d59ca80f54507419dedeeb6",
-                                "size": "1948496196"
-                            }
-                        ]
-                    },
-                    "SRR8984432": {
-                        "accession": "SRR8984432",
-                        "experiment": {
-                            "accession": "SRX5763720",
-                            "title": "NextSeq 500 paired end sequencing; GSM3738536: 24y_F_BM; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "NextSeq 500"
-                        },
-                        "study": {
-                            "accession": "SRP194123",
-                            "title": "The Developmental Heterogeneity of Human Natural Killer Cells Defined by Single-cell Transcriptome",
-                            "abstract": "The heterogeneity of human NK cells has not been fully-defined. Using single-cell RNA-sequencing technology, we find more human NK subsets than previously defined by cell surface markers. The transcriptome-based pseudotime analysis support that CD56bright NK cells are precursors of CD56dim NK cells with identification of a transitional stage. Our data significantly expand our understanding of the heterogeneity and development of human NK cells. Overall design: Single-cell RNA-sequencing analysis of NK cells from bone marrow of six healthy donors, blood of two healthy donors and a blood sample from a donor with GATA2T354M mutation"
-                        },
-                        "sample": {
-                            "accession": "SRS4698189",
-                            "title": "24y_F_BM",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "Bone marrow",
-                                "tissue": "Bone marrow",
-                                "cell type": "NK cells",
-                                "sorting population": "Lin-CD7+",
-                                "genotype/variation": "healthy donor",
-                                "gender": "female",
-                                "ENA-SPOT-COUNT": "116590475",
-                                "ENA-BASE-COUNT": "11425866550",
-                                "ENA-FIRST-PUBLIC": "2019-07-16",
-                                "ENA-LAST-UPDATE": "2019-07-16"
-                            }
-                        },
-                        "title": "NextSeq 500 paired end sequencing; GSM3738536: 24y_F_BM; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "loader": "fastq-load.py",
-                            "options": "--readTypes=TTB --read1PairFiles=24y_F_BM_S1_L002_I1_001.fastq.gz --read2PairFiles=24y_F_BM_S1_L002_R1_001.fastq.gz --read3PairFiles=24y_F_BM_S1_L002_R2_001.fastq.gz",
-                            "ENA-SPOT-COUNT": "29428304",
-                            "ENA-BASE-COUNT": "2883973792",
-                            "ENA-FIRST-PUBLIC": "2019-07-16",
-                            "ENA-LAST-UPDATE": "2019-07-16"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR898/002/SRR8984432/SRR8984432.fastq.gz",
-                                "md5": "5cbfef3dd0add211b6d6b2c93bef8711",
-                                "size": "1937110310"
-                            }
-                        ]
-                    },
-                    "SRR8984433": {
-                        "accession": "SRR8984433",
-                        "experiment": {
-                            "accession": "SRX5763720",
-                            "title": "NextSeq 500 paired end sequencing; GSM3738536: 24y_F_BM; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "NextSeq 500"
-                        },
-                        "study": {
-                            "accession": "SRP194123",
-                            "title": "The Developmental Heterogeneity of Human Natural Killer Cells Defined by Single-cell Transcriptome",
-                            "abstract": "The heterogeneity of human NK cells has not been fully-defined. Using single-cell RNA-sequencing technology, we find more human NK subsets than previously defined by cell surface markers. The transcriptome-based pseudotime analysis support that CD56bright NK cells are precursors of CD56dim NK cells with identification of a transitional stage. Our data significantly expand our understanding of the heterogeneity and development of human NK cells. Overall design: Single-cell RNA-sequencing analysis of NK cells from bone marrow of six healthy donors, blood of two healthy donors and a blood sample from a donor with GATA2T354M mutation"
-                        },
-                        "sample": {
-                            "accession": "SRS4698189",
-                            "title": "24y_F_BM",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "Bone marrow",
-                                "tissue": "Bone marrow",
-                                "cell type": "NK cells",
-                                "sorting population": "Lin-CD7+",
-                                "genotype/variation": "healthy donor",
-                                "gender": "female",
-                                "ENA-SPOT-COUNT": "116590475",
-                                "ENA-BASE-COUNT": "11425866550",
-                                "ENA-FIRST-PUBLIC": "2019-07-16",
-                                "ENA-LAST-UPDATE": "2019-07-16"
-                            }
-                        },
-                        "title": "NextSeq 500 paired end sequencing; GSM3738536: 24y_F_BM; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "loader": "fastq-load.py",
-                            "options": "--readTypes=TTB --read1PairFiles=24y_F_BM_S1_L003_I1_001.fastq.gz --read2PairFiles=24y_F_BM_S1_L003_R1_001.fastq.gz --read3PairFiles=24y_F_BM_S1_L003_R2_001.fastq.gz",
-                            "ENA-SPOT-COUNT": "27626407",
-                            "ENA-BASE-COUNT": "2707387886",
-                            "ENA-FIRST-PUBLIC": "2019-07-16",
-                            "ENA-LAST-UPDATE": "2019-07-16"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR898/003/SRR8984433/SRR8984433.fastq.gz",
-                                "md5": "259c7109ca9a0cc028ed3c0096a66629",
-                                "size": "1889511027"
-                            }
-                        ]
-                    },
-                    "SRR8984434": {
-                        "accession": "SRR8984434",
-                        "experiment": {
-                            "accession": "SRX5763720",
-                            "title": "NextSeq 500 paired end sequencing; GSM3738536: 24y_F_BM; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "NextSeq 500"
-                        },
-                        "study": {
-                            "accession": "SRP194123",
-                            "title": "The Developmental Heterogeneity of Human Natural Killer Cells Defined by Single-cell Transcriptome",
-                            "abstract": "The heterogeneity of human NK cells has not been fully-defined. Using single-cell RNA-sequencing technology, we find more human NK subsets than previously defined by cell surface markers. The transcriptome-based pseudotime analysis support that CD56bright NK cells are precursors of CD56dim NK cells with identification of a transitional stage. Our data significantly expand our understanding of the heterogeneity and development of human NK cells. Overall design: Single-cell RNA-sequencing analysis of NK cells from bone marrow of six healthy donors, blood of two healthy donors and a blood sample from a donor with GATA2T354M mutation"
-                        },
-                        "sample": {
-                            "accession": "SRS4698189",
-                            "title": "24y_F_BM",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "Bone marrow",
-                                "tissue": "Bone marrow",
-                                "cell type": "NK cells",
-                                "sorting population": "Lin-CD7+",
-                                "genotype/variation": "healthy donor",
-                                "gender": "female",
-                                "ENA-SPOT-COUNT": "116590475",
-                                "ENA-BASE-COUNT": "11425866550",
-                                "ENA-FIRST-PUBLIC": "2019-07-16",
-                                "ENA-LAST-UPDATE": "2019-07-16"
-                            }
-                        },
-                        "title": "NextSeq 500 paired end sequencing; GSM3738536: 24y_F_BM; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "loader": "fastq-load.py",
-                            "options": "--readTypes=TTB --read1PairFiles=24y_F_BM_S1_L004_I1_001.fastq.gz --read2PairFiles=24y_F_BM_S1_L004_R1_001.fastq.gz --read3PairFiles=24y_F_BM_S1_L004_R2_001.fastq.gz",
-                            "ENA-SPOT-COUNT": "29819284",
-                            "ENA-BASE-COUNT": "2922289832",
-                            "ENA-FIRST-PUBLIC": "2019-07-16",
-                            "ENA-LAST-UPDATE": "2019-07-16"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR898/004/SRR8984434/SRR8984434.fastq.gz",
-                                "md5": "193332fedf6a2b8a8178d106762bdcae",
-                                "size": "1973021653"
-                            }
-                        ]
-                    }
-                }
+        "platform": {
+            "accession": "GPL18573",
+            "title": "Illumina NextSeq 500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4698189": {
+                "accession": "SRS4698189",
+                "title": "24y_F_BM",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Bone marrow",
+                    "tissue": "Bone marrow",
+                    "cell type": "NK cells",
+                    "sorting population": "Lin-CD7+",
+                    "genotype/variation": "healthy donor",
+                    "gender": "female",
+                    "ENA-SPOT-COUNT": 116590475,
+                    "ENA-BASE-COUNT": 11425866550,
+                    "ENA-FIRST-PUBLIC": "2019-07-16",
+                    "ENA-LAST-UPDATE": "2019-07-16"
+                },
+                "experiment": "SRX5763720"
             }
         }
     }
