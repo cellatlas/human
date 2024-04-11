@@ -31,42 +31,12 @@
                     "source_name": "Adult testis",
                     "number of cells": "3086",
                     "cell type": "Sta-Put enriched Spermatids",
-                    "ENA-SPOT-COUNT": "275989288",
-                    "ENA-BASE-COUNT": "27874918088",
+                    "ENA-SPOT-COUNT": 275989288,
+                    "ENA-BASE-COUNT": 27874918088,
                     "ENA-FIRST-PUBLIC": "2018-11-07",
                     "ENA-LAST-UPDATE": "2018-11-07"
                 },
-                "experiment": {
-                    "SRX3549441": {
-                        "accession": "SRX3549441",
-                        "title": "NextSeq 500 paired end sequencing; GSM2928384: AdultHuman-Spermatids_17-6; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "NextSeq 500",
-                        "runs": {
-                            "SRR6459194": {
-                                "accession": "SRR6459194",
-                                "experiment": "SRX3549441",
-                                "study": "SRP128724",
-                                "sample": "SRS2823412",
-                                "title": "NextSeq 500 paired end sequencing; GSM2928384: AdultHuman-Spermatids_17-6; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "assembly": "GRCh38",
-                                    "ENA-SPOT-COUNT": "275989288",
-                                    "ENA-BASE-COUNT": "27874918088",
-                                    "ENA-FIRST-PUBLIC": "2018-11-10",
-                                    "ENA-LAST-UPDATE": "2018-11-10"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR645/004/SRR6459194/SRR6459194.fastq.gz",
-                                        "md5": "18eeba87c9b58bede8a6885e3c6b414f",
-                                        "size": "9043210116"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX3549441"
             }
         }
     }
