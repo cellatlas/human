@@ -2,77 +2,41 @@
     "GSM3516948": {
         "accession": "GSM3516948",
         "supplementary_files": [
-            [
-                {
-                    "filename": "GSM3516948_PDX322-barcodes.tsv.gz",
-                    "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3516nnn/GSM3516948/suppl/GSM3516948_PDX322-barcodes.tsv.gz",
-                    "size": "56586"
-                }
-            ],
-            [
-                {
-                    "filename": "GSM3516948_PDX322-genes.tsv.gz",
-                    "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3516nnn/GSM3516948/suppl/GSM3516948_PDX322-genes.tsv.gz",
-                    "size": "264790"
-                }
-            ],
-            [
-                {
-                    "filename": "GSM3516948_PDX322-matrix.mtx.gz",
-                    "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3516nnn/GSM3516948/suppl/GSM3516948_PDX322-matrix.mtx.gz",
-                    "size": "75889217"
-                }
-            ]
+            {
+                "filename": "GSM3516948_PDX322-barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3516nnn/GSM3516948/suppl/GSM3516948_PDX322-barcodes.tsv.gz",
+                "size": "56586"
+            },
+            {
+                "filename": "GSM3516948_PDX322-genes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3516nnn/GSM3516948/suppl/GSM3516948_PDX322-genes.tsv.gz",
+                "size": "264790"
+            },
+            {
+                "filename": "GSM3516948_PDX322-matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3516nnn/GSM3516948/suppl/GSM3516948_PDX322-matrix.mtx.gz",
+                "size": "75889217"
+            }
         ],
-        "experiments": {
-            "SRX5139571": {
-                "accession": "SRX5139571",
-                "title": "NextSeq 500 sequencing; GSM3516948: Patient derived xenograft 332; Homo sapiens; RNA-Seq",
-                "runs": {
-                    "SRR8327929": {
-                        "accession": "SRR8327929",
-                        "experiment": {
-                            "accession": "SRX5139571",
-                            "title": "NextSeq 500 sequencing; GSM3516948: Patient derived xenograft 332; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "NextSeq 500"
-                        },
-                        "study": {
-                            "accession": "SRP173593",
-                            "title": "Single cell RNA-seq of 25 thousand epithelial cells from xenografts of triple-negative breast cancers",
-                            "abstract": "Patient derived xenografts (PDX) were created from two triple-negative breast cancers (PDX-110 and PDX-332) taken at the time of surgery from drug-naive patients. Freshly sorted epithelial cells were profiled by single-cell RNA-seq (scRNA-seq) using a 10X Genomics Chromium System. Overall design: Transcriptional profiling was completed for 10,060 total epithelial cells from PDX-110 and 14,681 total epithelial cells from PDX-322."
-                        },
-                        "sample": {
-                            "accession": "SRS4151081",
-                            "title": "Patient derived xenograft 322",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "mammary gland",
-                                "tissue": "total epithelium",
-                                "number of cells": "14681",
-                                "ENA-SPOT-COUNT": "309391827",
-                                "ENA-BASE-COUNT": "30320399046",
-                                "ENA-FIRST-PUBLIC": "2019-02-28",
-                                "ENA-LAST-UPDATE": "2019-10-19"
-                            }
-                        },
-                        "title": "NextSeq 500 sequencing; GSM3516948: Patient derived xenograft 332; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "assembly": "GRCh38",
-                            "ENA-SPOT-COUNT": "309391827",
-                            "ENA-BASE-COUNT": "30320399046",
-                            "ENA-FIRST-PUBLIC": "2019-02-28",
-                            "ENA-LAST-UPDATE": "2019-02-28"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR832/009/SRR8327929/SRR8327929.fastq.gz",
-                                "md5": "8bcf7e1b253270a53bb1f62cc22f4798",
-                                "size": "11395005590"
-                            }
-                        ]
-                    }
-                }
+        "platform": {
+            "accession": "GPL18573",
+            "title": "Illumina NextSeq 500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4151081": {
+                "accession": "SRS4151081",
+                "title": "Patient derived xenograft 322",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "mammary gland",
+                    "tissue": "total epithelium",
+                    "number of cells": "14681",
+                    "ENA-SPOT-COUNT": 309391827,
+                    "ENA-BASE-COUNT": 30320399046,
+                    "ENA-FIRST-PUBLIC": "2019-02-28",
+                    "ENA-LAST-UPDATE": "2019-10-19"
+                },
+                "experiment": "SRX5139571"
             }
         }
     }
