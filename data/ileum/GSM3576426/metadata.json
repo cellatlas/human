@@ -1,0 +1,35 @@
+{
+    "GSM3576426": {
+        "accession": "GSM3576426",
+        "supplementary_files": [
+            {
+                "filename": "GSM3576426_C17_I_cell-gene_UMI_table.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3576nnn/GSM3576426/suppl/GSM3576426_C17_I_cell-gene_UMI_table.tsv.gz",
+                "size": "981748"
+            }
+        ],
+        "platform": {
+            "accession": "GPL20301",
+            "title": "Illumina HiSeq 4000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4283318": {
+                "accession": "SRS4283318",
+                "title": "C17_I_10x_scRNA",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Ileum immune cell",
+                    "subject status": "control",
+                    "tissue": "ileum",
+                    "cell subtype surface markers": "CD45+",
+                    "cell subtype": "immune cells",
+                    "ENA-SPOT-COUNT": 56051978,
+                    "ENA-BASE-COUNT": 6950445272,
+                    "ENA-FIRST-PUBLIC": "2020-07-18",
+                    "ENA-LAST-UPDATE": "2020-07-18"
+                },
+                "experiment": "SRX5283570"
+            }
+        }
+    }
+}
