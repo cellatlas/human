@@ -18,54 +18,24 @@
                 "size": "2637205"
             }
         ],
-        "experiments": {
-            "SRX5689352": {
-                "accession": "SRX5689352",
-                "title": "HiSeq X Ten paired end sequencing; GSM3723357: Patient 1 Bladder Homogenate; Homo sapiens; RNA-Seq",
-                "runs": {
-                    "SRR8903510": {
-                        "accession": "SRR8903510",
-                        "experiment": {
-                            "accession": "SRX5689352",
-                            "title": "HiSeq X Ten paired end sequencing; GSM3723357: Patient 1 Bladder Homogenate; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "HiSeq X Ten"
-                        },
-                        "study": {
-                            "accession": "SRP192646",
-                            "title": "Single-cell transcriptomic map of the human and mouse bladders",
-                            "abstract": "A comprehensive cellular anatomy of normal human bladder is vital to address the cellular origins of benign bladder disease and bladder cancer. The physiological function and pathological changes of bladder are associated with its cell type. To investigate the classification and underlying function of bladder cells, we conducted single-cell RNA sequencing (scRNA seq) of 12,423 cells from human bladder and 12,884 cells from mouse bladder. Here, we show a single-cell transcriptomic map of the human and mouse bladders, including 16 clusters of human bladder cells and 15 clusters of mouse bladder cells. Homology and heterogeneity of human and mouse were compared and analyzed by our study, and indicated that there were both conservative and heterogeneous aspects of human and mouse evolution. We also discovered two novel types of human bladder cells; one type is ADRA2A+ and HRH2+ interstitial cells which may be associated with nerve conduction and allergic reactions; the other type is TNNT1+ epithelial cells that may be different from other epithelial cells in biological function. Collectively, this analysis provides a resource for the discovery of novel cell type, specific transcription factors, signaling receptors, and genes dataset that will help us to study the relationship between cell types and diseases. Overall design: Primary bladder samples from 3 patients and  C57BL/6 mice were used for single cell RNA sequencing by 10X Genomics"
-                        },
-                        "sample": {
-                            "accession": "SRS4629239",
-                            "title": "Patient 1 Bladder Homogenate",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "Bladder",
-                                "tissue": "Total Bladder Homogenate",
-                                "ENA-SPOT-COUNT": "84608170",
-                                "ENA-BASE-COUNT": "8291600660",
-                                "ENA-FIRST-PUBLIC": "2019-08-29",
-                                "ENA-LAST-UPDATE": "2019-08-30"
-                            }
-                        },
-                        "title": "HiSeq X Ten paired end sequencing; GSM3723357: Patient 1 Bladder Homogenate; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "assembly": "GRCh38",
-                            "ENA-SPOT-COUNT": "84608170",
-                            "ENA-BASE-COUNT": "8291600660",
-                            "ENA-FIRST-PUBLIC": "2019-08-30",
-                            "ENA-LAST-UPDATE": "2019-08-30"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR890/000/SRR8903510/SRR8903510.fastq.gz",
-                                "md5": "6b48069d395bf9b928df3167457bd91f",
-                                "size": "2542503631"
-                            }
-                        ]
-                    }
-                }
+        "platform": {
+            "accession": "GPL20795",
+            "title": "HiSeq X Ten (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4629239": {
+                "accession": "SRS4629239",
+                "title": "Patient 1 Bladder Homogenate",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Bladder",
+                    "tissue": "Total Bladder Homogenate",
+                    "ENA-SPOT-COUNT": 84608170,
+                    "ENA-BASE-COUNT": 8291600660,
+                    "ENA-FIRST-PUBLIC": "2019-08-29",
+                    "ENA-LAST-UPDATE": "2019-08-30"
+                },
+                "experiment": "SRX5689352"
             }
         }
     }
