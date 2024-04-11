@@ -37,43 +37,12 @@
                     "Sex": "male",
                     "treatment": "untreated",
                     "infection status": "SARS-CoV-2 infected, MOI 5, 48 hours post infection",
-                    "ENA-SPOT-COUNT": "225964224",
-                    "ENA-BASE-COUNT": "22370458176",
+                    "ENA-SPOT-COUNT": 225964224,
+                    "ENA-BASE-COUNT": 22370458176,
                     "ENA-FIRST-PUBLIC": "2020-09-06",
                     "ENA-LAST-UPDATE": "2020-11-04"
                 },
-                "experiment": {
-                    "SRX9078407": {
-                        "accession": "SRX9078407",
-                        "title": "Illumina NovaSeq 6000 paired end sequencing; GSM4769389: 033_05_FL_S5; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "Illumina NovaSeq 6000",
-                        "runs": {
-                            "SRR12594384": {
-                                "accession": "SRR12594384",
-                                "experiment": "SRX9078407",
-                                "study": "SRP280154",
-                                "sample": "SRS7325387",
-                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM4769389: 033_05_FL_S5; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "loader": "fastq-load.py",
-                                    "options": "--platform=Illumina --readTypes=TTB --read1PairFiles=Langlois_033_05_FL_S5_L001_I1_001.fastq.gz --read2PairFiles=Langlois_033_05_FL_S5_L001_R1_001.fastq.gz --read3PairFiles=Langlois_033_05_FL_S5_L001_R2_001.fastq.gz",
-                                    "ENA-SPOT-COUNT": "225964224",
-                                    "ENA-BASE-COUNT": "22370458176",
-                                    "ENA-FIRST-PUBLIC": "2020-11-04",
-                                    "ENA-LAST-UPDATE": "2020-11-04"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR125/084/SRR12594384/SRR12594384.fastq.gz",
-                                        "md5": "e9948d01b28c75fc324150a59d1afa02",
-                                        "size": "10705890019"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX9078407"
             }
         }
     }
