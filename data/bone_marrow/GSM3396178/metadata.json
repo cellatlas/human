@@ -31,42 +31,12 @@
                     "source_name": "Bone marrow",
                     "cell type": "bone marrow cells",
                     "age": "31 years old",
-                    "ENA-SPOT-COUNT": "179888515",
-                    "ENA-BASE-COUNT": "17629074470",
+                    "ENA-SPOT-COUNT": 179888515,
+                    "ENA-BASE-COUNT": 17629074470,
                     "ENA-FIRST-PUBLIC": "2018-09-22",
                     "ENA-LAST-UPDATE": "2018-09-22"
                 },
-                "experiment": {
-                    "SRX4720054": {
-                        "accession": "SRX4720054",
-                        "title": "Illumina HiSeq 3000 paired end sequencing; GSM3396178: Bone marrow R; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "Illumina HiSeq 3000",
-                        "runs": {
-                            "SRR7881416": {
-                                "accession": "SRR7881416",
-                                "experiment": "SRX4720054",
-                                "study": "SRP162214",
-                                "sample": "SRS3805260",
-                                "title": "Illumina HiSeq 3000 paired end sequencing; GSM3396178: Bone marrow R; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "assembly": "GRCh38",
-                                    "ENA-SPOT-COUNT": "179888515",
-                                    "ENA-BASE-COUNT": "17629074470",
-                                    "ENA-FIRST-PUBLIC": "2018-09-26",
-                                    "ENA-LAST-UPDATE": "2018-09-26"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/SRA779/SRA779509/bam/possorted_genome_bam_R.bam",
-                                        "md5": "0936b985ac738fb972951f063547e416",
-                                        "size": "47967499667"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX4720054"
             }
         }
     }
