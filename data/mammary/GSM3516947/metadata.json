@@ -18,55 +18,25 @@
                 "size": "59521818"
             }
         ],
-        "experiments": {
-            "SRX5139570": {
-                "accession": "SRX5139570",
-                "title": "NextSeq 500 sequencing; GSM3516947: Patient derived xenograft 110; Homo sapiens; RNA-Seq",
-                "runs": {
-                    "SRR8327928": {
-                        "accession": "SRR8327928",
-                        "experiment": {
-                            "accession": "SRX5139570",
-                            "title": "NextSeq 500 sequencing; GSM3516947: Patient derived xenograft 110; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "NextSeq 500"
-                        },
-                        "study": {
-                            "accession": "SRP173593",
-                            "title": "Single cell RNA-seq of 25 thousand epithelial cells from xenografts of triple-negative breast cancers",
-                            "abstract": "Patient derived xenografts (PDX) were created from two triple-negative breast cancers (PDX-110 and PDX-332) taken at the time of surgery from drug-naive patients. Freshly sorted epithelial cells were profiled by single-cell RNA-seq (scRNA-seq) using a 10X Genomics Chromium System. Overall design: Transcriptional profiling was completed for 10,060 total epithelial cells from PDX-110 and 14,681 total epithelial cells from PDX-322."
-                        },
-                        "sample": {
-                            "accession": "SRS4151080",
-                            "title": "Patient derived xenograft 110",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "mammary gland",
-                                "tissue": "total epithelium",
-                                "number of cells": "10060",
-                                "ENA-SPOT-COUNT": "190094560",
-                                "ENA-BASE-COUNT": "18629266880",
-                                "ENA-FIRST-PUBLIC": "2019-02-28",
-                                "ENA-LAST-UPDATE": "2019-02-28"
-                            }
-                        },
-                        "title": "NextSeq 500 sequencing; GSM3516947: Patient derived xenograft 110; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "assembly": "GRCh38",
-                            "ENA-SPOT-COUNT": "190094560",
-                            "ENA-BASE-COUNT": "18629266880",
-                            "ENA-FIRST-PUBLIC": "2019-02-28",
-                            "ENA-LAST-UPDATE": "2019-02-28"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR832/008/SRR8327928/SRR8327928.fastq.gz",
-                                "md5": "dbd33b05ad610e5cdc6f58711b71f623",
-                                "size": "7826536941"
-                            }
-                        ]
-                    }
-                }
+        "platform": {
+            "accession": "GPL18573",
+            "title": "Illumina NextSeq 500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4151080": {
+                "accession": "SRS4151080",
+                "title": "Patient derived xenograft 110",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "mammary gland",
+                    "tissue": "total epithelium",
+                    "number of cells": "10060",
+                    "ENA-SPOT-COUNT": 190094560,
+                    "ENA-BASE-COUNT": 18629266880,
+                    "ENA-FIRST-PUBLIC": "2019-02-28",
+                    "ENA-LAST-UPDATE": "2019-02-28"
+                },
+                "experiment": "SRX5139570"
             }
         }
     }
