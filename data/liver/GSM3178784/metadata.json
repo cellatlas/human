@@ -13,42 +13,12 @@
                 "attributes": {
                     "source_name": "Liver",
                     "tissue": "Total Liver Homogenate",
-                    "ENA-SPOT-COUNT": "165902306",
-                    "ENA-BASE-COUNT": "16258425988",
+                    "ENA-SPOT-COUNT": 165902306,
+                    "ENA-BASE-COUNT": 16258425988,
                     "ENA-FIRST-PUBLIC": "2018-10-23",
                     "ENA-LAST-UPDATE": "2018-10-23"
                 },
-                "experiment": {
-                    "SRX4180081": {
-                        "accession": "SRX4180081",
-                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM3178784: Patient 3 Total Liver Homogenate; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "Illumina HiSeq 2500",
-                        "runs": {
-                            "SRR7276476": {
-                                "accession": "SRR7276476",
-                                "experiment": "SRX4180081",
-                                "study": "SRP149989",
-                                "sample": "SRS3391630",
-                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM3178784: Patient 3 Total Liver Homogenate; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "assembly": "hg38",
-                                    "ENA-SPOT-COUNT": "165902306",
-                                    "ENA-BASE-COUNT": "16258425988",
-                                    "ENA-FIRST-PUBLIC": "2018-10-23",
-                                    "ENA-LAST-UPDATE": "2018-10-23"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/SRA716/SRA716608/bam/P3TLH.bam",
-                                        "md5": "d1ef981eee539acf769524dca92fc962",
-                                        "size": "40823222969"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX4180081"
             }
         }
     }
