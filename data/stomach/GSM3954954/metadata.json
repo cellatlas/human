@@ -24,121 +24,12 @@
                     "pathological lesions": "Gastric Metaplasia (severe)",
                     "subject id": "P7",
                     "agent": "H. pylori",
-                    "ENA-SPOT-COUNT": "434890160",
-                    "ENA-BASE-COUNT": "130467048000",
+                    "ENA-SPOT-COUNT": 434890160,
+                    "ENA-BASE-COUNT": 130467048000,
                     "ENA-FIRST-PUBLIC": "2019-07-22",
                     "ENA-LAST-UPDATE": "2019-07-22"
                 },
-                "experiment": {
-                    "SRX6471033": {
-                        "accession": "SRX6471033",
-                        "title": "HiSeq X Ten paired end sequencing; GSM3954954: Severe Intestinal metaplasia 1; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "HiSeq X Ten",
-                        "runs": {
-                            "SRR9713144": {
-                                "accession": "SRR9713144",
-                                "experiment": "SRX6471033",
-                                "study": "SRP215370",
-                                "sample": "SRS5119597",
-                                "title": "HiSeq X Ten paired end sequencing; GSM3954954: Severe Intestinal metaplasia 1; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "ENA-SPOT-COUNT": "95941485",
-                                    "ENA-BASE-COUNT": "28782445500",
-                                    "ENA-FIRST-PUBLIC": "2019-07-23",
-                                    "ENA-LAST-UPDATE": "2019-07-23"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/004/SRR9713144/SRR9713144_1.fastq.gz",
-                                        "md5": "7e7c39c8ce97860e9d6682effca7ed7e",
-                                        "size": "8316430974"
-                                    },
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/004/SRR9713144/SRR9713144_2.fastq.gz",
-                                        "md5": "07f27cf8a23121001df5d21e17436bd8",
-                                        "size": "8337822594"
-                                    }
-                                ]
-                            },
-                            "SRR9713145": {
-                                "accession": "SRR9713145",
-                                "experiment": "SRX6471033",
-                                "study": "SRP215370",
-                                "sample": "SRS5119597",
-                                "title": "HiSeq X Ten paired end sequencing; GSM3954954: Severe Intestinal metaplasia 1; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "ENA-SPOT-COUNT": "85303573",
-                                    "ENA-BASE-COUNT": "25591071900",
-                                    "ENA-FIRST-PUBLIC": "2019-07-23",
-                                    "ENA-LAST-UPDATE": "2019-07-23"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/005/SRR9713145/SRR9713145_1.fastq.gz",
-                                        "md5": "8d4299b7bbaf7b14b71976a761ee0740",
-                                        "size": "7399870002"
-                                    },
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/005/SRR9713145/SRR9713145_2.fastq.gz",
-                                        "md5": "2285053cc9c8df594b76eb7e08ffb962",
-                                        "size": "7422155502"
-                                    }
-                                ]
-                            },
-                            "SRR9713146": {
-                                "accession": "SRR9713146",
-                                "experiment": "SRX6471033",
-                                "study": "SRP215370",
-                                "sample": "SRS5119597",
-                                "title": "HiSeq X Ten paired end sequencing; GSM3954954: Severe Intestinal metaplasia 1; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "ENA-SPOT-COUNT": "128663179",
-                                    "ENA-BASE-COUNT": "38598953700",
-                                    "ENA-FIRST-PUBLIC": "2019-07-23",
-                                    "ENA-LAST-UPDATE": "2019-07-23"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/006/SRR9713146/SRR9713146_1.fastq.gz",
-                                        "md5": "2acc5387a4ebaa225c6789b0d0548e7d",
-                                        "size": "11166958089"
-                                    },
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/006/SRR9713146/SRR9713146_2.fastq.gz",
-                                        "md5": "8407a43a7a85d580abb039ab50714f69",
-                                        "size": "11262580625"
-                                    }
-                                ]
-                            },
-                            "SRR9713147": {
-                                "accession": "SRR9713147",
-                                "experiment": "SRX6471033",
-                                "study": "SRP215370",
-                                "sample": "SRS5119597",
-                                "title": "HiSeq X Ten paired end sequencing; GSM3954954: Severe Intestinal metaplasia 1; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "ENA-SPOT-COUNT": "124981923",
-                                    "ENA-BASE-COUNT": "37494576900",
-                                    "ENA-FIRST-PUBLIC": "2019-07-23",
-                                    "ENA-LAST-UPDATE": "2019-07-23"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/007/SRR9713147/SRR9713147_1.fastq.gz",
-                                        "md5": "b276e59ad1bf3fa38dd15c87eea3fb6c",
-                                        "size": "10867045436"
-                                    },
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/007/SRR9713147/SRR9713147_2.fastq.gz",
-                                        "md5": "230fd6b691c047f4a444d93fcd0b8623",
-                                        "size": "10935683424"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX6471033"
             }
         }
     }
