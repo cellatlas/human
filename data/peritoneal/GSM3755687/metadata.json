@@ -2,80 +2,40 @@
     "GSM3755687": {
         "accession": "GSM3755687",
         "supplementary_files": [
-            [
-                {
-                    "filename": "GSM3755687_13barcodes.tsv.gz",
-                    "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3755nnn/GSM3755687/suppl/GSM3755687_13barcodes.tsv.gz",
-                    "size": "38026"
-                }
-            ],
-            [
-                {
-                    "filename": "GSM3755687_13features.tsv.gz",
-                    "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3755nnn/GSM3755687/suppl/GSM3755687_13features.tsv.gz",
-                    "size": "318733"
-                }
-            ],
-            [
-                {
-                    "filename": "GSM3755687_13matrix.mtx.gz",
-                    "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3755nnn/GSM3755687/suppl/GSM3755687_13matrix.mtx.gz",
-                    "size": "34803152"
-                }
-            ]
+            {
+                "filename": "GSM3755687_13barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3755nnn/GSM3755687/suppl/GSM3755687_13barcodes.tsv.gz",
+                "size": "38026"
+            },
+            {
+                "filename": "GSM3755687_13features.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3755nnn/GSM3755687/suppl/GSM3755687_13features.tsv.gz",
+                "size": "318733"
+            },
+            {
+                "filename": "GSM3755687_13matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3755nnn/GSM3755687/suppl/GSM3755687_13matrix.mtx.gz",
+                "size": "34803152"
+            }
         ],
-        "experiments": {
-            "SRX5807009": {
-                "accession": "SRX5807009",
-                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3755687: Short-term PD rep1; Homo sapiens; RNA-Seq",
-                "runs": {
-                    "SRR9029598": {
-                        "accession": "SRR9029598",
-                        "experiment": {
-                            "accession": "SRX5807009",
-                            "title": "Illumina HiSeq 4000 paired end sequencing; GSM3755687: Short-term PD rep1; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "Illumina HiSeq 4000"
-                        },
-                        "study": {
-                            "accession": "SRP197094",
-                            "title": "Single cell transcriptome of peritoneal cells",
-                            "abstract": "To define the transcriptomic landscape of human mesothelial cells in response to PD, we analyzed single cell transcriptomes including cells dissociated from normal peritoneum (hernia surgery, n = 3), and peritoneal cells from effluent of short-term PD patients (PD less than 2 weeks, n = 6) and from long-term PD patients (PD more than 6 years, n = 4) ,we demonstrate that mesothelial cells develop hyperglycolysis, a metabolic alteration that is correlated with the development of peritoneal fibrosis. Overall design: We studied cells dissociated from normal peritoneum (hernia surgery, n = 3  ), and peritoneal cells from effluent of short-term PD patients (PD less than 2 weeks, n = 6) and from long-term PD patients (PD more than 6 years, n = 4)"
-                        },
-                        "sample": {
-                            "accession": "SRS4736471",
-                            "title": "Short-term PD rep1",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "Peritoneal dialysis fluid",
-                                "sample type": "Peritoneal cells from effluent of short-term PD patients",
-                                "ENA-SPOT-COUNT": "323731436",
-                                "ENA-BASE-COUNT": "40142698064",
-                                "ENA-FIRST-PUBLIC": "2019-06-10",
-                                "ENA-LAST-UPDATE": "2019-06-11"
-                            }
-                        },
-                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM3755687: Short-term PD rep1; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "ENA-SPOT-COUNT": "323731436",
-                            "ENA-BASE-COUNT": "40142698064",
-                            "ENA-FIRST-PUBLIC": "2019-06-11",
-                            "ENA-LAST-UPDATE": "2019-06-11"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR902/008/SRR9029598/SRR9029598_1.fastq.gz",
-                                "md5": "d0946832e86af6a1fc12be11b49bb6b4",
-                                "size": "5376814311"
-                            },
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR902/008/SRR9029598/SRR9029598_2.fastq.gz",
-                                "md5": "c4c77e02488c63ee7f415ace8e07bf50",
-                                "size": "13931981354"
-                            }
-                        ]
-                    }
-                }
+        "platform": {
+            "accession": "GPL20301",
+            "title": "Illumina HiSeq 4000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4736471": {
+                "accession": "SRS4736471",
+                "title": "Short-term PD rep1",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Peritoneal dialysis fluid",
+                    "sample type": "Peritoneal cells from effluent of short-term PD patients",
+                    "ENA-SPOT-COUNT": 323731436,
+                    "ENA-BASE-COUNT": 40142698064,
+                    "ENA-FIRST-PUBLIC": "2019-06-10",
+                    "ENA-LAST-UPDATE": "2019-06-11"
+                },
+                "experiment": "SRX5807009"
             }
         }
     }
