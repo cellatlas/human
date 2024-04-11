@@ -1,0 +1,50 @@
+{
+    "GSM3739217": {
+        "accession": "GSM3739217",
+        "supplementary_files": [
+            {
+                "filename": "GSM3739217_ET04.barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3739nnn/GSM3739217/suppl/GSM3739217_ET04.barcodes.tsv.gz",
+                "size": "21465"
+            },
+            {
+                "filename": "GSM3739217_ET04.genes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3739nnn/GSM3739217/suppl/GSM3739217_ET04.genes.tsv.gz",
+                "size": "264788"
+            },
+            {
+                "filename": "GSM3739217_ET04.matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3739nnn/GSM3739217/suppl/GSM3739217_ET04.matrix.mtx.gz",
+                "size": "39113522"
+            }
+        ],
+        "platform": {
+            "accession": "GPL16791",
+            "title": "Illumina HiSeq 2500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4701335": {
+                "accession": "SRS4701335",
+                "title": "10x.ET04",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "ET04, scRNA-seq",
+                    "source": "BMMC",
+                    "targeted mutation": "CALR exon9 L367Rfs*46 (c.1099_1150del)",
+                    "Sex": "female",
+                    "age": "57",
+                    "diagnosis": "ET",
+                    "pb blast count": "0%",
+                    "bm blast count": "1%",
+                    "bm fibrosis": "MF-1/3",
+                    "treatment": "Aspirin",
+                    "ENA-SPOT-COUNT": 187245333,
+                    "ENA-BASE-COUNT": 18350042634,
+                    "ENA-FIRST-PUBLIC": "2019-06-02",
+                    "ENA-LAST-UPDATE": "2019-06-02"
+                },
+                "experiment": "SRX5767041"
+            }
+        }
+    }
+}
