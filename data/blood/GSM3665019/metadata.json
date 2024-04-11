@@ -2,214 +2,42 @@
     "GSM3665019": {
         "accession": "GSM3665019",
         "supplementary_files": [
-            [
-                {
-                    "filename": "GSM3665019_TC_PBL_barcodes.tsv.gz",
-                    "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3665nnn/GSM3665019/suppl/GSM3665019_TC_PBL_barcodes.tsv.gz",
-                    "size": "10918"
-                }
-            ],
-            [
-                {
-                    "filename": "GSM3665019_TC_PBL_genes.tsv.gz",
-                    "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3665nnn/GSM3665019/suppl/GSM3665019_TC_PBL_genes.tsv.gz",
-                    "size": "257279"
-                }
-            ],
-            [
-                {
-                    "filename": "GSM3665019_TC_PBL_matrix.mtx.gz",
-                    "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3665nnn/GSM3665019/suppl/GSM3665019_TC_PBL_matrix.mtx.gz",
-                    "size": "8334168"
-                }
-            ]
+            {
+                "filename": "GSM3665019_TC_PBL_barcodes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3665nnn/GSM3665019/suppl/GSM3665019_TC_PBL_barcodes.tsv.gz",
+                "size": "10918"
+            },
+            {
+                "filename": "GSM3665019_TC_PBL_genes.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3665nnn/GSM3665019/suppl/GSM3665019_TC_PBL_genes.tsv.gz",
+                "size": "257279"
+            },
+            {
+                "filename": "GSM3665019_TC_PBL_matrix.mtx.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3665nnn/GSM3665019/suppl/GSM3665019_TC_PBL_matrix.mtx.gz",
+                "size": "8334168"
+            }
         ],
-        "experiments": {
-            "SRX5506687": {
-                "accession": "SRX5506687",
-                "title": "NextSeq 500 paired end sequencing; GSM3665019: scRNA data of peripheral blood mononuclear cells from healthy donor_sample 4_TC; Homo sapiens; RNA-Seq",
-                "runs": {
-                    "SRR8712354": {
-                        "accession": "SRR8712354",
-                        "experiment": {
-                            "accession": "SRX5506687",
-                            "title": "NextSeq 500 paired end sequencing; GSM3665019: scRNA data of peripheral blood mononuclear cells from healthy donor_sample 4_TC; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "NextSeq 500"
-                        },
-                        "study": {
-                            "accession": "SRP188007",
-                            "title": "A Bayesian mixture model for clustering droplet-based single cell transcriptomic data from population studies",
-                            "abstract": "Abstract: The recently developed droplet-based single cell transcriptome sequencing (scRNA-seq) technology makes it feasible to perform a population-scale scRNA-seq study, in which the transcriptome is measured for tens of thousands of single cells from multiple individuals. Despite the advances of many clustering methods, there are few tailored methods for population-scale scRNA-seq studies. Here, we develop a BAyesian Mixture Model for Single Cell sequencing (BAMM-SC) method to cluster scRNA-seq data from multiple individuals simultaneously. BAMM-SC takes raw count data as input and accounts for data heterogeneity and batch effect among multiple individuals in a unified Bayesian hierarchical model framework. Results from applications of BAMM-SC to in-house experimental scRNA-seq datasets using blood and lung cells from humans or mice demonstrate that BAMM-SC outperformed existing clustering methods with considerable improved clustering accuracy, particularly in the presence of heterogeneity among individuals. Data purpose: To evaluate the performance of BAMM-SC for clustering droplet-based scRNA-seq data in population-based study, we performed single cell RNA-seq on peripheral blood mononuclear cells (PBMC) isolated from whole blood obtained from 4 healthy donors, and on lung cells isolated from streptococcus pneumonia (SP) infected and na\u00efve mice. Overall design: Peripheral blood mononuclear cells (PBMC) from healthy donors, skin cells from the dorsal mid-forearm of healthy donors, and lung cells from streptococcus pneumonia (SP) infected and na\u00efve mice"
-                        },
-                        "sample": {
-                            "accession": "SRS4474998",
-                            "title": "scRNA data of peripheral blood mononuclear cells from healthy donor_sample 4_TC",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "peripheral blood",
-                                "subject status": "healthy donor",
-                                "tissue": "whole blood",
-                                "cell type": "peripheral blood mononuclear cells (PBMCs)",
-                                "ENA-SPOT-COUNT": "225419334",
-                                "ENA-BASE-COUNT": "22091094732",
-                                "ENA-FIRST-PUBLIC": "2019-03-13",
-                                "ENA-LAST-UPDATE": "2019-03-13"
-                            }
-                        },
-                        "title": "NextSeq 500 paired end sequencing; GSM3665019: scRNA data of peripheral blood mononuclear cells from healthy donor_sample 4_TC; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "loader": "fastq-load.py",
-                            "options": "--platform=Illumina --readTypes=TBT --read1PairFiles=TC_PBL_S2_L001_R1_001.fastq.gz --read2PairFiles=TC_PBL_S2_L001_R2_001.fastq.gz --read3PairFiles=TC_PBL_S2_L001_I1_001.fastq.gz",
-                            "ENA-SPOT-COUNT": "56841854",
-                            "ENA-BASE-COUNT": "5570501692",
-                            "ENA-FIRST-PUBLIC": "2019-11-01",
-                            "ENA-LAST-UPDATE": "2019-11-01"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR871/004/SRR8712354/SRR8712354.fastq.gz",
-                                "md5": "02b4f6eb0759a450b66bffb35fdc8a20",
-                                "size": "3777975873"
-                            }
-                        ]
-                    },
-                    "SRR8712355": {
-                        "accession": "SRR8712355",
-                        "experiment": {
-                            "accession": "SRX5506687",
-                            "title": "NextSeq 500 paired end sequencing; GSM3665019: scRNA data of peripheral blood mononuclear cells from healthy donor_sample 4_TC; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "NextSeq 500"
-                        },
-                        "study": {
-                            "accession": "SRP188007",
-                            "title": "A Bayesian mixture model for clustering droplet-based single cell transcriptomic data from population studies",
-                            "abstract": "Abstract: The recently developed droplet-based single cell transcriptome sequencing (scRNA-seq) technology makes it feasible to perform a population-scale scRNA-seq study, in which the transcriptome is measured for tens of thousands of single cells from multiple individuals. Despite the advances of many clustering methods, there are few tailored methods for population-scale scRNA-seq studies. Here, we develop a BAyesian Mixture Model for Single Cell sequencing (BAMM-SC) method to cluster scRNA-seq data from multiple individuals simultaneously. BAMM-SC takes raw count data as input and accounts for data heterogeneity and batch effect among multiple individuals in a unified Bayesian hierarchical model framework. Results from applications of BAMM-SC to in-house experimental scRNA-seq datasets using blood and lung cells from humans or mice demonstrate that BAMM-SC outperformed existing clustering methods with considerable improved clustering accuracy, particularly in the presence of heterogeneity among individuals. Data purpose: To evaluate the performance of BAMM-SC for clustering droplet-based scRNA-seq data in population-based study, we performed single cell RNA-seq on peripheral blood mononuclear cells (PBMC) isolated from whole blood obtained from 4 healthy donors, and on lung cells isolated from streptococcus pneumonia (SP) infected and na\u00efve mice. Overall design: Peripheral blood mononuclear cells (PBMC) from healthy donors, skin cells from the dorsal mid-forearm of healthy donors, and lung cells from streptococcus pneumonia (SP) infected and na\u00efve mice"
-                        },
-                        "sample": {
-                            "accession": "SRS4474998",
-                            "title": "scRNA data of peripheral blood mononuclear cells from healthy donor_sample 4_TC",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "peripheral blood",
-                                "subject status": "healthy donor",
-                                "tissue": "whole blood",
-                                "cell type": "peripheral blood mononuclear cells (PBMCs)",
-                                "ENA-SPOT-COUNT": "225419334",
-                                "ENA-BASE-COUNT": "22091094732",
-                                "ENA-FIRST-PUBLIC": "2019-03-13",
-                                "ENA-LAST-UPDATE": "2019-03-13"
-                            }
-                        },
-                        "title": "NextSeq 500 paired end sequencing; GSM3665019: scRNA data of peripheral blood mononuclear cells from healthy donor_sample 4_TC; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "loader": "fastq-load.py",
-                            "options": "--platform=Illumina --readTypes=TBT --read1PairFiles=TC_PBL_S2_L002_R1_001.fastq.gz --read2PairFiles=TC_PBL_S2_L002_R2_001.fastq.gz --read3PairFiles=TC_PBL_S2_L002_I1_001.fastq.gz",
-                            "ENA-SPOT-COUNT": "56238609",
-                            "ENA-BASE-COUNT": "5511383682",
-                            "ENA-FIRST-PUBLIC": "2019-11-01",
-                            "ENA-LAST-UPDATE": "2019-11-01"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR871/005/SRR8712355/SRR8712355.fastq.gz",
-                                "md5": "7ff5e3af4afea7f3a3cd0eb50285e9ee",
-                                "size": "3773962610"
-                            }
-                        ]
-                    },
-                    "SRR8712356": {
-                        "accession": "SRR8712356",
-                        "experiment": {
-                            "accession": "SRX5506687",
-                            "title": "NextSeq 500 paired end sequencing; GSM3665019: scRNA data of peripheral blood mononuclear cells from healthy donor_sample 4_TC; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "NextSeq 500"
-                        },
-                        "study": {
-                            "accession": "SRP188007",
-                            "title": "A Bayesian mixture model for clustering droplet-based single cell transcriptomic data from population studies",
-                            "abstract": "Abstract: The recently developed droplet-based single cell transcriptome sequencing (scRNA-seq) technology makes it feasible to perform a population-scale scRNA-seq study, in which the transcriptome is measured for tens of thousands of single cells from multiple individuals. Despite the advances of many clustering methods, there are few tailored methods for population-scale scRNA-seq studies. Here, we develop a BAyesian Mixture Model for Single Cell sequencing (BAMM-SC) method to cluster scRNA-seq data from multiple individuals simultaneously. BAMM-SC takes raw count data as input and accounts for data heterogeneity and batch effect among multiple individuals in a unified Bayesian hierarchical model framework. Results from applications of BAMM-SC to in-house experimental scRNA-seq datasets using blood and lung cells from humans or mice demonstrate that BAMM-SC outperformed existing clustering methods with considerable improved clustering accuracy, particularly in the presence of heterogeneity among individuals. Data purpose: To evaluate the performance of BAMM-SC for clustering droplet-based scRNA-seq data in population-based study, we performed single cell RNA-seq on peripheral blood mononuclear cells (PBMC) isolated from whole blood obtained from 4 healthy donors, and on lung cells isolated from streptococcus pneumonia (SP) infected and na\u00efve mice. Overall design: Peripheral blood mononuclear cells (PBMC) from healthy donors, skin cells from the dorsal mid-forearm of healthy donors, and lung cells from streptococcus pneumonia (SP) infected and na\u00efve mice"
-                        },
-                        "sample": {
-                            "accession": "SRS4474998",
-                            "title": "scRNA data of peripheral blood mononuclear cells from healthy donor_sample 4_TC",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "peripheral blood",
-                                "subject status": "healthy donor",
-                                "tissue": "whole blood",
-                                "cell type": "peripheral blood mononuclear cells (PBMCs)",
-                                "ENA-SPOT-COUNT": "225419334",
-                                "ENA-BASE-COUNT": "22091094732",
-                                "ENA-FIRST-PUBLIC": "2019-03-13",
-                                "ENA-LAST-UPDATE": "2019-03-13"
-                            }
-                        },
-                        "title": "NextSeq 500 paired end sequencing; GSM3665019: scRNA data of peripheral blood mononuclear cells from healthy donor_sample 4_TC; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "loader": "fastq-load.py",
-                            "options": "--platform=Illumina --readTypes=TBT --read1PairFiles=TC_PBL_S2_L003_R1_001.fastq.gz --read2PairFiles=TC_PBL_S2_L003_R2_001.fastq.gz --read3PairFiles=TC_PBL_S2_L003_I1_001.fastq.gz",
-                            "ENA-SPOT-COUNT": "56137201",
-                            "ENA-BASE-COUNT": "5501445698",
-                            "ENA-FIRST-PUBLIC": "2019-11-01",
-                            "ENA-LAST-UPDATE": "2019-11-01"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR871/006/SRR8712356/SRR8712356.fastq.gz",
-                                "md5": "236b47959b268585eba9fbc8d521944b",
-                                "size": "3779549239"
-                            }
-                        ]
-                    },
-                    "SRR8712357": {
-                        "accession": "SRR8712357",
-                        "experiment": {
-                            "accession": "SRX5506687",
-                            "title": "NextSeq 500 paired end sequencing; GSM3665019: scRNA data of peripheral blood mononuclear cells from healthy donor_sample 4_TC; Homo sapiens; RNA-Seq",
-                            "platform": "ILLUMINA",
-                            "instrument": "NextSeq 500"
-                        },
-                        "study": {
-                            "accession": "SRP188007",
-                            "title": "A Bayesian mixture model for clustering droplet-based single cell transcriptomic data from population studies",
-                            "abstract": "Abstract: The recently developed droplet-based single cell transcriptome sequencing (scRNA-seq) technology makes it feasible to perform a population-scale scRNA-seq study, in which the transcriptome is measured for tens of thousands of single cells from multiple individuals. Despite the advances of many clustering methods, there are few tailored methods for population-scale scRNA-seq studies. Here, we develop a BAyesian Mixture Model for Single Cell sequencing (BAMM-SC) method to cluster scRNA-seq data from multiple individuals simultaneously. BAMM-SC takes raw count data as input and accounts for data heterogeneity and batch effect among multiple individuals in a unified Bayesian hierarchical model framework. Results from applications of BAMM-SC to in-house experimental scRNA-seq datasets using blood and lung cells from humans or mice demonstrate that BAMM-SC outperformed existing clustering methods with considerable improved clustering accuracy, particularly in the presence of heterogeneity among individuals. Data purpose: To evaluate the performance of BAMM-SC for clustering droplet-based scRNA-seq data in population-based study, we performed single cell RNA-seq on peripheral blood mononuclear cells (PBMC) isolated from whole blood obtained from 4 healthy donors, and on lung cells isolated from streptococcus pneumonia (SP) infected and na\u00efve mice. Overall design: Peripheral blood mononuclear cells (PBMC) from healthy donors, skin cells from the dorsal mid-forearm of healthy donors, and lung cells from streptococcus pneumonia (SP) infected and na\u00efve mice"
-                        },
-                        "sample": {
-                            "accession": "SRS4474998",
-                            "title": "scRNA data of peripheral blood mononuclear cells from healthy donor_sample 4_TC",
-                            "organism": "Homo sapiens",
-                            "attributes": {
-                                "source_name": "peripheral blood",
-                                "subject status": "healthy donor",
-                                "tissue": "whole blood",
-                                "cell type": "peripheral blood mononuclear cells (PBMCs)",
-                                "ENA-SPOT-COUNT": "225419334",
-                                "ENA-BASE-COUNT": "22091094732",
-                                "ENA-FIRST-PUBLIC": "2019-03-13",
-                                "ENA-LAST-UPDATE": "2019-03-13"
-                            }
-                        },
-                        "title": "NextSeq 500 paired end sequencing; GSM3665019: scRNA data of peripheral blood mononuclear cells from healthy donor_sample 4_TC; Homo sapiens; RNA-Seq",
-                        "attributes": {
-                            "loader": "fastq-load.py",
-                            "options": "--platform=Illumina --readTypes=TBT --read1PairFiles=TC_PBL_S2_L004_R1_001.fastq.gz --read2PairFiles=TC_PBL_S2_L004_R2_001.fastq.gz --read3PairFiles=TC_PBL_S2_L004_I1_001.fastq.gz",
-                            "ENA-SPOT-COUNT": "56201670",
-                            "ENA-BASE-COUNT": "5507763660",
-                            "ENA-FIRST-PUBLIC": "2019-11-01",
-                            "ENA-LAST-UPDATE": "2019-11-01"
-                        },
-                        "files": [
-                            {
-                                "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR871/007/SRR8712357/SRR8712357.fastq.gz",
-                                "md5": "a18c61048a3a2a1bfd786ee2fa71a2bc",
-                                "size": "3775462722"
-                            }
-                        ]
-                    }
-                }
+        "platform": {
+            "accession": "GPL18573",
+            "title": "Illumina NextSeq 500 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4474998": {
+                "accession": "SRS4474998",
+                "title": "scRNA data of peripheral blood mononuclear cells from healthy donor_sample 4_TC",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "peripheral blood",
+                    "subject status": "healthy donor",
+                    "tissue": "whole blood",
+                    "cell type": "peripheral blood mononuclear cells (PBMCs)",
+                    "ENA-SPOT-COUNT": 225419334,
+                    "ENA-BASE-COUNT": 22091094732,
+                    "ENA-FIRST-PUBLIC": "2019-03-13",
+                    "ENA-LAST-UPDATE": "2019-03-13"
+                },
+                "experiment": "SRX5506687"
             }
         }
     }
