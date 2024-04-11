@@ -17,46 +17,12 @@
                     "co ppm": "13",
                     "age": "44",
                     "Sex": "female",
-                    "ENA-SPOT-COUNT": "18872018",
-                    "ENA-BASE-COUNT": "1226681170",
+                    "ENA-SPOT-COUNT": 18872018,
+                    "ENA-BASE-COUNT": 1226681170,
                     "ENA-FIRST-PUBLIC": "2019-09-28",
                     "ENA-LAST-UPDATE": "2019-09-29"
                 },
-                "experiment": {
-                    "SRX5854445": {
-                        "accession": "SRX5854445",
-                        "title": "Illumina HiSeq 2500 paired end sequencing; GSM3773125: Current Smoker 6; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "Illumina HiSeq 2500",
-                        "runs": {
-                            "SRR9079187": {
-                                "accession": "SRR9079187",
-                                "experiment": "SRX5854445",
-                                "study": "SRP198757",
-                                "sample": "SRS4778315",
-                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM3773125: Current Smoker 6; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "ENA-SPOT-COUNT": "18872018",
-                                    "ENA-BASE-COUNT": "1226681170",
-                                    "ENA-FIRST-PUBLIC": "2019-09-28",
-                                    "ENA-LAST-UPDATE": "2019-09-28"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR907/007/SRR9079187/SRR9079187_1.fastq.gz",
-                                        "md5": "293b57498f76fdf8017b3a954c435330",
-                                        "size": "213565854"
-                                    },
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR907/007/SRR9079187/SRR9079187_2.fastq.gz",
-                                        "md5": "b7751242d5d7f7803e77e5b00532316f",
-                                        "size": "618855263"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX5854445"
             }
         }
     }
