@@ -32,65 +32,12 @@
                     "cell type": "Primary Epithelial Cells",
                     "tissue": "Prostate",
                     "culture condition": "Matrigel",
-                    "ENA-SPOT-COUNT": "305168159",
-                    "ENA-BASE-COUNT": "30516815900",
+                    "ENA-SPOT-COUNT": 305168159,
+                    "ENA-BASE-COUNT": 30516815900,
                     "ENA-FIRST-PUBLIC": "2019-07-12",
                     "ENA-LAST-UPDATE": "2019-07-13"
                 },
-                "experiment": {
-                    "SRX5735812": {
-                        "accession": "SRX5735812",
-                        "title": "Illumina HiSeq 4000 paired end sequencing; GSM3735994: Organoid; Homo sapiens; RNA-Seq",
-                        "platform": "ILLUMINA",
-                        "instrument": "Illumina HiSeq 4000",
-                        "runs": {
-                            "SRR8956100": {
-                                "accession": "SRR8956100",
-                                "experiment": "SRX5735812",
-                                "study": "SRP193859",
-                                "sample": "SRS4672672",
-                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3735994: Organoid; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "loader": "fastq-load.py",
-                                    "options": "--readTypes=TBT --read1PairFiles=Org_S3_L002_R1_001.fastq.gz --read2PairFiles=Org_S3_L002_R2_001.fastq.gz --read3PairFiles=Org_S3_L002_I1_001.fastq.gz",
-                                    "ENA-SPOT-COUNT": "150819065",
-                                    "ENA-BASE-COUNT": "15081906500",
-                                    "ENA-FIRST-PUBLIC": "2019-07-12",
-                                    "ENA-LAST-UPDATE": "2019-07-12"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR895/000/SRR8956100/SRR8956100.fastq.gz",
-                                        "md5": "100d196d9d356fdd277ef4a531befc6b",
-                                        "size": "10705170277"
-                                    }
-                                ]
-                            },
-                            "SRR8956101": {
-                                "accession": "SRR8956101",
-                                "experiment": "SRX5735812",
-                                "study": "SRP193859",
-                                "sample": "SRS4672672",
-                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3735994: Organoid; Homo sapiens; RNA-Seq",
-                                "attributes": {
-                                    "loader": "fastq-load.py",
-                                    "options": "--readTypes=TBT --read1PairFiles=Org_S3_L003_R1_001.fastq.gz --read2PairFiles=Org_S3_L003_R2_001.fastq.gz --read3PairFiles=Org_S3_L003_I1_001.fastq.gz",
-                                    "ENA-SPOT-COUNT": "154349094",
-                                    "ENA-BASE-COUNT": "15434909400",
-                                    "ENA-FIRST-PUBLIC": "2019-07-12",
-                                    "ENA-LAST-UPDATE": "2019-07-12"
-                                },
-                                "files": [
-                                    {
-                                        "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR895/001/SRR8956101/SRR8956101.fastq.gz",
-                                        "md5": "e9735214305d9162a5caa92d4fe39cc4",
-                                        "size": "10902149712"
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
+                "experiment": "SRX5735812"
             }
         }
     }
