@@ -1,0 +1,35 @@
+{
+    "GSM3576422": {
+        "accession": "GSM3576422",
+        "supplementary_files": [
+            {
+                "filename": "GSM3576422_C19_pBMC_cell-gene_UMI_table.tsv.gz",
+                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM3576nnn/GSM3576422/suppl/GSM3576422_C19_pBMC_cell-gene_UMI_table.tsv.gz",
+                "size": "5744339"
+            }
+        ],
+        "platform": {
+            "accession": "GPL20301",
+            "title": "Illumina HiSeq 4000 (Homo sapiens)"
+        },
+        "sample": {
+            "SRS4283314": {
+                "accession": "SRS4283314",
+                "title": "C19_PBMC_10x_scRNA",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "source_name": "Blood immune cell",
+                    "subject status": "control",
+                    "tissue": "PBMC",
+                    "cell subtype surface markers": "CD45+",
+                    "cell subtype": "immune cells",
+                    "ENA-SPOT-COUNT": 98757638,
+                    "ENA-BASE-COUNT": 12245947112,
+                    "ENA-FIRST-PUBLIC": "2020-07-18",
+                    "ENA-LAST-UPDATE": "2020-07-18"
+                },
+                "experiment": "SRX5283566"
+            }
+        }
+    }
+}
