@@ -46,7 +46,8 @@ The repository has the following structure (note: the repository is large):
 ├── docs
 │   ├── index.html
 │   └── metrics.json
-└── human_datasets.csv
+├── observations.txt # (to be combined with datasets.tsv soon)
+└── datasets.tsv # (to be combined with observations.txt soon)
 ```
 
 Summary statistics for the Human Commons Cell Atlas can be found here: https://cellatlas.github.io/human
