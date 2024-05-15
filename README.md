@@ -7,25 +7,28 @@ The repository has the following structure (note: the repository is large):
 
 ```bash
 ├── data
+│   ├── GSM3711757
+│   │   ├── metadata.json
+│   │   ├── preprocess.ipynb
+│   │   ├── filter
+│   │   │   ├── barcodes.txt.gz
+│   │   │   ├── genes.txt.gz
+│   │   │   └── matrix.mtx.gz
+│   │   ├── metrics
+│   │   │   ├── inspect.json
+│   │   │   ├── kb_info.json
+│   │   │   ├── kneeplot.png
+│   │   │   ├── mx_metrics.json
+│   │   │   └── run_info.json
+│   │   └── mx_out
+│   │       └── assignments_rank_mx.tsv
+│   ├── GSM3711758
+│   ├── GSM3711759
+|   ...
+├── tissues
 │   ├── adipose
-│   │   ├── GSM3711757
-│   │   │   ├── metadata.json
-│   │   │   ├── preprocess.ipynb
-│   │   │   ├── filter
-│   │   │   │   ├── barcodes.txt.gz
-│   │   │   │   ├── genes.txt.gz
-│   │   │   │   └── matrix.mtx.gz
-│   │   │   ├── metrics
-│   │   │   │   ├── inspect.json
-│   │   │   │   ├── kb_info.json
-│   │   │   │   ├── kneeplot.png
-│   │   │   │   ├── mx_metrics.json
-│   │   │   │   └── run_info.json
-│   │   │   └── mx_out
-│   │   │       └── assignments_rank_mx.tsv
-│   │   ├── GSM3711758
-│   │   ├── GSM3711759
-|   |   ...
+│   │   ├── GSM3711757 # symlink to data folder
+│   │   ├── ...
 │   ├── bladder
 │   ├── blood
 │   ├── bone_marrow
