@@ -1,10 +1,20 @@
 {
-  "observation_id": "GSM3734294",
-  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-  "species": "homo sapiens",
-  "organ": "brain",
-  "name": "1 month",
-  "description": "cortical organoids",
-  "technology": "10xv2",
-  "links": []
+    "observation_id": "GSM3734294",
+    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+    "species": "homo_sapiens",
+    "organ": "brain",
+    "name": "1,month",
+    "description": "cortical,organoids",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "GSM3734294",
+            "filename": "SRR8948931",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "SRR8948931"
+        }
+    ]
 }
