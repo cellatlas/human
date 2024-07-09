@@ -1,83 +1,83 @@
 {
-  "observation_id": "GSM3576398",
-  "doi": "https://doi.org/10.1126/sciimmunol.abb4432",
-  "species": "homo sapiens",
-  "organ": "rectum",
-  "name": "healthy",
-  "description": "CD45+ immune cell",
-  "technology": "10xv2",
-  "links": [
-    {
-      "accession": "GSM3576398",
-      "filename": "SRR8478405_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/005/SRR8478405/SRR8478405_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3576398",
-      "filename": "SRR8478405_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/005/SRR8478405/SRR8478405_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3576398",
-      "filename": "SRR8478406_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/006/SRR8478406/SRR8478406_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3576398",
-      "filename": "SRR8478406_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/006/SRR8478406/SRR8478406_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3576398",
-      "filename": "SRR8478407_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/007/SRR8478407/SRR8478407_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3576398",
-      "filename": "SRR8478407_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/007/SRR8478407/SRR8478407_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3576398",
-      "filename": "SRR8478408_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/008/SRR8478408/SRR8478408_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3576398",
-      "filename": "SRR8478408_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/008/SRR8478408/SRR8478408_2.fastq.gz"
-    }
-  ]
+    "observation_id": "GSM3576398",
+    "doi": "https://doi.org/10.1126/sciimmunol.abb4432",
+    "species": "homo_sapiens",
+    "organ": "rectum",
+    "name": "healthy",
+    "description": "CD45+,immune,cell",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "GSM3576398",
+            "filename": "SRR8478405_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/005/SRR8478405/SRR8478405_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3576398",
+            "filename": "SRR8478405_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/005/SRR8478405/SRR8478405_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3576398",
+            "filename": "SRR8478406_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/006/SRR8478406/SRR8478406_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3576398",
+            "filename": "SRR8478406_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/006/SRR8478406/SRR8478406_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3576398",
+            "filename": "SRR8478407_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/007/SRR8478407/SRR8478407_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3576398",
+            "filename": "SRR8478407_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/007/SRR8478407/SRR8478407_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3576398",
+            "filename": "SRR8478408_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/008/SRR8478408/SRR8478408_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3576398",
+            "filename": "SRR8478408_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/008/SRR8478408/SRR8478408_2.fastq.gz"
+        }
+    ]
 }
