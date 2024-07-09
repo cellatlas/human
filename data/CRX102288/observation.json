@@ -1,0 +1,227 @@
+{
+    "observation_id": "CRX102288",
+    "doi": "https://doi.org/10.1038/s41421-020-0168-9",
+    "species": "homo_sapiens",
+    "organ": "blood",
+    "name": "covid,infected,early,recovery,stage",
+    "description": "PBMCs",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "CRX102288",
+            "filename": "CRR126599_f1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://download.big.ac.cn/gsa3/CRA002497/CRR126599/CRR126599_f1.fastq.gz"
+        },
+        {
+            "accession": "CRX102288",
+            "filename": "CRR126599_r2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://download.big.ac.cn/gsa3/CRA002497/CRR126599/CRR126599_r2.fastq.gz"
+        },
+        {
+            "accession": "CRX102288",
+            "filename": "CRR126600_f1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://download.big.ac.cn/gsa3/CRA002497/CRR126600/CRR126600_f1.fastq.gz"
+        },
+        {
+            "accession": "CRX102288",
+            "filename": "CRR126600_r2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://download.big.ac.cn/gsa3/CRA002497/CRR126600/CRR126600_r2.fastq.gz"
+        },
+        {
+            "accession": "CRX102288",
+            "filename": "CRR126601_f1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://download.big.ac.cn/gsa3/CRA002497/CRR126601/CRR126601_f1.fastq.gz"
+        },
+        {
+            "accession": "CRX102288",
+            "filename": "CRR126601_r2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://download.big.ac.cn/gsa3/CRA002497/CRR126601/CRR126601_r2.fastq.gz"
+        },
+        {
+            "accession": "CRX102288",
+            "filename": "CRR126602_f1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://download.big.ac.cn/gsa3/CRA002497/CRR126602/CRR126602_f1.fastq.gz"
+        },
+        {
+            "accession": "CRX102288",
+            "filename": "CRR126602_r2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://download.big.ac.cn/gsa3/CRA002497/CRR126602/CRR126602_r2.fastq.gz"
+        },
+        {
+            "accession": "CRX102288",
+            "filename": "CRR126603_f1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://download.big.ac.cn/gsa3/CRA002497/CRR126603/CRR126603_f1.fastq.gz"
+        },
+        {
+            "accession": "CRX102288",
+            "filename": "CRR126603_r2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://download.big.ac.cn/gsa3/CRA002497/CRR126603/CRR126603_r2.fastq.gz"
+        },
+        {
+            "accession": "CRX102288",
+            "filename": "CRR126604_f1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://download.big.ac.cn/gsa3/CRA002497/CRR126604/CRR126604_f1.fastq.gz"
+        },
+        {
+            "accession": "CRX102288",
+            "filename": "CRR126604_r2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://download.big.ac.cn/gsa3/CRA002497/CRR126604/CRR126604_r2.fastq.gz"
+        },
+        {
+            "accession": "CRX102288",
+            "filename": "CRR126605_f1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://download.big.ac.cn/gsa3/CRA002497/CRR126605/CRR126605_f1.fastq.gz"
+        },
+        {
+            "accession": "CRX102288",
+            "filename": "CRR126605_r2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://download.big.ac.cn/gsa3/CRA002497/CRR126605/CRR126605_r2.fastq.gz"
+        },
+        {
+            "accession": "CRX102288",
+            "filename": "CRR126606_f1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://download.big.ac.cn/gsa3/CRA002497/CRR126606/CRR126606_f1.fastq.gz"
+        },
+        {
+            "accession": "CRX102288",
+            "filename": "CRR126606_r2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://download.big.ac.cn/gsa3/CRA002497/CRR126606/CRR126606_r2.fastq.gz"
+        },
+        {
+            "accession": "CRX102288",
+            "filename": "CRR126607_f1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://download.big.ac.cn/gsa3/CRA002497/CRR126607/CRR126607_f1.fastq.gz"
+        },
+        {
+            "accession": "CRX102288",
+            "filename": "CRR126607_r2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://download.big.ac.cn/gsa3/CRA002497/CRR126607/CRR126607_r2.fastq.gz"
+        },
+        {
+            "accession": "CRX102288",
+            "filename": "CRR126608_f1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://download.big.ac.cn/gsa3/CRA002497/CRR126608/CRR126608_f1.fastq.gz"
+        },
+        {
+            "accession": "CRX102288",
+            "filename": "CRR126608_r2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://download.big.ac.cn/gsa3/CRA002497/CRR126608/CRR126608_r2.fastq.gz"
+        },
+        {
+            "accession": "CRX102288",
+            "filename": "CRR126609_f1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://download.big.ac.cn/gsa3/CRA002497/CRR126609/CRR126609_f1.fastq.gz"
+        },
+        {
+            "accession": "CRX102288",
+            "filename": "CRR126609_r2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://download.big.ac.cn/gsa3/CRA002497/CRR126609/CRR126609_r2.fastq.gz"
+        },
+        {
+            "accession": "CRX102288",
+            "filename": "CRR126610_f1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://download.big.ac.cn/gsa3/CRA002497/CRR126610/CRR126610_f1.fastq.gz"
+        },
+        {
+            "accession": "CRX102288",
+            "filename": "CRR126610_r2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://download.big.ac.cn/gsa3/CRA002497/CRR126610/CRR126610_r2.fastq.gz"
+        }
+    ]
+}
