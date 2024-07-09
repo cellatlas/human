@@ -1,20 +1,20 @@
 {
-  "observation_id": "GSM4463223",
-  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-  "species": "homo sapiens",
-  "organ": "eye",
-  "name": "None",
-  "description": "human trabecular meshwork",
-  "technology": "10xv2",
-  "links": [
-    {
-      "accession": "GSM4463223",
-      "filename": "H1TMS1.bam",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "https://sra-download.ncbi.nlm.nih.gov/traces/sra66/SRZ/011518/SRR11518610/H1TMS1.bam"
-    }
-  ]
+    "observation_id": "GSM4463223",
+    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+    "species": "homo_sapiens",
+    "organ": "eye",
+    "name": "None",
+    "description": "human,trabecular,meshwork",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "GSM4463223",
+            "filename": "H1TMS1.bam.1",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR11518610/H1TMS1.bam.1"
+        }
+    ]
 }
