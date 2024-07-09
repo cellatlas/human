@@ -1,20 +1,20 @@
 {
-  "observation_id": "GSM3178783",
-  "doi": "https://doi.org/10.1038/s41591-020-0868-6",
-  "species": "homo sapiens",
-  "organ": "liver",
-  "name": "Patient 2",
-  "description": "None",
-  "technology": "10xv2",
-  "links": [
-    {
-      "accession": "GSM3178783",
-      "filename": "P2TLH.bam",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/SRA716/SRA716608/bam/P2TLH.bam"
-    }
-  ]
+    "observation_id": "GSM3178783",
+    "doi": "https://doi.org/10.1038/s41591-020-0868-6",
+    "species": "homo_sapiens",
+    "organ": "liver",
+    "name": "Patient,2",
+    "description": "None",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "GSM3178783",
+            "filename": "P2TLH.bam.1",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR7276475/P2TLH.bam.1"
+        }
+    ]
 }
