@@ -1,20 +1,20 @@
 {
-  "observation_id": "GSM2803967",
-  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-  "species": "homo sapiens",
-  "organ": "blood",
-  "name": "pre-therapy",
-  "description": "B-cells",
-  "technology": "10xv2",
-  "links": [
-    {
-      "accession": "GSM2803967",
-      "filename": "lk2.bam",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/SRA617/SRA617020/bam/lk2.bam"
-    }
-  ]
+    "observation_id": "GSM2803967",
+    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+    "species": "homo_sapiens",
+    "organ": "blood",
+    "name": "pre-therapy",
+    "description": "B-cells",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "GSM2803967",
+            "filename": "lk2.bam.1",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR6131318/lk2.bam.1"
+        }
+    ]
 }
