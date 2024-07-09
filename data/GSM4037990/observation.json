@@ -1,10 +1,47 @@
 {
-  "observation_id": "GSM4037990",
-  "doi": "https://doi.org/10.1038/s41591-020-0868-6",
-  "species": "homo sapiens",
-  "organ": "eye",
-  "name": "donor 7",
-  "description": "retinal pigment epithelium macula, CD31+",
-  "technology": "10xv2",
-  "links": []
+    "observation_id": "GSM4037990",
+    "doi": "https://doi.org/10.1038/s41591-020-0868-6",
+    "species": "homo_sapiens",
+    "organ": "eye",
+    "name": "donor,7",
+    "description": "retinal,pigment,epithelium,macula,CD31+",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "GSM4037990",
+            "filename": "SRR9990791",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "SRR9990791"
+        },
+        {
+            "accession": "GSM4037990",
+            "filename": "SRR9990792",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "SRR9990792"
+        },
+        {
+            "accession": "GSM4037990",
+            "filename": "SRR9990793",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "SRR9990793"
+        },
+        {
+            "accession": "GSM4037990",
+            "filename": "SRR9990794",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "SRR9990794"
+        }
+    ]
 }
