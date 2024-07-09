@@ -1,443 +1,443 @@
 {
-  "observation_id": "GSM3526584",
-  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-  "species": "homo sapiens",
-  "organ": "testis",
-  "name": "neonatal day 2 unfractionated",
-  "description": "unfractioned",
-  "technology": "10xv2",
-  "links": [
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363218_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/008/SRR8363218/SRR8363218_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363218_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/008/SRR8363218/SRR8363218_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363219_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/009/SRR8363219/SRR8363219_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363219_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/009/SRR8363219/SRR8363219_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363220_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/000/SRR8363220/SRR8363220_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363220_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/000/SRR8363220/SRR8363220_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363221_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/001/SRR8363221/SRR8363221_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363221_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/001/SRR8363221/SRR8363221_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363222_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/002/SRR8363222/SRR8363222_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363222_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/002/SRR8363222/SRR8363222_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363223_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/003/SRR8363223/SRR8363223_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363223_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/003/SRR8363223/SRR8363223_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363224_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/004/SRR8363224/SRR8363224_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363224_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/004/SRR8363224/SRR8363224_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363225_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/005/SRR8363225/SRR8363225_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363225_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/005/SRR8363225/SRR8363225_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363226_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/006/SRR8363226/SRR8363226_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363226_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/006/SRR8363226/SRR8363226_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363227_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/007/SRR8363227/SRR8363227_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363227_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/007/SRR8363227/SRR8363227_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363228_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/008/SRR8363228/SRR8363228_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363228_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/008/SRR8363228/SRR8363228_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363229_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/009/SRR8363229/SRR8363229_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363229_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/009/SRR8363229/SRR8363229_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363230_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/000/SRR8363230/SRR8363230_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363230_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/000/SRR8363230/SRR8363230_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363231_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/001/SRR8363231/SRR8363231_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363231_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/001/SRR8363231/SRR8363231_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363232_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/002/SRR8363232/SRR8363232_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363232_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/002/SRR8363232/SRR8363232_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363233_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/003/SRR8363233/SRR8363233_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363233_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/003/SRR8363233/SRR8363233_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363234_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/004/SRR8363234/SRR8363234_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363234_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/004/SRR8363234/SRR8363234_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363235_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/005/SRR8363235/SRR8363235_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363235_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/005/SRR8363235/SRR8363235_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363236_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/006/SRR8363236/SRR8363236_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363236_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/006/SRR8363236/SRR8363236_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363237_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/007/SRR8363237/SRR8363237_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363237_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/007/SRR8363237/SRR8363237_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363238_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/008/SRR8363238/SRR8363238_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363238_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/008/SRR8363238/SRR8363238_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363239_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/009/SRR8363239/SRR8363239_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363239_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/009/SRR8363239/SRR8363239_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363240_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/000/SRR8363240/SRR8363240_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363240_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/000/SRR8363240/SRR8363240_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363241_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/001/SRR8363241/SRR8363241_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526584",
-      "filename": "SRR8363241_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/001/SRR8363241/SRR8363241_2.fastq.gz"
-    }
-  ]
+    "observation_id": "GSM3526584",
+    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+    "species": "homo_sapiens",
+    "organ": "testis",
+    "name": "neonatal,day,2,unfractionated",
+    "description": "unfractioned",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363218_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/008/SRR8363218/SRR8363218_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363218_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/008/SRR8363218/SRR8363218_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363219_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/009/SRR8363219/SRR8363219_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363219_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/009/SRR8363219/SRR8363219_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363220_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/000/SRR8363220/SRR8363220_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363220_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/000/SRR8363220/SRR8363220_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363221_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/001/SRR8363221/SRR8363221_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363221_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/001/SRR8363221/SRR8363221_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363222_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/002/SRR8363222/SRR8363222_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363222_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/002/SRR8363222/SRR8363222_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363223_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/003/SRR8363223/SRR8363223_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363223_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/003/SRR8363223/SRR8363223_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363224_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/004/SRR8363224/SRR8363224_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363224_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/004/SRR8363224/SRR8363224_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363225_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/005/SRR8363225/SRR8363225_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363225_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/005/SRR8363225/SRR8363225_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363226_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/006/SRR8363226/SRR8363226_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363226_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/006/SRR8363226/SRR8363226_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363227_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/007/SRR8363227/SRR8363227_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363227_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/007/SRR8363227/SRR8363227_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363228_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/008/SRR8363228/SRR8363228_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363228_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/008/SRR8363228/SRR8363228_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363229_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/009/SRR8363229/SRR8363229_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363229_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/009/SRR8363229/SRR8363229_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363230_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/000/SRR8363230/SRR8363230_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363230_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/000/SRR8363230/SRR8363230_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363231_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/001/SRR8363231/SRR8363231_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363231_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/001/SRR8363231/SRR8363231_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363232_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/002/SRR8363232/SRR8363232_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363232_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/002/SRR8363232/SRR8363232_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363233_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/003/SRR8363233/SRR8363233_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363233_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/003/SRR8363233/SRR8363233_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363234_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/004/SRR8363234/SRR8363234_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363234_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/004/SRR8363234/SRR8363234_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363235_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/005/SRR8363235/SRR8363235_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363235_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/005/SRR8363235/SRR8363235_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363236_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/006/SRR8363236/SRR8363236_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363236_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/006/SRR8363236/SRR8363236_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363237_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/007/SRR8363237/SRR8363237_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363237_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/007/SRR8363237/SRR8363237_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363238_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/008/SRR8363238/SRR8363238_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363238_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/008/SRR8363238/SRR8363238_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363239_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/009/SRR8363239/SRR8363239_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363239_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/009/SRR8363239/SRR8363239_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363240_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/000/SRR8363240/SRR8363240_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363240_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/000/SRR8363240/SRR8363240_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363241_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/001/SRR8363241/SRR8363241_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526584",
+            "filename": "SRR8363241_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/001/SRR8363241/SRR8363241_2.fastq.gz"
+        }
+    ]
 }
