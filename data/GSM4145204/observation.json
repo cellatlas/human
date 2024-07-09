@@ -1,20 +1,20 @@
 {
-  "observation_id": "GSM4145204",
-  "doi": "https://doi.org/10.3389/fonc.2021.719564",
-  "species": "homo sapiens",
-  "organ": "kidney",
-  "name": "normal",
-  "description": "kidney homogenate",
-  "technology": "10xv2",
-  "links": [
-    {
-      "accession": "GSM4145204",
-      "filename": "possorted_genome_bam1.bam.1",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "https://sra-pub-src-2.s3.amazonaws.com/SRR10377488/possorted_genome_bam1.bam.1"
-    }
-  ]
+    "observation_id": "GSM4145204",
+    "doi": "https://doi.org/10.3389/fonc.2021.719564",
+    "species": "homo_sapiens",
+    "organ": "kidney",
+    "name": "normal",
+    "description": "kidney,homogenate",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "GSM4145204",
+            "filename": "possorted_genome_bam1.bam.1",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "https://sra-pub-src-2.s3.amazonaws.com/SRR10377488/possorted_genome_bam1.bam.1"
+        }
+    ]
 }
