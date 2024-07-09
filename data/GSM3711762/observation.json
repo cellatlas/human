@@ -1,20 +1,20 @@
 {
-  "observation_id": "GSM3711762",
-  "doi": "https://doi.org/10.1038/s42255-019-0152-6",
-  "species": "homo sapiens",
-  "organ": "adipose",
-  "name": "diabeticand obese individual",
-  "description": "stromal vascular fraction. subcutaneous adipose tissue",
-  "technology": "10xv2",
-  "links": [
-    {
-      "accession": "GSM3711762",
-      "filename": "Ate_05_SC.bam.1",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR885/SRR8856835/Ate_05_SC.bam.1"
-    }
-  ]
+    "observation_id": "GSM3711762",
+    "doi": "https://doi.org/10.1038/s42255-019-0152-6",
+    "species": "homo_sapiens",
+    "organ": "adipose",
+    "name": "diabeticand,obese,individual",
+    "description": "stromal,vascular,fraction.,subcutaneous,adipose,tissue",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "GSM3711762",
+            "filename": "Ate_05_SC.bam.1",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR885/SRR8856835/Ate_05_SC.bam.1"
+        }
+    ]
 }
