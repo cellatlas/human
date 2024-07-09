@@ -1,20 +1,29 @@
 {
-  "observation_id": "FCA7196225",
-  "doi": "https://doi.org/10.1038/s41591-020-0868-6",
-  "species": "homo sapiens",
-  "organ": "decidua",
-  "name": "female adult 6 to 12 week gestation",
-  "description": "total cells (fetal)",
-  "technology": "10xv2",
-  "links": [
-    {
-      "accession": "FCA7196225",
-      "filename": "FCA7196225.bam",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR274/ERR2743652/FCA7196225.bam"
-    }
-  ]
+    "observation_id": "ERX2756725",
+    "doi": "https://doi.org/10.1038/s41591-020-0868-6",
+    "species": "homo_sapiens",
+    "organ": "decidua",
+    "name": "female,adult,6,to,12,week,gestation",
+    "description": "total,cells,(fetal)",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "ERX2756725",
+            "filename": "FCA7196225_R1.fq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/experiment/MTAB/E-MTAB-6701/FCA7196225_R1.fq.gz"
+        },
+        {
+            "accession": "ERX2756725",
+            "filename": "FCA7196225_R2.fq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/experiment/MTAB/E-MTAB-6701/FCA7196225_R2.fq.gz"
+        }
+    ]
 }
