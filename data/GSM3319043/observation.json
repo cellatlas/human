@@ -1,20 +1,20 @@
 {
-  "observation_id": "GSM3319043",
-  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-  "species": "homo sapiens",
-  "organ": "ovary",
-  "name": "sample 3-16",
-  "description": "folicle 2-5mm",
-  "technology": "10xv2",
-  "links": [
-    {
-      "accession": "GSM3319043",
-      "filename": "sample_3_16.bam.1",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR7644635/sample_3_16.bam.1"
-    }
-  ]
+    "observation_id": "GSM3319043",
+    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+    "species": "homo_sapiens",
+    "organ": "ovary",
+    "name": "sample,3-16",
+    "description": "folicle,2-5mm",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "GSM3319043",
+            "filename": "sample_3_16.bam.1",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR7644635/sample_3_16.bam.1"
+        }
+    ]
 }
