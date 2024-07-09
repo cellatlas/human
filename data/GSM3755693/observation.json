@@ -1,29 +1,29 @@
 {
-  "observation_id": "GSM3755693",
-  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-  "species": "homo sapiens",
-  "organ": "peritoneal",
-  "name": "healthy patient",
-  "description": "peritoneal cells",
-  "technology": "10xv2",
-  "links": [
-    {
-      "accession": "GSM3755693",
-      "filename": "SRR9029604_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR902/004/SRR9029604/SRR9029604_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3755693",
-      "filename": "SRR9029604_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR902/004/SRR9029604/SRR9029604_2.fastq.gz"
-    }
-  ]
+    "observation_id": "GSM3755693",
+    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+    "species": "homo_sapiens",
+    "organ": "peritoneal",
+    "name": "healthy,patient",
+    "description": "peritoneal,cells",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "GSM3755693",
+            "filename": "SRR9029604_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR902/004/SRR9029604/SRR9029604_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3755693",
+            "filename": "SRR9029604_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR902/004/SRR9029604/SRR9029604_2.fastq.gz"
+        }
+    ]
 }
