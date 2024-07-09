@@ -1,10 +1,29 @@
 {
-  "observation_id": "GSM3535277",
-  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-  "species": "homo sapiens",
-  "organ": "lymph_node",
-  "name": "Individual 1",
-  "description": "lymphatic endothelial cells from axillary lymph node, CD45- PDPN+ CD31+",
-  "technology": "10xv2",
-  "links": []
+    "observation_id": "GSM3535277",
+    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+    "species": "homo_sapiens",
+    "organ": "lymph_node",
+    "name": "Individual,1",
+    "description": "lymphatic,endothelial,cells,from,axillary,lymph,node,CD45-,PDPN+,CD31+",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "GSM3535277",
+            "filename": "SRR8387858",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "SRR8387858"
+        },
+        {
+            "accession": "GSM3535277",
+            "filename": "SRR8387859",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "SRR8387859"
+        }
+    ]
 }
