@@ -1,10 +1,47 @@
 {
-  "observation_id": "GSM3738540",
-  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-  "species": "homo sapiens",
-  "organ": "bone_marrow",
-  "name": "male",
-  "description": "NK cells",
-  "technology": "10xv2",
-  "links": []
+    "observation_id": "GSM3738540",
+    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+    "species": "homo_sapiens",
+    "organ": "bone_marrow",
+    "name": "male",
+    "description": "NK,cells",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "GSM3738540",
+            "filename": "SRR8984447",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "SRR8984447"
+        },
+        {
+            "accession": "GSM3738540",
+            "filename": "SRR8984448",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "SRR8984448"
+        },
+        {
+            "accession": "GSM3738540",
+            "filename": "SRR8984449",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "SRR8984449"
+        },
+        {
+            "accession": "GSM3738540",
+            "filename": "SRR8984450",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "SRR8984450"
+        }
+    ]
 }
