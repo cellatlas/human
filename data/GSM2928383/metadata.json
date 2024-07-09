@@ -1,0 +1,181 @@
+{
+    "GSM2928383": {
+        "accession": "GSM2928383",
+        "supplementary_files": [
+            {
+                "accession": "GSM2928383",
+                "filename": "GSM2928383_AdultHuman-Spermatocytes_17-6_barcodes.tsv.gz",
+                "filetype": null,
+                "filesize": 12168,
+                "filenumber": 1,
+                "md5": null,
+                "urltype": "ftp",
+                "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2928nnn/GSM2928383/suppl/GSM2928383_AdultHuman-Spermatocytes_17-6_barcodes.tsv.gz"
+            },
+            {
+                "accession": "GSM2928383",
+                "filename": "GSM2928383_AdultHuman-Spermatocytes_17-6_genes.tsv.gz",
+                "filetype": null,
+                "filesize": 264813,
+                "filenumber": 2,
+                "md5": null,
+                "urltype": "ftp",
+                "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2928nnn/GSM2928383/suppl/GSM2928383_AdultHuman-Spermatocytes_17-6_genes.tsv.gz"
+            },
+            {
+                "accession": "GSM2928383",
+                "filename": "GSM2928383_AdultHuman-Spermatocytes_17-6_matrix.mtx.gz",
+                "filetype": null,
+                "filesize": 49750737,
+                "filenumber": 3,
+                "md5": null,
+                "urltype": "ftp",
+                "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2928nnn/GSM2928383/suppl/GSM2928383_AdultHuman-Spermatocytes_17-6_matrix.mtx.gz"
+            }
+        ],
+        "platform": {
+            "accession": "GPL18573",
+            "title": "Illumina NextSeq 500 (Homo sapiens)"
+        },
+        "samples": {
+            "SRS2823410": {
+                "accession": "SRS2823410",
+                "title": "AdultHuman-Spermatocytes_17-6",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "INSDC secondary accession": "SRS2823410",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Homo sapiens",
+                    "number of cells": "2757",
+                    "cell type": "Sta-Put enriched Spermatocytes",
+                    "source_name": "Adult testis",
+                    "BioSampleModel": "Generic",
+                    "ENA-FIRST-PUBLIC": "2018-11-06",
+                    "ENA-LAST-UPDATE": "2018-11-06"
+                },
+                "experiments": {
+                    "SRX3549440": {
+                        "accession": "SRX3549440",
+                        "title": "GSM2928383: AdultHuman-Spermatocytes_17-6; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "NextSeq 500",
+                        "runs": {
+                            "SRR6459193": {
+                                "accession": "SRR6459193",
+                                "experiment": "SRX3549440",
+                                "study": "SRP128724",
+                                "sample": "SRS2823410",
+                                "title": "NextSeq 500 sequencing; GSM2928383: AdultHuman-Spermatocytes_17-6; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "assembly": "GRCh38",
+                                    "ENA-FIRST-PUBLIC": "2018-11-10",
+                                    "ENA-LAST-UPDATE": "2018-11-10"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR6459193",
+                                            "filename": "SRR6459193.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 7918410430,
+                                            "filenumber": 1,
+                                            "md5": "a40640c9a2e8b7f93fbf2f8d66f44d59",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR645/003/SRR6459193/SRR6459193.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR6459193",
+                                            "filename": "AdultHuman_Spermatocytes_possorted_genome_bam.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": 20905635025,
+                                            "filenumber": 1,
+                                            "md5": "c22c28ac6fe5cc1b78822439d2056dce",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR645/SRR6459193/AdultHuman_Spermatocytes_possorted_genome_bam.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR6459193",
+                                            "filename": "AdultHuman_Spermatocytes_possorted_genome_bam.bam.1.bai",
+                                            "filetype": "bam",
+                                            "filesize": 12789392,
+                                            "filenumber": 1,
+                                            "md5": "9ff7d2b2d1dfc98f678c569609b2c051",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR645/SRR6459193/AdultHuman_Spermatocytes_possorted_genome_bam.bam.1.bai"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR6459193",
+                                            "filename": "AdultHuman_Spermatocytes_possorted_genome_bam.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-15/SRR6459193/AdultHuman_Spermatocytes_possorted_genome_bam.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR6459193",
+                                            "filename": "AdultHuman_Spermatocytes_possorted_genome_bam.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR6459193/AdultHuman_Spermatocytes_possorted_genome_bam.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR6459193",
+                                            "filename": "SRR6459193",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR6459193/SRR6459193"
+                                        },
+                                        {
+                                            "accession": "SRR6459193",
+                                            "filename": "SRR6459193.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-6/SRR6459193/SRR6459193.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR6459193",
+                                            "filename": "SRR6459193.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-106/SRR6459193/SRR6459193.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR6459193",
+                                            "filename": "SRR6459193.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-14/SRR006/459/SRR6459193.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
