@@ -1,29 +1,29 @@
 {
-  "observation_id": "ERS3861821",
-  "doi": "https://doi.org/10.1038/s41591-020-0868-6",
-  "species": "homo sapiens",
-  "organ": "liver",
-  "name": "female, 8 weeks gestation",
-  "description": "CD45-",
-  "technology": "10xv2",
-  "links": [
-    {
-      "accession": "ERS3861821",
-      "filename": "FCAImmP7352195_S1_L001_R1_001.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/experiment/MTAB/E-MTAB-7407/FCAImmP7352195_S1_L001_R1_001.fastq.gz"
-    },
-    {
-      "accession": "ERS3861821",
-      "filename": "FCAImmP7352195_S1_L001_R2_001.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/experiment/MTAB/E-MTAB-7407/FCAImmP7352195_S1_L001_R2_001.fastq.gz"
-    }
-  ]
+    "observation_id": "ERS3861821",
+    "doi": "https://doi.org/10.1038/s41591-020-0868-6",
+    "species": "homo_sapiens",
+    "organ": "liver",
+    "name": "female,8,weeks,gestation",
+    "description": "CD45-",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "ERS3861821",
+            "filename": "FCAImmP7352195_S1_L001_R1_001.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/experiment/MTAB/E-MTAB-7407/FCAImmP7352195_S1_L001_R1_001.fastq.gz"
+        },
+        {
+            "accession": "ERS3861821",
+            "filename": "FCAImmP7352195_S1_L001_R2_001.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.ebi.ac.uk/pub/databases/microarray/data/experiment/MTAB/E-MTAB-7407/FCAImmP7352195_S1_L001_R2_001.fastq.gz"
+        }
+    ]
 }
