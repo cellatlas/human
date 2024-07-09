@@ -1,29 +1,29 @@
 {
-  "observation_id": "FCA7474066",
-  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-  "species": "homo sapiens",
-  "organ": "placenta",
-  "name": "female, adult, 6 to 12 week gestation",
-  "description": "total cells (fetal)",
-  "technology": "10xv2",
-  "links": [
-    {
-      "accession": "FCA7474066",
-      "filename": "FCA7474066_S1_L001_R1_001.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "https://www.ebi.ac.uk/arrayexpress/files/E-MTAB-6701/FCA7474066_S1_L001_R1_001.fastq.gz"
-    },
-    {
-      "accession": "FCA7474066",
-      "filename": "FCA7474066_S1_L001_R2_001.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "https://www.ebi.ac.uk/arrayexpress/files/E-MTAB-6701/FCA7474066_S1_L001_R2_001.fastq.gz"
-    }
-  ]
+    "observation_id": "ERX2756733",
+    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+    "species": "homo_sapiens",
+    "organ": "placenta",
+    "name": "female,adult,6,to,12,week,gestation",
+    "description": "total,cells,(fetal)",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "ERX2756733",
+            "filename": "FCA7474066_S1_L001_R1_001.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "https://www.ebi.ac.uk/arrayexpress/files/E-MTAB-6701/FCA7474066_S1_L001_R1_001.fastq.gz"
+        },
+        {
+            "accession": "ERX2756733",
+            "filename": "FCA7474066_S1_L001_R2_001.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "https://www.ebi.ac.uk/arrayexpress/files/E-MTAB-6701/FCA7474066_S1_L001_R2_001.fastq.gz"
+        }
+    ]
 }
