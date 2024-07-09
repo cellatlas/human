@@ -1,29 +1,29 @@
 {
-  "observation_id": "GSM3587011",
-  "doi": "https://doi.org/10.1084/jem.20191130",
-  "species": "homo sapiens",
-  "organ": "colon",
-  "name": "age 67 years old",
-  "description": "epithelial cells",
-  "technology": "10xv2",
-  "links": [
-    {
-      "accession": "GSM3587011",
-      "filename": "SRR8513797_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR851/007/SRR8513797/SRR8513797_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3587011",
-      "filename": "SRR8513797_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR851/007/SRR8513797/SRR8513797_2.fastq.gz"
-    }
-  ]
+    "observation_id": "GSM3587011",
+    "doi": "https://doi.org/10.1084/jem.20191130",
+    "species": "homo_sapiens",
+    "organ": "colon",
+    "name": "age,67,years,old",
+    "description": "epithelial,cells",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "GSM3587011",
+            "filename": "SRR8513797_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR851/007/SRR8513797/SRR8513797_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3587011",
+            "filename": "SRR8513797_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR851/007/SRR8513797/SRR8513797_2.fastq.gz"
+        }
+    ]
 }
