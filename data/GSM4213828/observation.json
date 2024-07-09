@@ -1,29 +1,29 @@
 {
-  "observation_id": "GSM4213828",
-  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-  "species": "homo sapiens",
-  "organ": "lung",
-  "name": "light smoker",
-  "description": "trachea epithelial cells",
-  "technology": "10xv3",
-  "links": [
-    {
-      "accession": "GSM4213828",
-      "filename": "SRR10668802_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/002/SRR10668802/SRR10668802_1.fastq.gz"
-    },
-    {
-      "accession": "GSM4213828",
-      "filename": "SRR10668802_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/002/SRR10668802/SRR10668802_2.fastq.gz"
-    }
-  ]
+    "observation_id": "GSM4213828",
+    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+    "species": "homo_sapiens",
+    "organ": "lung",
+    "name": "light,smoker",
+    "description": "trachea,epithelial,cells",
+    "technology": "10xv3",
+    "links": [
+        {
+            "accession": "GSM4213828",
+            "filename": "SRR10668802_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/002/SRR10668802/SRR10668802_1.fastq.gz"
+        },
+        {
+            "accession": "GSM4213828",
+            "filename": "SRR10668802_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR106/002/SRR10668802/SRR10668802_2.fastq.gz"
+        }
+    ]
 }
