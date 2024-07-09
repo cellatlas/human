@@ -1,83 +1,83 @@
 {
-  "observation_id": "GSM3954948",
-  "doi": "https://doi.org/10.3389/fmed.2020.597967",
-  "species": "homo sapiens",
-  "organ": "stomach",
-  "name": "non-atrophic gastritis",
-  "description": "gastric antral mucosa biopsy",
-  "technology": "10xv2",
-  "links": [
-    {
-      "accession": "GSM3954948",
-      "filename": "SRR9713119_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/009/SRR9713119/SRR9713119_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3954948",
-      "filename": "SRR9713119_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/009/SRR9713119/SRR9713119_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3954948",
-      "filename": "SRR9713120_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/000/SRR9713120/SRR9713120_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3954948",
-      "filename": "SRR9713120_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/000/SRR9713120/SRR9713120_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3954948",
-      "filename": "SRR9713121_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/001/SRR9713121/SRR9713121_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3954948",
-      "filename": "SRR9713121_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/001/SRR9713121/SRR9713121_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3954948",
-      "filename": "SRR9713122_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/002/SRR9713122/SRR9713122_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3954948",
-      "filename": "SRR9713122_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/002/SRR9713122/SRR9713122_2.fastq.gz"
-    }
-  ]
+    "observation_id": "GSM3954948",
+    "doi": "https://doi.org/10.3389/fmed.2020.597967",
+    "species": "homo_sapiens",
+    "organ": "stomach",
+    "name": "non-atrophic,gastritis",
+    "description": "gastric,antral,mucosa,biopsy",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "GSM3954948",
+            "filename": "SRR9713119_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/009/SRR9713119/SRR9713119_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3954948",
+            "filename": "SRR9713119_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/009/SRR9713119/SRR9713119_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3954948",
+            "filename": "SRR9713120_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/000/SRR9713120/SRR9713120_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3954948",
+            "filename": "SRR9713120_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/000/SRR9713120/SRR9713120_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3954948",
+            "filename": "SRR9713121_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/001/SRR9713121/SRR9713121_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3954948",
+            "filename": "SRR9713121_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/001/SRR9713121/SRR9713121_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3954948",
+            "filename": "SRR9713122_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/002/SRR9713122/SRR9713122_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3954948",
+            "filename": "SRR9713122_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/002/SRR9713122/SRR9713122_2.fastq.gz"
+        }
+    ]
 }
