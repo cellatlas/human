@@ -1,83 +1,83 @@
 {
-  "observation_id": "GSM3526590",
-  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-  "species": "homo sapiens",
-  "organ": "testis",
-  "name": "Adult 2 unfractionated",
-  "description": "unfractionated",
-  "technology": "10xv2",
-  "links": [
-    {
-      "accession": "GSM3526590",
-      "filename": "SRR8363262_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/002/SRR8363262/SRR8363262_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526590",
-      "filename": "SRR8363262_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/002/SRR8363262/SRR8363262_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3526590",
-      "filename": "SRR8363263_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/003/SRR8363263/SRR8363263_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526590",
-      "filename": "SRR8363263_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/003/SRR8363263/SRR8363263_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3526590",
-      "filename": "SRR8363264_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/004/SRR8363264/SRR8363264_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526590",
-      "filename": "SRR8363264_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/004/SRR8363264/SRR8363264_2.fastq.gz"
-    },
-    {
-      "accession": "GSM3526590",
-      "filename": "SRR8363265_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/005/SRR8363265/SRR8363265_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3526590",
-      "filename": "SRR8363265_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/005/SRR8363265/SRR8363265_2.fastq.gz"
-    }
-  ]
+    "observation_id": "GSM3526590",
+    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+    "species": "homo_sapiens",
+    "organ": "testis",
+    "name": "Adult,2,unfractionated",
+    "description": "unfractionated",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "GSM3526590",
+            "filename": "SRR8363262_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/002/SRR8363262/SRR8363262_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526590",
+            "filename": "SRR8363262_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/002/SRR8363262/SRR8363262_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3526590",
+            "filename": "SRR8363263_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/003/SRR8363263/SRR8363263_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526590",
+            "filename": "SRR8363263_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/003/SRR8363263/SRR8363263_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3526590",
+            "filename": "SRR8363264_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/004/SRR8363264/SRR8363264_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526590",
+            "filename": "SRR8363264_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/004/SRR8363264/SRR8363264_2.fastq.gz"
+        },
+        {
+            "accession": "GSM3526590",
+            "filename": "SRR8363265_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/005/SRR8363265/SRR8363265_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3526590",
+            "filename": "SRR8363265_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR836/005/SRR8363265/SRR8363265_2.fastq.gz"
+        }
+    ]
 }
