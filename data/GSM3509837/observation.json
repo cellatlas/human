@@ -1,10 +1,47 @@
 {
-  "observation_id": "GSM3509837",
-  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-  "species": "homo sapiens",
-  "organ": "kidney",
-  "name": "week 9",
-  "description": "disociated human embryonic kidney",
-  "technology": "10xv2",
-  "links": []
+    "observation_id": "GSM3509837",
+    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+    "species": "homo_sapiens",
+    "organ": "kidney",
+    "name": "week,9",
+    "description": "disociated,human,embryonic,kidney",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "GSM3509837",
+            "filename": "SRR8313155",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "SRR8313155"
+        },
+        {
+            "accession": "GSM3509837",
+            "filename": "SRR8313156",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "SRR8313156"
+        },
+        {
+            "accession": "GSM3509837",
+            "filename": "SRR8313157",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "SRR8313157"
+        },
+        {
+            "accession": "GSM3509837",
+            "filename": "SRR8313158",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "SRR8313158"
+        }
+    ]
 }
