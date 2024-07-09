@@ -1,20 +1,20 @@
 {
-  "observation_id": "GSM3734181",
-  "doi": "https://doi.org/10.1038/s41598-020-59827-1",
-  "species": "homo sapiens",
-  "organ": "blood",
-  "name": "post-THC infusion. age 21",
-  "description": "PBMCs",
-  "technology": "10xv2",
-  "links": [
-    {
-      "accession": "GSM3734181",
-      "filename": "SA1218_85_HHT_possorted_genome_bam.bam",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR894/SRR8947009/SA1218_85_HHT_possorted_genome_bam.bam"
-    }
-  ]
+    "observation_id": "GSM3734181",
+    "doi": "https://doi.org/10.1038/s41598-020-59827-1",
+    "species": "homo_sapiens",
+    "organ": "blood",
+    "name": "post-THC,infusion.,age,21",
+    "description": "PBMCs",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "GSM3734181",
+            "filename": "SA1218_85_HHT_possorted_genome_bam.bam",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR894/SRR8947009/SA1218_85_HHT_possorted_genome_bam.bam"
+        }
+    ]
 }
