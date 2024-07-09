@@ -1,10 +1,29 @@
 {
-  "observation_id": "GSM3735993",
-  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-  "species": "homo sapiens",
-  "organ": "prostate",
-  "name": "Monolayer",
-  "description": "primary epithelial cells",
-  "technology": "10xv2",
-  "links": []
+    "observation_id": "GSM3735993",
+    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+    "species": "homo_sapiens",
+    "organ": "prostate",
+    "name": "Monolayer",
+    "description": "primary,epithelial,cells",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "GSM3735993",
+            "filename": "SRR8956098",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "SRR8956098"
+        },
+        {
+            "accession": "GSM3735993",
+            "filename": "SRR8956099",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "SRR8956099"
+        }
+    ]
 }
