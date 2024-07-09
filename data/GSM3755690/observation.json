@@ -1,29 +1,29 @@
 {
-  "observation_id": "GSM3755690",
-  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-  "species": "homo sapiens",
-  "organ": "peritoneal",
-  "name": "short-term PD patient",
-  "description": "peritoneal cells",
-  "technology": "10xv2",
-  "links": [
-    {
-      "accession": "GSM3755690",
-      "filename": "SRR9029601_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR902/001/SRR9029601/SRR9029601_1.fastq.gz"
-    },
-    {
-      "accession": "GSM3755690",
-      "filename": "SRR9029601_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR902/001/SRR9029601/SRR9029601_2.fastq.gz"
-    }
-  ]
+    "observation_id": "GSM3755690",
+    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+    "species": "homo_sapiens",
+    "organ": "peritoneal",
+    "name": "short-term,PD,patient",
+    "description": "peritoneal,cells",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "GSM3755690",
+            "filename": "SRR9029601_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR902/001/SRR9029601/SRR9029601_1.fastq.gz"
+        },
+        {
+            "accession": "GSM3755690",
+            "filename": "SRR9029601_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR902/001/SRR9029601/SRR9029601_2.fastq.gz"
+        }
+    ]
 }
