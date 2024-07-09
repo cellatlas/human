@@ -1,10 +1,47 @@
 {
-  "observation_id": "GSM3667328",
-  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-  "species": "homo sapiens",
-  "organ": "skin",
-  "name": "healthy donor",
-  "description": "skin cells",
-  "technology": "10xv2",
-  "links": []
+    "observation_id": "GSM3667328",
+    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+    "species": "homo_sapiens",
+    "organ": "skin",
+    "name": "healthy,donor",
+    "description": "skin,cells",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "GSM3667328",
+            "filename": "SRR8728157",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "SRR8728157"
+        },
+        {
+            "accession": "GSM3667328",
+            "filename": "SRR8728158",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "SRR8728158"
+        },
+        {
+            "accession": "GSM3667328",
+            "filename": "SRR8728159",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "SRR8728159"
+        },
+        {
+            "accession": "GSM3667328",
+            "filename": "SRR8728160",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "SRR8728160"
+        }
+    ]
 }
