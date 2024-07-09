@@ -1,29 +1,29 @@
 {
-  "observation_id": "GSM4272896",
-  "doi": "https://doi.org/10.1186/s13395-020-00236-3",
-  "species": "homo sapiens",
-  "organ": "muscle",
-  "name": "male. age 74",
-  "description": "orbicularis oris",
-  "technology": "10xv2",
-  "links": [
-    {
-      "accession": "GSM4272896",
-      "filename": "SRR10897763_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR108/063/SRR10897763/SRR10897763_1.fastq.gz"
-    },
-    {
-      "accession": "GSM4272896",
-      "filename": "SRR10897763_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR108/063/SRR10897763/SRR10897763_2.fastq.gz"
-    }
-  ]
+    "observation_id": "GSM4272896",
+    "doi": "https://doi.org/10.1186/s13395-020-00236-3",
+    "species": "homo_sapiens",
+    "organ": "muscle",
+    "name": "male.,age,74",
+    "description": "orbicularis,oris",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "GSM4272896",
+            "filename": "SRR10897763_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR108/063/SRR10897763/SRR10897763_1.fastq.gz"
+        },
+        {
+            "accession": "GSM4272896",
+            "filename": "SRR10897763_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR108/063/SRR10897763/SRR10897763_2.fastq.gz"
+        }
+    ]
 }
