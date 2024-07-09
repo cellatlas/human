@@ -1,20 +1,20 @@
 {
-  "observation_id": "GSM3557959",
-  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-  "species": "homo sapiens",
-  "organ": "ovary",
-  "name": "sample1_B1_i12A",
-  "description": "stroma",
-  "technology": "10xv2",
-  "links": [
-    {
-      "accession": "GSM3557959",
-      "filename": "sample1_B1_i12A.bam.1",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR8428465/sample1_B1_i12A.bam.1"
-    }
-  ]
+    "observation_id": "GSM3557959",
+    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+    "species": "homo_sapiens",
+    "organ": "ovary",
+    "name": "sample1_B1_i12A",
+    "description": "stroma",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "GSM3557959",
+            "filename": "sample1_B1_i12A.bam.1",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR8428465/sample1_B1_i12A.bam.1"
+        }
+    ]
 }
