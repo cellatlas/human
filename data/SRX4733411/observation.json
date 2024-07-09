@@ -1,29 +1,29 @@
 {
-  "observation_id": "SRX4733411",
-  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-  "species": "homo sapiens",
-  "organ": "placenta",
-  "name": "None",
-  "description": "decidua",
-  "technology": "10xv2",
-  "links": [
-    {
-      "accession": "SRX4733411",
-      "filename": "SRR7895954_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR789/004/SRR7895954/SRR7895954_1.fastq.gz"
-    },
-    {
-      "accession": "SRX4733411",
-      "filename": "SRR7895954_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR789/004/SRR7895954/SRR7895954_2.fastq.gz"
-    }
-  ]
+    "observation_id": "SRX4733411",
+    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+    "species": "homo_sapiens",
+    "organ": "placenta",
+    "name": "None",
+    "description": "decidua",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "SRX4733411",
+            "filename": "SRR7895954_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR789/004/SRR7895954/SRR7895954_1.fastq.gz"
+        },
+        {
+            "accession": "SRX4733411",
+            "filename": "SRR7895954_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR789/004/SRR7895954/SRR7895954_2.fastq.gz"
+        }
+    ]
 }
