@@ -1,0 +1,162 @@
+{
+    "GSM2560248": {
+        "accession": "GSM2560248",
+        "supplementary_files": [
+            {
+                "accession": "GSM2560248",
+                "filename": "GSM2560248_2.1.mtx.gz",
+                "filetype": null,
+                "filesize": 28545918,
+                "filenumber": 1,
+                "md5": null,
+                "urltype": "ftp",
+                "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2560nnn/GSM2560248/suppl/GSM2560248_2.1.mtx.gz"
+            },
+            {
+                "accession": "GSM2560248",
+                "filename": "GSM2560248_barcodes.tsv.gz",
+                "filetype": null,
+                "filesize": 52904,
+                "filenumber": 2,
+                "md5": null,
+                "urltype": "ftp",
+                "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2560nnn/GSM2560248/suppl/GSM2560248_barcodes.tsv.gz"
+            }
+        ],
+        "platform": {
+            "accession": "GPL16791",
+            "title": "Illumina HiSeq 2500 (Homo sapiens)"
+        },
+        "samples": {
+            "SRS2089637": {
+                "accession": "SRS2089637",
+                "title": "batch 2 control",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "subject status": "SLE patient",
+                    "INSDC secondary accession": "SRS2089637",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Homo sapiens",
+                    "stimulated with": "none (control)",
+                    "cell type": "peripheral blood mononuclear cells (PBMCs)",
+                    "source_name": "single cell RNA-seq_SLE patients (6 hours control)",
+                    "BioSampleModel": "Generic",
+                    "ENA-FIRST-PUBLIC": "2017-06-14",
+                    "ENA-LAST-UPDATE": "2017-06-14"
+                },
+                "experiments": {
+                    "SRX2693025": {
+                        "accession": "SRX2693025",
+                        "title": "GSM2560248: batch 2 control; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 2500",
+                        "runs": {
+                            "SRR5398238": {
+                                "accession": "SRR5398238",
+                                "experiment": "SRX2693025",
+                                "study": "SRP102802",
+                                "sample": "SRS2089637",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM2560248: batch 2 control; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "assembly": "hg19",
+                                    "ENA-FIRST-PUBLIC": "2017-06-14",
+                                    "ENA-LAST-UPDATE": "2017-06-14"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR5398238",
+                                            "filename": "2.1.bam.bai",
+                                            "filetype": "bam",
+                                            "filesize": 8452200,
+                                            "filenumber": 1,
+                                            "md5": "dd2c4f21756c469e3e703902b24f0276",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR539/SRR5398238/2.1.bam.bai"
+                                        },
+                                        {
+                                            "accession": "SRR5398238",
+                                            "filename": "2.1.bam",
+                                            "filetype": "bam",
+                                            "filesize": 23764981452,
+                                            "filenumber": 1,
+                                            "md5": "6e7105aeb8b7a6ceaf2d3e94dd1e0c42",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR539/SRR5398238/bam/2.1.bam"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR5398238",
+                                            "filename": "2.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-17/SRR5398238/2.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR5398238",
+                                            "filename": "2.1.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR5398238/2.1.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR5398238",
+                                            "filename": "SRR5398238",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR5398238/SRR5398238"
+                                        },
+                                        {
+                                            "accession": "SRR5398238",
+                                            "filename": "SRR5398238.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-6/SRR5398238/SRR5398238.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR5398238",
+                                            "filename": "SRR5398238.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-103/SRR5398238/SRR5398238.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR5398238",
+                                            "filename": "SRR5398238.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-14/SRR005/398/SRR5398238.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
