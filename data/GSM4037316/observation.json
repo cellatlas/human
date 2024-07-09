@@ -1,29 +1,29 @@
 {
-  "observation_id": "GSM4037316",
-  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-  "species": "homo sapiens",
-  "organ": "lung",
-  "name": "healthy",
-  "description": "lung biopsy (multiple locations)",
-  "technology": "10xv2",
-  "links": [
-    {
-      "accession": "GSM4037316",
-      "filename": "SRR10368215_1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/015/SRR10368215/SRR10368215_1.fastq.gz"
-    },
-    {
-      "accession": "GSM4037316",
-      "filename": "SRR10368215_2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/015/SRR10368215/SRR10368215_2.fastq.gz"
-    }
-  ]
+    "observation_id": "GSM4037316",
+    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+    "species": "homo_sapiens",
+    "organ": "lung",
+    "name": "healthy",
+    "description": "lung,biopsy,(multiple,locations)",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "GSM4037316",
+            "filename": "SRR10368215_1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/015/SRR10368215/SRR10368215_1.fastq.gz"
+        },
+        {
+            "accession": "GSM4037316",
+            "filename": "SRR10368215_2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/015/SRR10368215/SRR10368215_2.fastq.gz"
+        }
+    ]
 }
