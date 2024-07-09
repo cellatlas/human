@@ -1,29 +1,29 @@
 {
-  "observation_id": "ERS4228670",
-  "doi": "https://doi.org/10.1038/s41591-020-0868-6",
-  "species": "homo sapiens",
-  "organ": "thymus",
-  "name": "12 weeks old, female",
-  "description": "fetal thymus, total cells",
-  "technology": "10xv2",
-  "links": [
-    {
-      "accession": "ERS4228670",
-      "filename": "FCAImmP7851884_R1.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "https://www.ebi.ac.uk/arrayexpress/files/E-MTAB-8581/FCAImmP7851884_R1.fastq.gz"
-    },
-    {
-      "accession": "ERS4228670",
-      "filename": "FCAImmP7851884_R2.fastq.gz",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "https://www.ebi.ac.uk/arrayexpress/files/E-MTAB-8581/FCAImmP7851884_R2.fastq.gz"
-    }
-  ]
+    "observation_id": "ERS4228670",
+    "doi": "https://doi.org/10.1038/s41591-020-0868-6",
+    "species": "homo_sapiens",
+    "organ": "thymus",
+    "name": "12,weeks,old,female",
+    "description": "fetal,thymus,total,cells",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "ERS4228670",
+            "filename": "FCAImmP7851884_R1.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "https://www.ebi.ac.uk/arrayexpress/files/E-MTAB-8581/FCAImmP7851884_R1.fastq.gz"
+        },
+        {
+            "accession": "ERS4228670",
+            "filename": "FCAImmP7851884_R2.fastq.gz",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "https://www.ebi.ac.uk/arrayexpress/files/E-MTAB-8581/FCAImmP7851884_R2.fastq.gz"
+        }
+    ]
 }
