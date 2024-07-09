@@ -1,20 +1,20 @@
 {
-  "observation_id": "GSM3402080",
-  "doi": "https://doi.org/10.1038/s41591-020-0868-6",
-  "species": "homo sapiens",
-  "organ": "testis",
-  "name": "deceased infant 2 13 months old",
-  "description": "total",
-  "technology": "10xv2",
-  "links": [
-    {
-      "accession": "GSM3402080",
-      "filename": "15221X1.bam.1",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR7904999/15221X1.bam.1"
-    }
-  ]
+    "observation_id": "GSM3402080",
+    "doi": "https://doi.org/10.1038/s41591-020-0868-6",
+    "species": "homo_sapiens",
+    "organ": "testis",
+    "name": "deceased,infant,2,13,months,old",
+    "description": "total",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "GSM3402080",
+            "filename": "15221X1.bam.1",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR7904999/15221X1.bam.1"
+        }
+    ]
 }
