@@ -1,20 +1,20 @@
 {
-  "observation_id": "GSM3302525",
-  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-  "species": "homo sapiens",
-  "organ": "testis",
-  "name": "17-11",
-  "description": "spermatids",
-  "technology": "10xv2",
-  "links": [
-    {
-      "accession": "GSM3302525",
-      "filename": "AdultHuman_Spermatids_17_11_possorted_genome_bam.bam.1",
-      "filetype": null,
-      "filesize": null,
-      "md5": null,
-      "urltype": "ftp",
-      "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR7553901/AdultHuman_Spermatids_17_11_possorted_genome_bam.bam.1"
-    }
-  ]
+    "observation_id": "GSM3302525",
+    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+    "species": "homo_sapiens",
+    "organ": "testis",
+    "name": "17-11",
+    "description": "spermatids",
+    "technology": "10xv2",
+    "links": [
+        {
+            "accession": "GSM3302525",
+            "filename": "AdultHuman_Spermatids_17_11_possorted_genome_bam.bam.1",
+            "filetype": null,
+            "filesize": null,
+            "md5": null,
+            "urltype": "ftp",
+            "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR7553901/AdultHuman_Spermatids_17_11_possorted_genome_bam.bam.1"
+        }
+    ]
 }
