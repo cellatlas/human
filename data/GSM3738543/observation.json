@@ -1,47 +1,47 @@
 {
-    "observation_id": "GSM3738543",
-    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-    "species": "homo_sapiens",
-    "organ": "blood",
-    "name": "female",
-    "description": "NK,cells",
-    "technology": "10xv2",
-    "links": [
-        {
-            "accession": "GSM3738543",
-            "filename": "SRR8984459",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR8984459"
-        },
-        {
-            "accession": "GSM3738543",
-            "filename": "SRR8984460",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR8984460"
-        },
-        {
-            "accession": "GSM3738543",
-            "filename": "SRR8984461",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR8984461"
-        },
-        {
-            "accession": "GSM3738543",
-            "filename": "SRR8984462",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR8984462"
-        }
-    ]
+  "observation_id": "GSM3738543",
+  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+  "species": "homo_sapiens",
+  "organ": "blood",
+  "name": "female",
+  "description": "NK,cells",
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "GSM3738543",
+      "filename": "SRR8984459",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR8984459"
+    },
+    {
+      "accession": "GSM3738543",
+      "filename": "SRR8984460",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR8984460"
+    },
+    {
+      "accession": "GSM3738543",
+      "filename": "SRR8984461",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR8984461"
+    },
+    {
+      "accession": "GSM3738543",
+      "filename": "SRR8984462",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR8984462"
+    }
+  ]
 }

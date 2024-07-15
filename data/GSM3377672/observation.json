@@ -1,47 +1,47 @@
 {
-    "observation_id": "GSM3377672",
-    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-    "species": "homo_sapiens",
-    "organ": "kidney",
-    "name": "SIX2CRE,lineage,tracing,organoid,day,of,differentiation:,18",
-    "description": "iPSC-derived,kidney,organoid",
-    "technology": "10xv2",
-    "links": [
-        {
-            "accession": "GSM3377672",
-            "filename": "SRR7791891",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR7791891"
-        },
-        {
-            "accession": "GSM3377672",
-            "filename": "SRR7791892",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR7791892"
-        },
-        {
-            "accession": "GSM3377672",
-            "filename": "SRR7791893",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR7791893"
-        },
-        {
-            "accession": "GSM3377672",
-            "filename": "SRR7791894",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR7791894"
-        }
-    ]
+  "observation_id": "GSM3377672",
+  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+  "species": "homo_sapiens",
+  "organ": "kidney",
+  "name": "SIX2CRE,lineage,tracing,organoid,day,of,differentiation:,18",
+  "description": "iPSC-derived,kidney,organoid",
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "GSM3377672",
+      "filename": "SRR7791891",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR7791891"
+    },
+    {
+      "accession": "GSM3377672",
+      "filename": "SRR7791892",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR7791892"
+    },
+    {
+      "accession": "GSM3377672",
+      "filename": "SRR7791893",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR7791893"
+    },
+    {
+      "accession": "GSM3377672",
+      "filename": "SRR7791894",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR7791894"
+    }
+  ]
 }

@@ -1,20 +1,20 @@
 {
-    "observation_id": "GSM4475052",
-    "doi": "https://doi.org/10.1038/s41591-020-0901-9",
-    "species": "homo_sapiens",
-    "organ": "lung",
-    "name": "covid-infected,severe,total,cells",
-    "description": "bronchoalveolar,lavage,fluid,cells",
-    "technology": "10xv2",
-    "links": [
-        {
-            "accession": "GSM4475052",
-            "filename": "SRR11537950",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR11537950"
-        }
-    ]
+  "observation_id": "GSM4475052",
+  "doi": "https://doi.org/10.1038/s41591-020-0901-9",
+  "species": "homo_sapiens",
+  "organ": "lung",
+  "name": "covid-infected,severe,total,cells",
+  "description": "bronchoalveolar,lavage,fluid,cells",
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "GSM4475052",
+      "filename": "SRR11537950",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR11537950"
+    }
+  ]
 }

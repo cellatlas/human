@@ -1,29 +1,29 @@
 {
-    "observation_id": "GSM3731527",
-    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-    "species": "homo_sapiens",
-    "organ": "liver",
-    "name": "cultured,day:,day,33",
-    "description": "iPSC,derived,human,liver,organoids",
-    "technology": "10xv2",
-    "links": [
-        {
-            "accession": "GSM3731527",
-            "filename": "SRR8931977",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR8931977"
-        },
-        {
-            "accession": "GSM3731527",
-            "filename": "SRR8931978",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR8931978"
-        }
-    ]
+  "observation_id": "GSM3731527",
+  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+  "species": "homo_sapiens",
+  "organ": "liver",
+  "name": "cultured,day:,day,33",
+  "description": "iPSC,derived,human,liver,organoids",
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "GSM3731527",
+      "filename": "SRR8931977",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR8931977"
+    },
+    {
+      "accession": "GSM3731527",
+      "filename": "SRR8931978",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR8931978"
+    }
+  ]
 }

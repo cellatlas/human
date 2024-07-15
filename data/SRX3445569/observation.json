@@ -1,29 +1,29 @@
 {
-    "observation_id": "SRX3445569",
-    "doi": "https://doi.org/10.1101/238063",
-    "species": "homo_sapiens",
-    "organ": "kidney",
-    "name": "kidney,resection",
-    "description": "kidney",
-    "technology": "10xv2",
-    "links": [
-        {
-            "accession": "SRX3445569",
-            "filename": "SRR6348585_1.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR634/005/SRR6348585/SRR6348585_1.fastq.gz"
-        },
-        {
-            "accession": "SRX3445569",
-            "filename": "SRR6348585_2.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR634/005/SRR6348585/SRR6348585_2.fastq.gz"
-        }
-    ]
+  "observation_id": "SRX3445569",
+  "doi": "https://doi.org/10.1101/238063",
+  "species": "homo_sapiens",
+  "organ": "kidney",
+  "name": "kidney,resection",
+  "description": "kidney",
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "SRX3445569",
+      "filename": "SRR6348585_1.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR634/005/SRR6348585/SRR6348585_1.fastq.gz"
+    },
+    {
+      "accession": "SRX3445569",
+      "filename": "SRR6348585_2.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR634/005/SRR6348585/SRR6348585_2.fastq.gz"
+    }
+  ]
 }

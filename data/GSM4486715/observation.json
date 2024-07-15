@@ -1,29 +1,29 @@
 {
-    "observation_id": "GSM4486715",
-    "doi": "https://doi.org/10.26508/lsa.202000744",
-    "species": "homo_sapiens",
-    "organ": "testis",
-    "name": "None",
-    "description": "proximal,epididymis",
-    "technology": "10xv2",
-    "links": [
-        {
-            "accession": "GSM4486715",
-            "filename": "SRR11575370_1.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/070/SRR11575370/SRR11575370_1.fastq.gz"
-        },
-        {
-            "accession": "GSM4486715",
-            "filename": "SRR11575370_2.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/070/SRR11575370/SRR11575370_2.fastq.gz"
-        }
-    ]
+  "observation_id": "GSM4486715",
+  "doi": "https://doi.org/10.26508/lsa.202000744",
+  "species": "homo_sapiens",
+  "organ": "testis",
+  "name": "None",
+  "description": "proximal,epididymis",
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "GSM4486715",
+      "filename": "SRR11575370_1.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/070/SRR11575370/SRR11575370_1.fastq.gz"
+    },
+    {
+      "accession": "GSM4486715",
+      "filename": "SRR11575370_2.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/070/SRR11575370/SRR11575370_2.fastq.gz"
+    }
+  ]
 }

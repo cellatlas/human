@@ -1,29 +1,29 @@
 {
-    "observation_id": "GSM4272899",
-    "doi": "https://doi.org/10.1186/s13395-020-00236-3",
-    "species": "homo_sapiens",
-    "organ": "muscle",
-    "name": "male.,age,70",
-    "description": "lef,external,oblique",
-    "technology": "10xv2",
-    "links": [
-        {
-            "accession": "GSM4272899",
-            "filename": "SRR10897766_1.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR108/066/SRR10897766/SRR10897766_1.fastq.gz"
-        },
-        {
-            "accession": "GSM4272899",
-            "filename": "SRR10897766_2.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR108/066/SRR10897766/SRR10897766_2.fastq.gz"
-        }
-    ]
+  "observation_id": "GSM4272899",
+  "doi": "https://doi.org/10.1186/s13395-020-00236-3",
+  "species": "homo_sapiens",
+  "organ": "muscle",
+  "name": "male.,age,70",
+  "description": "lef,external,oblique",
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "GSM4272899",
+      "filename": "SRR10897766_1.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR108/066/SRR10897766/SRR10897766_1.fastq.gz"
+    },
+    {
+      "accession": "GSM4272899",
+      "filename": "SRR10897766_2.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR108/066/SRR10897766/SRR10897766_2.fastq.gz"
+    }
+  ]
 }

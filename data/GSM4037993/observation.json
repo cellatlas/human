@@ -1,101 +1,101 @@
 {
-    "observation_id": "GSM4037993",
-    "doi": "https://doi.org/10.1038/s41591-020-0868-6",
-    "species": "homo_sapiens",
-    "organ": "eye",
-    "name": "donor,6",
-    "description": "retinal,pigment,epithelium,periphery,CD31+",
-    "technology": "10xv2",
-    "links": [
-        {
-            "accession": "GSM4037993",
-            "filename": "SRR9990683_1.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/003/SRR9990683/SRR9990683_1.fastq.gz"
-        },
-        {
-            "accession": "GSM4037993",
-            "filename": "SRR9990683_2.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/003/SRR9990683/SRR9990683_2.fastq.gz"
-        },
-        {
-            "accession": "GSM4037993",
-            "filename": "SRR9990684_1.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/004/SRR9990684/SRR9990684_1.fastq.gz"
-        },
-        {
-            "accession": "GSM4037993",
-            "filename": "SRR9990684_2.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/004/SRR9990684/SRR9990684_2.fastq.gz"
-        },
-        {
-            "accession": "GSM4037993",
-            "filename": "SRR9990686_1.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/006/SRR9990686/SRR9990686_1.fastq.gz"
-        },
-        {
-            "accession": "GSM4037993",
-            "filename": "SRR9990686_2.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/006/SRR9990686/SRR9990686_2.fastq.gz"
-        },
-        {
-            "accession": "GSM4037993",
-            "filename": "SRR9990685_1.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/005/SRR9990685/SRR9990685_1.fastq.gz"
-        },
-        {
-            "accession": "GSM4037993",
-            "filename": "SRR9990685_2.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/005/SRR9990685/SRR9990685_2.fastq.gz"
-        },
-        {
-            "accession": "GSM4037993",
-            "filename": "SRR9990683_1.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/003/SRR9990683/SRR9990683_1.fastq.gz"
-        },
-        {
-            "accession": "GSM4037993",
-            "filename": "SRR9990683_2.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/003/SRR9990683/SRR9990683_2.fastq.gz"
-        }
-    ]
+  "observation_id": "GSM4037993",
+  "doi": "https://doi.org/10.1038/s41591-020-0868-6",
+  "species": "homo_sapiens",
+  "organ": "eye",
+  "name": "donor,6",
+  "description": "retinal,pigment,epithelium,periphery,CD31+",
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "GSM4037993",
+      "filename": "SRR9990683_1.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/003/SRR9990683/SRR9990683_1.fastq.gz"
+    },
+    {
+      "accession": "GSM4037993",
+      "filename": "SRR9990683_2.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/003/SRR9990683/SRR9990683_2.fastq.gz"
+    },
+    {
+      "accession": "GSM4037993",
+      "filename": "SRR9990684_1.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/004/SRR9990684/SRR9990684_1.fastq.gz"
+    },
+    {
+      "accession": "GSM4037993",
+      "filename": "SRR9990684_2.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/004/SRR9990684/SRR9990684_2.fastq.gz"
+    },
+    {
+      "accession": "GSM4037993",
+      "filename": "SRR9990686_1.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/006/SRR9990686/SRR9990686_1.fastq.gz"
+    },
+    {
+      "accession": "GSM4037993",
+      "filename": "SRR9990686_2.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/006/SRR9990686/SRR9990686_2.fastq.gz"
+    },
+    {
+      "accession": "GSM4037993",
+      "filename": "SRR9990685_1.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/005/SRR9990685/SRR9990685_1.fastq.gz"
+    },
+    {
+      "accession": "GSM4037993",
+      "filename": "SRR9990685_2.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/005/SRR9990685/SRR9990685_2.fastq.gz"
+    },
+    {
+      "accession": "GSM4037993",
+      "filename": "SRR9990683_1.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/003/SRR9990683/SRR9990683_1.fastq.gz"
+    },
+    {
+      "accession": "GSM4037993",
+      "filename": "SRR9990683_2.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR999/003/SRR9990683/SRR9990683_2.fastq.gz"
+    }
+  ]
 }

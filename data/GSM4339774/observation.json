@@ -1,29 +1,29 @@
 {
-    "observation_id": "GSM4339774",
-    "doi": "https://doi.org/10.1038/s41591-020-0901-9",
-    "species": "homo_sapiens",
-    "organ": "lung",
-    "name": "covid-infected,severe,total,cells",
-    "description": "bronchoalveolar,lavage,fluid,cells",
-    "technology": "10xv2",
-    "links": [
-        {
-            "accession": "GSM4339774",
-            "filename": "C146_R1.fastq.1",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "https://sra-pub-sars-cov2.s3.amazonaws.com/sra-src/SRR11181959/C146_R1.fastq.1"
-        },
-        {
-            "accession": "GSM4339774",
-            "filename": "C146_R2.fastq.1",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "https://sra-pub-sars-cov2.s3.amazonaws.com/sra-src/SRR11181959/C146_R2.fastq.1"
-        }
-    ]
+  "observation_id": "GSM4339774",
+  "doi": "https://doi.org/10.1038/s41591-020-0901-9",
+  "species": "homo_sapiens",
+  "organ": "lung",
+  "name": "covid-infected,severe,total,cells",
+  "description": "bronchoalveolar,lavage,fluid,cells",
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "GSM4339774",
+      "filename": "C146_R1.fastq.1",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "https://sra-pub-sars-cov2.s3.amazonaws.com/sra-src/SRR11181959/C146_R1.fastq.1"
+    },
+    {
+      "accession": "GSM4339774",
+      "filename": "C146_R2.fastq.1",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "https://sra-pub-sars-cov2.s3.amazonaws.com/sra-src/SRR11181959/C146_R2.fastq.1"
+    }
+  ]
 }

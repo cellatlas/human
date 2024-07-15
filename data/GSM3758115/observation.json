@@ -1,29 +1,29 @@
 {
-    "observation_id": "GSM3758115",
-    "doi": "https://doi.org/10.1038/s42003-020-0922-4",
-    "species": "homo_sapiens",
-    "organ": "skin",
-    "name": "age,25",
-    "description": "4mm,punch,biopsy",
-    "technology": "10xv2",
-    "links": [
-        {
-            "accession": "GSM3758115",
-            "filename": "SRR9036396_1.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR903/006/SRR9036396/SRR9036396_1.fastq.gz"
-        },
-        {
-            "accession": "GSM3758115",
-            "filename": "SRR9036396_2.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR903/006/SRR9036396/SRR9036396_2.fastq.gz"
-        }
-    ]
+  "observation_id": "GSM3758115",
+  "doi": "https://doi.org/10.1038/s42003-020-0922-4",
+  "species": "homo_sapiens",
+  "organ": "skin",
+  "name": "age,25",
+  "description": "4mm,punch,biopsy",
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "GSM3758115",
+      "filename": "SRR9036396_1.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR903/006/SRR9036396/SRR9036396_1.fastq.gz"
+    },
+    {
+      "accession": "GSM3758115",
+      "filename": "SRR9036396_2.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR903/006/SRR9036396/SRR9036396_2.fastq.gz"
+    }
+  ]
 }

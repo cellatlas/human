@@ -1,83 +1,83 @@
 {
-    "observation_id": "GSM3954958",
-    "doi": "https://doi.org/10.3389/fmed.2020.597967",
-    "species": "homo_sapiens",
-    "organ": "stomach",
-    "name": "early,gastric,cancer",
-    "description": "gastric,antral,mucosa,biopsy",
-    "technology": "10xv2",
-    "links": [
-        {
-            "accession": "GSM3954958",
-            "filename": "SRR9713160_1.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/000/SRR9713160/SRR9713160_1.fastq.gz"
-        },
-        {
-            "accession": "GSM3954958",
-            "filename": "SRR9713160_2.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/000/SRR9713160/SRR9713160_2.fastq.gz"
-        },
-        {
-            "accession": "GSM3954958",
-            "filename": "SRR9713161_1.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/001/SRR9713161/SRR9713161_1.fastq.gz"
-        },
-        {
-            "accession": "GSM3954958",
-            "filename": "SRR9713161_2.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/001/SRR9713161/SRR9713161_2.fastq.gz"
-        },
-        {
-            "accession": "GSM3954958",
-            "filename": "SRR9713162_1.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/002/SRR9713162/SRR9713162_1.fastq.gz"
-        },
-        {
-            "accession": "GSM3954958",
-            "filename": "SRR9713162_2.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/002/SRR9713162/SRR9713162_2.fastq.gz"
-        },
-        {
-            "accession": "GSM3954958",
-            "filename": "SRR9713163_1.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/003/SRR9713163/SRR9713163_1.fastq.gz"
-        },
-        {
-            "accession": "GSM3954958",
-            "filename": "SRR9713163_2.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/003/SRR9713163/SRR9713163_2.fastq.gz"
-        }
-    ]
+  "observation_id": "GSM3954958",
+  "doi": "https://doi.org/10.3389/fmed.2020.597967",
+  "species": "homo_sapiens",
+  "organ": "stomach",
+  "name": "early,gastric,cancer",
+  "description": "gastric,antral,mucosa,biopsy",
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "GSM3954958",
+      "filename": "SRR9713160_1.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/000/SRR9713160/SRR9713160_1.fastq.gz"
+    },
+    {
+      "accession": "GSM3954958",
+      "filename": "SRR9713160_2.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/000/SRR9713160/SRR9713160_2.fastq.gz"
+    },
+    {
+      "accession": "GSM3954958",
+      "filename": "SRR9713161_1.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/001/SRR9713161/SRR9713161_1.fastq.gz"
+    },
+    {
+      "accession": "GSM3954958",
+      "filename": "SRR9713161_2.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/001/SRR9713161/SRR9713161_2.fastq.gz"
+    },
+    {
+      "accession": "GSM3954958",
+      "filename": "SRR9713162_1.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/002/SRR9713162/SRR9713162_1.fastq.gz"
+    },
+    {
+      "accession": "GSM3954958",
+      "filename": "SRR9713162_2.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/002/SRR9713162/SRR9713162_2.fastq.gz"
+    },
+    {
+      "accession": "GSM3954958",
+      "filename": "SRR9713163_1.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/003/SRR9713163/SRR9713163_1.fastq.gz"
+    },
+    {
+      "accession": "GSM3954958",
+      "filename": "SRR9713163_2.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR971/003/SRR9713163/SRR9713163_2.fastq.gz"
+    }
+  ]
 }

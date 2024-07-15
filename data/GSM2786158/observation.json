@@ -1,20 +1,20 @@
 {
-    "observation_id": "GSM2786158",
-    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-    "species": "homo_sapiens",
-    "organ": "lung",
-    "name": "distal,media",
-    "description": "NKX2-1,GFP+,lung,progenitors",
-    "technology": "10xv2",
-    "links": [
-        {
-            "accession": "GSM2786158",
-            "filename": "distal_possorted_genome_bam.bam.1",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR6042037/distal_possorted_genome_bam.bam.1"
-        }
-    ]
+  "observation_id": "GSM2786158",
+  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+  "species": "homo_sapiens",
+  "organ": "lung",
+  "name": "distal,media",
+  "description": "NKX2-1,GFP+,lung,progenitors",
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "GSM2786158",
+      "filename": "distal_possorted_genome_bam.bam.1",
+      "filetype": "bam",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR6042037/distal_possorted_genome_bam.bam.1"
+    }
+  ]
 }

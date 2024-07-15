@@ -1,20 +1,20 @@
 {
-    "observation_id": "GSM3739217",
-    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-    "species": "homo_sapiens",
-    "organ": "bone_marrow",
-    "name": "diagnosis,ET,age,57",
-    "description": "CD34+,bone,marrow,mononuclear,cells,(BMMCs)",
-    "technology": "10xv2",
-    "links": [
-        {
-            "accession": "GSM3739217",
-            "filename": "SRR8987928",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR8987928"
-        }
-    ]
+  "observation_id": "GSM3739217",
+  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+  "species": "homo_sapiens",
+  "organ": "bone_marrow",
+  "name": "diagnosis,ET,age,57",
+  "description": "CD34+,bone,marrow,mononuclear,cells,(BMMCs)",
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "GSM3739217",
+      "filename": "SRR8987928",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR8987928"
+    }
+  ]
 }

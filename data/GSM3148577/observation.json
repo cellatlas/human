@@ -1,83 +1,83 @@
 {
-    "observation_id": "GSM3148577",
-    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-    "species": "homo_sapiens",
-    "organ": "mammary",
-    "name": "BC10_TUMOR1",
-    "description": "CD3+,leukocytes,(breast,tumor)",
-    "technology": "10xv2",
-    "links": [
-        {
-            "accession": "GSM3148577",
-            "filename": "SRR7191904_1.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/004/SRR7191904/SRR7191904_1.fastq.gz"
-        },
-        {
-            "accession": "GSM3148577",
-            "filename": "SRR7191904_2.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/004/SRR7191904/SRR7191904_2.fastq.gz"
-        },
-        {
-            "accession": "GSM3148577",
-            "filename": "SRR7191905_1.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/005/SRR7191905/SRR7191905_1.fastq.gz"
-        },
-        {
-            "accession": "GSM3148577",
-            "filename": "SRR7191905_2.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/005/SRR7191905/SRR7191905_2.fastq.gz"
-        },
-        {
-            "accession": "GSM3148577",
-            "filename": "SRR7191906_1.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/006/SRR7191906/SRR7191906_1.fastq.gz"
-        },
-        {
-            "accession": "GSM3148577",
-            "filename": "SRR7191906_2.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/006/SRR7191906/SRR7191906_2.fastq.gz"
-        },
-        {
-            "accession": "GSM3148577",
-            "filename": "SRR7191907_1.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/007/SRR7191907/SRR7191907_1.fastq.gz"
-        },
-        {
-            "accession": "GSM3148577",
-            "filename": "SRR7191907_2.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/007/SRR7191907/SRR7191907_2.fastq.gz"
-        }
-    ]
+  "observation_id": "GSM3148577",
+  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+  "species": "homo_sapiens",
+  "organ": "mammary",
+  "name": "BC10_TUMOR1",
+  "description": "CD3+,leukocytes,(breast,tumor)",
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "GSM3148577",
+      "filename": "SRR7191904_1.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/004/SRR7191904/SRR7191904_1.fastq.gz"
+    },
+    {
+      "accession": "GSM3148577",
+      "filename": "SRR7191904_2.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/004/SRR7191904/SRR7191904_2.fastq.gz"
+    },
+    {
+      "accession": "GSM3148577",
+      "filename": "SRR7191905_1.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/005/SRR7191905/SRR7191905_1.fastq.gz"
+    },
+    {
+      "accession": "GSM3148577",
+      "filename": "SRR7191905_2.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/005/SRR7191905/SRR7191905_2.fastq.gz"
+    },
+    {
+      "accession": "GSM3148577",
+      "filename": "SRR7191906_1.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/006/SRR7191906/SRR7191906_1.fastq.gz"
+    },
+    {
+      "accession": "GSM3148577",
+      "filename": "SRR7191906_2.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/006/SRR7191906/SRR7191906_2.fastq.gz"
+    },
+    {
+      "accession": "GSM3148577",
+      "filename": "SRR7191907_1.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/007/SRR7191907/SRR7191907_1.fastq.gz"
+    },
+    {
+      "accession": "GSM3148577",
+      "filename": "SRR7191907_2.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR719/007/SRR7191907/SRR7191907_2.fastq.gz"
+    }
+  ]
 }

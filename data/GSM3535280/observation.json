@@ -1,29 +1,29 @@
 {
-    "observation_id": "GSM3535280",
-    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-    "species": "homo_sapiens",
-    "organ": "lymph_node",
-    "name": "Individual,4",
-    "description": "lymphatic,endothelial,cells,from,head,and,neck,lymph,node,CD45-,PDPN+,CD31+",
-    "technology": "10xv2",
-    "links": [
-        {
-            "accession": "GSM3535280",
-            "filename": "SRR8387872",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR8387872"
-        },
-        {
-            "accession": "GSM3535280",
-            "filename": "SRR8387873",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR8387873"
-        }
-    ]
+  "observation_id": "GSM3535280",
+  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+  "species": "homo_sapiens",
+  "organ": "lymph_node",
+  "name": "Individual,4",
+  "description": "lymphatic,endothelial,cells,from,head,and,neck,lymph,node,CD45-,PDPN+,CD31+",
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "GSM3535280",
+      "filename": "SRR8387872",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR8387872"
+    },
+    {
+      "accession": "GSM3535280",
+      "filename": "SRR8387873",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR8387873"
+    }
+  ]
 }

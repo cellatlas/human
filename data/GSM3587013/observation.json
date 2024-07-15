@@ -1,29 +1,29 @@
 {
-    "observation_id": "GSM3587013",
-    "doi": "https://doi.org/10.1084/jem.20191130",
-    "species": "homo_sapiens",
-    "organ": "rectum",
-    "name": "age,49,years,old",
-    "description": "epithelial,cells",
-    "technology": "10xv2",
-    "links": [
-        {
-            "accession": "GSM3587013",
-            "filename": "SRR8513799_1.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR851/009/SRR8513799/SRR8513799_1.fastq.gz"
-        },
-        {
-            "accession": "GSM3587013",
-            "filename": "SRR8513799_2.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR851/009/SRR8513799/SRR8513799_2.fastq.gz"
-        }
-    ]
+  "observation_id": "GSM3587013",
+  "doi": "https://doi.org/10.1084/jem.20191130",
+  "species": "homo_sapiens",
+  "organ": "rectum",
+  "name": "age,49,years,old",
+  "description": "epithelial,cells",
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "GSM3587013",
+      "filename": "SRR8513799_1.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR851/009/SRR8513799/SRR8513799_1.fastq.gz"
+    },
+    {
+      "accession": "GSM3587013",
+      "filename": "SRR8513799_2.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR851/009/SRR8513799/SRR8513799_2.fastq.gz"
+    }
+  ]
 }

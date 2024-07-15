@@ -1,20 +1,20 @@
 {
-    "observation_id": "GSM4769386",
-    "doi": "https://doi.org/10.1101/2020.10.19.343954",
-    "species": "homo_sapiens",
-    "organ": "lung",
-    "name": "Untreated,uninfected,age,65,male",
-    "description": "tracheal/bronchial,scrapings,normal,human,tracheobronchial,epithelial,(NHTBE),cells",
-    "technology": "10xv3",
-    "links": [
-        {
-            "accession": "GSM4769386",
-            "filename": "SRR12594381",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR12594381"
-        }
-    ]
+  "observation_id": "GSM4769386",
+  "doi": "https://doi.org/10.1101/2020.10.19.343954",
+  "species": "homo_sapiens",
+  "organ": "lung",
+  "name": "Untreated,uninfected,age,65,male",
+  "description": "tracheal/bronchial,scrapings,normal,human,tracheobronchial,epithelial,(NHTBE),cells",
+  "technology": "10xv3",
+  "links": [
+    {
+      "accession": "GSM4769386",
+      "filename": "SRR12594381",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR12594381"
+    }
+  ]
 }

@@ -1,29 +1,29 @@
 {
-    "observation_id": "GSM4272895",
-    "doi": "https://doi.org/10.1186/s13395-020-00236-3",
-    "species": "homo_sapiens",
-    "organ": "muscle",
-    "name": "male.,age,54",
-    "description": "flexor,hallucis,longus",
-    "technology": "10xv2",
-    "links": [
-        {
-            "accession": "GSM4272895",
-            "filename": "SRR10897762_1.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR108/062/SRR10897762/SRR10897762_1.fastq.gz"
-        },
-        {
-            "accession": "GSM4272895",
-            "filename": "SRR10897762_2.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR108/062/SRR10897762/SRR10897762_2.fastq.gz"
-        }
-    ]
+  "observation_id": "GSM4272895",
+  "doi": "https://doi.org/10.1186/s13395-020-00236-3",
+  "species": "homo_sapiens",
+  "organ": "muscle",
+  "name": "male.,age,54",
+  "description": "flexor,hallucis,longus",
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "GSM4272895",
+      "filename": "SRR10897762_1.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR108/062/SRR10897762/SRR10897762_1.fastq.gz"
+    },
+    {
+      "accession": "GSM4272895",
+      "filename": "SRR10897762_2.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR108/062/SRR10897762/SRR10897762_2.fastq.gz"
+    }
+  ]
 }

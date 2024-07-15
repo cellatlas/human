@@ -1,20 +1,20 @@
 {
-    "observation_id": "GSM4142872",
-    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-    "species": "homo_sapiens",
-    "organ": "lung",
-    "name": "patient,3",
-    "description": "olfactory,epithelium",
-    "technology": "10xv2",
-    "links": [
-        {
-            "accession": "GSM4142872",
-            "filename": "Patient3_possorted_genome_bam.bam.1",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR103/SRR10357642/Patient3_possorted_genome_bam.bam.1"
-        }
-    ]
+  "observation_id": "GSM4142872",
+  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+  "species": "homo_sapiens",
+  "organ": "lung",
+  "name": "patient,3",
+  "description": "olfactory,epithelium",
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "GSM4142872",
+      "filename": "Patient3_possorted_genome_bam.bam.1",
+      "filetype": "bam",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR103/SRR10357642/Patient3_possorted_genome_bam.bam.1"
+    }
+  ]
 }

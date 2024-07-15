@@ -1,29 +1,29 @@
 {
-    "observation_id": "GSM4213830",
-    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-    "species": "homo_sapiens",
-    "organ": "lung",
-    "name": "non,smoker",
-    "description": "trachea,epithelial,cells",
-    "technology": "10xv3",
-    "links": [
-        {
-            "accession": "GSM4213830",
-            "filename": "SRR10668804",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR10668804"
-        },
-        {
-            "accession": "GSM4213830",
-            "filename": "SRR10902842",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR10902842"
-        }
-    ]
+  "observation_id": "GSM4213830",
+  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+  "species": "homo_sapiens",
+  "organ": "lung",
+  "name": "non,smoker",
+  "description": "trachea,epithelial,cells",
+  "technology": "10xv3",
+  "links": [
+    {
+      "accession": "GSM4213830",
+      "filename": "SRR10668804",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR10668804"
+    },
+    {
+      "accession": "GSM4213830",
+      "filename": "SRR10902842",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR10902842"
+    }
+  ]
 }

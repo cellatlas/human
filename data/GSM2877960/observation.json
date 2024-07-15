@@ -1,20 +1,20 @@
 {
-    "observation_id": "GSM2877960",
-    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-    "species": "homo_sapiens",
-    "organ": "blood",
-    "name": "patient,2",
-    "description": "circulating,tumor,cells,in,hepatocellular,carcinoma",
-    "technology": "10xv2",
-    "links": [
-        {
-            "accession": "GSM2877960",
-            "filename": "144.possorted_genome_bam.bam.1",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR6350604/144.possorted_genome_bam.bam.1"
-        }
-    ]
+  "observation_id": "GSM2877960",
+  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+  "species": "homo_sapiens",
+  "organ": "blood",
+  "name": "patient,2",
+  "description": "circulating,tumor,cells,in,hepatocellular,carcinoma",
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "GSM2877960",
+      "filename": "144.possorted_genome_bam.bam.1",
+      "filetype": "bam",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR6350604/144.possorted_genome_bam.bam.1"
+    }
+  ]
 }

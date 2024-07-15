@@ -1,29 +1,29 @@
 {
-    "observation_id": "GSM3558027",
-    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-    "species": "homo_sapiens",
-    "organ": "blood",
-    "name": "Patient1_Nonmalignant,after,the,patient,progressed,on,the,therapy",
-    "description": "T-cells",
-    "technology": "10xv2",
-    "links": [
-        {
-            "accession": "GSM3558027",
-            "filename": "SRR8428607_1.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR842/007/SRR8428607/SRR8428607_1.fastq.gz"
-        },
-        {
-            "accession": "GSM3558027",
-            "filename": "SRR8428607_2.fastq.gz",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR842/007/SRR8428607/SRR8428607_2.fastq.gz"
-        }
-    ]
+  "observation_id": "GSM3558027",
+  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+  "species": "homo_sapiens",
+  "organ": "blood",
+  "name": "Patient1_Nonmalignant,after,the,patient,progressed,on,the,therapy",
+  "description": "T-cells",
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "GSM3558027",
+      "filename": "SRR8428607_1.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR842/007/SRR8428607/SRR8428607_1.fastq.gz"
+    },
+    {
+      "accession": "GSM3558027",
+      "filename": "SRR8428607_2.fastq.gz",
+      "filetype": "fastq",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR842/007/SRR8428607/SRR8428607_2.fastq.gz"
+    }
+  ]
 }

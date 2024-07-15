@@ -1,20 +1,20 @@
 {
-    "observation_id": "GSM5051495",
-    "doi": "https://doi.org/10.1126/sciimmunol.abh3768",
-    "species": "homo_sapiens",
-    "organ": "tonsil",
-    "name": "healthy",
-    "description": "routine,tonsillectomy",
-    "technology": "10xv2",
-    "links": [
-        {
-            "accession": "GSM5051495",
-            "filename": "Tonsil_2a_scRNA_seq_possorted_genome_bam.bam",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR135/SRR13592263/Tonsil_2a_scRNA_seq_possorted_genome_bam.bam"
-        }
-    ]
+  "observation_id": "GSM5051495",
+  "doi": "https://doi.org/10.1126/sciimmunol.abh3768",
+  "species": "homo_sapiens",
+  "organ": "tonsil",
+  "name": "healthy",
+  "description": "routine,tonsillectomy",
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "GSM5051495",
+      "filename": "Tonsil_2a_scRNA_seq_possorted_genome_bam.bam",
+      "filetype": "bam",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR135/SRR13592263/Tonsil_2a_scRNA_seq_possorted_genome_bam.bam"
+    }
+  ]
 }

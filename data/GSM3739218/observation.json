@@ -1,47 +1,47 @@
 {
-    "observation_id": "GSM3739218",
-    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-    "species": "homo_sapiens",
-    "organ": "bone_marrow",
-    "name": "diagnosis,ET,age,17",
-    "description": "CD34+,bone,marrow,mononuclear,cells,(BMMCs)",
-    "technology": "10xv2",
-    "links": [
-        {
-            "accession": "GSM3739218",
-            "filename": "SRR8987929",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR8987929"
-        },
-        {
-            "accession": "GSM3739218",
-            "filename": "SRR8987930",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR8987930"
-        },
-        {
-            "accession": "GSM3739218",
-            "filename": "SRR8987931",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR8987931"
-        },
-        {
-            "accession": "GSM3739218",
-            "filename": "SRR8987932",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR8987932"
-        }
-    ]
+  "observation_id": "GSM3739218",
+  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+  "species": "homo_sapiens",
+  "organ": "bone_marrow",
+  "name": "diagnosis,ET,age,17",
+  "description": "CD34+,bone,marrow,mononuclear,cells,(BMMCs)",
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "GSM3739218",
+      "filename": "SRR8987929",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR8987929"
+    },
+    {
+      "accession": "GSM3739218",
+      "filename": "SRR8987930",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR8987930"
+    },
+    {
+      "accession": "GSM3739218",
+      "filename": "SRR8987931",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR8987931"
+    },
+    {
+      "accession": "GSM3739218",
+      "filename": "SRR8987932",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR8987932"
+    }
+  ]
 }

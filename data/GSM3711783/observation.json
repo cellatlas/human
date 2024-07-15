@@ -1,20 +1,20 @@
 {
-    "observation_id": "GSM3711783",
-    "doi": "https://doi.org/10.1038/s42255-019-0152-6",
-    "species": "homo_sapiens",
-    "organ": "adipose",
-    "name": "non,diabeticand,obese,individual",
-    "description": "CD34,+,stromal,vascular,fraction.,visceral,adipose,tissue",
-    "technology": "10xv2",
-    "links": [
-        {
-            "accession": "GSM3711783",
-            "filename": "AT_E21_IA_Pos.bam.1",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR885/SRR8856856/AT_E21_IA_Pos.bam.1"
-        }
-    ]
+  "observation_id": "GSM3711783",
+  "doi": "https://doi.org/10.1038/s42255-019-0152-6",
+  "species": "homo_sapiens",
+  "organ": "adipose",
+  "name": "non,diabeticand,obese,individual",
+  "description": "CD34,+,stromal,vascular,fraction.,visceral,adipose,tissue",
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "GSM3711783",
+      "filename": "AT_E21_IA_Pos.bam.1",
+      "filetype": "bam",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR885/SRR8856856/AT_E21_IA_Pos.bam.1"
+    }
+  ]
 }

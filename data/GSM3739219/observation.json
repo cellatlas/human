@@ -1,47 +1,47 @@
 {
-    "observation_id": "GSM3739219",
-    "doi": "https://doi.org/10.1038/s41591-020-01227-z",
-    "species": "homo_sapiens",
-    "organ": "blood",
-    "name": "diagnosis,MF,age,62",
-    "description": "PBMCs",
-    "technology": "10xv2",
-    "links": [
-        {
-            "accession": "GSM3739219",
-            "filename": "SRR8987933",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR8987933"
-        },
-        {
-            "accession": "GSM3739219",
-            "filename": "SRR8987934",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR8987934"
-        },
-        {
-            "accession": "GSM3739219",
-            "filename": "SRR8987935",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR8987935"
-        },
-        {
-            "accession": "GSM3739219",
-            "filename": "SRR8987936",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR8987936"
-        }
-    ]
+  "observation_id": "GSM3739219",
+  "doi": "https://doi.org/10.1038/s41591-020-01227-z",
+  "species": "homo_sapiens",
+  "organ": "blood",
+  "name": "diagnosis,MF,age,62",
+  "description": "PBMCs",
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "GSM3739219",
+      "filename": "SRR8987933",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR8987933"
+    },
+    {
+      "accession": "GSM3739219",
+      "filename": "SRR8987934",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR8987934"
+    },
+    {
+      "accession": "GSM3739219",
+      "filename": "SRR8987935",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR8987935"
+    },
+    {
+      "accession": "GSM3739219",
+      "filename": "SRR8987936",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR8987936"
+    }
+  ]
 }

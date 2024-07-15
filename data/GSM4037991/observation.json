@@ -1,47 +1,47 @@
 {
-    "observation_id": "GSM4037991",
-    "doi": "https://doi.org/10.1038/s41591-020-0868-6",
-    "species": "homo_sapiens",
-    "organ": "eye",
-    "name": "donor,4",
-    "description": "retinal,pigment,epithelium,periphery,CD31+",
-    "technology": "10xv2",
-    "links": [
-        {
-            "accession": "GSM4037991",
-            "filename": "SRR9990795",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR9990795"
-        },
-        {
-            "accession": "GSM4037991",
-            "filename": "SRR9990796",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR9990796"
-        },
-        {
-            "accession": "GSM4037991",
-            "filename": "SRR9990797",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR9990797"
-        },
-        {
-            "accession": "GSM4037991",
-            "filename": "SRR9990798",
-            "filetype": null,
-            "filesize": null,
-            "md5": null,
-            "urltype": "ftp",
-            "url": "SRR9990798"
-        }
-    ]
+  "observation_id": "GSM4037991",
+  "doi": "https://doi.org/10.1038/s41591-020-0868-6",
+  "species": "homo_sapiens",
+  "organ": "eye",
+  "name": "donor,4",
+  "description": "retinal,pigment,epithelium,periphery,CD31+",
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "GSM4037991",
+      "filename": "SRR9990795",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR9990795"
+    },
+    {
+      "accession": "GSM4037991",
+      "filename": "SRR9990796",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR9990796"
+    },
+    {
+      "accession": "GSM4037991",
+      "filename": "SRR9990797",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR9990797"
+    },
+    {
+      "accession": "GSM4037991",
+      "filename": "SRR9990798",
+      "filetype": "accession",
+      "filesize": null,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "SRR9990798"
+    }
+  ]
 }
