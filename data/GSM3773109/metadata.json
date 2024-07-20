@@ -1,0 +1,141 @@
+{
+    "GSM3773109": {
+        "accession": "GSM3773109",
+        "platform": {
+            "accession": "GPL16791",
+            "title": "Illumina HiSeq 2500 (Homo sapiens)"
+        },
+        "samples": {
+            "SRS4778305": {
+                "accession": "SRS4778305",
+                "title": "Never Smoker 2",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "INSDC secondary accession": "SRS4778305",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Homo sapiens",
+                    "co ppm": "4",
+                    "Sex": "male",
+                    "smoking status": "Never Smoker",
+                    "pack years": "0",
+                    "age": "34",
+                    "source_name": "Bronchial brushings",
+                    "BioSampleModel": "Generic",
+                    "ENA-FIRST-PUBLIC": "2019-09-28",
+                    "ENA-LAST-UPDATE": "2019-09-28"
+                },
+                "experiments": {
+                    "SRX5854435": {
+                        "accession": "SRX5854435",
+                        "title": "GSM3773109: Never Smoker 2; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 2500",
+                        "runs": {
+                            "SRR9079177": {
+                                "accession": "SRR9079177",
+                                "experiment": "SRX5854435",
+                                "study": "SRP198757",
+                                "sample": "SRS4778305",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM3773109: Never Smoker 2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-FIRST-PUBLIC": "2019-09-28",
+                                    "ENA-LAST-UPDATE": "2019-09-28"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR9079177",
+                                            "filename": "SRR9079177_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 184429838,
+                                            "filenumber": 1,
+                                            "md5": "94e91682bbdd40b4712a26d980def208",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR907/007/SRR9079177/SRR9079177_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR9079177",
+                                            "filename": "SRR9079177_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 537359307,
+                                            "filenumber": 2,
+                                            "md5": "4ea2500c470054b74067a62f7fbe872e",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR907/007/SRR9079177/SRR9079177_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR9079177",
+                                            "filename": "1067_ACAGTG_combined_R2_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 2,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-15/SRR9079177/1067_ACAGTG_combined_R2_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR9079177",
+                                            "filename": "SRR9079177.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-7/SRR9079177/SRR9079177.sralite.1"
+                                        },
+                                        {
+                                            "accession": "SRR9079177",
+                                            "filename": "SRR9079177",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR9079177/SRR9079177"
+                                        },
+                                        {
+                                            "accession": "SRR9079177",
+                                            "filename": "1067_ACAGTG_combined_R1_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-18/SRR9079177/1067_ACAGTG_combined_R1_001.fastq.gz"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR9079177",
+                                            "filename": "SRR9079177.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-108/SRR9079177/SRR9079177.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR9079177",
+                                            "filename": "SRR9079177.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-16/SRR009/079/SRR9079177.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

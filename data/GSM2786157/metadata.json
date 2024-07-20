@@ -5,21 +5,144 @@
             "accession": "GPL18573",
             "title": "Illumina NextSeq 500 (Homo sapiens)"
         },
-        "sample": {
+        "samples": {
             "SRS2517316": {
                 "accession": "SRS2517316",
                 "title": "proximal",
                 "organism": "Homo sapiens",
                 "attributes": {
-                    "source_name": "NKX2-1 GFP + lung progenitors in proximal media",
-                    "media": "proximal",
+                    "INSDC secondary accession": "SRS2517316",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Homo sapiens",
                     "cell type": "NKX2-1 GFP + lung progenitors",
-                    "ENA-SPOT-COUNT": 109406227,
-                    "ENA-BASE-COUNT": 10721810246,
+                    "media": "proximal",
+                    "source_name": "NKX2-1 GFP + lung progenitors in proximal media",
+                    "BioSampleModel": "Generic",
                     "ENA-FIRST-PUBLIC": "2018-03-01",
-                    "ENA-LAST-UPDATE": "2018-03-02"
+                    "ENA-LAST-UPDATE": "2018-03-01"
                 },
-                "experiment": "SRX3189946"
+                "experiments": {
+                    "SRX3189946": {
+                        "accession": "SRX3189946",
+                        "title": "GSM2786157: proximal; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "NextSeq 500",
+                        "runs": {
+                            "SRR6042036": {
+                                "accession": "SRR6042036",
+                                "experiment": "SRX3189946",
+                                "study": "SRP117754",
+                                "sample": "SRS2517316",
+                                "title": "NextSeq 500 sequencing; GSM2786157: proximal; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "assembly": "hg19",
+                                    "ENA-FIRST-PUBLIC": "2018-03-03",
+                                    "ENA-LAST-UPDATE": "2018-03-03"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR6042036",
+                                            "filename": "proximal_possorted_genome_bam.bam",
+                                            "filetype": "bam",
+                                            "filesize": 19689441457,
+                                            "filenumber": 1,
+                                            "md5": "1a31c26b121c90037094aaf15f044fc9",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR604/SRR6042036/bam/proximal_possorted_genome_bam.bam"
+                                        },
+                                        {
+                                            "accession": "SRR6042036",
+                                            "filename": "proximal_possorted_genome_bam.bam.bai",
+                                            "filetype": "bam",
+                                            "filesize": 9923384,
+                                            "filenumber": 1,
+                                            "md5": "42efceee9ab1567d56cc89fe86585799",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR604/SRR6042036/proximal_possorted_genome_bam.bam.bai"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR6042036",
+                                            "filename": "proximal_possorted_genome_bam.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-17/SRR6042036/proximal_possorted_genome_bam.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR6042036",
+                                            "filename": "proximal_possorted_genome_bam.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR6042036/proximal_possorted_genome_bam.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR6042036",
+                                            "filename": "SRR6042036",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR6042036/SRR6042036"
+                                        },
+                                        {
+                                            "accession": "SRR6042036",
+                                            "filename": "SRR6042036.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-6/SRR6042036/SRR6042036.sralite.1"
+                                        },
+                                        {
+                                            "accession": "SRR6042036",
+                                            "filename": "genome.fa",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-6/SRR6042036/genome.fa"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR6042036",
+                                            "filename": "SRR6042036.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-106/SRR6042036/SRR6042036.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR6042036",
+                                            "filename": "SRR6042036.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-14/SRR006/042/SRR6042036.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

@@ -1,0 +1,101 @@
+{
+    "ERX2756720": {
+        "accession": "ERX2756720",
+        "title": "Reconstructing the human first trimester fetal-maternal interface using single cell transcriptomics - 10x data",
+        "platform": "ILLUMINA",
+        "instrument": "Illumina HiSeq 4000",
+        "runs": {
+            "ERR2743647": {
+                "accession": "ERR2743647",
+                "experiment": "ERX2756720",
+                "study": "ERP110450",
+                "sample": "ERS2657620",
+                "title": "Illumina HiSeq 4000 sequencing; Reconstructing the human first trimester fetal-maternal interface using single cell transcriptomics - 10x data",
+                "attributes": {
+                    "ENA-FIRST-PUBLIC": "2018-10-02",
+                    "ENA-LAST-UPDATE": "2018-11-16"
+                },
+                "files": {
+                    "ftp": [
+                        {
+                            "accession": "ERR2743647",
+                            "filename": "FCA7167232.bam",
+                            "filetype": "bam",
+                            "filesize": 52058391798,
+                            "filenumber": 1,
+                            "md5": "e7095a1f1897411af416c8b1f4d9cadb",
+                            "urltype": "ftp",
+                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR274/ERR2743647/FCA7167232.bam"
+                        },
+                        {
+                            "accession": "ERR2743647",
+                            "filename": "FCA7167232.bam.bai",
+                            "filetype": "bam",
+                            "filesize": 16,
+                            "filenumber": 1,
+                            "md5": "301e4f138859efe5b18eb6ce919cbfaf",
+                            "urltype": "ftp",
+                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR274/ERR2743647/FCA7167232.bam.bai"
+                        }
+                    ],
+                    "aws": [
+                        {
+                            "accession": "ERR2743647",
+                            "filename": "FCA7167232_mod.bam.1",
+                            "filetype": "bam",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-17/ERR2743647/FCA7167232_mod.bam.1"
+                        },
+                        {
+                            "accession": "ERR2743647",
+                            "filename": "ERR2743647",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR2743647/ERR2743647"
+                        },
+                        {
+                            "accession": "ERR2743647",
+                            "filename": "ERR2743647.sralite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-zq-4/ERR2743647/ERR2743647.sralite.1"
+                        }
+                    ],
+                    "gcp": [
+                        {
+                            "accession": "ERR2743647",
+                            "filename": "ERR2743647.zq.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "gcp",
+                            "url": "gs://sra-pub-zq-105/ERR2743647/ERR2743647.zq.1"
+                        }
+                    ],
+                    "ncbi": [
+                        {
+                            "accession": "ERR2743647",
+                            "filename": "ERR2743647.sralite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "ncbi",
+                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos3/sra-pub-zq-22/ERR002/743/ERR2743647.sralite.1"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

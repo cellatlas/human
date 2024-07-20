@@ -5,21 +5,133 @@
             "accession": "GPL24676",
             "title": "Illumina NovaSeq 6000 (Homo sapiens)"
         },
-        "sample": {
+        "samples": {
             "SRS5278350": {
                 "accession": "SRS5278350",
                 "title": "Lung Biopsy, control, VUHD68",
                 "organism": "Homo sapiens",
                 "attributes": {
-                    "source_name": "Lung Biopsy",
-                    "disease state": "control",
+                    "INSDC secondary accession": "SRS5278350",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Homo sapiens",
                     "tissue": "Lung Biopsy",
-                    "ENA-SPOT-COUNT": 367034952,
-                    "ENA-BASE-COUNT": 110110485600,
+                    "disease state": "control",
+                    "source_name": "Lung Biopsy",
+                    "BioSampleModel": "Generic",
                     "ENA-FIRST-PUBLIC": "2019-09-06",
                     "ENA-LAST-UPDATE": "2019-09-06"
                 },
-                "experiment": "SRX6726374"
+                "experiments": {
+                    "SRX6726374": {
+                        "accession": "SRX6726374",
+                        "title": "GSM4037306: Lung Biopsy, VUHD68; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina NovaSeq 6000",
+                        "runs": {
+                            "SRR9985353": {
+                                "accession": "SRR9985353",
+                                "experiment": "SRX6726374",
+                                "study": "SRP218543",
+                                "sample": "SRS5278350",
+                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM4037306: Lung Biopsy, VUHD68; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-FIRST-PUBLIC": "2019-09-08",
+                                    "ENA-LAST-UPDATE": "2019-09-08"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR9985353",
+                                            "filename": "SRR9985353_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 22714246456,
+                                            "filenumber": 1,
+                                            "md5": "3f5b145e8372e9f4dedee56dc3e3692c",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/003/SRR9985353/SRR9985353_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR9985353",
+                                            "filename": "SRR9985353_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 24251036369,
+                                            "filenumber": 2,
+                                            "md5": "fb07300d2338d5840723c4b19daa01c4",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/003/SRR9985353/SRR9985353_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR9985353",
+                                            "filename": "IPF_VUHD68_1_LU_Whole_C1_X5SCR_HD68_XXXXXXXXX_X_L001_R1_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-16/SRR9985353/IPF_VUHD68_1_LU_Whole_C1_X5SCR_HD68_XXXXXXXXX_X_L001_R1_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR9985353",
+                                            "filename": "IPF_VUHD68_1_LU_Whole_C1_X5SCR_HD68_XXXXXXXXX_X_L001_R2_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-18/SRR9985353/IPF_VUHD68_1_LU_Whole_C1_X5SCR_HD68_XXXXXXXXX_X_L001_R2_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR9985353",
+                                            "filename": "SRR9985353",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR9985353/SRR9985353"
+                                        },
+                                        {
+                                            "accession": "SRR9985353",
+                                            "filename": "SRR9985353.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-8/SRR9985353/SRR9985353.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR9985353",
+                                            "filename": "SRR9985353.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-108/SRR9985353/SRR9985353.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR9985353",
+                                            "filename": "SRR9985353.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-14/SRR009/985/SRR9985353.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

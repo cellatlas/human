@@ -4,21 +4,121 @@
         "title": "FCAImmP7851886",
         "organism": "Homo sapiens",
         "attributes": {
-            "isolate": "not applicable",
-            "organism": "Homo sapiens",
-            "developmental stage": "late embryo",
-            "age": "12",
-            "sex": "female",
-            "individual": "F67",
-            "organism part": "thymus",
-            "fraction": "total cells",
-            "protocol": "VDJ-T enrichment",
             "ENA-CHECKLIST": "ERC000011",
-            "ENA-SPOT-COUNT": 28824185,
-            "ENA-BASE-COUNT": 4323627750,
+            "individual": "F67",
+            "organism": "Homo sapiens",
+            "sex": "female",
+            "scientific_name": "Homo sapiens",
+            "common name": "human",
+            "organism part": "thymus",
+            "developmental stage": "late embryo",
+            "fraction": "total cells",
+            "isolate": "not applicable",
+            "protocol": "VDJ-T enrichment",
             "ENA-FIRST-PUBLIC": "2020-02-21",
-            "ENA-LAST-UPDATE": "2020-01-10"
+            "ENA-LAST-UPDATE": "2020-01-10",
+            "age": "12"
         },
-        "experiment": "ERX3806157"
+        "experiments": {
+            "ERX3806157": {
+                "accession": "ERX3806157",
+                "title": "A cell atlas of human thymic development defines T cell repertoire formation",
+                "platform": "ILLUMINA",
+                "instrument": "Illumina HiSeq 4000",
+                "runs": {
+                    "ERR3804267": {
+                        "accession": "ERR3804267",
+                        "experiment": "ERX3806157",
+                        "study": "ERP119282",
+                        "sample": "ERS4228672",
+                        "title": "Illumina HiSeq 4000 sequencing; A cell atlas of human thymic development defines T cell repertoire formation",
+                        "attributes": {
+                            "ENA-FIRST-PUBLIC": "2020-02-21",
+                            "ENA-LAST-UPDATE": "2020-01-10"
+                        },
+                        "files": {
+                            "ftp": [
+                                {
+                                    "accession": "ERR3804267",
+                                    "filename": "FCAImmP7851886.bam",
+                                    "filetype": "bam",
+                                    "filesize": 4834364266,
+                                    "filenumber": 1,
+                                    "md5": "6564eb9c305d3effbdda85913c8d5662",
+                                    "urltype": "ftp",
+                                    "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR380/ERR3804267/FCAImmP7851886.bam"
+                                },
+                                {
+                                    "accession": "ERR3804267",
+                                    "filename": "FCAImmP7851886.bam.bai",
+                                    "filetype": "bam",
+                                    "filesize": 16,
+                                    "filenumber": 1,
+                                    "md5": "5dba8b71d27923f65db7ef217f0d2598",
+                                    "urltype": "ftp",
+                                    "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR380/ERR3804267/FCAImmP7851886.bam.bai"
+                                }
+                            ],
+                            "aws": [
+                                {
+                                    "accession": "ERR3804267",
+                                    "filename": "FCAImmP7851886.bam.1",
+                                    "filetype": "bam",
+                                    "filesize": null,
+                                    "filenumber": 1,
+                                    "md5": null,
+                                    "urltype": "aws",
+                                    "url": "s3://sra-pub-src-6/ERR3804267/FCAImmP7851886.bam.1"
+                                },
+                                {
+                                    "accession": "ERR3804267",
+                                    "filename": "ERR3804267",
+                                    "filetype": "sra",
+                                    "filesize": null,
+                                    "filenumber": 1,
+                                    "md5": null,
+                                    "urltype": "aws",
+                                    "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR3804267/ERR3804267"
+                                },
+                                {
+                                    "accession": "ERR3804267",
+                                    "filename": "ERR3804267.sralite.1",
+                                    "filetype": "sra",
+                                    "filesize": null,
+                                    "filenumber": 1,
+                                    "md5": null,
+                                    "urltype": "aws",
+                                    "url": "s3://sra-pub-zq-4/ERR3804267/ERR3804267.sralite.1"
+                                }
+                            ],
+                            "gcp": [
+                                {
+                                    "accession": "ERR3804267",
+                                    "filename": "ERR3804267.zq.1",
+                                    "filetype": "sra",
+                                    "filesize": null,
+                                    "filenumber": 1,
+                                    "md5": null,
+                                    "urltype": "gcp",
+                                    "url": "gs://sra-pub-zq-109/ERR3804267/ERR3804267.zq.1"
+                                }
+                            ],
+                            "ncbi": [
+                                {
+                                    "accession": "ERR3804267",
+                                    "filename": "ERR3804267.sralite.1",
+                                    "filetype": "sra",
+                                    "filesize": null,
+                                    "filenumber": 1,
+                                    "md5": null,
+                                    "urltype": "ncbi",
+                                    "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos3/sra-pub-zq-22/ERR003/804/ERR3804267.sralite.1"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
     }
 }

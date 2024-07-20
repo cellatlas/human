@@ -5,21 +5,840 @@
             "accession": "GPL24676",
             "title": "Illumina NovaSeq 6000 (Homo sapiens)"
         },
-        "sample": {
+        "samples": {
             "SRS5278368": {
                 "accession": "SRS5278368",
                 "title": "Lung Biopsy, control, THD0002",
                 "organism": "Homo sapiens",
                 "attributes": {
-                    "source_name": "Lung Biopsy",
-                    "disease state": "control",
+                    "INSDC secondary accession": "SRS5278368",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Homo sapiens",
                     "tissue": "Lung Biopsy",
-                    "ENA-SPOT-COUNT": 93607106,
-                    "ENA-BASE-COUNT": 20219134896,
+                    "disease state": "control",
+                    "source_name": "Lung Biopsy",
+                    "BioSampleModel": "Generic",
                     "ENA-FIRST-PUBLIC": "2019-09-06",
                     "ENA-LAST-UPDATE": "2019-09-06"
                 },
-                "experiment": "SRX6726392"
+                "experiments": {
+                    "SRX6726392": {
+                        "accession": "SRX6726392",
+                        "title": "GSM4037324: Lung Biopsy, THD0002; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina NovaSeq 6000",
+                        "runs": {
+                            "SRR9985440": {
+                                "accession": "SRR9985440",
+                                "experiment": "SRX6726392",
+                                "study": "SRP218543",
+                                "sample": "SRS5278368",
+                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM4037324: Lung Biopsy, THD0002; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-FIRST-PUBLIC": "2019-09-08",
+                                    "ENA-LAST-UPDATE": "2019-09-08"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR9985440",
+                                            "filename": "SRR9985440_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 637614081,
+                                            "filenumber": 1,
+                                            "md5": "65ed38fb2d557a23f21a71d3811d1f87",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/000/SRR9985440/SRR9985440_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR9985440",
+                                            "filename": "SRR9985440_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 646287773,
+                                            "filenumber": 2,
+                                            "md5": "70cd3a0b5265479f369773970b2c030a",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/000/SRR9985440/SRR9985440_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR9985440",
+                                            "filename": "IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_AGTCGCTT_L002_R1_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-15/SRR9985440/IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_AGTCGCTT_L002_R1_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR9985440",
+                                            "filename": "IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_AGTCGCTT_L002_R2_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-18/SRR9985440/IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_AGTCGCTT_L002_R2_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR9985440",
+                                            "filename": "SRR9985440",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR9985440/SRR9985440"
+                                        },
+                                        {
+                                            "accession": "SRR9985440",
+                                            "filename": "SRR9985440.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-8/SRR9985440/SRR9985440.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR9985440",
+                                            "filename": "SRR9985440.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-108/SRR9985440/SRR9985440.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR9985440",
+                                            "filename": "SRR9985440.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-14/SRR009/985/SRR9985440.sralite.1"
+                                        }
+                                    ]
+                                }
+                            },
+                            "SRR9985439": {
+                                "accession": "SRR9985439",
+                                "experiment": "SRX6726392",
+                                "study": "SRP218543",
+                                "sample": "SRS5278368",
+                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM4037324: Lung Biopsy, THD0002; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-FIRST-PUBLIC": "2019-09-08",
+                                    "ENA-LAST-UPDATE": "2019-09-08"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR9985439",
+                                            "filename": "SRR9985439_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 638130185,
+                                            "filenumber": 1,
+                                            "md5": "b7816849b2d771735afc719f5fbf1350",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/009/SRR9985439/SRR9985439_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR9985439",
+                                            "filename": "SRR9985439_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 649284488,
+                                            "filenumber": 2,
+                                            "md5": "a54798c86b87a94a9876d6692a2e9f3a",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/009/SRR9985439/SRR9985439_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR9985439",
+                                            "filename": "IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_AGTCGCTT_L001_R1_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-18/SRR9985439/IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_AGTCGCTT_L001_R1_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR9985439",
+                                            "filename": "IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_AGTCGCTT_L001_R2_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-16/SRR9985439/IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_AGTCGCTT_L001_R2_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR9985439",
+                                            "filename": "SRR9985439",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR9985439/SRR9985439"
+                                        },
+                                        {
+                                            "accession": "SRR9985439",
+                                            "filename": "SRR9985439.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-9/SRR9985439/SRR9985439.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR9985439",
+                                            "filename": "SRR9985439.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-108/SRR9985439/SRR9985439.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR9985439",
+                                            "filename": "SRR9985439.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos3/sra-pub-zq-22/SRR009/985/SRR9985439.sralite.1"
+                                        }
+                                    ]
+                                }
+                            },
+                            "SRR9985441": {
+                                "accession": "SRR9985441",
+                                "experiment": "SRX6726392",
+                                "study": "SRP218543",
+                                "sample": "SRS5278368",
+                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM4037324: Lung Biopsy, THD0002; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-FIRST-PUBLIC": "2019-09-08",
+                                    "ENA-LAST-UPDATE": "2019-09-08"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR9985441",
+                                            "filename": "SRR9985441_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 630460149,
+                                            "filenumber": 1,
+                                            "md5": "57484bd1096e744ab00af9db25a3154a",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/001/SRR9985441/SRR9985441_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR9985441",
+                                            "filename": "SRR9985441_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 637577048,
+                                            "filenumber": 2,
+                                            "md5": "78862e78e195d365e899bdf28c166a6b",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/001/SRR9985441/SRR9985441_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR9985441",
+                                            "filename": "IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_CACGAGAA_L001_R1_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-18/SRR9985441/IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_CACGAGAA_L001_R1_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR9985441",
+                                            "filename": "IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_CACGAGAA_L001_R2_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-15/SRR9985441/IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_CACGAGAA_L001_R2_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR9985441",
+                                            "filename": "SRR9985441",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR9985441/SRR9985441"
+                                        },
+                                        {
+                                            "accession": "SRR9985441",
+                                            "filename": "SRR9985441.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-7/SRR9985441/SRR9985441.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR9985441",
+                                            "filename": "SRR9985441.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-108/SRR9985441/SRR9985441.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR9985441",
+                                            "filename": "SRR9985441.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-16/SRR009/985/SRR9985441.sralite.1"
+                                        }
+                                    ]
+                                }
+                            },
+                            "SRR9985443": {
+                                "accession": "SRR9985443",
+                                "experiment": "SRX6726392",
+                                "study": "SRP218543",
+                                "sample": "SRS5278368",
+                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM4037324: Lung Biopsy, THD0002; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-FIRST-PUBLIC": "2019-09-08",
+                                    "ENA-LAST-UPDATE": "2019-09-08"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR9985443",
+                                            "filename": "SRR9985443_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 559925378,
+                                            "filenumber": 1,
+                                            "md5": "6c33a58064e9e6b3914f8672cd224bce",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/003/SRR9985443/SRR9985443_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR9985443",
+                                            "filename": "SRR9985443_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 561057304,
+                                            "filenumber": 2,
+                                            "md5": "a3c4b611db7024d4c76fb08d6a21ca76",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/003/SRR9985443/SRR9985443_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR9985443",
+                                            "filename": "IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_GTAATTGC_L001_R1_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-17/SRR9985443/IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_GTAATTGC_L001_R1_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR9985443",
+                                            "filename": "IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_GTAATTGC_L001_R2_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-17/SRR9985443/IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_GTAATTGC_L001_R2_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR9985443",
+                                            "filename": "SRR9985443",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR9985443/SRR9985443"
+                                        },
+                                        {
+                                            "accession": "SRR9985443",
+                                            "filename": "SRR9985443.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-8/SRR9985443/SRR9985443.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR9985443",
+                                            "filename": "SRR9985443.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-108/SRR9985443/SRR9985443.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR9985443",
+                                            "filename": "SRR9985443.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos3/sra-pub-zq-22/SRR009/985/SRR9985443.sralite.1"
+                                        }
+                                    ]
+                                }
+                            },
+                            "SRR9985442": {
+                                "accession": "SRR9985442",
+                                "experiment": "SRX6726392",
+                                "study": "SRP218543",
+                                "sample": "SRS5278368",
+                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM4037324: Lung Biopsy, THD0002; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-FIRST-PUBLIC": "2019-09-08",
+                                    "ENA-LAST-UPDATE": "2019-09-08"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR9985442",
+                                            "filename": "SRR9985442_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 628392080,
+                                            "filenumber": 1,
+                                            "md5": "d6c54f2b5d9a164116467baf67ab9e70",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/002/SRR9985442/SRR9985442_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR9985442",
+                                            "filename": "SRR9985442_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 633504745,
+                                            "filenumber": 2,
+                                            "md5": "cdec06a401d8d8309bbc10fd62982b6e",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/002/SRR9985442/SRR9985442_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR9985442",
+                                            "filename": "IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_CACGAGAA_L002_R1_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-17/SRR9985442/IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_CACGAGAA_L002_R1_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR9985442",
+                                            "filename": "IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_CACGAGAA_L002_R2_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-17/SRR9985442/IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_CACGAGAA_L002_R2_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR9985442",
+                                            "filename": "SRR9985442",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR9985442/SRR9985442"
+                                        },
+                                        {
+                                            "accession": "SRR9985442",
+                                            "filename": "SRR9985442.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-8/SRR9985442/SRR9985442.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR9985442",
+                                            "filename": "SRR9985442.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-108/SRR9985442/SRR9985442.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR9985442",
+                                            "filename": "SRR9985442.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-16/SRR009/985/SRR9985442.sralite.1"
+                                        }
+                                    ]
+                                }
+                            },
+                            "SRR9985492": {
+                                "accession": "SRR9985492",
+                                "experiment": "SRX6726392",
+                                "study": "SRP218543",
+                                "sample": "SRS5278368",
+                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM4037324: Lung Biopsy, THD0002; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-FIRST-PUBLIC": "2019-09-08",
+                                    "ENA-LAST-UPDATE": "2019-09-08"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR9985492",
+                                            "filename": "SRR9985492_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 556957254,
+                                            "filenumber": 1,
+                                            "md5": "ea2a93093c93757a169a0dd5e6a1ae0f",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/002/SRR9985492/SRR9985492_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR9985492",
+                                            "filename": "SRR9985492_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 555816381,
+                                            "filenumber": 2,
+                                            "md5": "7e70d01c2503f72ae598cbc13f6c171c",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/002/SRR9985492/SRR9985492_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR9985492",
+                                            "filename": "IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_GTAATTGC_L002_R1_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-16/SRR9985492/IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_GTAATTGC_L002_R1_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR9985492",
+                                            "filename": "IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_GTAATTGC_L002_R2_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-17/SRR9985492/IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_GTAATTGC_L002_R2_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR9985492",
+                                            "filename": "SRR9985492",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR9985492/SRR9985492"
+                                        },
+                                        {
+                                            "accession": "SRR9985492",
+                                            "filename": "SRR9985492.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-4/SRR9985492/SRR9985492.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR9985492",
+                                            "filename": "SRR9985492.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-108/SRR9985492/SRR9985492.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR9985492",
+                                            "filename": "SRR9985492.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos3/sra-pub-zq-22/SRR009/985/SRR9985492.sralite.1"
+                                        }
+                                    ]
+                                }
+                            },
+                            "SRR9985493": {
+                                "accession": "SRR9985493",
+                                "experiment": "SRX6726392",
+                                "study": "SRP218543",
+                                "sample": "SRS5278368",
+                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM4037324: Lung Biopsy, THD0002; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-FIRST-PUBLIC": "2019-09-08",
+                                    "ENA-LAST-UPDATE": "2019-09-08"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR9985493",
+                                            "filename": "SRR9985493_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 627354119,
+                                            "filenumber": 1,
+                                            "md5": "1e1cc2de8fcdb00002c4846a7620230c",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/003/SRR9985493/SRR9985493_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR9985493",
+                                            "filename": "SRR9985493_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 639143136,
+                                            "filenumber": 2,
+                                            "md5": "55a2c708b04905b6a7a67d5ed81e47ec",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/003/SRR9985493/SRR9985493_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR9985493",
+                                            "filename": "IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_TCGTCACG_L001_R1_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-18/SRR9985493/IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_TCGTCACG_L001_R1_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR9985493",
+                                            "filename": "IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_TCGTCACG_L001_R2_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-16/SRR9985493/IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_TCGTCACG_L001_R2_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR9985493",
+                                            "filename": "SRR9985493",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR9985493/SRR9985493"
+                                        },
+                                        {
+                                            "accession": "SRR9985493",
+                                            "filename": "SRR9985493.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-8/SRR9985493/SRR9985493.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR9985493",
+                                            "filename": "SRR9985493.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-108/SRR9985493/SRR9985493.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR9985493",
+                                            "filename": "SRR9985493.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos3/sra-pub-zq-22/SRR009/985/SRR9985493.sralite.1"
+                                        }
+                                    ]
+                                }
+                            },
+                            "SRR9985494": {
+                                "accession": "SRR9985494",
+                                "experiment": "SRX6726392",
+                                "study": "SRP218543",
+                                "sample": "SRS5278368",
+                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM4037324: Lung Biopsy, THD0002; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-FIRST-PUBLIC": "2019-09-08",
+                                    "ENA-LAST-UPDATE": "2019-09-08"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR9985494",
+                                            "filename": "SRR9985494_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 623812004,
+                                            "filenumber": 1,
+                                            "md5": "b32e9a5110f24c8b2c2bb9b286baf2cc",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/004/SRR9985494/SRR9985494_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR9985494",
+                                            "filename": "SRR9985494_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 632778606,
+                                            "filenumber": 2,
+                                            "md5": "8ed32bc225a82028b27282409480db17",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR998/004/SRR9985494/SRR9985494_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR9985494",
+                                            "filename": "IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_TCGTCACG_L002_R1_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-17/SRR9985494/IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_TCGTCACG_L002_R1_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR9985494",
+                                            "filename": "IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_TCGTCACG_L002_R2_001.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-17/SRR9985494/IPF_THD0002_1_LU_Whole_C3_X5SCR_F01174_H75C7DRXX_TCGTCACG_L002_R2_001.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR9985494",
+                                            "filename": "SRR9985494",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR9985494/SRR9985494"
+                                        },
+                                        {
+                                            "accession": "SRR9985494",
+                                            "filename": "SRR9985494.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-8/SRR9985494/SRR9985494.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR9985494",
+                                            "filename": "SRR9985494.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-108/SRR9985494/SRR9985494.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR9985494",
+                                            "filename": "SRR9985494.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-14/SRR009/985/SRR9985494.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

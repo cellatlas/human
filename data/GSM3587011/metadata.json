@@ -5,22 +5,114 @@
             "accession": "GPL20795",
             "title": "HiSeq X Ten (Homo sapiens)"
         },
-        "sample": {
+        "samples": {
             "SRS4313820": {
                 "accession": "SRS4313820",
                 "title": "Colon-2",
                 "organism": "Homo sapiens",
                 "attributes": {
-                    "source_name": "adult human colon epithelial cells",
-                    "cell type": "Epithelia cell",
-                    "tissue": "large intestine",
                     "age of human": "67",
-                    "ENA-SPOT-COUNT": 412164297,
-                    "ENA-BASE-COUNT": 123649289100,
-                    "ENA-FIRST-PUBLIC": "2019-10-23",
-                    "ENA-LAST-UPDATE": "2019-10-23"
+                    "INSDC secondary accession": "SRS4313820",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Homo sapiens",
+                    "tissue": "large intestine",
+                    "cell type": "Epithelia cell",
+                    "source_name": "adult human colon epithelial cells",
+                    "BioSampleModel": "Generic",
+                    "ENA-FIRST-PUBLIC": "2019-10-22",
+                    "ENA-LAST-UPDATE": "2019-10-22"
                 },
-                "experiment": "SRX5317413"
+                "experiments": {
+                    "SRX5317413": {
+                        "accession": "SRX5317413",
+                        "title": "GSM3587011: Colon-2; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "HiSeq X Ten",
+                        "runs": {
+                            "SRR8513797": {
+                                "accession": "SRR8513797",
+                                "experiment": "SRX5317413",
+                                "study": "SRP183081",
+                                "sample": "SRS4313820",
+                                "title": "HiSeq X Ten paired end sequencing; GSM3587011: Colon-2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-FIRST-PUBLIC": "2019-10-23",
+                                    "ENA-LAST-UPDATE": "2019-10-23"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR8513797",
+                                            "filename": "SRR8513797_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 35302275710,
+                                            "filenumber": 1,
+                                            "md5": "26958d15b6c7291d0bc4e5b897876e56",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR851/007/SRR8513797/SRR8513797_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8513797",
+                                            "filename": "SRR8513797_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 38255800538,
+                                            "filenumber": 2,
+                                            "md5": "cf5e207a00cf9e2b42392baf7ac0b14a",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR851/007/SRR8513797/SRR8513797_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR8513797",
+                                            "filename": "SRR8513797",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR8513797/SRR8513797"
+                                        },
+                                        {
+                                            "accession": "SRR8513797",
+                                            "filename": "SRR8513797.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-9/SRR8513797/SRR8513797.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR8513797",
+                                            "filename": "SRR8513797.noqual.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-109/SRR8513797/SRR8513797.noqual.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR8513797",
+                                            "filename": "SRR8513797.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-14/SRR008/513/SRR8513797.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

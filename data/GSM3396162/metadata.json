@@ -1,0 +1,139 @@
+{
+    "GSM3396162": {
+        "accession": "GSM3396162",
+        "platform": {
+            "accession": "GPL21290",
+            "title": "Illumina HiSeq 3000 (Homo sapiens)"
+        },
+        "samples": {
+            "SRS3805246": {
+                "accession": "SRS3805246",
+                "title": "Bone marrow B",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "INSDC secondary accession": "SRS3805246",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Homo sapiens",
+                    "cell type": "bone marrow cells",
+                    "age": "47 years old",
+                    "source_name": "Bone marrow",
+                    "BioSampleModel": "Generic",
+                    "ENA-FIRST-PUBLIC": "2018-09-21",
+                    "ENA-LAST-UPDATE": "2018-09-22"
+                },
+                "experiments": {
+                    "SRX4720038": {
+                        "accession": "SRX4720038",
+                        "title": "GSM3396162: Bone marrow B; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 3000",
+                        "runs": {
+                            "SRR7881400": {
+                                "accession": "SRR7881400",
+                                "experiment": "SRX4720038",
+                                "study": "SRP162214",
+                                "sample": "SRS3805246",
+                                "title": "Illumina HiSeq 3000 paired end sequencing; GSM3396162: Bone marrow B; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "assembly": "GRCh38",
+                                    "ENA-FIRST-PUBLIC": "2018-09-26",
+                                    "ENA-LAST-UPDATE": "2018-09-26"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR7881400",
+                                            "filename": "possorted_genome_bam_B.bam",
+                                            "filetype": "bam",
+                                            "filesize": 31639640718,
+                                            "filenumber": 1,
+                                            "md5": "2343686c16a568fd0fe3f09ffc21d8f8",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR788/SRR7881400/bam/possorted_genome_bam_B.bam"
+                                        },
+                                        {
+                                            "accession": "SRR7881400",
+                                            "filename": "possorted_genome_bam_B.bam.bai",
+                                            "filetype": "bam",
+                                            "filesize": 11088288,
+                                            "filenumber": 1,
+                                            "md5": "3cea23369511334d3a9a18702bc2b729",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR788/SRR7881400/possorted_genome_bam_B.bam.bai"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR7881400",
+                                            "filename": "possorted_genome_bam_B.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-17/SRR7881400/possorted_genome_bam_B.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR7881400",
+                                            "filename": "possorted_genome_bam_B.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR7881400/possorted_genome_bam_B.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR7881400",
+                                            "filename": "SRR7881400",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7881400/SRR7881400"
+                                        },
+                                        {
+                                            "accession": "SRR7881400",
+                                            "filename": "SRR7881400.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-6/SRR7881400/SRR7881400.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR7881400",
+                                            "filename": "SRR7881400.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-107/SRR7881400/SRR7881400.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR7881400",
+                                            "filename": "SRR7881400.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-11/SRR007/881/SRR7881400/SRR7881400.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,8 +1,112 @@
 {
     "SRX4733403": {
         "accession": "SRX4733403",
-        "title": "Illumina HiSeq 2500 sequencing; Placenta_23_villi_10X",
+        "title": "Placenta_23_villi_10X",
         "platform": "ILLUMINA",
-        "instrument": "Illumina HiSeq 2500"
+        "instrument": "Illumina HiSeq 2500",
+        "runs": {
+            "SRR7895962": {
+                "accession": "SRR7895962",
+                "experiment": "SRX4733403",
+                "study": "SRP162461",
+                "sample": "SRS3815600",
+                "title": "Illumina HiSeq 2500 sequencing; Placenta_23_villi_10X",
+                "attributes": {
+                    "loader": "fastq-load.py",
+                    "ENA-FIRST-PUBLIC": "2018-11-10",
+                    "ENA-LAST-UPDATE": "2018-11-10"
+                },
+                "files": {
+                    "ftp": [
+                        {
+                            "accession": "SRR7895962",
+                            "filename": "SRR7895962_1.fastq.gz",
+                            "filetype": "fastq",
+                            "filesize": 6977814827,
+                            "filenumber": 1,
+                            "md5": "da1def4b3dd032b8a83ac8cd6ecfff78",
+                            "urltype": "ftp",
+                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR789/002/SRR7895962/SRR7895962_1.fastq.gz"
+                        },
+                        {
+                            "accession": "SRR7895962",
+                            "filename": "SRR7895962_2.fastq.gz",
+                            "filetype": "fastq",
+                            "filesize": 22669789888,
+                            "filenumber": 2,
+                            "md5": "a89665e77aa4828c10ff43da9c87c385",
+                            "urltype": "ftp",
+                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR789/002/SRR7895962/SRR7895962_2.fastq.gz"
+                        }
+                    ],
+                    "aws": [
+                        {
+                            "accession": "SRR7895962",
+                            "filename": "SRR7895962.sralite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-zq-9/SRR7895962/SRR7895962.sralite.1"
+                        },
+                        {
+                            "accession": "SRR7895962",
+                            "filename": "SRR7895962",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7895962/SRR7895962"
+                        },
+                        {
+                            "accession": "SRR7895962",
+                            "filename": "P8V_10X_Placenta_23_S2_L002_R2_001.fastq.gz",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-3/SRR7895962/P8V_10X_Placenta_23_S2_L002_R2_001.fastq.gz"
+                        },
+                        {
+                            "accession": "SRR7895962",
+                            "filename": "P8V_10X_Placenta_23_S2_L002_R1_001.fastq.gz",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-3/SRR7895962/P8V_10X_Placenta_23_S2_L002_R1_001.fastq.gz"
+                        }
+                    ],
+                    "gcp": [
+                        {
+                            "accession": "SRR7895962",
+                            "filename": "SRR7895962.noqual.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "gcp",
+                            "url": "gs://sra-pub-zq-105/SRR7895962/SRR7895962.noqual.1"
+                        }
+                    ],
+                    "ncbi": [
+                        {
+                            "accession": "SRR7895962",
+                            "filename": "SRR7895962.sralite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "ncbi",
+                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-11/SRR007/895/SRR7895962/SRR7895962.sralite.1"
+                        }
+                    ]
+                }
+            }
+        }
     }
 }

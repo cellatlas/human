@@ -3,28 +3,148 @@
         "accession": "GSM5051498",
         "supplementary_files": [
             {
+                "accession": "GSM5051498",
                 "filename": "GSM5051498_Tonsil_3b_scRNA_seq_raw_feature_bc_matrix_mtx.tsv.tar.gz",
-                "url": "ftp.ncbi.nlm.nih.gov/geo/samples/GSM5051nnn/GSM5051498/suppl/GSM5051498_Tonsil_3b_scRNA_seq_raw_feature_bc_matrix_mtx.tsv.tar.gz",
-                "size": "103322073"
+                "filetype": null,
+                "filesize": 103322073,
+                "filenumber": 1,
+                "md5": null,
+                "urltype": "ftp",
+                "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM5051nnn/GSM5051498/suppl/GSM5051498_Tonsil_3b_scRNA_seq_raw_feature_bc_matrix_mtx.tsv.tar.gz"
             }
         ],
         "platform": {
             "accession": "GPL24676",
             "title": "Illumina NovaSeq 6000 (Homo sapiens)"
         },
-        "sample": {
+        "samples": {
             "SRS8158067": {
                 "accession": "SRS8158067",
                 "title": "Tonsil_3b_scRNA_seq",
                 "organism": "Homo sapiens",
                 "attributes": {
-                    "source_name": "Tonsil_scRNA-seq",
                     "subject status": "children and adults undergoing routine tonsillectomy",
+                    "INSDC secondary accession": "SRS8158067",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Homo sapiens",
                     "tissue": "tonsil",
-                    "ENA-FIRST-PUBLIC": "2021-03-17",
-                    "ENA-LAST-UPDATE": "2021-09-18"
+                    "source_name": "Tonsil_scRNA-seq",
+                    "BioSampleModel": "Generic",
+                    "ENA-FIRST-PUBLIC": "2021-09-17",
+                    "ENA-LAST-UPDATE": "2021-09-17"
                 },
-                "experiment": "SRX9986859"
+                "experiments": {
+                    "SRX9986859": {
+                        "accession": "SRX9986859",
+                        "title": "GSM5051498: Tonsil_3b_scRNA_seq; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina NovaSeq 6000",
+                        "runs": {
+                            "SRR13592266": {
+                                "accession": "SRR13592266",
+                                "experiment": "SRX9986859",
+                                "study": "SRP304007",
+                                "sample": "SRS8158067",
+                                "title": "Illumina NovaSeq 6000 paired end sequencing; GSM5051498: Tonsil_3b_scRNA_seq; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "assembly": "GRCh38-3.0.0",
+                                    "ENA-FIRST-PUBLIC": "2021-03-19",
+                                    "ENA-LAST-UPDATE": "2021-11-10"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR13592266",
+                                            "filename": "Tonsil_3b_scRNA_seq_possorted_genome_bam.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": 29493356677,
+                                            "filenumber": 1,
+                                            "md5": "ba5d3fb71163c2b1754c26a4f350e014",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR135/SRR13592266/Tonsil_3b_scRNA_seq_possorted_genome_bam.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR13592266",
+                                            "filename": "Tonsil_3b_scRNA_seq_possorted_genome_bam.bam.1.bai",
+                                            "filetype": "bam",
+                                            "filesize": 18898920,
+                                            "filenumber": 1,
+                                            "md5": "5931c50e9f55832fa1aad48b3263e3e7",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR135/SRR13592266/Tonsil_3b_scRNA_seq_possorted_genome_bam.bam.1.bai"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR13592266",
+                                            "filename": "Tonsil_3b_scRNA_seq_possorted_genome_bam.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-13/SRR13592266/Tonsil_3b_scRNA_seq_possorted_genome_bam.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR13592266",
+                                            "filename": "Tonsil_3b_scRNA_seq_possorted_genome_bam.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-src-2.s3.amazonaws.com/SRR13592266/Tonsil_3b_scRNA_seq_possorted_genome_bam.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR13592266",
+                                            "filename": "SRR13592266",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR13592266/SRR13592266"
+                                        },
+                                        {
+                                            "accession": "SRR13592266",
+                                            "filename": "SRR13592266.lite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-8/SRR13592266/SRR13592266.lite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR13592266",
+                                            "filename": "SRR13592266.lite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-107/SRR13592266/SRR13592266.lite.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR13592266",
+                                            "filename": "SRR13592266.lite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos3/sra-pub-zq-24/SRR013/13592/SRR13592266/SRR13592266.lite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

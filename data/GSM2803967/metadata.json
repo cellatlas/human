@@ -5,22 +5,135 @@
             "accession": "GPL16791",
             "title": "Illumina HiSeq 2500 (Homo sapiens)"
         },
-        "sample": {
+        "samples": {
             "SRS2566664": {
                 "accession": "SRS2566664",
                 "title": "B cells pre therapy single cell RNA seq",
                 "organism": "Homo sapiens",
                 "attributes": {
-                    "source_name": "CD19+ live cells",
-                    "treatment": "Pre-CCB",
-                    "cell type": "PBMCs",
                     "cell subtype": "Sorted live B-cells",
-                    "ENA-SPOT-COUNT": 56395860,
-                    "ENA-BASE-COUNT": 5526794280,
+                    "treatment": "Pre-CCB",
+                    "INSDC secondary accession": "SRS2566664",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Homo sapiens",
+                    "cell type": "PBMCs",
+                    "source_name": "CD19+ live cells",
+                    "BioSampleModel": "Generic",
                     "ENA-FIRST-PUBLIC": "2017-11-30",
                     "ENA-LAST-UPDATE": "2017-11-30"
                 },
-                "experiment": "SRX3243674"
+                "experiments": {
+                    "SRX3243674": {
+                        "accession": "SRX3243674",
+                        "title": "GSM2803967: B cells pre therapy single cell RNA seq; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 2500",
+                        "runs": {
+                            "SRR6131318": {
+                                "accession": "SRR6131318",
+                                "experiment": "SRX3243674",
+                                "study": "SRP119425",
+                                "sample": "SRS2566664",
+                                "title": "Illumina HiSeq 2500 sequencing; GSM2803967: B cells pre therapy single cell RNA seq; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "assembly": "hg38",
+                                    "ENA-FIRST-PUBLIC": "2017-12-01",
+                                    "ENA-LAST-UPDATE": "2017-12-01"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR6131318",
+                                            "filename": "lk2.bam",
+                                            "filetype": "bam",
+                                            "filesize": 16638584563,
+                                            "filenumber": 1,
+                                            "md5": "02bbe6f00c7e13911708b1254b81f293",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR613/SRR6131318/bam/lk2.bam"
+                                        },
+                                        {
+                                            "accession": "SRR6131318",
+                                            "filename": "lk2.bam.bai",
+                                            "filetype": "bam",
+                                            "filesize": 8189920,
+                                            "filenumber": 1,
+                                            "md5": "a75896168303e35b91709257606fadf2",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR613/SRR6131318/lk2.bam.bai"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR6131318",
+                                            "filename": "lk2.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-17/SRR6131318/lk2.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR6131318",
+                                            "filename": "lk2.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR6131318/lk2.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR6131318",
+                                            "filename": "SRR6131318",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR6131318/SRR6131318"
+                                        },
+                                        {
+                                            "accession": "SRR6131318",
+                                            "filename": "SRR6131318.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-6/SRR6131318/SRR6131318.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR6131318",
+                                            "filename": "SRR6131318.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-106/SRR6131318/SRR6131318.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR6131318",
+                                            "filename": "SRR6131318.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-11/SRR006/131/SRR6131318/SRR6131318.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

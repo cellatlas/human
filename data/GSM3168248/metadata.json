@@ -5,22 +5,125 @@
             "accession": "GPL16791",
             "title": "Illumina HiSeq 2500 (Homo sapiens)"
         },
-        "sample": {
+        "samples": {
             "SRS3360132": {
                 "accession": "SRS3360132",
                 "title": "EM1_un_scRNA-Seq",
                 "organism": "Homo sapiens",
                 "attributes": {
-                    "source_name": "Bone marrow-derived MSCs",
-                    "cell type": "mesenchymal stem cells (MSCs)",
                     "treatment": "none",
+                    "INSDC secondary accession": "SRS3360132",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Homo sapiens",
                     "passage": "3",
-                    "ENA-SPOT-COUNT": 195138455,
-                    "ENA-BASE-COUNT": 19123568590,
-                    "ENA-FIRST-PUBLIC": "2019-06-01",
-                    "ENA-LAST-UPDATE": "2019-06-01"
+                    "cell type": "mesenchymal stem cells (MSCs)",
+                    "source_name": "Bone marrow-derived MSCs",
+                    "BioSampleModel": "Generic",
+                    "ENA-FIRST-PUBLIC": "2019-05-31",
+                    "ENA-LAST-UPDATE": "2019-05-31"
                 },
-                "experiment": "SRX4146514"
+                "experiments": {
+                    "SRX4146514": {
+                        "accession": "SRX4146514",
+                        "title": "GSM3168248: EM1_un_scRNA-Seq; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 2500",
+                        "runs": {
+                            "SRR7240733": {
+                                "accession": "SRR7240733",
+                                "experiment": "SRX4146514",
+                                "study": "SRP149428",
+                                "sample": "SRS3360132",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM3168248: EM1_un_scRNA-Seq; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "assembly": "hg19",
+                                    "ENA-FIRST-PUBLIC": "2019-06-01",
+                                    "ENA-LAST-UPDATE": "2019-06-01"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR7240733",
+                                            "filename": "SRR7240733.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 9105621878,
+                                            "filenumber": 1,
+                                            "md5": "9f0438363e9cbf4e2c1aac479a26aef1",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR724/003/SRR7240733/SRR7240733.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR7240733",
+                                            "filename": "SRR7240733",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7240733/SRR7240733"
+                                        },
+                                        {
+                                            "accession": "SRR7240733",
+                                            "filename": "possorted_genome_bam_EM1_un.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-14/SRR7240733/possorted_genome_bam_EM1_un.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR7240733",
+                                            "filename": "possorted_genome_bam_EM1_un.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR7240733/possorted_genome_bam_EM1_un.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR7240733",
+                                            "filename": "SRR7240733.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-6/SRR7240733/SRR7240733.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR7240733",
+                                            "filename": "SRR7240733.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-107/SRR7240733/SRR7240733.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR7240733",
+                                            "filename": "SRR7240733.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-14/SRR007/240/SRR7240733.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

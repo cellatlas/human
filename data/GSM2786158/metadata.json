@@ -5,21 +5,134 @@
             "accession": "GPL18573",
             "title": "Illumina NextSeq 500 (Homo sapiens)"
         },
-        "sample": {
+        "samples": {
             "SRS2517317": {
                 "accession": "SRS2517317",
                 "title": "distal",
                 "organism": "Homo sapiens",
                 "attributes": {
-                    "source_name": "NKX2-1 GFP + lung progenitors in distal media",
-                    "media": "distal",
+                    "INSDC secondary accession": "SRS2517317",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Homo sapiens",
                     "cell type": "NKX2-1 GFP + lung progenitors",
-                    "ENA-SPOT-COUNT": 97900942,
-                    "ENA-BASE-COUNT": 9594292316,
+                    "media": "distal",
+                    "source_name": "NKX2-1 GFP + lung progenitors in distal media",
+                    "BioSampleModel": "Generic",
                     "ENA-FIRST-PUBLIC": "2018-03-01",
-                    "ENA-LAST-UPDATE": "2018-03-02"
+                    "ENA-LAST-UPDATE": "2018-03-01"
                 },
-                "experiment": "SRX3189947"
+                "experiments": {
+                    "SRX3189947": {
+                        "accession": "SRX3189947",
+                        "title": "GSM2786158: distal; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "NextSeq 500",
+                        "runs": {
+                            "SRR6042037": {
+                                "accession": "SRR6042037",
+                                "experiment": "SRX3189947",
+                                "study": "SRP117754",
+                                "sample": "SRS2517317",
+                                "title": "NextSeq 500 sequencing; GSM2786158: distal; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "assembly": "hg19",
+                                    "ENA-FIRST-PUBLIC": "2018-03-03",
+                                    "ENA-LAST-UPDATE": "2018-03-03"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR6042037",
+                                            "filename": "distal_possorted_genome_bam.bam",
+                                            "filetype": "bam",
+                                            "filesize": 17847518192,
+                                            "filenumber": 1,
+                                            "md5": "fa5d790446e2e74851ff8f8bb1e455c8",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR604/SRR6042037/bam/distal_possorted_genome_bam.bam"
+                                        },
+                                        {
+                                            "accession": "SRR6042037",
+                                            "filename": "distal_possorted_genome_bam.bam.bai",
+                                            "filetype": "bam",
+                                            "filesize": 10190120,
+                                            "filenumber": 1,
+                                            "md5": "15cda2cc75f6cc5a1c7c0f53e7afaef5",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR604/SRR6042037/distal_possorted_genome_bam.bam.bai"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR6042037",
+                                            "filename": "distal_possorted_genome_bam.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-17/SRR6042037/distal_possorted_genome_bam.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR6042037",
+                                            "filename": "distal_possorted_genome_bam.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR6042037/distal_possorted_genome_bam.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR6042037",
+                                            "filename": "SRR6042037",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR6042037/SRR6042037"
+                                        },
+                                        {
+                                            "accession": "SRR6042037",
+                                            "filename": "SRR6042037.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-6/SRR6042037/SRR6042037.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR6042037",
+                                            "filename": "SRR6042037.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-106/SRR6042037/SRR6042037.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR6042037",
+                                            "filename": "SRR6042037.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-14/SRR006/042/SRR6042037.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

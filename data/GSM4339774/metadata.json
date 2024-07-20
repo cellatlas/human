@@ -1,0 +1,155 @@
+{
+    "GSM4339774": {
+        "accession": "GSM4339774",
+        "supplementary_files": [
+            {
+                "accession": "GSM4339774",
+                "filename": "GSM4339774_C146_filtered_feature_bc_matrix.h5",
+                "filetype": null,
+                "filesize": 6367080,
+                "filenumber": 1,
+                "md5": null,
+                "urltype": "ftp",
+                "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4339nnn/GSM4339774/suppl/GSM4339774_C146_filtered_feature_bc_matrix.h5"
+            }
+        ],
+        "platform": {
+            "accession": "GPL23227",
+            "title": "BGISEQ-500 (Homo sapiens)"
+        },
+        "samples": {
+            "SRS6216594": {
+                "accession": "SRS6216594",
+                "title": "BALF, C146 (scRNA-seq)",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "INSDC secondary accession": "SRS6216594",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Homo sapiens",
+                    "patient group": "severe",
+                    "tissue": "lung",
+                    "sample type": "BALF",
+                    "disease state": "Coronavirus infected disease-19 (COVID-19)",
+                    "source_name": "BALF",
+                    "cell subsets": "Total cell",
+                    "BioSampleModel": "Generic",
+                    "ENA-FIRST-PUBLIC": "2020-04-23",
+                    "ENA-LAST-UPDATE": "2020-04-23"
+                },
+                "experiments": {
+                    "SRX7802551": {
+                        "accession": "SRX7802551",
+                        "title": "GSM4339774: BALF, C146 (scRNA-seq); Homo sapiens; RNA-Seq",
+                        "platform": "BGISEQ",
+                        "instrument": "BGISEQ-500",
+                        "runs": {
+                            "SRR11181959": {
+                                "accession": "SRR11181959",
+                                "experiment": "SRX7802551",
+                                "study": "SRP250732",
+                                "sample": "SRS6216594",
+                                "title": "BGISEQ-500 paired end sequencing; GSM4339774: BALF, C146 (scRNA-seq); Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "loader": "fastq-load.py",
+                                    "options": "--read1PairFiles=\"C146_R1.fastq.gz\"  --read2PairFiles=\"C146_R2.fastq.gz\"",
+                                    "ENA-FIRST-PUBLIC": "2020-04-23",
+                                    "ENA-LAST-UPDATE": "2020-07-30"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR11181959",
+                                            "filename": "SRR11181959_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 28731646380,
+                                            "filenumber": 1,
+                                            "md5": "8de134577b50cbd292102e41b9989c48",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR111/059/SRR11181959/SRR11181959_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR11181959",
+                                            "filename": "SRR11181959_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 90698774445,
+                                            "filenumber": 2,
+                                            "md5": "e0c369c4cccac972eaa2728a09531434",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR111/059/SRR11181959/SRR11181959_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR11181959",
+                                            "filename": "SRR11181959.lite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-6/SRR11181959/SRR11181959.lite.1"
+                                        },
+                                        {
+                                            "accession": "SRR11181959",
+                                            "filename": "SRR11181959",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR11181959/SRR11181959"
+                                        },
+                                        {
+                                            "accession": "SRR11181959",
+                                            "filename": "C146_R2.fastq.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 2,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-8/SRR11181959/C146_R2.fastq.1"
+                                        },
+                                        {
+                                            "accession": "SRR11181959",
+                                            "filename": "C146_R1.fastq.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-8/SRR11181959/C146_R1.fastq.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR11181959",
+                                            "filename": "SRR11181959.lite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-106/SRR11181959/SRR11181959.lite.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR11181959",
+                                            "filename": "SRR11181959.lite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos3/sra-pub-zq-24/SRR011/11181/SRR11181959/SRR11181959.lite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

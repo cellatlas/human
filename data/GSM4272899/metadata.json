@@ -5,22 +5,146 @@
             "accession": "GPL18573",
             "title": "Illumina NextSeq 500 (Homo sapiens)"
         },
-        "sample": {
+        "samples": {
             "SRS6002998": {
                 "accession": "SRS6002998",
                 "title": "hu09_092718",
                 "organism": "Homo sapiens",
                 "attributes": {
-                    "source_name": "Left external oblique",
-                    "age": "70",
+                    "INSDC secondary accession": "SRS6002998",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Homo sapiens",
                     "Sex": "male",
                     "tissue": "Left external oblique",
-                    "ENA-SPOT-COUNT": 230378709,
-                    "ENA-BASE-COUNT": 19351811556,
+                    "age": "70",
+                    "source_name": "Left external oblique",
+                    "BioSampleModel": "Generic",
                     "ENA-FIRST-PUBLIC": "2020-06-03",
-                    "ENA-LAST-UPDATE": "2020-06-04"
+                    "ENA-LAST-UPDATE": "2020-06-03"
                 },
-                "experiment": "SRX7566593"
+                "experiments": {
+                    "SRX7566593": {
+                        "accession": "SRX7566593",
+                        "title": "GSM4272899: hu09_092718; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "NextSeq 500",
+                        "runs": {
+                            "SRR10897766": {
+                                "accession": "SRR10897766",
+                                "experiment": "SRX7566593",
+                                "study": "SRP242029",
+                                "sample": "SRS6002998",
+                                "title": "NextSeq 500 paired end sequencing; GSM4272899: hu09_092718; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "loader": "fastq-load.py",
+                                    "options": "--readTypes=TBB --read1PairFiles=Sample_84100_HFVWYBGX9_hu_092718_I1.fastq.gz --read2PairFiles=Sample_84100_HFVWYBGX9_hu_092718_R1.fastq.gz --read3PairFiles=Sample_84100_HFVWYBGX9_hu_092718_R2.fastq.gz",
+                                    "ENA-FIRST-PUBLIC": "2020-06-03",
+                                    "ENA-LAST-UPDATE": "2020-06-03"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR10897766",
+                                            "filename": "SRR10897766_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 5229819273,
+                                            "filenumber": 1,
+                                            "md5": "952b4edc66c219d43af5c577e6e84c8e",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR108/066/SRR10897766/SRR10897766_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR10897766",
+                                            "filename": "SRR10897766_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 9480789761,
+                                            "filenumber": 2,
+                                            "md5": "a429600d2c8c712c4cd74439b3215c3c",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR108/066/SRR10897766/SRR10897766_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR10897766",
+                                            "filename": "SRR10897766.lite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-8/SRR10897766/SRR10897766.lite.1"
+                                        },
+                                        {
+                                            "accession": "SRR10897766",
+                                            "filename": "SRR10897766",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR10897766/SRR10897766"
+                                        },
+                                        {
+                                            "accession": "SRR10897766",
+                                            "filename": "Sample_84100_HFVWYBGX9_hu_092718_R2.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 2,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-8/SRR10897766/Sample_84100_HFVWYBGX9_hu_092718_R2.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR10897766",
+                                            "filename": "Sample_84100_HFVWYBGX9_hu_092718_R1.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-8/SRR10897766/Sample_84100_HFVWYBGX9_hu_092718_R1.fastq.gz.1"
+                                        },
+                                        {
+                                            "accession": "SRR10897766",
+                                            "filename": "Sample_84100_HFVWYBGX9_hu_092718_I1.fastq.gz.1",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 3,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-8/SRR10897766/Sample_84100_HFVWYBGX9_hu_092718_I1.fastq.gz.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR10897766",
+                                            "filename": "SRR10897766.lite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-107/SRR10897766/SRR10897766.lite.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR10897766",
+                                            "filename": "SRR10897766.lite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos3/sra-pub-zq-24/SRR010/10897/SRR10897766/SRR10897766.lite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

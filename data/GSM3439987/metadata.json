@@ -5,23 +5,115 @@
             "accession": "GPL16479",
             "title": "Illumina MiSeq (Drosophila melanogaster)"
         },
-        "sample": {
+        "samples": {
             "SRS3957859": {
                 "accession": "SRS3957859",
-                "title": "\u00ce\u201dHel-C_rep2",
+                "title": "\u0394Hel-C_rep2",
                 "organism": "Drosophila melanogaster",
                 "attributes": {
-                    "source_name": "Ovarian Somatic Cells (OSC)",
-                    "cell type": "Ovarian Somatic Cells (OSC)",
-                    "plasmid": "Yb delta-Hel-C",
+                    "INSDC secondary accession": "SRS3957859",
+                    "NCBI submission package": "Generic.1.0",
                     "antibody": "Flag (Medical & Biological Laboratories, M185-3L)",
+                    "organism": "Drosophila melanogaster",
+                    "plasmid": "Yb delta-Hel-C",
                     "sirna": "siYb",
-                    "ENA-SPOT-COUNT": 1836885,
-                    "ENA-BASE-COUNT": 93681135,
+                    "cell type": "Ovarian Somatic Cells (OSC)",
+                    "source_name": "Ovarian Somatic Cells (OSC)",
+                    "BioSampleModel": "Generic",
                     "ENA-FIRST-PUBLIC": "2019-04-30",
-                    "ENA-LAST-UPDATE": "2019-05-01"
+                    "ENA-LAST-UPDATE": "2019-04-30"
                 },
-                "experiment": "SRX4912480"
+                "experiments": {
+                    "SRX4912480": {
+                        "accession": "SRX4912480",
+                        "title": "GSM3439987: \u0394Hel-C_rep2; Drosophila melanogaster; RIP-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina MiSeq",
+                        "runs": {
+                            "SRR8085527": {
+                                "accession": "SRR8085527",
+                                "experiment": "SRX4912480",
+                                "study": "SRP166327",
+                                "sample": "SRS3957859",
+                                "title": "Illumina MiSeq sequencing; GSM3439987: \u0394Hel-C_rep2; Drosophila melanogaster; RIP-Seq",
+                                "attributes": {
+                                    "ENA-FIRST-PUBLIC": "2019-04-30",
+                                    "ENA-LAST-UPDATE": "2019-04-30"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR8085527",
+                                            "filename": "SRR8085527.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 45440446,
+                                            "filenumber": 1,
+                                            "md5": "042593d6d32abbd3c7e05a094a82b7b4",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR808/007/SRR8085527/SRR8085527.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR8085527",
+                                            "filename": "delta_Hel-C_rep_2.fastq",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 2,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-3/SRR8085527/delta_Hel-C_rep_2.fastq"
+                                        },
+                                        {
+                                            "accession": "SRR8085527",
+                                            "filename": "SRR8085527",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR8085527/SRR8085527"
+                                        },
+                                        {
+                                            "accession": "SRR8085527",
+                                            "filename": "SRR8085527.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-3/SRR8085527/SRR8085527.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR8085527",
+                                            "filename": "SRR8085527.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-107/SRR8085527/SRR8085527.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR8085527",
+                                            "filename": "SRR8085527.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos3/sra-pub-zq-22/SRR008/085/SRR8085527.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

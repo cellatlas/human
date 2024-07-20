@@ -1,0 +1,141 @@
+{
+    "GSM3711788": {
+        "accession": "GSM3711788",
+        "platform": {
+            "accession": "GPL24676",
+            "title": "Illumina NovaSeq 6000 (Homo sapiens)"
+        },
+        "samples": {
+            "SRS4590176": {
+                "accession": "SRS4590176",
+                "title": "AT-22-SAT-CD34+",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "subject status": "obese individual",
+                    "INSDC secondary accession": "SRS4590176",
+                    "NCBI submission package": "Generic.1.0",
+                    "diabetic status": "Diabetic",
+                    "organism": "Homo sapiens",
+                    "tissue": "Subcutaneous adipose tissue",
+                    "source_name": "adipose derived stromal vascular fraction (SVF)",
+                    "cd34 sorting": "CD34_Positive",
+                    "BioSampleModel": "Generic",
+                    "ENA-FIRST-PUBLIC": "2019-11-05",
+                    "ENA-LAST-UPDATE": "2019-11-05"
+                },
+                "experiments": {
+                    "SRX5644483": {
+                        "accession": "SRX5644483",
+                        "title": "GSM3711788: AT-22-SAT-CD34+; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina NovaSeq 6000",
+                        "runs": {
+                            "SRR8856861": {
+                                "accession": "SRR8856861",
+                                "experiment": "SRX5644483",
+                                "study": "SRP190924",
+                                "sample": "SRS4590176",
+                                "title": "Illumina NovaSeq 6000 sequencing; GSM3711788: AT-22-SAT-CD34+; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "assembly": "GRCh38",
+                                    "ENA-FIRST-PUBLIC": "2019-11-07",
+                                    "ENA-LAST-UPDATE": "2019-11-07"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR8856861",
+                                            "filename": "AT_E22_SC_CD34pos.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": 12389993854,
+                                            "filenumber": 1,
+                                            "md5": "c8c51647c4197e0520ccfb1c1ab28c2e",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR885/SRR8856861/AT_E22_SC_CD34pos.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR8856861",
+                                            "filename": "AT_E22_SC_CD34pos.bam.1.bai",
+                                            "filetype": "bam",
+                                            "filesize": 8777352,
+                                            "filenumber": 1,
+                                            "md5": "9a470e1068eca23cac10c4ef46f086fc",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR885/SRR8856861/AT_E22_SC_CD34pos.bam.1.bai"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR8856861",
+                                            "filename": "AT_E22_SC_CD34pos.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-14/SRR8856861/AT_E22_SC_CD34pos.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR8856861",
+                                            "filename": "AT_E22_SC_CD34pos.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR8856861/AT_E22_SC_CD34pos.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR8856861",
+                                            "filename": "SRR8856861",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR8856861/SRR8856861"
+                                        },
+                                        {
+                                            "accession": "SRR8856861",
+                                            "filename": "SRR8856861.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-6/SRR8856861/SRR8856861.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR8856861",
+                                            "filename": "SRR8856861.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-105/SRR8856861/SRR8856861.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR8856861",
+                                            "filename": "SRR8856861.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-16/SRR008/856/SRR8856861.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

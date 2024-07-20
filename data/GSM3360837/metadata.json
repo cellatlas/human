@@ -5,21 +5,134 @@
             "accession": "GPL20301",
             "title": "Illumina HiSeq 4000 (Homo sapiens)"
         },
-        "sample": {
+        "samples": {
             "SRS3725287": {
                 "accession": "SRS3725287",
                 "title": "GW25_Hippocampus",
                 "organism": "Homo sapiens",
                 "attributes": {
-                    "source_name": "human embryonic hippocampus",
                     "gestational week": "GW25",
+                    "INSDC secondary accession": "SRS3725287",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Homo sapiens",
                     "tissue": "hippocampus",
-                    "ENA-SPOT-COUNT": 410299449,
-                    "ENA-BASE-COUNT": 61544917350,
-                    "ENA-FIRST-PUBLIC": "2019-11-15",
-                    "ENA-LAST-UPDATE": "2019-11-15"
+                    "source_name": "human embryonic hippocampus",
+                    "BioSampleModel": "Generic",
+                    "ENA-FIRST-PUBLIC": "2019-11-14",
+                    "ENA-LAST-UPDATE": "2019-11-14"
                 },
-                "experiment": "SRX4623333"
+                "experiments": {
+                    "SRX4623333": {
+                        "accession": "SRX4623333",
+                        "title": "GSM3360837: GW25_Hippocampus; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 4000",
+                        "runs": {
+                            "SRR7767738": {
+                                "accession": "SRR7767738",
+                                "experiment": "SRX4623333",
+                                "study": "SRP159104",
+                                "sample": "SRS3725287",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3360837: GW25_Hippocampus; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "assembly": "GRCh37",
+                                    "ENA-FIRST-PUBLIC": "2019-11-21",
+                                    "ENA-LAST-UPDATE": "2019-11-21"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR7767738",
+                                            "filename": "GW25_Hippocampus_possorted_genome_bam.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": 108510348531,
+                                            "filenumber": 1,
+                                            "md5": "e7ff1662c30d6d7c1fc84dc346e6dae0",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR776/SRR7767738/GW25_Hippocampus_possorted_genome_bam.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR7767738",
+                                            "filename": "GW25_Hippocampus_possorted_genome_bam.bam.1.bai",
+                                            "filetype": "bam",
+                                            "filesize": 29286960,
+                                            "filenumber": 1,
+                                            "md5": "c16c93a0eb48d7f8fdf290b57165cd39",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR776/SRR7767738/GW25_Hippocampus_possorted_genome_bam.bam.1.bai"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR7767738",
+                                            "filename": "GW25_Hippocampus_possorted_genome_bam.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-17/SRR7767738/GW25_Hippocampus_possorted_genome_bam.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR7767738",
+                                            "filename": "GW25_Hippocampus_possorted_genome_bam.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-src-2.s3.amazonaws.com/SRR7767738/GW25_Hippocampus_possorted_genome_bam.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR7767738",
+                                            "filename": "SRR7767738",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7767738/SRR7767738"
+                                        },
+                                        {
+                                            "accession": "SRR7767738",
+                                            "filename": "SRR7767738.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-6/SRR7767738/SRR7767738.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR7767738",
+                                            "filename": "SRR7767738.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-109/SRR7767738/SRR7767738.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR7767738",
+                                            "filename": "SRR7767738.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-14/SRR007/767/SRR7767738.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

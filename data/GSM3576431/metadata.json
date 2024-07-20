@@ -1,0 +1,455 @@
+{
+    "GSM3576431": {
+        "accession": "GSM3576431",
+        "supplementary_files": [
+            {
+                "accession": "GSM3576431",
+                "filename": "GSM3576431_C33_I_cell-gene_UMI_table.tsv.gz",
+                "filetype": null,
+                "filesize": 2009469,
+                "filenumber": 1,
+                "md5": null,
+                "urltype": "ftp",
+                "url": "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3576nnn/GSM3576431/suppl/GSM3576431_C33_I_cell-gene_UMI_table.tsv.gz"
+            }
+        ],
+        "platform": {
+            "accession": "GPL20301",
+            "title": "Illumina HiSeq 4000 (Homo sapiens)"
+        },
+        "samples": {
+            "SRS4283323": {
+                "accession": "SRS4283323",
+                "title": "C33_I_10x_scRNA",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "cell subtype": "immune cells",
+                    "cell subtype surface markers": "CD45+",
+                    "subject status": "control",
+                    "INSDC secondary accession": "SRS4283323",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Homo sapiens",
+                    "tissue": "ileum",
+                    "source_name": "Ileum immune cell",
+                    "BioSampleModel": "Generic",
+                    "ENA-FIRST-PUBLIC": "2020-07-17",
+                    "ENA-LAST-UPDATE": "2020-07-17"
+                },
+                "experiments": {
+                    "SRX5283575": {
+                        "accession": "SRX5283575",
+                        "title": "GSM3576431: C33_I_10x_scRNA; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 4000",
+                        "runs": {
+                            "SRR8478646": {
+                                "accession": "SRR8478646",
+                                "experiment": "SRX5283575",
+                                "study": "SRP181666",
+                                "sample": "SRS4283323",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3576431: C33_I_10x_scRNA; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-FIRST-PUBLIC": "2020-07-19",
+                                    "ENA-LAST-UPDATE": "2020-07-19"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR8478646",
+                                            "filename": "SRR8478646_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 262284476,
+                                            "filenumber": 1,
+                                            "md5": "125c530d7422b18c35886d1c2216fdff",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/006/SRR8478646/SRR8478646_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8478646",
+                                            "filename": "SRR8478646_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 818625322,
+                                            "filenumber": 2,
+                                            "md5": "6b3e0e55cf21a87002649054b1fb9e07",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/006/SRR8478646/SRR8478646_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR8478646",
+                                            "filename": "SRR8478646",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR8478646/SRR8478646"
+                                        },
+                                        {
+                                            "accession": "SRR8478646",
+                                            "filename": "C33_ileum_S18_L005_R2_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 2,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-13/SRR8478646/C33_ileum_S18_L005_R2_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8478646",
+                                            "filename": "C33_ileum_S18_L005_R1_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-11/SRR8478646/C33_ileum_S18_L005_R1_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8478646",
+                                            "filename": "SRR8478646.lite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-1/SRR8478646/SRR8478646.lite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR8478646",
+                                            "filename": "SRR8478646.lite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-107/SRR8478646/SRR8478646.lite.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR8478646",
+                                            "filename": "SRR8478646.lite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-zq-20/SRR008/8478/SRR8478646/SRR8478646.lite.1"
+                                        }
+                                    ]
+                                }
+                            },
+                            "SRR8478648": {
+                                "accession": "SRR8478648",
+                                "experiment": "SRX5283575",
+                                "study": "SRP181666",
+                                "sample": "SRS4283323",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3576431: C33_I_10x_scRNA; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-FIRST-PUBLIC": "2020-07-19",
+                                    "ENA-LAST-UPDATE": "2020-07-19"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR8478648",
+                                            "filename": "SRR8478648_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 337110348,
+                                            "filenumber": 1,
+                                            "md5": "3108007299120f5a2cbe8237f6f4e35c",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/008/SRR8478648/SRR8478648_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8478648",
+                                            "filename": "SRR8478648_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 995730678,
+                                            "filenumber": 2,
+                                            "md5": "e991fc3d61909d5de7336396c5e62560",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/008/SRR8478648/SRR8478648_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR8478648",
+                                            "filename": "C33_ileum_S20_L005_R1_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-14/SRR8478648/C33_ileum_S20_L005_R1_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8478648",
+                                            "filename": "C33_ileum_S20_L005_R2_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 2,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-9/SRR8478648/C33_ileum_S20_L005_R2_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8478648",
+                                            "filename": "SRR8478648",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR8478648/SRR8478648"
+                                        },
+                                        {
+                                            "accession": "SRR8478648",
+                                            "filename": "SRR8478648.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-9/SRR8478648/SRR8478648.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR8478648",
+                                            "filename": "SRR8478648.noqual.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-105/SRR8478648/SRR8478648.noqual.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR8478648",
+                                            "filename": "SRR8478648.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos3/sra-pub-zq-22/SRR008/478/SRR8478648.sralite.1"
+                                        }
+                                    ]
+                                }
+                            },
+                            "SRR8478645": {
+                                "accession": "SRR8478645",
+                                "experiment": "SRX5283575",
+                                "study": "SRP181666",
+                                "sample": "SRS4283323",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3576431: C33_I_10x_scRNA; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-FIRST-PUBLIC": "2020-07-19",
+                                    "ENA-LAST-UPDATE": "2020-07-19"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR8478645",
+                                            "filename": "SRR8478645_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 265785365,
+                                            "filenumber": 1,
+                                            "md5": "8c3fe05c8323c741b2e2588d9a948728",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/005/SRR8478645/SRR8478645_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8478645",
+                                            "filename": "SRR8478645_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 833914696,
+                                            "filenumber": 2,
+                                            "md5": "8c23a4f5d0059228bd2b1eebb09caf7f",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/005/SRR8478645/SRR8478645_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR8478645",
+                                            "filename": "C33_ileum_S17_L005_R1_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-4/SRR8478645/C33_ileum_S17_L005_R1_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8478645",
+                                            "filename": "C33_ileum_S17_L005_R2_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 2,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-10/SRR8478645/C33_ileum_S17_L005_R2_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8478645",
+                                            "filename": "SRR8478645",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR8478645/SRR8478645"
+                                        },
+                                        {
+                                            "accession": "SRR8478645",
+                                            "filename": "SRR8478645.lite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-3/SRR8478645/SRR8478645.lite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR8478645",
+                                            "filename": "SRR8478645.lite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-108/SRR8478645/SRR8478645.lite.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR8478645",
+                                            "filename": "SRR8478645.lite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-16/SRR008/8478/SRR8478645/SRR8478645.lite.1"
+                                        }
+                                    ]
+                                }
+                            },
+                            "SRR8478647": {
+                                "accession": "SRR8478647",
+                                "experiment": "SRX5283575",
+                                "study": "SRP181666",
+                                "sample": "SRS4283323",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3576431: C33_I_10x_scRNA; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-FIRST-PUBLIC": "2020-07-19",
+                                    "ENA-LAST-UPDATE": "2020-07-19"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR8478647",
+                                            "filename": "SRR8478647_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 291416084,
+                                            "filenumber": 1,
+                                            "md5": "343ffacd4d5999239280e8036194a749",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/007/SRR8478647/SRR8478647_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8478647",
+                                            "filename": "SRR8478647_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 929014108,
+                                            "filenumber": 2,
+                                            "md5": "10aea9c1130459a870f5238750103048",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/007/SRR8478647/SRR8478647_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR8478647",
+                                            "filename": "C33_ileum_S19_L005_R1_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-13/SRR8478647/C33_ileum_S19_L005_R1_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8478647",
+                                            "filename": "C33_ileum_S19_L005_R2_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 2,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-13/SRR8478647/C33_ileum_S19_L005_R2_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8478647",
+                                            "filename": "SRR8478647",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR8478647/SRR8478647"
+                                        },
+                                        {
+                                            "accession": "SRR8478647",
+                                            "filename": "SRR8478647.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-9/SRR8478647/SRR8478647.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR8478647",
+                                            "filename": "SRR8478647.noqual.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-107/SRR8478647/SRR8478647.noqual.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR8478647",
+                                            "filename": "SRR8478647.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos3/sra-pub-zq-22/SRR008/478/SRR8478647.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -5,23 +5,136 @@
             "accession": "GPL16791",
             "title": "Illumina HiSeq 2500 (Homo sapiens)"
         },
-        "sample": {
+        "samples": {
             "SRS3065427": {
                 "accession": "SRS3065427",
                 "title": "Donor2_scRNA-seq_rep1",
                 "organism": "Homo sapiens",
                 "attributes": {
-                    "source_name": "Donor2_testicular cells",
-                    "subject status": "healthy men of peak reproductive age",
                     "subject id": "donor 2",
+                    "subject status": "healthy men of peak reproductive age",
+                    "INSDC secondary accession": "SRS3065427",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Homo sapiens",
                     "tissue": "testicle",
                     "cell type": "testicular cells",
-                    "ENA-SPOT-COUNT": 117961579,
-                    "ENA-BASE-COUNT": 11796157900,
+                    "source_name": "Donor2_testicular cells",
+                    "BioSampleModel": "Generic",
                     "ENA-FIRST-PUBLIC": "2018-10-16",
-                    "ENA-LAST-UPDATE": "2018-10-17"
+                    "ENA-LAST-UPDATE": "2018-10-16"
                 },
-                "experiment": "SRX3815588"
+                "experiments": {
+                    "SRX3815588": {
+                        "accession": "SRX3815588",
+                        "title": "GSM3052919: Donor2_scRNA-seq_rep1; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 2500",
+                        "runs": {
+                            "SRR6860521": {
+                                "accession": "SRR6860521",
+                                "experiment": "SRX3815588",
+                                "study": "SRP135999",
+                                "sample": "SRS3065427",
+                                "title": "Illumina HiSeq 2500 paired end sequencing; GSM3052919: Donor2_scRNA-seq_rep1; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "assembly": "hg38",
+                                    "ENA-FIRST-PUBLIC": "2018-10-16",
+                                    "ENA-LAST-UPDATE": "2018-10-16"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR6860521",
+                                            "filename": "14737X1.bam.bai",
+                                            "filetype": "bam",
+                                            "filesize": 12107776,
+                                            "filenumber": 1,
+                                            "md5": "0e4b4d31a30e8a3aa667a946c3a7094e",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR686/SRR6860521/14737X1.bam.bai"
+                                        },
+                                        {
+                                            "accession": "SRR6860521",
+                                            "filename": "14737X1.bam",
+                                            "filetype": "bam",
+                                            "filesize": 27373466499,
+                                            "filenumber": 1,
+                                            "md5": "802bbd60658d4ac689475d165b95721e",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR686/SRR6860521/bam/14737X1.bam"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR6860521",
+                                            "filename": "14737X1.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-15/SRR6860521/14737X1.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR6860521",
+                                            "filename": "14737X1.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR6860521/14737X1.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR6860521",
+                                            "filename": "SRR6860521",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR6860521/SRR6860521"
+                                        },
+                                        {
+                                            "accession": "SRR6860521",
+                                            "filename": "SRR6860521.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-5/SRR6860521/SRR6860521.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR6860521",
+                                            "filename": "SRR6860521.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-107/SRR6860521/SRR6860521.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR6860521",
+                                            "filename": "SRR6860521.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-14/SRR006/860/SRR6860521.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

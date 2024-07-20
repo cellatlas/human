@@ -1,0 +1,443 @@
+{
+    "GSM3576396": {
+        "accession": "GSM3576396",
+        "platform": {
+            "accession": "GPL20301",
+            "title": "Illumina HiSeq 4000 (Homo sapiens)"
+        },
+        "samples": {
+            "SRS4283288": {
+                "accession": "SRS4283288",
+                "title": "C9_R_10x_scRNA",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "cell subtype": "immune cells",
+                    "cell subtype surface markers": "CD45+",
+                    "subject status": "control",
+                    "INSDC secondary accession": "SRS4283288",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Homo sapiens",
+                    "tissue": "rectum",
+                    "source_name": "Rectum immune cell",
+                    "BioSampleModel": "Generic",
+                    "ENA-FIRST-PUBLIC": "2020-07-17",
+                    "ENA-LAST-UPDATE": "2020-07-17"
+                },
+                "experiments": {
+                    "SRX5283540": {
+                        "accession": "SRX5283540",
+                        "title": "GSM3576396: C9_R_10x_scRNA; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 4000",
+                        "runs": {
+                            "SRR8478398": {
+                                "accession": "SRR8478398",
+                                "experiment": "SRX5283540",
+                                "study": "SRP181666",
+                                "sample": "SRS4283288",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3576396: C9_R_10x_scRNA; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-FIRST-PUBLIC": "2020-07-19",
+                                    "ENA-LAST-UPDATE": "2020-07-19"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR8478398",
+                                            "filename": "SRR8478398_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 494808647,
+                                            "filenumber": 1,
+                                            "md5": "a5daed23465a4feb5287c41cdcc4bf21",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/008/SRR8478398/SRR8478398_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8478398",
+                                            "filename": "SRR8478398_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 1486132902,
+                                            "filenumber": 2,
+                                            "md5": "a8946453d08315c7fcb3636a2d929240",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/008/SRR8478398/SRR8478398_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR8478398",
+                                            "filename": "C9RectumSC_S54_L007_R1_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-11/SRR8478398/C9RectumSC_S54_L007_R1_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8478398",
+                                            "filename": "C9RectumSC_S54_L007_R2_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 2,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-13/SRR8478398/C9RectumSC_S54_L007_R2_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8478398",
+                                            "filename": "SRR8478398",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR8478398/SRR8478398"
+                                        },
+                                        {
+                                            "accession": "SRR8478398",
+                                            "filename": "SRR8478398.lite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-3/SRR8478398/SRR8478398.lite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR8478398",
+                                            "filename": "SRR8478398.lite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-108/SRR8478398/SRR8478398.lite.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR8478398",
+                                            "filename": "SRR8478398.lite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-14/SRR008/8478/SRR8478398/SRR8478398.lite.1"
+                                        }
+                                    ]
+                                }
+                            },
+                            "SRR8478400": {
+                                "accession": "SRR8478400",
+                                "experiment": "SRX5283540",
+                                "study": "SRP181666",
+                                "sample": "SRS4283288",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3576396: C9_R_10x_scRNA; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-FIRST-PUBLIC": "2020-07-19",
+                                    "ENA-LAST-UPDATE": "2020-07-19"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR8478400",
+                                            "filename": "SRR8478400_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 585078714,
+                                            "filenumber": 1,
+                                            "md5": "e881949ed73fb2d32b15f33a981f4ee2",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/000/SRR8478400/SRR8478400_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8478400",
+                                            "filename": "SRR8478400_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 1796615329,
+                                            "filenumber": 2,
+                                            "md5": "3061097826e18f6bcac18314b00220de",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/000/SRR8478400/SRR8478400_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR8478400",
+                                            "filename": "C9RectumSC_S56_L007_R1_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-10/SRR8478400/C9RectumSC_S56_L007_R1_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8478400",
+                                            "filename": "C9RectumSC_S56_L007_R2_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 2,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-10/SRR8478400/C9RectumSC_S56_L007_R2_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8478400",
+                                            "filename": "SRR8478400",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR8478400/SRR8478400"
+                                        },
+                                        {
+                                            "accession": "SRR8478400",
+                                            "filename": "SRR8478400.lite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-4/SRR8478400/SRR8478400.lite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR8478400",
+                                            "filename": "SRR8478400.lite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-107/SRR8478400/SRR8478400.lite.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR8478400",
+                                            "filename": "SRR8478400.lite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos3/sra-pub-zq-22/SRR008/8478/SRR8478400/SRR8478400.lite.1"
+                                        }
+                                    ]
+                                }
+                            },
+                            "SRR8478397": {
+                                "accession": "SRR8478397",
+                                "experiment": "SRX5283540",
+                                "study": "SRP181666",
+                                "sample": "SRS4283288",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3576396: C9_R_10x_scRNA; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-FIRST-PUBLIC": "2020-07-19",
+                                    "ENA-LAST-UPDATE": "2020-07-19"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR8478397",
+                                            "filename": "SRR8478397_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 422264488,
+                                            "filenumber": 1,
+                                            "md5": "629972dc3fe960a605013452e008decf",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/007/SRR8478397/SRR8478397_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8478397",
+                                            "filename": "SRR8478397_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 1302257507,
+                                            "filenumber": 2,
+                                            "md5": "1ff143e6c398b2ad7950edec4056faf5",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/007/SRR8478397/SRR8478397_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR8478397",
+                                            "filename": "SRR8478397",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR8478397/SRR8478397"
+                                        },
+                                        {
+                                            "accession": "SRR8478397",
+                                            "filename": "C9RectumSC_S53_L007_R2_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 2,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-10/SRR8478397/C9RectumSC_S53_L007_R2_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8478397",
+                                            "filename": "C9RectumSC_S53_L007_R1_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-13/SRR8478397/C9RectumSC_S53_L007_R1_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8478397",
+                                            "filename": "SRR8478397.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-9/SRR8478397/SRR8478397.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR8478397",
+                                            "filename": "SRR8478397.noqual.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-103/SRR8478397/SRR8478397.noqual.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR8478397",
+                                            "filename": "SRR8478397.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-11/SRR008/478/SRR8478397/SRR8478397.sralite.1"
+                                        }
+                                    ]
+                                }
+                            },
+                            "SRR8478399": {
+                                "accession": "SRR8478399",
+                                "experiment": "SRX5283540",
+                                "study": "SRP181666",
+                                "sample": "SRS4283288",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3576396: C9_R_10x_scRNA; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-FIRST-PUBLIC": "2020-07-19",
+                                    "ENA-LAST-UPDATE": "2020-07-19"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR8478399",
+                                            "filename": "SRR8478399_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 465472269,
+                                            "filenumber": 1,
+                                            "md5": "54e7551652a47d6e77e3f967ba01e9d1",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/009/SRR8478399/SRR8478399_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8478399",
+                                            "filename": "SRR8478399_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 1409354653,
+                                            "filenumber": 2,
+                                            "md5": "1afd98e6653e12df00a1d1cbf07314fc",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR847/009/SRR8478399/SRR8478399_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR8478399",
+                                            "filename": "C9RectumSC_S55_L007_R1_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-7/SRR8478399/C9RectumSC_S55_L007_R1_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8478399",
+                                            "filename": "C9RectumSC_S55_L007_R2_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 2,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-13/SRR8478399/C9RectumSC_S55_L007_R2_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8478399",
+                                            "filename": "SRR8478399",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR8478399/SRR8478399"
+                                        },
+                                        {
+                                            "accession": "SRR8478399",
+                                            "filename": "SRR8478399.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-9/SRR8478399/SRR8478399.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR8478399",
+                                            "filename": "SRR8478399.noqual.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-106/SRR8478399/SRR8478399.noqual.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR8478399",
+                                            "filename": "SRR8478399.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-11/SRR008/478/SRR8478399/SRR8478399.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

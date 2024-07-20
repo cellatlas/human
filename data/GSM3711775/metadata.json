@@ -5,23 +5,136 @@
             "accession": "GPL20301",
             "title": "Illumina HiSeq 4000 (Homo sapiens)"
         },
-        "sample": {
+        "samples": {
             "SRS4590179": {
                 "accession": "SRS4590179",
                 "title": "AT-12-VAT",
                 "organism": "Homo sapiens",
                 "attributes": {
-                    "source_name": "adipose derived stromal vascular fraction (SVF)",
                     "subject status": "obese individual",
+                    "INSDC secondary accession": "SRS4590179",
+                    "NCBI submission package": "Generic.1.0",
                     "diabetic status": "Non Diabetic",
+                    "organism": "Homo sapiens",
                     "tissue": "Visceral adipose tissue",
+                    "source_name": "adipose derived stromal vascular fraction (SVF)",
                     "cd34 sorting": "Not FACS Sorted",
-                    "ENA-SPOT-COUNT": 75298038,
-                    "ENA-BASE-COUNT": 7379207724,
+                    "BioSampleModel": "Generic",
                     "ENA-FIRST-PUBLIC": "2019-11-05",
-                    "ENA-LAST-UPDATE": "2019-11-06"
+                    "ENA-LAST-UPDATE": "2019-11-05"
                 },
-                "experiment": "SRX5644486"
+                "experiments": {
+                    "SRX5644486": {
+                        "accession": "SRX5644486",
+                        "title": "GSM3711775: AT-12-VAT; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 4000",
+                        "runs": {
+                            "SRR8856848": {
+                                "accession": "SRR8856848",
+                                "experiment": "SRX5644486",
+                                "study": "SRP190924",
+                                "sample": "SRS4590179",
+                                "title": "Illumina HiSeq 4000 sequencing; GSM3711775: AT-12-VAT; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "assembly": "GRCh38",
+                                    "ENA-FIRST-PUBLIC": "2019-11-07",
+                                    "ENA-LAST-UPDATE": "2019-11-07"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR8856848",
+                                            "filename": "Ate_12_IA.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": 15926760030,
+                                            "filenumber": 1,
+                                            "md5": "cbd8e9a969032c5718d8d557d675fa4b",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR885/SRR8856848/Ate_12_IA.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR8856848",
+                                            "filename": "Ate_12_IA.bam.1.bai",
+                                            "filetype": "bam",
+                                            "filesize": 9141704,
+                                            "filenumber": 1,
+                                            "md5": "3bb3de013eebfa40fa24388f8c14a99f",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR885/SRR8856848/Ate_12_IA.bam.1.bai"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR8856848",
+                                            "filename": "Ate_12_IA.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-14/SRR8856848/Ate_12_IA.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR8856848",
+                                            "filename": "Ate_12_IA.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR8856848/Ate_12_IA.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR8856848",
+                                            "filename": "SRR8856848",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR8856848/SRR8856848"
+                                        },
+                                        {
+                                            "accession": "SRR8856848",
+                                            "filename": "SRR8856848.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-6/SRR8856848/SRR8856848.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR8856848",
+                                            "filename": "SRR8856848.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-105/SRR8856848/SRR8856848.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR8856848",
+                                            "filename": "SRR8856848.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos3/sra-pub-zq-22/SRR008/856/SRR8856848.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

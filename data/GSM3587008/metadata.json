@@ -5,22 +5,114 @@
             "accession": "GPL20795",
             "title": "HiSeq X Ten (Homo sapiens)"
         },
-        "sample": {
+        "samples": {
             "SRS4313817": {
                 "accession": "SRS4313817",
                 "title": "Ileum-1",
                 "organism": "Homo sapiens",
                 "attributes": {
-                    "source_name": "adult human ileum epithelial cells",
-                    "cell type": "Epithelia cell",
-                    "tissue": "small intestine",
                     "age of human": "61",
-                    "ENA-SPOT-COUNT": 414982680,
-                    "ENA-BASE-COUNT": 124494804000,
-                    "ENA-FIRST-PUBLIC": "2019-10-23",
-                    "ENA-LAST-UPDATE": "2019-10-23"
+                    "INSDC secondary accession": "SRS4313817",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Homo sapiens",
+                    "tissue": "small intestine",
+                    "cell type": "Epithelia cell",
+                    "source_name": "adult human ileum epithelial cells",
+                    "BioSampleModel": "Generic",
+                    "ENA-FIRST-PUBLIC": "2019-10-22",
+                    "ENA-LAST-UPDATE": "2019-10-22"
                 },
-                "experiment": "SRX5317410"
+                "experiments": {
+                    "SRX5317410": {
+                        "accession": "SRX5317410",
+                        "title": "GSM3587008: Ileum-1; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "HiSeq X Ten",
+                        "runs": {
+                            "SRR8513794": {
+                                "accession": "SRR8513794",
+                                "experiment": "SRX5317410",
+                                "study": "SRP183081",
+                                "sample": "SRS4313817",
+                                "title": "HiSeq X Ten paired end sequencing; GSM3587008: Ileum-1; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-FIRST-PUBLIC": "2019-10-23",
+                                    "ENA-LAST-UPDATE": "2019-10-23"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR8513794",
+                                            "filename": "SRR8513794_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 33325878953,
+                                            "filenumber": 1,
+                                            "md5": "bc8576ebc23f5d0ba3202232abe31dd4",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR851/004/SRR8513794/SRR8513794_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8513794",
+                                            "filename": "SRR8513794_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 34336756990,
+                                            "filenumber": 2,
+                                            "md5": "f219b384a08a8fc8d474743560d2e9db",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR851/004/SRR8513794/SRR8513794_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR8513794",
+                                            "filename": "SRR8513794.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-9/SRR8513794/SRR8513794.sralite.1"
+                                        },
+                                        {
+                                            "accession": "SRR8513794",
+                                            "filename": "SRR8513794",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR8513794/SRR8513794"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR8513794",
+                                            "filename": "SRR8513794.noqual.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-109/SRR8513794/SRR8513794.noqual.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR8513794",
+                                            "filename": "SRR8513794.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-14/SRR008/513/SRR8513794.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

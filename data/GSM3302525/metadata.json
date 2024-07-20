@@ -5,21 +5,134 @@
             "accession": "GPL18573",
             "title": "Illumina NextSeq 500 (Homo sapiens)"
         },
-        "sample": {
+        "samples": {
             "SRS3572595": {
                 "accession": "SRS3572595",
                 "title": "AdultHuman-Spermatids_17-11",
                 "organism": "Homo sapiens",
                 "attributes": {
-                    "source_name": "Adult testis",
+                    "INSDC secondary accession": "SRS3572595",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Homo sapiens",
                     "number of cells": "4348",
                     "cell type": "Sta-Put enriched Spermatids",
-                    "ENA-SPOT-COUNT": 202957093,
-                    "ENA-BASE-COUNT": 20295709300,
-                    "ENA-FIRST-PUBLIC": "2018-11-07",
-                    "ENA-LAST-UPDATE": "2018-11-07"
+                    "source_name": "Adult testis",
+                    "BioSampleModel": "Generic",
+                    "ENA-FIRST-PUBLIC": "2018-11-06",
+                    "ENA-LAST-UPDATE": "2018-11-06"
                 },
-                "experiment": "SRX4419806"
+                "experiments": {
+                    "SRX4419806": {
+                        "accession": "SRX4419806",
+                        "title": "GSM3302525: AdultHuman-Spermatids_17-11; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "NextSeq 500",
+                        "runs": {
+                            "SRR7553901": {
+                                "accession": "SRR7553901",
+                                "experiment": "SRX4419806",
+                                "study": "SRP128724",
+                                "sample": "SRS3572595",
+                                "title": "NextSeq 500 sequencing; GSM3302525: AdultHuman-Spermatids_17-11; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "assembly": "GRCh38",
+                                    "ENA-FIRST-PUBLIC": "2018-11-10",
+                                    "ENA-LAST-UPDATE": "2018-11-10"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR7553901",
+                                            "filename": "AdultHuman_Spermatids_17_11_possorted_genome_bam.bam.bai",
+                                            "filetype": "bam",
+                                            "filesize": 14197904,
+                                            "filenumber": 1,
+                                            "md5": "838bd8fa1fc5fb35212fa4c5784a9d74",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR755/SRR7553901/AdultHuman_Spermatids_17_11_possorted_genome_bam.bam.bai"
+                                        },
+                                        {
+                                            "accession": "SRR7553901",
+                                            "filename": "AdultHuman_Spermatids_17_11_possorted_genome_bam.bam",
+                                            "filetype": "bam",
+                                            "filesize": 25049229620,
+                                            "filenumber": 1,
+                                            "md5": "69ebc966c24ce67e918ebbfbc2d50c5c",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR755/SRR7553901/bam/AdultHuman_Spermatids_17_11_possorted_genome_bam.bam"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR7553901",
+                                            "filename": "AdultHuman_Spermatids_17_11_possorted_genome_bam.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-14/SRR7553901/AdultHuman_Spermatids_17_11_possorted_genome_bam.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR7553901",
+                                            "filename": "AdultHuman_Spermatids_17_11_possorted_genome_bam.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR7553901/AdultHuman_Spermatids_17_11_possorted_genome_bam.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR7553901",
+                                            "filename": "SRR7553901",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7553901/SRR7553901"
+                                        },
+                                        {
+                                            "accession": "SRR7553901",
+                                            "filename": "SRR7553901.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-6/SRR7553901/SRR7553901.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR7553901",
+                                            "filename": "SRR7553901.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-107/SRR7553901/SRR7553901.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR7553901",
+                                            "filename": "SRR7553901.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos3/sra-pub-zq-22/SRR007/553/SRR7553901.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

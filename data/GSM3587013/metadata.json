@@ -5,22 +5,114 @@
             "accession": "GPL20795",
             "title": "HiSeq X Ten (Homo sapiens)"
         },
-        "sample": {
+        "samples": {
             "SRS4313822": {
                 "accession": "SRS4313822",
                 "title": "Rectum-2",
                 "organism": "Homo sapiens",
                 "attributes": {
-                    "source_name": "adult human rectum epithelial cells",
-                    "cell type": "Epithelia cell",
-                    "tissue": "large intestine",
                     "age of human": "49",
-                    "ENA-SPOT-COUNT": 431484970,
-                    "ENA-BASE-COUNT": 129445491000,
-                    "ENA-FIRST-PUBLIC": "2019-10-23",
-                    "ENA-LAST-UPDATE": "2019-10-23"
+                    "INSDC secondary accession": "SRS4313822",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Homo sapiens",
+                    "tissue": "large intestine",
+                    "cell type": "Epithelia cell",
+                    "source_name": "adult human rectum epithelial cells",
+                    "BioSampleModel": "Generic",
+                    "ENA-FIRST-PUBLIC": "2019-10-22",
+                    "ENA-LAST-UPDATE": "2019-10-22"
                 },
-                "experiment": "SRX5317415"
+                "experiments": {
+                    "SRX5317415": {
+                        "accession": "SRX5317415",
+                        "title": "GSM3587013: Rectum-2; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "HiSeq X Ten",
+                        "runs": {
+                            "SRR8513799": {
+                                "accession": "SRR8513799",
+                                "experiment": "SRX5317415",
+                                "study": "SRP183081",
+                                "sample": "SRS4313822",
+                                "title": "HiSeq X Ten paired end sequencing; GSM3587013: Rectum-2; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-FIRST-PUBLIC": "2019-10-23",
+                                    "ENA-LAST-UPDATE": "2019-10-23"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR8513799",
+                                            "filename": "SRR8513799_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 36307028790,
+                                            "filenumber": 1,
+                                            "md5": "ca3b66600abaf635da9e3e2deafbcf2a",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR851/009/SRR8513799/SRR8513799_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8513799",
+                                            "filename": "SRR8513799_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 34727640431,
+                                            "filenumber": 2,
+                                            "md5": "a9ec6bebd5e6ba36768ebb3eecd2a775",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR851/009/SRR8513799/SRR8513799_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR8513799",
+                                            "filename": "SRR8513799",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR8513799/SRR8513799"
+                                        },
+                                        {
+                                            "accession": "SRR8513799",
+                                            "filename": "SRR8513799.lite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-2/SRR8513799/SRR8513799.lite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR8513799",
+                                            "filename": "SRR8513799.lite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-109/SRR8513799/SRR8513799.lite.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR8513799",
+                                            "filename": "SRR8513799.lite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-11/SRR008/513/SRR8513799/SRR8513799.lite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

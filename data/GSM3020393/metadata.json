@@ -5,24 +5,136 @@
             "accession": "GPL20301",
             "title": "Illumina HiSeq 4000 (Homo sapiens)"
         },
-        "sample": {
+        "samples": {
             "SRS2991641": {
                 "accession": "SRS2991641",
                 "title": "scRNA-seq on PBMCs from patient CLL1 after 0 days of ibrutinib treatment",
                 "organism": "Homo sapiens",
                 "attributes": {
-                    "source_name": "PBMCs_CLL patient after 0 days of ibrutinib treatment",
-                    "donor_id": "CLL1",
-                    "donor_type": "chronic lymphocytic leukemia patient",
-                    "treatment_timepoint_days": "0",
-                    "cell type": "Peripheral blood mononuclear cells (PBMCs)",
                     "replicate": "1",
-                    "ENA-SPOT-COUNT": 82755108,
-                    "ENA-BASE-COUNT": 13323572388,
-                    "ENA-FIRST-PUBLIC": "2019-02-23",
-                    "ENA-LAST-UPDATE": "2019-02-23"
+                    "INSDC secondary accession": "SRS2991641",
+                    "NCBI submission package": "Generic.1.0",
+                    "organism": "Homo sapiens",
+                    "donor_type": "chronic lymphocytic leukemia patient",
+                    "cell type": "Peripheral blood mononuclear cells (PBMCs)",
+                    "donor_id": "CLL1",
+                    "treatment_timepoint_days": "0",
+                    "source_name": "PBMCs_CLL patient after 0 days of ibrutinib treatment",
+                    "BioSampleModel": "Generic",
+                    "ENA-FIRST-PUBLIC": "2019-02-22",
+                    "ENA-LAST-UPDATE": "2019-02-22"
                 },
-                "experiment": "SRX3734629"
+                "experiments": {
+                    "SRX3734629": {
+                        "accession": "SRX3734629",
+                        "title": "GSM3020393: scRNA-seq on PBMCs from patient CLL1 after 0 days of ibrutinib treatment; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 4000",
+                        "runs": {
+                            "SRR6762975": {
+                                "accession": "SRR6762975",
+                                "experiment": "SRX3734629",
+                                "study": "SRP133314",
+                                "sample": "SRS2991641",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3020393: scRNA-seq on PBMCs from patient CLL1 after 0 days of ibrutinib treatment; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-FIRST-PUBLIC": "2019-02-23",
+                                    "ENA-LAST-UPDATE": "2019-02-23"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR6762975",
+                                            "filename": "SRR6762975_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 3941070816,
+                                            "filenumber": 1,
+                                            "md5": "2e9d8693acb92d2be76bc90624ce7857",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR676/005/SRR6762975/SRR6762975_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR6762975",
+                                            "filename": "SRR6762975_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 5047656957,
+                                            "filenumber": 2,
+                                            "md5": "a3c61d372ab70b059d248a8240111b04",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR676/005/SRR6762975/SRR6762975_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR6762975",
+                                            "filename": "SRR6762975.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-1/SRR6762975/SRR6762975.sralite.1"
+                                        },
+                                        {
+                                            "accession": "SRR6762975",
+                                            "filename": "SRR6762975",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR6762975/SRR6762975"
+                                        },
+                                        {
+                                            "accession": "SRR6762975",
+                                            "filename": "LiveBulk_10x_CLL1_FE1_d0_10xTK078_S1_L006_R2_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-6/SRR6762975/LiveBulk_10x_CLL1_FE1_d0_10xTK078_S1_L006_R2_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR6762975",
+                                            "filename": "LiveBulk_10x_CLL1_FE1_d0_10xTK078_S1_L006_R1_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-6/SRR6762975/LiveBulk_10x_CLL1_FE1_d0_10xTK078_S1_L006_R1_001.fastq.gz"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR6762975",
+                                            "filename": "SRR6762975.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-102/SRR6762975/SRR6762975.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR6762975",
+                                            "filename": "SRR6762975.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-14/SRR006/762/SRR6762975.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

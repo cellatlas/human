@@ -4,21 +4,121 @@
         "title": "WSSS8084745",
         "organism": "Homo sapiens",
         "attributes": {
-            "isolate": "not applicable",
-            "organism": "Homo sapiens",
-            "developmental stage": "embryo",
-            "age": "8",
-            "sex": "male",
-            "individual": "C41",
-            "organism part": "thymus",
-            "fraction": "total cells",
-            "protocol": "gene expression",
             "ENA-CHECKLIST": "ERC000011",
-            "ENA-SPOT-COUNT": 402926057,
-            "ENA-BASE-COUNT": 36666271187,
+            "individual": "C41",
+            "organism": "Homo sapiens",
+            "sex": "male",
+            "scientific_name": "Homo sapiens",
+            "common name": "human",
+            "organism part": "thymus",
+            "developmental stage": "embryo",
+            "fraction": "total cells",
+            "isolate": "not applicable",
+            "protocol": "gene expression",
             "ENA-FIRST-PUBLIC": "2020-02-21",
-            "ENA-LAST-UPDATE": "2020-01-10"
+            "ENA-LAST-UPDATE": "2020-01-10",
+            "age": "8"
         },
-        "experiment": "ERX3806150"
+        "experiments": {
+            "ERX3806150": {
+                "accession": "ERX3806150",
+                "title": "A cell atlas of human thymic development defines T cell repertoire formation",
+                "platform": "ILLUMINA",
+                "instrument": "Illumina HiSeq 4000",
+                "runs": {
+                    "ERR3804260": {
+                        "accession": "ERR3804260",
+                        "experiment": "ERX3806150",
+                        "study": "ERP119282",
+                        "sample": "ERS4228665",
+                        "title": "Illumina HiSeq 4000 sequencing; A cell atlas of human thymic development defines T cell repertoire formation",
+                        "attributes": {
+                            "ENA-FIRST-PUBLIC": "2020-02-21",
+                            "ENA-LAST-UPDATE": "2020-01-10"
+                        },
+                        "files": {
+                            "ftp": [
+                                {
+                                    "accession": "ERR3804260",
+                                    "filename": "WSSS8084745.bam",
+                                    "filetype": "bam",
+                                    "filesize": 30518029930,
+                                    "filenumber": 1,
+                                    "md5": "f4582d5f2236434b42d45c59cfb0a292",
+                                    "urltype": "ftp",
+                                    "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR380/ERR3804260/WSSS8084745.bam"
+                                },
+                                {
+                                    "accession": "ERR3804260",
+                                    "filename": "WSSS8084745.bam.bai",
+                                    "filetype": "bam",
+                                    "filesize": 16,
+                                    "filenumber": 1,
+                                    "md5": "ee5f1dae23227fd4ccdcb151fdbb071b",
+                                    "urltype": "ftp",
+                                    "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR380/ERR3804260/WSSS8084745.bam.bai"
+                                }
+                            ],
+                            "aws": [
+                                {
+                                    "accession": "ERR3804260",
+                                    "filename": "ERR3804260.sralite.1",
+                                    "filetype": "sra",
+                                    "filesize": null,
+                                    "filenumber": 1,
+                                    "md5": null,
+                                    "urltype": "aws",
+                                    "url": "s3://sra-pub-zq-9/ERR3804260/ERR3804260.sralite.1"
+                                },
+                                {
+                                    "accession": "ERR3804260",
+                                    "filename": "ERR3804260",
+                                    "filetype": "sra",
+                                    "filesize": null,
+                                    "filenumber": 1,
+                                    "md5": null,
+                                    "urltype": "aws",
+                                    "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR3804260/ERR3804260"
+                                },
+                                {
+                                    "accession": "ERR3804260",
+                                    "filename": "WSSS8084745.bam.1",
+                                    "filetype": "bam",
+                                    "filesize": null,
+                                    "filenumber": 1,
+                                    "md5": null,
+                                    "urltype": "aws",
+                                    "url": "s3://sra-pub-src-6/ERR3804260/WSSS8084745.bam.1"
+                                }
+                            ],
+                            "gcp": [
+                                {
+                                    "accession": "ERR3804260",
+                                    "filename": "ERR3804260.zq.1",
+                                    "filetype": "sra",
+                                    "filesize": null,
+                                    "filenumber": 1,
+                                    "md5": null,
+                                    "urltype": "gcp",
+                                    "url": "gs://sra-pub-zq-101/ERR3804260/ERR3804260.zq.1"
+                                }
+                            ],
+                            "ncbi": [
+                                {
+                                    "accession": "ERR3804260",
+                                    "filename": "ERR3804260.sralite.1",
+                                    "filetype": "sra",
+                                    "filesize": null,
+                                    "filenumber": 1,
+                                    "md5": null,
+                                    "urltype": "ncbi",
+                                    "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-16/ERR003/804/ERR3804260.sralite.1"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
     }
 }

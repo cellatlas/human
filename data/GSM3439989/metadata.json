@@ -1,0 +1,142 @@
+{
+    "GSM3439989": {
+        "accession": "GSM3439989",
+        "platform": {
+            "accession": "GPL20301",
+            "title": "Illumina HiSeq 4000 (Homo sapiens)"
+        },
+        "samples": {
+            "SRS3957861": {
+                "accession": "SRS3957861",
+                "title": "Donor1_N1plus_R848",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "subject id": "Donor1",
+                    "treatment": "N1 plus R848 for 4 hr",
+                    "INSDC secondary accession": "SRS3957861",
+                    "NCBI submission package": "Generic.1.0",
+                    "source type": "Healthy individuals",
+                    "organism": "Homo sapiens",
+                    "tissue": "Peripheral Blood",
+                    "cell type": "MACS sorted CD14+ cells",
+                    "cell stage": "Monocyte derived DCs",
+                    "source_name": "DCs treated with N1 plus R848 for 4 hr",
+                    "BioSampleModel": "Generic",
+                    "ENA-FIRST-PUBLIC": "2019-01-03",
+                    "ENA-LAST-UPDATE": "2019-01-03"
+                },
+                "experiments": {
+                    "SRX4912482": {
+                        "accession": "SRX4912482",
+                        "title": "GSM3439989: Donor1_N1plus_R848; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "Illumina HiSeq 4000",
+                        "runs": {
+                            "SRR8085529": {
+                                "accession": "SRR8085529",
+                                "experiment": "SRX4912482",
+                                "study": "SRP166328",
+                                "sample": "SRS3957861",
+                                "title": "Illumina HiSeq 4000 paired end sequencing; GSM3439989: Donor1_N1plus_R848; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "ENA-FIRST-PUBLIC": "2019-01-04",
+                                    "ENA-LAST-UPDATE": "2019-01-04"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR8085529",
+                                            "filename": "SRR8085529_1.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 2716356857,
+                                            "filenumber": 1,
+                                            "md5": "3aa8d8a2ba78c54fb2a6e86ea8a31c45",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR808/009/SRR8085529/SRR8085529_1.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8085529",
+                                            "filename": "SRR8085529_2.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": 2800932440,
+                                            "filenumber": 2,
+                                            "md5": "ad63f005e731a0bc32f232eb23bd425b",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR808/009/SRR8085529/SRR8085529_2.fastq.gz"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR8085529",
+                                            "filename": "Donor1_N1plus_R848_S9_R1_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-3/SRR8085529/Donor1_N1plus_R848_S9_R1_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8085529",
+                                            "filename": "Donor1_N1plus_R848_S9_R2_001.fastq.gz",
+                                            "filetype": "fastq",
+                                            "filesize": null,
+                                            "filenumber": 2,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-3/SRR8085529/Donor1_N1plus_R848_S9_R2_001.fastq.gz"
+                                        },
+                                        {
+                                            "accession": "SRR8085529",
+                                            "filename": "SRR8085529",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR8085529/SRR8085529"
+                                        },
+                                        {
+                                            "accession": "SRR8085529",
+                                            "filename": "SRR8085529.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-2/SRR8085529/SRR8085529.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR8085529",
+                                            "filename": "SRR8085529.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-102/SRR8085529/SRR8085529.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR8085529",
+                                            "filename": "SRR8085529.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-14/SRR008/085/SRR8085529.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

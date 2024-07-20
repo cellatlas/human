@@ -4,22 +4,122 @@
         "title": "FCAImmP7352190",
         "organism": "Homo sapiens",
         "attributes": {
-            "isolate": "not applicable",
-            "organism": "Homo sapiens",
-            "age": "8 weeks gestation",
-            "developmental stage": "embryo",
-            "sex": "female",
-            "disease": "normal",
-            "organism part": "skin",
-            "individual": "F5",
-            "clinical information": "First trimister",
-            "facs sorting": "CD45-",
             "ENA-CHECKLIST": "ERC000011",
-            "ENA-SPOT-COUNT": 348411738,
-            "ENA-BASE-COUNT": 34144350324,
+            "facs sorting": "CD45-",
+            "disease": "normal",
+            "individual": "F5",
+            "organism": "Homo sapiens",
+            "sex": "female",
+            "scientific_name": "Homo sapiens",
+            "common name": "human",
+            "organism part": "skin",
+            "clinical information": "First trimister",
+            "developmental stage": "embryo",
+            "isolate": "not applicable",
             "ENA-FIRST-PUBLIC": "2019-10-11",
-            "ENA-LAST-UPDATE": "2019-10-09"
+            "ENA-LAST-UPDATE": "2019-10-09",
+            "age": "8 weeks gestation"
         },
-        "experiment": "ERX3581479"
+        "experiments": {
+            "ERX3581479": {
+                "accession": "ERX3581479",
+                "title": "Human fetal liver, skin and kidney single cell transcriptome data",
+                "platform": "ILLUMINA",
+                "instrument": "Illumina HiSeq 4000",
+                "runs": {
+                    "ERR3585537": {
+                        "accession": "ERR3585537",
+                        "experiment": "ERX3581479",
+                        "study": "ERP117745",
+                        "sample": "ERS3861816",
+                        "title": "Illumina HiSeq 4000 sequencing; Human fetal liver, skin and kidney single cell transcriptome data",
+                        "attributes": {
+                            "ENA-FIRST-PUBLIC": "2019-10-11",
+                            "ENA-LAST-UPDATE": "2019-10-09"
+                        },
+                        "files": {
+                            "ftp": [
+                                {
+                                    "accession": "ERR3585537",
+                                    "filename": "FCAImmP7352190.bam",
+                                    "filetype": "bam",
+                                    "filesize": 46135384628,
+                                    "filenumber": 1,
+                                    "md5": "b213931283691c582cd9f30213d413f6",
+                                    "urltype": "ftp",
+                                    "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR358/ERR3585537/FCAImmP7352190.bam"
+                                },
+                                {
+                                    "accession": "ERR3585537",
+                                    "filename": "FCAImmP7352190.bam.bai",
+                                    "filetype": "bam",
+                                    "filesize": 16,
+                                    "filenumber": 1,
+                                    "md5": "14e73656ca87e54f942554cb715f35a7",
+                                    "urltype": "ftp",
+                                    "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR358/ERR3585537/FCAImmP7352190.bam.bai"
+                                }
+                            ],
+                            "aws": [
+                                {
+                                    "accession": "ERR3585537",
+                                    "filename": "FCAImmP7352190.bam.1",
+                                    "filetype": "bam",
+                                    "filesize": null,
+                                    "filenumber": 1,
+                                    "md5": null,
+                                    "urltype": "aws",
+                                    "url": "s3://sra-pub-src-15/ERR3585537/FCAImmP7352190.bam.1"
+                                },
+                                {
+                                    "accession": "ERR3585537",
+                                    "filename": "ERR3585537.sralite.1",
+                                    "filetype": "sra",
+                                    "filesize": null,
+                                    "filenumber": 1,
+                                    "md5": null,
+                                    "urltype": "aws",
+                                    "url": "s3://sra-pub-zq-8/ERR3585537/ERR3585537.sralite.1"
+                                },
+                                {
+                                    "accession": "ERR3585537",
+                                    "filename": "ERR3585537",
+                                    "filetype": "sra",
+                                    "filesize": null,
+                                    "filenumber": 1,
+                                    "md5": null,
+                                    "urltype": "aws",
+                                    "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR3585537/ERR3585537"
+                                }
+                            ],
+                            "gcp": [
+                                {
+                                    "accession": "ERR3585537",
+                                    "filename": "ERR3585537.zq.1",
+                                    "filetype": "sra",
+                                    "filesize": null,
+                                    "filenumber": 1,
+                                    "md5": null,
+                                    "urltype": "gcp",
+                                    "url": "gs://sra-pub-zq-109/ERR3585537/ERR3585537.zq.1"
+                                }
+                            ],
+                            "ncbi": [
+                                {
+                                    "accession": "ERR3585537",
+                                    "filename": "ERR3585537.sralite.1",
+                                    "filetype": "sra",
+                                    "filesize": null,
+                                    "filenumber": 1,
+                                    "md5": null,
+                                    "urltype": "ncbi",
+                                    "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-16/ERR003/585/ERR3585537.sralite.1"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
     }
 }
