@@ -1,6 +1,8 @@
 # Human Commons Cell Atlas
 This GitHub reposotiry for the Human Commons Cell Atlas contains uniformly preprocessed and filtered count matrices and cell type assignments that span 27 Human organs as well as marker gene lists for 31 Human organs. The count matrices are in the `data` folder and the marker gene lists in the `markers` folder. 
 
+All matrices where aligned to the [Ensembl v96 reference](https://github.com/pachterlab/kallisto-transcriptome-indices/releases/tag/ensembl-96) which corresponds to Gencode v30 and UCSC v30 and Genome Assembly version GRCh38.p12
+
 ![alt text](https://github.com/cellatlas/human/blob/main/docs/vetruvian_man.png?raw=true)
 
 The repository has the following structure (note: the repository is large):
