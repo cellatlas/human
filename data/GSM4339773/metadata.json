@@ -81,23 +81,13 @@
                                     "aws": [
                                         {
                                             "accession": "SRR11181958",
-                                            "filename": "SRR11181958.lite.1",
-                                            "filetype": "sra",
+                                            "filename": "C145_R1.fastq.1",
+                                            "filetype": "fastq",
                                             "filesize": null,
                                             "filenumber": 1,
                                             "md5": null,
                                             "urltype": "aws",
-                                            "url": "s3://sra-pub-zq-5/SRR11181958/SRR11181958.lite.1"
-                                        },
-                                        {
-                                            "accession": "SRR11181958",
-                                            "filename": "SRR11181958",
-                                            "filetype": "sra",
-                                            "filesize": null,
-                                            "filenumber": 1,
-                                            "md5": null,
-                                            "urltype": "aws",
-                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR11181958/SRR11181958"
+                                            "url": "s3://sra-pub-src-8/SRR11181958/C145_R1.fastq.1"
                                         },
                                         {
                                             "accession": "SRR11181958",
@@ -111,13 +101,23 @@
                                         },
                                         {
                                             "accession": "SRR11181958",
-                                            "filename": "C145_R1.fastq.1",
-                                            "filetype": "fastq",
+                                            "filename": "SRR11181958",
+                                            "filetype": "sra",
                                             "filesize": null,
                                             "filenumber": 1,
                                             "md5": null,
                                             "urltype": "aws",
-                                            "url": "s3://sra-pub-src-8/SRR11181958/C145_R1.fastq.1"
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR11181958/SRR11181958"
+                                        },
+                                        {
+                                            "accession": "SRR11181958",
+                                            "filename": "SRR11181958.lite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-5/SRR11181958/SRR11181958.lite.1"
                                         }
                                     ],
                                     "gcp": [

@@ -36,6 +36,139 @@
         "platform": {
             "accession": "GPL18573",
             "title": "Illumina NextSeq 500 (Homo sapiens)"
+        },
+        "samples": {
+            "SRS3279686": {
+                "accession": "SRS3279686",
+                "title": "Human islets single-cell RNAseq_4",
+                "organism": "Homo sapiens",
+                "attributes": {
+                    "INSDC secondary accession": "SRS3279686",
+                    "NCBI submission package": "Generic.1.0",
+                    "ethnicity": "C",
+                    "gender": "male",
+                    "individual": "Donor-4",
+                    "organism": "Homo sapiens",
+                    "tissue": "Pancreatic islets",
+                    "source_name": "Pancreatic islets",
+                    "BioSampleModel": "Generic",
+                    "ENA-FIRST-PUBLIC": "2018-07-12",
+                    "ENA-LAST-UPDATE": "2018-07-12"
+                },
+                "experiments": {
+                    "SRX4063413": {
+                        "accession": "SRX4063413",
+                        "title": "GSM3138942: Human islets single-cell RNAseq_4; Homo sapiens; RNA-Seq",
+                        "platform": "ILLUMINA",
+                        "instrument": "NextSeq 500",
+                        "runs": {
+                            "SRR7142649": {
+                                "accession": "SRR7142649",
+                                "experiment": "SRX4063413",
+                                "study": "SRP145274",
+                                "sample": "SRS3279686",
+                                "title": "NextSeq 500 paired end sequencing; GSM3138942: Human islets single-cell RNAseq_4; Homo sapiens; RNA-Seq",
+                                "attributes": {
+                                    "assembly": "GRCh37",
+                                    "dangling_references": "treat_as_unmapped",
+                                    "ENA-FIRST-PUBLIC": "2018-07-12",
+                                    "ENA-LAST-UPDATE": "2018-07-12"
+                                },
+                                "files": {
+                                    "ftp": [
+                                        {
+                                            "accession": "SRR7142649",
+                                            "filename": "Donor_4.bam.bai",
+                                            "filetype": "bam",
+                                            "filesize": 10911008,
+                                            "filenumber": 1,
+                                            "md5": "8288c95765609b79ad8c8fc37dfb7da1",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR714/SRR7142649/Donor_4.bam.bai"
+                                        },
+                                        {
+                                            "accession": "SRR7142649",
+                                            "filename": "Donor_4.bam",
+                                            "filetype": "bam",
+                                            "filesize": 34030158642,
+                                            "filenumber": 1,
+                                            "md5": "55bcdc89408caf138123f162ad4b9c55",
+                                            "urltype": "ftp",
+                                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/run/SRR714/SRR7142649/bam/Donor_4.bam"
+                                        }
+                                    ],
+                                    "aws": [
+                                        {
+                                            "accession": "SRR7142649",
+                                            "filename": "Donor_4.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-src-15/SRR7142649/Donor_4.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR7142649",
+                                            "filename": "Donor_4.bam.1",
+                                            "filetype": "bam",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-src-1.s3.amazonaws.com/SRR7142649/Donor_4.bam.1"
+                                        },
+                                        {
+                                            "accession": "SRR7142649",
+                                            "filename": "SRR7142649",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR7142649/SRR7142649"
+                                        },
+                                        {
+                                            "accession": "SRR7142649",
+                                            "filename": "SRR7142649.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "aws",
+                                            "url": "s3://sra-pub-zq-6/SRR7142649/SRR7142649.sralite.1"
+                                        }
+                                    ],
+                                    "gcp": [
+                                        {
+                                            "accession": "SRR7142649",
+                                            "filename": "SRR7142649.zq.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "gcp",
+                                            "url": "gs://sra-pub-zq-103/SRR7142649/SRR7142649.zq.1"
+                                        }
+                                    ],
+                                    "ncbi": [
+                                        {
+                                            "accession": "SRR7142649",
+                                            "filename": "SRR7142649.sralite.1",
+                                            "filetype": "sra",
+                                            "filesize": null,
+                                            "filenumber": 1,
+                                            "md5": null,
+                                            "urltype": "ncbi",
+                                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-zq-14/SRR007/142/SRR7142649.sralite.1"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
