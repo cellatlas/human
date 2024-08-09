@@ -3,7 +3,7 @@
 # Function to extract links from observation.json
 extract_links() {
     local json_file="$1"
-    jq -r '.links[] | "\(.url) \(.filetype) \(.accession)"' "$json_file"
+    jq -r '.links[] | "\(.url) \(.filetype) \(.accession) \(.filename)"' "$json_file"
 }
 
 # Function to process each link
@@ -11,7 +11,8 @@ process_link() {
     local url="$1"
     local filetype="$2"
     local accession="$3"
-    local output_dir="$4"
+    local filename="$4"
+    local output_dir="$5"
 
     mkdir -p "$output_dir"
 
@@ -26,8 +27,8 @@ process_link() {
             wget --continue --quiet -P "$output_dir" "$url"
             ;;
         "accession")
-            prefetch "$accession" --max-size 250G --output-directory "$output_dir"
-            parallel-fastq-dump --sra-id "$accession" --threads 4 --outdir "$output_dir" --split-files --gzip
+            prefetch "$url" --max-size 250G --output-directory "$output_dir"
+            parallel-fastq-dump --sra-id "$url" --threads 32 --outdir "$output_dir" --split-files --gzip
             ;;
         *)
             echo "Unknown filetype: $filetype"
@@ -52,8 +53,8 @@ main() {
         local fastq_dir="$obs_dir/fastq"
 
         if [[ -f "$json_file" ]]; then
-            extract_links "$json_file" | while IFS=' ' read -r url filetype accession; do
-                echo "process_link '$url' '$filetype' '$accession' '$fastq_dir'" >> "$job_file"
+            extract_links "$json_file" | while IFS=' ' read -r url filetype accession filename; do
+                echo "process_link '$url' '$filetype' '$accession' '$filename' '$fastq_dir'" >> "$job_file"
             done
         else
             echo "observation.json not found in $obs_dir" >&2
