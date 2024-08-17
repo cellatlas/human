@@ -1,0 +1,233 @@
+!Assay
+seqspec_version: 0.3.0
+assay_id: 10xv2
+name: 10xv2
+doi: https://doi.org/10.1126/science.aam8999
+date: 15 March 2018
+description: 10x Genomics v2 single-cell rnaseq
+modalities:
+- rna
+lib_struct: https://teichlab.github.io/scg_lib_structs/methods_html/10xChromium3.html
+sequence_protocol: Not-specified
+sequence_kit: Not-specified
+library_protocol: 10xv2 RNA
+library_kit: Not-specified
+sequence_spec:
+- !Read
+  read_id: R1.fastq.gz
+  name: Read 1
+  modality: rna
+  primer_id: custom_primer1
+  min_len: 26
+  max_len: 26
+  strand: pos
+  files:
+  - !File
+    filename: SRR8387860_1.fastq.gz
+    filetype: fastq
+    filesize: 1314749147
+    url: ./fastqs/SRR8387860_1.fastq.gz
+    urltype: local
+    md5: md5
+  - !File
+    filename: SRR8387861_1.fastq.gz
+    filetype: fastq
+    filesize: 1329320847
+    url: ./fastqs/SRR8387861_1.fastq.gz
+    urltype: local
+    md5: md5
+  - !File
+    filename: SRR8387862_1.fastq.gz
+    filetype: fastq
+    filesize: 1416131438
+    url: ./fastqs/SRR8387862_1.fastq.gz
+    urltype: local
+    md5: md5
+  - !File
+    filename: SRR8387863_1.fastq.gz
+    filetype: fastq
+    filesize: 1355204212
+    url: ./fastqs/SRR8387863_1.fastq.gz
+    urltype: local
+    md5: md5
+  - !File
+    filename: SRR8387864_1.fastq.gz
+    filetype: fastq
+    filesize: 1348458319
+    url: ./fastqs/SRR8387864_1.fastq.gz
+    urltype: local
+    md5: md5
+  - !File
+    filename: SRR8387865_1.fastq.gz
+    filetype: fastq
+    filesize: 1225864189
+    url: ./fastqs/SRR8387865_1.fastq.gz
+    urltype: local
+    md5: md5
+  - !File
+    filename: SRR8387866_1.fastq.gz
+    filetype: fastq
+    filesize: 1219411033
+    url: ./fastqs/SRR8387866_1.fastq.gz
+    urltype: local
+    md5: md5
+  - !File
+    filename: SRR8387867_1.fastq.gz
+    filetype: fastq
+    filesize: 1081878094
+    url: ./fastqs/SRR8387867_1.fastq.gz
+    urltype: local
+    md5: md5
+  - !File
+    filename: SRR8387868_1.fastq.gz
+    filetype: fastq
+    filesize: 1135513021
+    url: ./fastqs/SRR8387868_1.fastq.gz
+    urltype: local
+    md5: md5
+- !Read
+  read_id: R2.fastq.gz
+  name: Read 2
+  modality: rna
+  primer_id: custom_primer2
+  min_len: 150
+  max_len: 150
+  strand: neg
+  files:
+  - !File
+    filename: SRR8387860_2.fastq.gz
+    filetype: fastq
+    filesize: 1798306141
+    url: ./fastqs/SRR8387860_2.fastq.gz
+    urltype: local
+    md5: md5
+  - !File
+    filename: SRR8387861_2.fastq.gz
+    filetype: fastq
+    filesize: 1819387091
+    url: ./fastqs/SRR8387861_2.fastq.gz
+    urltype: local
+    md5: md5
+  - !File
+    filename: SRR8387862_2.fastq.gz
+    filetype: fastq
+    filesize: 2002813828
+    url: ./fastqs/SRR8387862_2.fastq.gz
+    urltype: local
+    md5: md5
+  - !File
+    filename: SRR8387863_2.fastq.gz
+    filetype: fastq
+    filesize: 1886907491
+    url: ./fastqs/SRR8387863_2.fastq.gz
+    urltype: local
+    md5: md5
+  - !File
+    filename: SRR8387864_2.fastq.gz
+    filetype: fastq
+    filesize: 1857950283
+    url: ./fastqs/SRR8387864_2.fastq.gz
+    urltype: local
+    md5: md5
+  - !File
+    filename: SRR8387865_2.fastq.gz
+    filetype: fastq
+    filesize: 506876403
+    url: ./fastqs/SRR8387865_2.fastq.gz
+    urltype: local
+    md5: md5
+  - !File
+    filename: SRR8387866_2.fastq.gz
+    filetype: fastq
+    filesize: 1721647957
+    url: ./fastqs/SRR8387866_2.fastq.gz
+    urltype: local
+    md5: md5
+  - !File
+    filename: SRR8387867_2.fastq.gz
+    filetype: fastq
+    filesize: 1484264610
+    url: ./fastqs/SRR8387867_2.fastq.gz
+    urltype: local
+    md5: md5
+  - !File
+    filename: SRR8387868_2.fastq.gz
+    filetype: fastq
+    filesize: 1583286547
+    url: ./fastqs/SRR8387868_2.fastq.gz
+    urltype: local
+    md5: md5
+library_spec:
+- !Region
+  parent_id: null
+  region_id: rna
+  region_type: rna
+  name: rna
+  sequence_type: joined
+  sequence: NNNNNNNNNNNNNNNNXXXXXXXXXXX
+  min_len: 27
+  max_len: 176
+  onlist: null
+  regions:
+  - !Region
+    parent_id: rna
+    region_id: custom_primer1
+    region_type: custom_primer
+    name: custom_primer1
+    sequence_type: fixed
+    sequence: ''
+    min_len: 0
+    max_len: 0
+    onlist: null
+    regions: null
+  - !Region
+    parent_id: rna
+    region_id: barcode
+    region_type: barcode
+    name: barcode
+    sequence_type: onlist
+    sequence: NNNNNNNNNNNNNNNN
+    min_len: 16
+    max_len: 16
+    onlist: !Onlist
+      location: remote
+      filename: 737K-august-2016.txt.gz
+      filetype: txt
+      filesize: 12533759
+      url: https://github.com/pachterlab/qcbc/raw/main/tests/10xRNAv2/737K-august-2016.txt.gz
+      urltype: http
+      md5: 72aa64fd865bcda142c47d0da8370168
+    regions: null
+  - !Region
+    parent_id: rna
+    region_id: umi
+    region_type: umi
+    name: umi
+    sequence_type: random
+    sequence: XXXXXXXXXX
+    min_len: 10
+    max_len: 10
+    onlist: null
+    regions: null
+  - !Region
+    parent_id: rna
+    region_id: cdna
+    region_type: cdna
+    name: cdna
+    sequence_type: random
+    sequence: X
+    min_len: 1
+    max_len: 150
+    onlist: null
+    regions: null
+  - !Region
+    parent_id: rna
+    region_id: custom_primer2
+    region_type: custom_primer
+    name: custom_primer2
+    sequence_type: fixed
+    sequence: ''
+    min_len: 0
+    max_len: 0
+    onlist: null
+    regions: null
