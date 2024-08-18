@@ -48,8 +48,8 @@ sequence_spec:
   name: Read 2
   modality: rna
   primer_id: custom_primer2
-  min_len: 150
-  max_len: 150
+  min_len: 96
+  max_len: 96
   strand: neg
   files:
   - !File

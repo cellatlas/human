@@ -18,8 +18,8 @@ sequence_spec:
   name: Read 1
   modality: rna
   primer_id: custom_primer1
-  min_len: 26
-  max_len: 26
+  min_len: 28
+  max_len: 28
   strand: pos
   files:
   - !File
@@ -34,8 +34,8 @@ sequence_spec:
   name: Read 2
   modality: rna
   primer_id: custom_primer2
-  min_len: 150
-  max_len: 150
+  min_len: 91
+  max_len: 91
   strand: neg
   files:
   - !File

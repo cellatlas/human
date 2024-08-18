@@ -26,7 +26,7 @@ sequence_spec:
     filename: R1.fastq.gz
     filetype: fastq
     filesize: 0
-    url: "./fastq/R1.fastq.gz"
+    url: ./fastq/R1.fastq.gz
     urltype: local
     md5: 0
 - !Read
@@ -42,7 +42,7 @@ sequence_spec:
     filename: R2.fastq.gz
     filetype: fastq
     filesize: 0
-    url: "./fastq/R2.fastq.gz"
+    url: ./fastq/R2.fastq.gz
     urltype: local
     md5: 0
 library_spec:
@@ -52,9 +52,9 @@ library_spec:
   region_type: rna
   name: rna
   sequence_type: joined
-  sequence: AAAAAAAAAAAAAAAANNNNNNNNNNNNNNNNNNNNNNNNNNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXAAAAAAAAAAAAAAAA
-  min_len: 59
-  max_len: 208
+  sequence: NNNNNNNNNNNNNNNNXXXXXXXXXXX
+  min_len: 27
+  max_len: 176
   onlist: null
   regions:
   - !Region
@@ -103,7 +103,7 @@ library_spec:
     region_type: cdna
     name: cdna
     sequence_type: random
-    sequence: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    sequence: X
     min_len: 1
     max_len: 150
     onlist: null
