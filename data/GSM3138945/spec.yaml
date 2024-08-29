@@ -29,6 +29,7 @@ sequence_spec:
     url: ./fastqs/R1.fastq.gz
     urltype: local
     md5: md5
+    file_id: R1.fastq.gz
 - !Read
   read_id: I1.fastq.gz
   name: Read 2
@@ -45,6 +46,7 @@ sequence_spec:
     url: ./fastqs/R2.fastq.gz
     urltype: local
     md5: md5
+    file_id: R2.fastq.gz
 - !Read
   read_id: R2.fastq.gz
   name: Read 2
@@ -61,6 +63,7 @@ sequence_spec:
     url: ./fastqs/R3.fastq.gz
     urltype: local
     md5: md5
+    file_id: R3.fastq.gz
 library_spec:
 - !Region
   parent_id: null

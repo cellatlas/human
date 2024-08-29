@@ -29,6 +29,7 @@ sequence_spec:
     url: ./fastqs/SRR8478401_1.fastq.gz
     urltype: local
     md5: md5
+    file_id: SRR8478401_1.fastq.gz
   - !File
     filename: SRR8478402_1.fastq.gz
     filetype: fastq
@@ -36,6 +37,7 @@ sequence_spec:
     url: ./fastqs/SRR8478402_1.fastq.gz
     urltype: local
     md5: md5
+    file_id: SRR8478402_1.fastq.gz
   - !File
     filename: SRR8478403_1.fastq.gz
     filetype: fastq
@@ -43,6 +45,7 @@ sequence_spec:
     url: ./fastqs/SRR8478403_1.fastq.gz
     urltype: local
     md5: md5
+    file_id: SRR8478403_1.fastq.gz
   - !File
     filename: SRR8478404_1.fastq.gz
     filetype: fastq
@@ -50,6 +53,7 @@ sequence_spec:
     url: ./fastqs/SRR8478404_1.fastq.gz
     urltype: local
     md5: md5
+    file_id: SRR8478404_1.fastq.gz
 - !Read
   read_id: R2.fastq.gz
   name: Read 2
@@ -66,6 +70,7 @@ sequence_spec:
     url: ./fastqs/SRR8478401_2.fastq.gz
     urltype: local
     md5: md5
+    file_id: SRR8478401_2.fastq.gz
   - !File
     filename: SRR8478402_2.fastq.gz
     filetype: fastq
@@ -73,6 +78,7 @@ sequence_spec:
     url: ./fastqs/SRR8478402_2.fastq.gz
     urltype: local
     md5: md5
+    file_id: SRR8478402_2.fastq.gz
   - !File
     filename: SRR8478403_2.fastq.gz
     filetype: fastq
@@ -80,6 +86,7 @@ sequence_spec:
     url: ./fastqs/SRR8478403_2.fastq.gz
     urltype: local
     md5: md5
+    file_id: SRR8478403_2.fastq.gz
   - !File
     filename: SRR8478404_2.fastq.gz
     filetype: fastq
@@ -87,6 +94,7 @@ sequence_spec:
     url: ./fastqs/SRR8478404_2.fastq.gz
     urltype: local
     md5: md5
+    file_id: SRR8478404_2.fastq.gz
 library_spec:
 - !Region
   parent_id: null

@@ -29,6 +29,7 @@ sequence_spec:
     url: ./fastqs/bamtofastq_S1_L004_R1_001.fastq.gz
     urltype: local
     md5: md5
+    file_id: bamtofastq_S1_L004_R1_001.fastq.gz
   - !File
     filename: bamtofastq_S1_L005_R1_001.fastq.gz
     filetype: fastq
@@ -36,6 +37,7 @@ sequence_spec:
     url: ./fastqs/bamtofastq_S1_L005_R1_001.fastq.gz
     urltype: local
     md5: md5
+    file_id: bamtofastq_S1_L005_R1_001.fastq.gz
 - !Read
   read_id: R2.fastq.gz
   name: Read 2
@@ -52,6 +54,7 @@ sequence_spec:
     url: ./fastqs/bamtofastq_S1_L004_R2_001.fastq.gz
     urltype: local
     md5: md5
+    file_id: bamtofastq_S1_L004_R2_001.fastq.gz
   - !File
     filename: bamtofastq_S1_L005_R2_001.fastq.gz
     filetype: fastq
@@ -59,6 +62,7 @@ sequence_spec:
     url: ./fastqs/bamtofastq_S1_L005_R2_001.fastq.gz
     urltype: local
     md5: md5
+    file_id: bamtofastq_S1_L005_R2_001.fastq.gz
 library_spec:
 - !Region
   parent_id: null
