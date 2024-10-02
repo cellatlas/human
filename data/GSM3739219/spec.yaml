@@ -18,55 +18,14 @@ sequence_spec:
   name: Read 1
   modality: rna
   primer_id: custom_primer1
-  min_len: 8
-  max_len: 8
-  strand: pos
-  files:
-  - !File
-    filename: SRR8987933_1.fastq.gz
-    filetype: fastq
-    filesize: 445554248
-    url: ./fastqs/SRR8987933_1.fastq.gz
-    urltype: local
-    md5: md5
-    file_id: SRR8987933_1.fastq.gz
-  - !File
-    filename: SRR8987934_1.fastq.gz
-    filetype: fastq
-    filesize: 450292979
-    url: ./fastqs/SRR8987934_1.fastq.gz
-    urltype: local
-    md5: md5
-    file_id: SRR8987934_1.fastq.gz
-  - !File
-    filename: SRR8987935_1.fastq.gz
-    filetype: fastq
-    filesize: 239971778
-    url: ./fastqs/SRR8987935_1.fastq.gz
-    urltype: local
-    md5: md5
-    file_id: SRR8987935_1.fastq.gz
-  - !File
-    filename: SRR8987936_1.fastq.gz
-    filetype: fastq
-    filesize: 238863236
-    url: ./fastqs/SRR8987936_1.fastq.gz
-    urltype: local
-    md5: md5
-    file_id: SRR8987936_1.fastq.gz
-- !Read
-  read_id: R2.fastq.gz
-  name: Read 2
-  modality: rna
-  primer_id: custom_primer2
   min_len: 28
   max_len: 28
-  strand: neg
+  strand: pos
   files:
   - !File
     filename: SRR8987933_2.fastq.gz
     filetype: fastq
-    filesize: 934379097
+    filesize: 445554248
     url: ./fastqs/SRR8987933_2.fastq.gz
     urltype: local
     md5: md5
@@ -74,7 +33,7 @@ sequence_spec:
   - !File
     filename: SRR8987934_2.fastq.gz
     filetype: fastq
-    filesize: 943544191
+    filesize: 450292979
     url: ./fastqs/SRR8987934_2.fastq.gz
     urltype: local
     md5: md5
@@ -82,7 +41,7 @@ sequence_spec:
   - !File
     filename: SRR8987935_2.fastq.gz
     filetype: fastq
-    filesize: 494209363
+    filesize: 239971778
     url: ./fastqs/SRR8987935_2.fastq.gz
     urltype: local
     md5: md5
@@ -90,11 +49,52 @@ sequence_spec:
   - !File
     filename: SRR8987936_2.fastq.gz
     filetype: fastq
-    filesize: 486427442
+    filesize: 238863236
     url: ./fastqs/SRR8987936_2.fastq.gz
     urltype: local
     md5: md5
     file_id: SRR8987936_2.fastq.gz
+- !Read
+  read_id: R2.fastq.gz
+  name: Read 2
+  modality: rna
+  primer_id: custom_primer2
+  min_len: 98
+  max_len: 98
+  strand: neg
+  files:
+  - !File
+    filename: SRR8987933_3.fastq.gz
+    filetype: fastq
+    filesize: 934379097
+    url: ./fastqs/SRR8987933_3.fastq.gz
+    urltype: local
+    md5: md5
+    file_id: SRR8987933_3.fastq.gz
+  - !File
+    filename: SRR8987934_3.fastq.gz
+    filetype: fastq
+    filesize: 943544191
+    url: ./fastqs/SRR8987934_3.fastq.gz
+    urltype: local
+    md5: md5
+    file_id: SRR8987934_3.fastq.gz
+  - !File
+    filename: SRR8987935_3.fastq.gz
+    filetype: fastq
+    filesize: 494209363
+    url: ./fastqs/SRR8987935_3.fastq.gz
+    urltype: local
+    md5: md5
+    file_id: SRR8987935_3.fastq.gz
+  - !File
+    filename: SRR8987936_3.fastq.gz
+    filetype: fastq
+    filesize: 486427442
+    url: ./fastqs/SRR8987936_3.fastq.gz
+    urltype: local
+    md5: md5
+    file_id: SRR8987936_3.fastq.gz
 library_spec:
 - !Region
   parent_id: null
@@ -135,6 +135,7 @@ library_spec:
       url: https://github.com/pachterlab/qcbc/raw/main/tests/10xRNAv2/737K-august-2016.txt.gz
       urltype: http
       md5: 72aa64fd865bcda142c47d0da8370168
+      file_id: 737K-august-2016.txt.gz
     regions: null
   - !Region
     parent_id: rna
