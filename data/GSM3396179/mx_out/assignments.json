@@ -1,0 +1,298 @@
+[
+    {
+        "label": "ARG1+, TREM2+ regulatory myeloid (mreg) cell",
+        "label_num": 1,
+        "label_frac": 0.0001527417137620284,
+        "label_id": 0,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "Adult endothelial progenitor cell",
+        "label_num": 1,
+        "label_frac": 0.0001527417137620284,
+        "label_id": 1,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "Alternatively activated macrophage",
+        "label_num": 1,
+        "label_frac": 0.0001527417137620284,
+        "label_id": 3,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "B cell",
+        "label_num": 378,
+        "label_frac": 0.05773636780204674,
+        "label_id": 4,
+        "label_ent_mean": 1.6123928796884966e-18,
+        "label_ent_var": 4.9008599087633206e-34
+    },
+    {
+        "label": "Bone marrow macrophage",
+        "label_num": 2,
+        "label_frac": 0.0003054834275240568,
+        "label_id": 5,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "CD8-positive, alpha-beta T cell",
+        "label_num": 30,
+        "label_frac": 0.004582251412860852,
+        "label_id": 7,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Cytotoxic T cell",
+        "label_num": 1,
+        "label_frac": 0.0001527417137620284,
+        "label_id": 8,
+        "label_ent_mean": 1.5890049705316109e-43,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "Dendritic cell",
+        "label_num": 12,
+        "label_frac": 0.001832900565144341,
+        "label_id": 9,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Dendritic cell, human",
+        "label_num": 88,
+        "label_frac": 0.0134412708110585,
+        "label_id": 10,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Effector memory CD8-positive, alpha-beta T cell",
+        "label_num": 66,
+        "label_frac": 0.010080953108293876,
+        "label_id": 11,
+        "label_ent_mean": 1.3382627796710377e-17,
+        "label_ent_var": 1.1820251965188825e-32
+    },
+    {
+        "label": "Erythrocyte",
+        "label_num": 679,
+        "label_frac": 0.10371162364441729,
+        "label_id": 12,
+        "label_ent_mean": 0.0009030822660534764,
+        "label_ent_var": 0.0005531919588150842
+    },
+    {
+        "label": "Erythroid lineage cell",
+        "label_num": 512,
+        "label_frac": 0.07820375744615854,
+        "label_id": 13,
+        "label_ent_mean": 0.0007271127723616621,
+        "label_ent_var": 0.00026482129380722274
+    },
+    {
+        "label": "Erythroid precursor cell",
+        "label_num": 1,
+        "label_frac": 0.0001527417137620284,
+        "label_id": 14,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "Exhausted T cell",
+        "label_num": 10,
+        "label_frac": 0.0015274171376202842,
+        "label_id": 15,
+        "label_ent_mean": 9.015192586602374e-13,
+        "label_ent_var": 3.612165372103685e-24
+    },
+    {
+        "label": "Hematopoietic cell",
+        "label_num": 978,
+        "label_frac": 0.1493813960592638,
+        "label_id": 17,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Hematopoietic precursor cell",
+        "label_num": 3,
+        "label_frac": 0.00045822514128608525,
+        "label_id": 18,
+        "label_ent_mean": 1.0851915205064647e-48,
+        "label_ent_var": 1.7223464317579704e-97
+    },
+    {
+        "label": "Leukemia stem cell",
+        "label_num": 177,
+        "label_frac": 0.02703528333587903,
+        "label_id": 20,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Leukemic cell",
+        "label_num": 45,
+        "label_frac": 0.006873377119291278,
+        "label_id": 21,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Macrophage",
+        "label_num": 7,
+        "label_frac": 0.0010691919963341989,
+        "label_id": 22,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Macrophage dendritic cell progenitor",
+        "label_num": 18,
+        "label_frac": 0.0027493508477165114,
+        "label_id": 23,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Mature conventional dendritic cell",
+        "label_num": 1,
+        "label_frac": 0.0001527417137620284,
+        "label_id": 24,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "Mesenchymal stem cell",
+        "label_num": 529,
+        "label_frac": 0.08080036658011303,
+        "label_id": 26,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Monocyte",
+        "label_num": 499,
+        "label_frac": 0.07621811516725217,
+        "label_id": 27,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Myeloid cell",
+        "label_num": 4,
+        "label_frac": 0.0006109668550481136,
+        "label_id": 28,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Naive B cell",
+        "label_num": 1,
+        "label_frac": 0.0001527417137620284,
+        "label_id": 29,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "Naive T cell",
+        "label_num": 2,
+        "label_frac": 0.0003054834275240568,
+        "label_id": 30,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Naive thymus-derived CD8-positive, alpha-beta T cell",
+        "label_num": 145,
+        "label_frac": 0.02214754849549412,
+        "label_id": 31,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Natural killer cell",
+        "label_num": 1076,
+        "label_frac": 0.16435008400794257,
+        "label_id": 32,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Neutrophil",
+        "label_num": 7,
+        "label_frac": 0.0010691919963341989,
+        "label_id": 33,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Plasma cell",
+        "label_num": 57,
+        "label_frac": 0.00870627768443562,
+        "label_id": 36,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Plasmablast",
+        "label_num": 17,
+        "label_frac": 0.002596609133954483,
+        "label_id": 37,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Plasmacytoid dendritic cell",
+        "label_num": 34,
+        "label_frac": 0.005193218267908966,
+        "label_id": 38,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Pro-T cell",
+        "label_num": 15,
+        "label_frac": 0.002291125706430426,
+        "label_id": 39,
+        "label_ent_mean": 8.492939288800968e-29,
+        "label_ent_var": 1.0819502664488862e-55
+    },
+    {
+        "label": "Progenitor cell",
+        "label_num": 42,
+        "label_frac": 0.006415151978005193,
+        "label_id": 40,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Regulatory T cell",
+        "label_num": 33,
+        "label_frac": 0.005040476554146938,
+        "label_id": 41,
+        "label_ent_mean": 0.0017935618828535545,
+        "label_ent_var": 0.00010356864969978573
+    },
+    {
+        "label": "Small pre B cell",
+        "label_num": 5,
+        "label_frac": 0.0007637085688101421,
+        "label_id": 42,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "T cell",
+        "label_num": 1070,
+        "label_frac": 0.1634336337253704,
+        "label_id": 44,
+        "label_ent_mean": 6.003332773345185e-40,
+        "label_ent_var": 6.037116085326194e-78
+    }
+]

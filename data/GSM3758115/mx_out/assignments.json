@@ -1,0 +1,282 @@
+[
+    {
+        "label": "B cell",
+        "label_num": 89,
+        "label_frac": 0.010862931771024044,
+        "label_id": 0,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Basal tumor cell",
+        "label_num": 6,
+        "label_frac": 0.0007323324789454412,
+        "label_id": 1,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "CD8-positive, alpha-beta T cell",
+        "label_num": 2,
+        "label_frac": 0.00024411082631514708,
+        "label_id": 3,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Cancer-associated fibroblast",
+        "label_num": 1776,
+        "label_frac": 0.2167704137678506,
+        "label_id": 4,
+        "label_ent_mean": 0.0003035654700583048,
+        "label_ent_var": 0.00016366194243041352
+    },
+    {
+        "label": "Cytotoxic T cell",
+        "label_num": 9,
+        "label_frac": 0.0010984987184181618,
+        "label_id": 5,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Dendritic cell",
+        "label_num": 68,
+        "label_frac": 0.008299768094715,
+        "label_id": 6,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Endothelial cell",
+        "label_num": 302,
+        "label_frac": 0.03686073477358721,
+        "label_id": 7,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Endothelial cell of vascular tree",
+        "label_num": 69,
+        "label_frac": 0.008421823507872574,
+        "label_id": 8,
+        "label_ent_mean": 6.659568497253495e-53,
+        "label_ent_var": 9.928560335674975e-104
+    },
+    {
+        "label": "Fibroblast",
+        "label_num": 1741,
+        "label_frac": 0.21249847430733554,
+        "label_id": 10,
+        "label_ent_mean": 0.012575998336461067,
+        "label_ent_var": 0.0012526329881276837
+    },
+    {
+        "label": "Helper T cell",
+        "label_num": 8,
+        "label_frac": 0.0009764433052605883,
+        "label_id": 11,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Keratinocyte",
+        "label_num": 1217,
+        "label_frac": 0.148541437812767,
+        "label_id": 12,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Keratinocyte progenitor cell",
+        "label_num": 3,
+        "label_frac": 0.0003661662394727206,
+        "label_id": 13,
+        "label_ent_mean": 6.285783731674077e-63,
+        "label_ent_var": 1.1853323136413546e-124
+    },
+    {
+        "label": "Langerhans cell",
+        "label_num": 3,
+        "label_frac": 0.0003661662394727206,
+        "label_id": 14,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Lymphocyte",
+        "label_num": 4,
+        "label_frac": 0.00048822165263029415,
+        "label_id": 15,
+        "label_ent_mean": 1.2533843698586972e-68,
+        "label_ent_var": 6.283889514424334e-136
+    },
+    {
+        "label": "Macrophage",
+        "label_num": 593,
+        "label_frac": 0.0723788600024411,
+        "label_id": 16,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Mast cell",
+        "label_num": 379,
+        "label_frac": 0.04625900158672037,
+        "label_id": 17,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Melanocyte",
+        "label_num": 52,
+        "label_frac": 0.006346881484193824,
+        "label_id": 18,
+        "label_ent_mean": 1.27696145117407e-53,
+        "label_ent_var": 8.317696151926298e-105
+    },
+    {
+        "label": "Melanocyte of skin",
+        "label_num": 2,
+        "label_frac": 0.00024411082631514708,
+        "label_id": 19,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Memory B cell",
+        "label_num": 4,
+        "label_frac": 0.00048822165263029415,
+        "label_id": 20,
+        "label_ent_mean": 3.772626079351948e-35,
+        "label_ent_var": 5.693083013842579e-69
+    },
+    {
+        "label": "Merkel cell",
+        "label_num": 2,
+        "label_frac": 0.00024411082631514708,
+        "label_id": 21,
+        "label_ent_mean": 5.0826428602325905e-82,
+        "label_ent_var": 8.559883885559128e-167
+    },
+    {
+        "label": "Monocyte",
+        "label_num": 4,
+        "label_frac": 0.00048822165263029415,
+        "label_id": 23,
+        "label_ent_mean": 8.226598000865038e-94,
+        "label_ent_var": 9.025127688305998e-187
+    },
+    {
+        "label": "Myeloid cell",
+        "label_num": 1,
+        "label_frac": 0.00012205541315757354,
+        "label_id": 24,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "Myofibroblast cell",
+        "label_num": 2,
+        "label_frac": 0.00024411082631514708,
+        "label_id": 25,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Natural killer cell",
+        "label_num": 1,
+        "label_frac": 0.00012205541315757354,
+        "label_id": 26,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "Neoplastic cell",
+        "label_num": 88,
+        "label_frac": 0.01074087635786647,
+        "label_id": 27,
+        "label_ent_mean": 5.52361501882653e-19,
+        "label_ent_var": 2.684908413106129e-35
+    },
+    {
+        "label": "Pericyte",
+        "label_num": 75,
+        "label_frac": 0.009154155986818015,
+        "label_id": 28,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Plasma cell",
+        "label_num": 1,
+        "label_frac": 0.00012205541315757354,
+        "label_id": 29,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "Regulatory T cell",
+        "label_num": 1,
+        "label_frac": 0.00012205541315757354,
+        "label_id": 32,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "Schwann cell",
+        "label_num": 2,
+        "label_frac": 0.00024411082631514708,
+        "label_id": 33,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Sebum secreting cell",
+        "label_num": 2,
+        "label_frac": 0.00024411082631514708,
+        "label_id": 34,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Secretory cell",
+        "label_num": 2,
+        "label_frac": 0.00024411082631514708,
+        "label_id": 35,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Smooth muscle cell",
+        "label_num": 337,
+        "label_frac": 0.04113267423410228,
+        "label_id": 36,
+        "label_ent_mean": 2.301413698990629e-52,
+        "label_ent_var": 1.2972144722220365e-101
+    },
+    {
+        "label": "T cell",
+        "label_num": 1283,
+        "label_frac": 0.15659709508116684,
+        "label_id": 37,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Tissue resident memory T cell",
+        "label_num": 63,
+        "label_frac": 0.007689491028927133,
+        "label_id": 39,
+        "label_ent_mean": 1.5687301098700342e-20,
+        "label_ent_var": 1.5368329159312432e-38
+    },
+    {
+        "label": "Vein endothelial cell",
+        "label_num": 2,
+        "label_frac": 0.00024411082631514708,
+        "label_id": 40,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    }
+]

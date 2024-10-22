@@ -1,0 +1,306 @@
+[
+    {
+        "label": "AT1",
+        "label_num": 1677,
+        "label_frac": 0.11154715977118532,
+        "label_id": 0,
+        "label_ent_mean": 6.447920746869834e-05,
+        "label_ent_var": 2.2926191303879883e-07
+    },
+    {
+        "label": "AT2",
+        "label_num": 28,
+        "label_frac": 0.001862445124384728,
+        "label_id": 1,
+        "label_ent_mean": 6.270499758804511e-25,
+        "label_ent_var": 1.1004104430239214e-47
+    },
+    {
+        "label": "Aberrant Basaloid",
+        "label_num": 77,
+        "label_frac": 0.005121724092058002,
+        "label_id": 2,
+        "label_ent_mean": 1.9920098875062878e-19,
+        "label_ent_var": 3.0554396117805664e-36
+    },
+    {
+        "label": "B",
+        "label_num": 102,
+        "label_frac": 0.0067846215245443665,
+        "label_id": 3,
+        "label_ent_mean": 6.409089171883234e-09,
+        "label_ent_var": 7.329315587814608e-17
+    },
+    {
+        "label": "B Plasma",
+        "label_num": 6,
+        "label_frac": 0.00039909538379672744,
+        "label_id": 4,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Basal",
+        "label_num": 43,
+        "label_frac": 0.0028601835838765466,
+        "label_id": 5,
+        "label_ent_mean": 8.680790291827875e-42,
+        "label_ent_var": 3.240313163899802e-81
+    },
+    {
+        "label": "Ciliated",
+        "label_num": 195,
+        "label_frac": 0.012970599973393641,
+        "label_id": 6,
+        "label_ent_mean": 1.2541080681242204e-07,
+        "label_ent_var": 3.0669347407418166e-12
+    },
+    {
+        "label": "Club",
+        "label_num": 45,
+        "label_frac": 0.0029932153784754554,
+        "label_id": 7,
+        "label_ent_mean": 4.1720385753787434e-14,
+        "label_ent_var": 3.941806288738558e-27
+    },
+    {
+        "label": "DC Langerhans",
+        "label_num": 314,
+        "label_frac": 0.020885991752028734,
+        "label_id": 8,
+        "label_ent_mean": 0.006280740475219756,
+        "label_ent_var": 0.0030669704109789644
+    },
+    {
+        "label": "DC Mature",
+        "label_num": 188,
+        "label_frac": 0.012504988692297459,
+        "label_id": 9,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Fibroblast",
+        "label_num": 19,
+        "label_frac": 0.0012638020486896368,
+        "label_id": 10,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Goblet",
+        "label_num": 615,
+        "label_frac": 0.040907276839164564,
+        "label_id": 11,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "ILC A",
+        "label_num": 375,
+        "label_frac": 0.024943461487295465,
+        "label_id": 12,
+        "label_ent_mean": 0.0012249133095096974,
+        "label_ent_var": 4.2633392911700635e-05
+    },
+    {
+        "label": "ILC B",
+        "label_num": 1,
+        "label_frac": 6.651589729945457e-05,
+        "label_id": 13,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "Ionocyte",
+        "label_num": 1,
+        "label_frac": 6.651589729945457e-05,
+        "label_id": 14,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "Lymphatic",
+        "label_num": 198,
+        "label_frac": 0.013170147665292006,
+        "label_id": 15,
+        "label_ent_mean": 4.704796936722503e-08,
+        "label_ent_var": 4.3827526147271026e-13
+    },
+    {
+        "label": "Macrophage",
+        "label_num": 1426,
+        "label_frac": 0.09485166954902222,
+        "label_id": 16,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Macrophage Alveolar",
+        "label_num": 4,
+        "label_frac": 0.0002660635891978183,
+        "label_id": 17,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Mast",
+        "label_num": 143,
+        "label_frac": 0.009511773313822004,
+        "label_id": 18,
+        "label_ent_mean": 7.600684165289804e-20,
+        "label_ent_var": 3.2712000618004585e-37
+    },
+    {
+        "label": "Mesothelial",
+        "label_num": 1,
+        "label_frac": 6.651589729945457e-05,
+        "label_id": 19,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "Myofibroblast",
+        "label_num": 119,
+        "label_frac": 0.007915391778635093,
+        "label_id": 20,
+        "label_ent_mean": 3.238317594776489e-61,
+        "label_ent_var": 2.5435978131854645e-121
+    },
+    {
+        "label": "NK",
+        "label_num": 4,
+        "label_frac": 0.0002660635891978183,
+        "label_id": 21,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "PNEC",
+        "label_num": 50,
+        "label_frac": 0.0033257948649727284,
+        "label_id": 22,
+        "label_ent_mean": 1.2261926920986208e-43,
+        "label_ent_var": 4.747602983561495e-87
+    },
+    {
+        "label": "Pericytes",
+        "label_num": 56,
+        "label_frac": 0.003724890248769456,
+        "label_id": 23,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "SMC",
+        "label_num": 1,
+        "label_frac": 6.651589729945457e-05,
+        "label_id": 24,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "T",
+        "label_num": 2,
+        "label_frac": 0.00013303179459890914,
+        "label_id": 25,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "T Cytotoxic",
+        "label_num": 68,
+        "label_frac": 0.004523081016362911,
+        "label_id": 26,
+        "label_ent_mean": 2.9740586201152295e-36,
+        "label_ent_var": 7.542756831664074e-72
+    },
+    {
+        "label": "T Regulatory",
+        "label_num": 1,
+        "label_frac": 6.651589729945457e-05,
+        "label_id": 27,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "VE Arterial",
+        "label_num": 5,
+        "label_frac": 0.00033257948649727286,
+        "label_id": 28,
+        "label_ent_mean": 1.5389440464420018e-38,
+        "label_ent_var": 1.184174389039641e-75
+    },
+    {
+        "label": "VE Capillary A",
+        "label_num": 1675,
+        "label_frac": 0.11141412797658641,
+        "label_id": 29,
+        "label_ent_mean": 9.108261843982165e-18,
+        "label_ent_var": 6.614272649829783e-34
+    },
+    {
+        "label": "VE Capillary B",
+        "label_num": 3117,
+        "label_frac": 0.2073300518823999,
+        "label_id": 30,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "VE Peribronchial",
+        "label_num": 16,
+        "label_frac": 0.0010642543567912731,
+        "label_id": 31,
+        "label_ent_mean": 2.3544532093893606e-37,
+        "label_ent_var": 4.139181083058575e-73
+    },
+    {
+        "label": "VE Venous",
+        "label_num": 22,
+        "label_frac": 0.0014633497405880005,
+        "label_id": 32,
+        "label_ent_mean": 3.565331331474283e-33,
+        "label_ent_var": 2.796549247645951e-64
+    },
+    {
+        "label": "cDC1",
+        "label_num": 561,
+        "label_frac": 0.03731541838499401,
+        "label_id": 33,
+        "label_ent_mean": 0.009760280712159435,
+        "label_ent_var": 0.0008182262155359278
+    },
+    {
+        "label": "cDC2",
+        "label_num": 341,
+        "label_frac": 0.02268192097911401,
+        "label_id": 34,
+        "label_ent_mean": 7.923977547658816e-07,
+        "label_ent_var": 1.5204005352025462e-11
+    },
+    {
+        "label": "cMonocyte",
+        "label_num": 2701,
+        "label_frac": 0.17965943860582678,
+        "label_id": 35,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "ncMonocyte",
+        "label_num": 567,
+        "label_frac": 0.03771451376879074,
+        "label_id": 36,
+        "label_ent_mean": 0.000207382198134345,
+        "label_ent_var": 1.2171171681066972e-05
+    },
+    {
+        "label": "pDC",
+        "label_num": 270,
+        "label_frac": 0.017959292270852734,
+        "label_id": 37,
+        "label_ent_mean": 1.0523340305161923e-07,
+        "label_ent_var": 1.951443552470896e-12
+    }
+]

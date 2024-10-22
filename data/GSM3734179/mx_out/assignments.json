@@ -1,0 +1,282 @@
+[
+    {
+        "label": "AXL+, SIGLEC6+ dendritic cell",
+        "label_num": 1,
+        "label_frac": 0.00023142791020597085,
+        "label_id": 0,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "Alpha-beta T cell",
+        "label_num": 16,
+        "label_frac": 0.0037028465632955336,
+        "label_id": 1,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "B cell",
+        "label_num": 595,
+        "label_frac": 0.13769960657255265,
+        "label_id": 3,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "CD14-low, CD16-positive monocyte",
+        "label_num": 132,
+        "label_frac": 0.03054848414718815,
+        "label_id": 4,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "CD14-positive monocyte",
+        "label_num": 398,
+        "label_frac": 0.0921083082619764,
+        "label_id": 5,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "CD141+ CLEC9a+ dendritic cell",
+        "label_num": 1,
+        "label_frac": 0.00023142791020597085,
+        "label_id": 6,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "CD1C+ B dendritic cell",
+        "label_num": 9,
+        "label_frac": 0.0020828511918537375,
+        "label_id": 7,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "CD1C-, CD141- dendritic cell",
+        "label_num": 124,
+        "label_frac": 0.028697060865540386,
+        "label_id": 8,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "CD4-positive, CD25-positive, alpha-beta regulatory T cell",
+        "label_num": 1,
+        "label_frac": 0.00023142791020597085,
+        "label_id": 9,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "Central memory CD4-positive, alpha-beta T cell",
+        "label_num": 3,
+        "label_frac": 0.0006942837306179125,
+        "label_id": 11,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Circulating fetal cell",
+        "label_num": 2,
+        "label_frac": 0.0004628558204119417,
+        "label_id": 12,
+        "label_ent_mean": 2.9273353753888313e-90,
+        "label_ent_var": 1.7138584800005738e-179
+    },
+    {
+        "label": "Circulating tumor cell",
+        "label_num": 3,
+        "label_frac": 0.0006942837306179125,
+        "label_id": 13,
+        "label_ent_mean": 3.114594093884911e-92,
+        "label_ent_var": 2.9102089108988304e-183
+    },
+    {
+        "label": "Dendritic cell",
+        "label_num": 1,
+        "label_frac": 0.00023142791020597085,
+        "label_id": 14,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "Dendritic cell, human",
+        "label_num": 3,
+        "label_frac": 0.0006942837306179125,
+        "label_id": 15,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Effector memory CD4-positive, alpha-beta T cell",
+        "label_num": 46,
+        "label_frac": 0.010645683869474658,
+        "label_id": 16,
+        "label_ent_mean": 8.60140573078304e-67,
+        "label_ent_var": 3.4032723050951766e-131
+    },
+    {
+        "label": "Effector memory CD8-positive, alpha-beta T cell",
+        "label_num": 28,
+        "label_frac": 0.0064799814857671835,
+        "label_id": 17,
+        "label_ent_mean": 5.74612263275433e-25,
+        "label_ent_var": 9.245019086982435e-48
+    },
+    {
+        "label": "Effector memory T cell",
+        "label_num": 5,
+        "label_frac": 0.0011571395510298543,
+        "label_id": 18,
+        "label_ent_mean": 5.0622015331536326e-95,
+        "label_ent_var": 1.2812942181131494e-188
+    },
+    {
+        "label": "Erythrocyte",
+        "label_num": 1,
+        "label_frac": 0.00023142791020597085,
+        "label_id": 22,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "Erythroid progenitor cell",
+        "label_num": 1,
+        "label_frac": 0.00023142791020597085,
+        "label_id": 23,
+        "label_ent_mean": 2.501536737042296e-96,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "Fibroblast",
+        "label_num": 2,
+        "label_frac": 0.0004628558204119417,
+        "label_id": 25,
+        "label_ent_mean": 0.7005178257908431,
+        "label_ent_var": 8.63537617038194e-16
+    },
+    {
+        "label": "Lymphocyte",
+        "label_num": 19,
+        "label_frac": 0.004397130293913446,
+        "label_id": 33,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Memory B cell",
+        "label_num": 6,
+        "label_frac": 0.001388567461235825,
+        "label_id": 38,
+        "label_ent_mean": 2.8197670187989676e-73,
+        "label_ent_var": 4.770651624180151e-145
+    },
+    {
+        "label": "Monocyte",
+        "label_num": 25,
+        "label_frac": 0.005785697755149271,
+        "label_id": 39,
+        "label_ent_mean": 1.602292715992641e-23,
+        "label_ent_var": 6.418354869307683e-45
+    },
+    {
+        "label": "Mucosal invariant T cell",
+        "label_num": 1,
+        "label_frac": 0.00023142791020597085,
+        "label_id": 41,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "Myeloid cell",
+        "label_num": 3,
+        "label_frac": 0.0006942837306179125,
+        "label_id": 43,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Myeloid suppressor cell",
+        "label_num": 1,
+        "label_frac": 0.00023142791020597085,
+        "label_id": 44,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "Naive thymus-derived CD4-positive, alpha-beta T cell",
+        "label_num": 336,
+        "label_frac": 0.0777597778292062,
+        "label_id": 46,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Naive thymus-derived CD8-positive, alpha-beta T cell",
+        "label_num": 497,
+        "label_frac": 0.1150196713723675,
+        "label_id": 47,
+        "label_ent_mean": 1.84720581166833e-05,
+        "label_ent_var": 1.6958481473986407e-07
+    },
+    {
+        "label": "Natural killer cell",
+        "label_num": 1374,
+        "label_frac": 0.31798194862300394,
+        "label_id": 48,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Plasma cell",
+        "label_num": 5,
+        "label_frac": 0.0011571395510298543,
+        "label_id": 52,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Plasmacytoid dendritic cell",
+        "label_num": 12,
+        "label_frac": 0.00277713492247165,
+        "label_id": 53,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Platelet",
+        "label_num": 33,
+        "label_frac": 0.007637121036797038,
+        "label_id": 54,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Regulatory T cell",
+        "label_num": 9,
+        "label_frac": 0.0020828511918537375,
+        "label_id": 55,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "T cell",
+        "label_num": 627,
+        "label_frac": 0.1451052996991437,
+        "label_id": 58,
+        "label_ent_mean": 5.5250333190821375e-06,
+        "label_ent_var": 1.9139797721958785e-08
+    },
+    {
+        "label": "Tissue resident memory T cell",
+        "label_num": 1,
+        "label_frac": 0.00023142791020597085,
+        "label_id": 62,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    }
+]

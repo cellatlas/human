@@ -1,0 +1,98 @@
+[
+    {
+        "label": "ASPC",
+        "label_num": 120,
+        "label_frac": 0.2603036876355748,
+        "label_id": 0,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "LEC",
+        "label_num": 1,
+        "label_frac": 0.0021691973969631237,
+        "label_id": 1,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "SMC",
+        "label_num": 3,
+        "label_frac": 0.006507592190889371,
+        "label_id": 2,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "dendritic_cell",
+        "label_num": 159,
+        "label_frac": 0.34490238611713664,
+        "label_id": 5,
+        "label_ent_mean": 1.273894745206451e-10,
+        "label_ent_var": 1.5936593335841606e-18
+    },
+    {
+        "label": "endothelial",
+        "label_num": 21,
+        "label_frac": 0.0455531453362256,
+        "label_id": 7,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "macrophage",
+        "label_num": 15,
+        "label_frac": 0.03253796095444685,
+        "label_id": 8,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "mast_cell",
+        "label_num": 1,
+        "label_frac": 0.0021691973969631237,
+        "label_id": 9,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "monocyte",
+        "label_num": 19,
+        "label_frac": 0.04121475054229935,
+        "label_id": 11,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "neutrophil",
+        "label_num": 11,
+        "label_frac": 0.02386117136659436,
+        "label_id": 12,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "nk_cell",
+        "label_num": 59,
+        "label_frac": 0.1279826464208243,
+        "label_id": 13,
+        "label_ent_mean": 0.00010017661604380847,
+        "label_ent_var": 5.920859097173287e-07
+    },
+    {
+        "label": "pericyte",
+        "label_num": 3,
+        "label_frac": 0.006507592190889371,
+        "label_id": 14,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "t_cell",
+        "label_num": 49,
+        "label_frac": 0.10629067245119306,
+        "label_id": 15,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    }
+]

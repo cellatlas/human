@@ -1,0 +1,130 @@
+[
+    {
+        "label": "B cells",
+        "label_num": 54,
+        "label_frac": 0.02555608140085187,
+        "label_id": 0,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "CD",
+        "label_num": 29,
+        "label_frac": 0.01372456223379082,
+        "label_id": 1,
+        "label_ent_mean": 0.0067619618657068555,
+        "label_ent_var": 0.001008172979064962
+    },
+    {
+        "label": "Cycling cells",
+        "label_num": 467,
+        "label_frac": 0.22101277804070044,
+        "label_id": 2,
+        "label_ent_mean": 2.0487887684781243e-08,
+        "label_ent_var": 7.533226586087945e-14
+    },
+    {
+        "label": "EC",
+        "label_num": 109,
+        "label_frac": 0.051585423568386184,
+        "label_id": 3,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Fibroblast",
+        "label_num": 382,
+        "label_frac": 0.18078561287269285,
+        "label_id": 4,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "LOH (AL)",
+        "label_num": 112,
+        "label_frac": 0.053005205868433505,
+        "label_id": 5,
+        "label_ent_mean": 2.041043979528206e-06,
+        "label_ent_var": 5.462156393190836e-11
+    },
+    {
+        "label": "LOH (DL)",
+        "label_num": 1,
+        "label_frac": 0.000473260766682442,
+        "label_id": 6,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "Mast cells",
+        "label_num": 272,
+        "label_frac": 0.12872692853762424,
+        "label_id": 7,
+        "label_ent_mean": 1.1360448225380578e-38,
+        "label_ent_var": 3.510426121578231e-74
+    },
+    {
+        "label": "Mono1",
+        "label_num": 139,
+        "label_frac": 0.06578324656885944,
+        "label_id": 8,
+        "label_ent_mean": 6.934349727272054e-09,
+        "label_ent_var": 6.683843653476404e-15
+    },
+    {
+        "label": "Mono2",
+        "label_num": 20,
+        "label_frac": 0.00946521533364884,
+        "label_id": 9,
+        "label_ent_mean": 3.7705817871544e-10,
+        "label_ent_var": 2.7990127122398876e-18
+    },
+    {
+        "label": "Myofibroblast",
+        "label_num": 266,
+        "label_frac": 0.12588736393752958,
+        "label_id": 10,
+        "label_ent_mean": 0.027785441057234142,
+        "label_ent_var": 0.010829526256616817
+    },
+    {
+        "label": "PT",
+        "label_num": 80,
+        "label_frac": 0.03786086133459536,
+        "label_id": 11,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Pericyte",
+        "label_num": 137,
+        "label_frac": 0.06483672503549456,
+        "label_id": 12,
+        "label_ent_mean": 0.03584789454911152,
+        "label_ent_var": 0.008712518580249096
+    },
+    {
+        "label": "Plasma1",
+        "label_num": 6,
+        "label_frac": 0.002839564600094652,
+        "label_id": 13,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Plasma2",
+        "label_num": 30,
+        "label_frac": 0.01419782300047326,
+        "label_id": 14,
+        "label_ent_mean": 3.4523875440720313e-11,
+        "label_ent_var": 3.5756939263391144e-20
+    },
+    {
+        "label": "T cells",
+        "label_num": 9,
+        "label_frac": 0.004259346900141978,
+        "label_id": 15,
+        "label_ent_mean": 2.1136662171149642e-50,
+        "label_ent_var": 4.0208263896357746e-99
+    }
+]

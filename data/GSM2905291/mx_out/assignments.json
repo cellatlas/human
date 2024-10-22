@@ -1,0 +1,282 @@
+[
+    {
+        "label": "Angioblast",
+        "label_num": 4,
+        "label_frac": 0.0007004027315706532,
+        "label_id": 0,
+        "label_ent_mean": 0.395741590582556,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Astrocyte",
+        "label_num": 476,
+        "label_frac": 0.08334792505690772,
+        "label_id": 1,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Border-associated macrophage",
+        "label_num": 143,
+        "label_frac": 0.02503939765365085,
+        "label_id": 2,
+        "label_ent_mean": 3.003289550919852e-21,
+        "label_ent_var": 1.289823982113004e-39
+    },
+    {
+        "label": "Brain pericyte",
+        "label_num": 3,
+        "label_frac": 0.0005253020486779899,
+        "label_id": 3,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "CD103-positive dendritic cell",
+        "label_num": 1,
+        "label_frac": 0.0001751006828926633,
+        "label_id": 4,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "CD49f+ hiPSC- astrocyte",
+        "label_num": 4,
+        "label_frac": 0.0007004027315706532,
+        "label_id": 6,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Cancer stem cell",
+        "label_num": 616,
+        "label_frac": 0.10786202066188058,
+        "label_id": 7,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Dividing radial glia",
+        "label_num": 184,
+        "label_frac": 0.032218525652250044,
+        "label_id": 9,
+        "label_ent_mean": 6.675222358016941e-73,
+        "label_ent_var": 8.198781209330351e-143
+    },
+    {
+        "label": "Dopaminergic neuron",
+        "label_num": 3,
+        "label_frac": 0.0005253020486779899,
+        "label_id": 10,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Endothelial cell",
+        "label_num": 31,
+        "label_frac": 0.005428121169672562,
+        "label_id": 12,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Ependymal cell",
+        "label_num": 14,
+        "label_frac": 0.002451409560497286,
+        "label_id": 13,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "GABAergic neuron",
+        "label_num": 2,
+        "label_frac": 0.0003502013657853266,
+        "label_id": 15,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Glioblast",
+        "label_num": 48,
+        "label_frac": 0.008404832778847838,
+        "label_id": 17,
+        "label_ent_mean": 1.6810246426543402e-31,
+        "label_ent_var": 1.3506517127103012e-62
+    },
+    {
+        "label": "Immature astrocyte",
+        "label_num": 34,
+        "label_frac": 0.005953423218350551,
+        "label_id": 18,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Inflammatory macrophage",
+        "label_num": 17,
+        "label_frac": 0.0029767116091752757,
+        "label_id": 19,
+        "label_ent_mean": 0.03798230875746859,
+        "label_ent_var": 0.024525148235310473
+    },
+    {
+        "label": "Interneuron",
+        "label_num": 113,
+        "label_frac": 0.019786377166870952,
+        "label_id": 22,
+        "label_ent_mean": 6.93485182335288e-62,
+        "label_ent_var": 5.434415188740265e-121
+    },
+    {
+        "label": "Macrophage",
+        "label_num": 185,
+        "label_frac": 0.03239362633514271,
+        "label_id": 23,
+        "label_ent_mean": 3.29763286639008e-39,
+        "label_ent_var": 2.0117607664767704e-75
+    },
+    {
+        "label": "Microglial cell",
+        "label_num": 100,
+        "label_frac": 0.01751006828926633,
+        "label_id": 26,
+        "label_ent_mean": 5.777316348900508e-45,
+        "label_ent_var": 2.5653987887609995e-87
+    },
+    {
+        "label": "Midbrain cell",
+        "label_num": 9,
+        "label_frac": 0.0015759061460339696,
+        "label_id": 27,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Naive B cell",
+        "label_num": 55,
+        "label_frac": 0.00963053755909648,
+        "label_id": 29,
+        "label_ent_mean": 6.054086454145401e-22,
+        "label_ent_var": 3.2202639053214084e-43
+    },
+    {
+        "label": "Neoplastic cell",
+        "label_num": 640,
+        "label_frac": 0.1120644370513045,
+        "label_id": 31,
+        "label_ent_mean": 6.348234844799141e-25,
+        "label_ent_var": 2.1245280338044373e-47
+    },
+    {
+        "label": "Neurecto-epithelial cell",
+        "label_num": 25,
+        "label_frac": 0.0043775170723165824,
+        "label_id": 32,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Neuroblast (sensu Vertebrata)",
+        "label_num": 115,
+        "label_frac": 0.02013657853265628,
+        "label_id": 33,
+        "label_ent_mean": 2.83688942549057e-49,
+        "label_ent_var": 8.768754247713294e-96
+    },
+    {
+        "label": "Neuron",
+        "label_num": 134,
+        "label_frac": 0.02346349150761688,
+        "label_id": 34,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Oligodendrocyte",
+        "label_num": 239,
+        "label_frac": 0.04184906321134652,
+        "label_id": 36,
+        "label_ent_mean": 0.00018864109721411046,
+        "label_ent_var": 8.504925790396291e-06
+    },
+    {
+        "label": "Oligodendrocyte precursor cell",
+        "label_num": 415,
+        "label_frac": 0.07266678340045526,
+        "label_id": 37,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Pericyte",
+        "label_num": 46,
+        "label_frac": 0.008054631413062511,
+        "label_id": 39,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Plasmacytoid dendritic cell",
+        "label_num": 57,
+        "label_frac": 0.009980738924881808,
+        "label_id": 40,
+        "label_ent_mean": 8.270467393860527e-30,
+        "label_ent_var": 3.898835962035879e-57
+    },
+    {
+        "label": "Purkinje cell",
+        "label_num": 61,
+        "label_frac": 0.01068114165645246,
+        "label_id": 41,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Radial glial cell",
+        "label_num": 162,
+        "label_frac": 0.028366310628611453,
+        "label_id": 42,
+        "label_ent_mean": 2.2389097335370247e-29,
+        "label_ent_var": 8.120601207781465e-56
+    },
+    {
+        "label": "Stem cell",
+        "label_num": 1725,
+        "label_frac": 0.30204867798984414,
+        "label_id": 44,
+        "label_ent_mean": 4.630830879766454e-09,
+        "label_ent_var": 3.6577886764737415e-14
+    },
+    {
+        "label": "Subplate cell",
+        "label_num": 21,
+        "label_frac": 0.003677114340745929,
+        "label_id": 45,
+        "label_ent_mean": 1.1395282622188223e-56,
+        "label_ent_var": 2.7269017868304432e-111
+    },
+    {
+        "label": "Thalamus cell",
+        "label_num": 6,
+        "label_frac": 0.0010506040973559797,
+        "label_id": 48,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Vascular leptomeningeal cell",
+        "label_num": 9,
+        "label_frac": 0.0015759061460339696,
+        "label_id": 49,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Von Economo neuron",
+        "label_num": 14,
+        "label_frac": 0.002451409560497286,
+        "label_id": 50,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    }
+]
