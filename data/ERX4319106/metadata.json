@@ -1,0 +1,730 @@
+{
+    "ERX4319106": {
+        "accession": "ERX4319106",
+        "title": "Harvard_Nuclei",
+        "platform": "ILLUMINA",
+        "instrument": "NextSeq 500",
+        "runs": {
+            "ERR6449976": {
+                "accession": "ERR6449976",
+                "experiment": "ERX4319106",
+                "study": "ERP123138",
+                "sample": "ERS5009199",
+                "title": "20210806-134321_sequencingRun_be9c8cba-f007-4f0b-a071-c23471161a76_2",
+                "attributes": {
+                    "ENA-FIRST-PUBLIC": "2021-08-09",
+                    "ENA-LAST-UPDATE": "2021-08-09"
+                },
+                "files": {
+                    "ftp": [],
+                    "aws": [
+                        {
+                            "accession": "ERR6449976",
+                            "filename": "H0026_RA_S2_L002_I1_001.fastq.gz.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 3,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-17/ERR6449976/H0026_RA_S2_L002_I1_001.fastq.gz.1"
+                        },
+                        {
+                            "accession": "ERR6449976",
+                            "filename": "H0026_RA_S2_L002_R1_001.fastq.gz.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-17/ERR6449976/H0026_RA_S2_L002_R1_001.fastq.gz.1"
+                        },
+                        {
+                            "accession": "ERR6449976",
+                            "filename": "H0026_RA_S2_L002_R2_001.fastq.gz.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 2,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-17/ERR6449976/H0026_RA_S2_L002_R2_001.fastq.gz.1"
+                        },
+                        {
+                            "accession": "ERR6449976",
+                            "filename": "ERR6449976",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR6449976/ERR6449976"
+                        },
+                        {
+                            "accession": "ERR6449976",
+                            "filename": "ERR6449976.lite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-zq-5/ERR6449976/ERR6449976.lite.1"
+                        }
+                    ],
+                    "gcp": [
+                        {
+                            "accession": "ERR6449976",
+                            "filename": "ERR6449976.lite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "gcp",
+                            "url": "gs://sra-pub-zq-102/ERR6449976/ERR6449976.lite.1"
+                        }
+                    ],
+                    "ncbi": [
+                        {
+                            "accession": "ERR6449976",
+                            "filename": "ERR6449976.lite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "ncbi",
+                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos3/sra-pub-zq-22/ERR006/6449/ERR6449976/ERR6449976.lite.1"
+                        }
+                    ]
+                }
+            },
+            "ERR6449977": {
+                "accession": "ERR6449977",
+                "experiment": "ERX4319106",
+                "study": "ERP123138",
+                "sample": "ERS5009199",
+                "title": "20210806-134321_sequencingRun_be9c8cba-f007-4f0b-a071-c23471161a76_3",
+                "attributes": {
+                    "ENA-FIRST-PUBLIC": "2021-08-09",
+                    "ENA-LAST-UPDATE": "2021-08-09"
+                },
+                "files": {
+                    "ftp": [],
+                    "aws": [
+                        {
+                            "accession": "ERR6449977",
+                            "filename": "H0026_RA_S2_L003_I1_001.fastq.gz.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 3,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-17/ERR6449977/H0026_RA_S2_L003_I1_001.fastq.gz.1"
+                        },
+                        {
+                            "accession": "ERR6449977",
+                            "filename": "H0026_RA_S2_L003_R1_001.fastq.gz.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-17/ERR6449977/H0026_RA_S2_L003_R1_001.fastq.gz.1"
+                        },
+                        {
+                            "accession": "ERR6449977",
+                            "filename": "H0026_RA_S2_L003_R2_001.fastq.gz.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 2,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-17/ERR6449977/H0026_RA_S2_L003_R2_001.fastq.gz.1"
+                        },
+                        {
+                            "accession": "ERR6449977",
+                            "filename": "ERR6449977",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR6449977/ERR6449977"
+                        },
+                        {
+                            "accession": "ERR6449977",
+                            "filename": "ERR6449977.lite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-zq-2/ERR6449977/ERR6449977.lite.1"
+                        }
+                    ],
+                    "gcp": [
+                        {
+                            "accession": "ERR6449977",
+                            "filename": "ERR6449977.lite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "gcp",
+                            "url": "gs://sra-pub-zq-104/ERR6449977/ERR6449977.lite.1"
+                        }
+                    ],
+                    "ncbi": [
+                        {
+                            "accession": "ERR6449977",
+                            "filename": "ERR6449977.lite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "ncbi",
+                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-zq-38/ERR006/6449/ERR6449977/ERR6449977.lite.1"
+                        }
+                    ]
+                }
+            },
+            "ERR6449978": {
+                "accession": "ERR6449978",
+                "experiment": "ERX4319106",
+                "study": "ERP123138",
+                "sample": "ERS5009199",
+                "title": "20210806-134321_sequencingRun_be9c8cba-f007-4f0b-a071-c23471161a76_4",
+                "attributes": {
+                    "ENA-FIRST-PUBLIC": "2021-08-09",
+                    "ENA-LAST-UPDATE": "2021-08-09"
+                },
+                "files": {
+                    "ftp": [],
+                    "aws": [
+                        {
+                            "accession": "ERR6449978",
+                            "filename": "H0026_RA_S2_L004_I1_001.fastq.gz.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 3,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-16/ERR6449978/H0026_RA_S2_L004_I1_001.fastq.gz.1"
+                        },
+                        {
+                            "accession": "ERR6449978",
+                            "filename": "H0026_RA_S2_L004_R1_001.fastq.gz.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-16/ERR6449978/H0026_RA_S2_L004_R1_001.fastq.gz.1"
+                        },
+                        {
+                            "accession": "ERR6449978",
+                            "filename": "H0026_RA_S2_L004_R2_001.fastq.gz.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 2,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-16/ERR6449978/H0026_RA_S2_L004_R2_001.fastq.gz.1"
+                        },
+                        {
+                            "accession": "ERR6449978",
+                            "filename": "ERR6449978",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR6449978/ERR6449978"
+                        },
+                        {
+                            "accession": "ERR6449978",
+                            "filename": "ERR6449978.lite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-zq-2/ERR6449978/ERR6449978.lite.1"
+                        }
+                    ],
+                    "gcp": [
+                        {
+                            "accession": "ERR6449978",
+                            "filename": "ERR6449978.lite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "gcp",
+                            "url": "gs://sra-pub-zq-104/ERR6449978/ERR6449978.lite.1"
+                        }
+                    ],
+                    "ncbi": [
+                        {
+                            "accession": "ERR6449978",
+                            "filename": "ERR6449978.lite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "ncbi",
+                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-zq-38/ERR006/6449/ERR6449978/ERR6449978.lite.1"
+                        }
+                    ]
+                }
+            },
+            "ERR6449975": {
+                "accession": "ERR6449975",
+                "experiment": "ERX4319106",
+                "study": "ERP123138",
+                "sample": "ERS5009199",
+                "title": "20210806-134321_sequencingRun_be9c8cba-f007-4f0b-a071-c23471161a76_1",
+                "attributes": {
+                    "ENA-FIRST-PUBLIC": "2021-08-09",
+                    "ENA-LAST-UPDATE": "2021-08-09"
+                },
+                "files": {
+                    "ftp": [],
+                    "aws": [
+                        {
+                            "accession": "ERR6449975",
+                            "filename": "H0026_RA_S2_L001_I1_001.fastq.gz.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 3,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-16/ERR6449975/H0026_RA_S2_L001_I1_001.fastq.gz.1"
+                        },
+                        {
+                            "accession": "ERR6449975",
+                            "filename": "H0026_RA_S2_L001_R1_001.fastq.gz.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-16/ERR6449975/H0026_RA_S2_L001_R1_001.fastq.gz.1"
+                        },
+                        {
+                            "accession": "ERR6449975",
+                            "filename": "H0026_RA_S2_L001_R2_001.fastq.gz.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 2,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-16/ERR6449975/H0026_RA_S2_L001_R2_001.fastq.gz.1"
+                        },
+                        {
+                            "accession": "ERR6449975",
+                            "filename": "ERR6449975",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR6449975/ERR6449975"
+                        },
+                        {
+                            "accession": "ERR6449975",
+                            "filename": "ERR6449975.lite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-zq-2/ERR6449975/ERR6449975.lite.1"
+                        }
+                    ],
+                    "gcp": [
+                        {
+                            "accession": "ERR6449975",
+                            "filename": "ERR6449975.lite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "gcp",
+                            "url": "gs://sra-pub-zq-104/ERR6449975/ERR6449975.lite.1"
+                        }
+                    ],
+                    "ncbi": [
+                        {
+                            "accession": "ERR6449975",
+                            "filename": "ERR6449975.lite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "ncbi",
+                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-zq-38/ERR006/6449/ERR6449975/ERR6449975.lite.1"
+                        }
+                    ]
+                }
+            },
+            "ERR7423462": {
+                "accession": "ERR7423462",
+                "experiment": "ERX4319106",
+                "study": "ERP123138",
+                "sample": "ERS5009199",
+                "title": "sequencingRun_be9c8cba-f007-4f0b-a071-c23471161a76_1",
+                "attributes": {
+                    "ENA-FIRST-PUBLIC": "2021-11-24",
+                    "ENA-LAST-UPDATE": "2021-11-24"
+                },
+                "files": {
+                    "ftp": [],
+                    "aws": [
+                        {
+                            "accession": "ERR7423462",
+                            "filename": "H0026_RA_S2_L001_I1_001.fastq.gz.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 3,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-16/ERR7423462/H0026_RA_S2_L001_I1_001.fastq.gz.1"
+                        },
+                        {
+                            "accession": "ERR7423462",
+                            "filename": "H0026_RA_S2_L001_R1_001.fastq.gz.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-16/ERR7423462/H0026_RA_S2_L001_R1_001.fastq.gz.1"
+                        },
+                        {
+                            "accession": "ERR7423462",
+                            "filename": "H0026_RA_S2_L001_R2_001.fastq.gz.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 2,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-16/ERR7423462/H0026_RA_S2_L001_R2_001.fastq.gz.1"
+                        },
+                        {
+                            "accession": "ERR7423462",
+                            "filename": "ERR7423462",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR7423462/ERR7423462"
+                        },
+                        {
+                            "accession": "ERR7423462",
+                            "filename": "ERR7423462.lite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-zq-2/ERR7423462/ERR7423462.lite.1"
+                        }
+                    ],
+                    "gcp": [
+                        {
+                            "accession": "ERR7423462",
+                            "filename": "ERR7423462.lite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "gcp",
+                            "url": "gs://sra-pub-zq-104/ERR7423462/ERR7423462.lite.1"
+                        }
+                    ],
+                    "ncbi": [
+                        {
+                            "accession": "ERR7423462",
+                            "filename": "ERR7423462.lite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "ncbi",
+                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-zq-38/ERR007/7423/ERR7423462/ERR7423462.lite.1"
+                        }
+                    ]
+                }
+            },
+            "ERR7423463": {
+                "accession": "ERR7423463",
+                "experiment": "ERX4319106",
+                "study": "ERP123138",
+                "sample": "ERS5009199",
+                "title": "sequencingRun_be9c8cba-f007-4f0b-a071-c23471161a76_2",
+                "attributes": {
+                    "ENA-FIRST-PUBLIC": "2021-11-24",
+                    "ENA-LAST-UPDATE": "2021-11-24"
+                },
+                "files": {
+                    "ftp": [],
+                    "aws": [
+                        {
+                            "accession": "ERR7423463",
+                            "filename": "H0026_RA_S2_L002_I1_001.fastq.gz.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 3,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-17/ERR7423463/H0026_RA_S2_L002_I1_001.fastq.gz.1"
+                        },
+                        {
+                            "accession": "ERR7423463",
+                            "filename": "H0026_RA_S2_L002_R1_001.fastq.gz.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-17/ERR7423463/H0026_RA_S2_L002_R1_001.fastq.gz.1"
+                        },
+                        {
+                            "accession": "ERR7423463",
+                            "filename": "H0026_RA_S2_L002_R2_001.fastq.gz.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 2,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-17/ERR7423463/H0026_RA_S2_L002_R2_001.fastq.gz.1"
+                        },
+                        {
+                            "accession": "ERR7423463",
+                            "filename": "ERR7423463",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR7423463/ERR7423463"
+                        },
+                        {
+                            "accession": "ERR7423463",
+                            "filename": "ERR7423463.lite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-zq-5/ERR7423463/ERR7423463.lite.1"
+                        }
+                    ],
+                    "gcp": [
+                        {
+                            "accession": "ERR7423463",
+                            "filename": "ERR7423463.lite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "gcp",
+                            "url": "gs://sra-pub-zq-102/ERR7423463/ERR7423463.lite.1"
+                        }
+                    ],
+                    "ncbi": [
+                        {
+                            "accession": "ERR7423463",
+                            "filename": "ERR7423463.lite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "ncbi",
+                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos3/sra-pub-zq-22/ERR007/7423/ERR7423463/ERR7423463.lite.1"
+                        }
+                    ]
+                }
+            },
+            "ERR7423464": {
+                "accession": "ERR7423464",
+                "experiment": "ERX4319106",
+                "study": "ERP123138",
+                "sample": "ERS5009199",
+                "title": "sequencingRun_be9c8cba-f007-4f0b-a071-c23471161a76_3",
+                "attributes": {
+                    "ENA-FIRST-PUBLIC": "2021-11-24",
+                    "ENA-LAST-UPDATE": "2021-11-24"
+                },
+                "files": {
+                    "ftp": [],
+                    "aws": [
+                        {
+                            "accession": "ERR7423464",
+                            "filename": "H0026_RA_S2_L003_I1_001.fastq.gz.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 3,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-17/ERR7423464/H0026_RA_S2_L003_I1_001.fastq.gz.1"
+                        },
+                        {
+                            "accession": "ERR7423464",
+                            "filename": "H0026_RA_S2_L003_R1_001.fastq.gz.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-17/ERR7423464/H0026_RA_S2_L003_R1_001.fastq.gz.1"
+                        },
+                        {
+                            "accession": "ERR7423464",
+                            "filename": "H0026_RA_S2_L003_R2_001.fastq.gz.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 2,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-17/ERR7423464/H0026_RA_S2_L003_R2_001.fastq.gz.1"
+                        },
+                        {
+                            "accession": "ERR7423464",
+                            "filename": "ERR7423464",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR7423464/ERR7423464"
+                        },
+                        {
+                            "accession": "ERR7423464",
+                            "filename": "ERR7423464.lite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-zq-2/ERR7423464/ERR7423464.lite.1"
+                        }
+                    ],
+                    "gcp": [
+                        {
+                            "accession": "ERR7423464",
+                            "filename": "ERR7423464.lite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "gcp",
+                            "url": "gs://sra-pub-zq-104/ERR7423464/ERR7423464.lite.1"
+                        }
+                    ],
+                    "ncbi": [
+                        {
+                            "accession": "ERR7423464",
+                            "filename": "ERR7423464.lite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "ncbi",
+                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-zq-38/ERR007/7423/ERR7423464/ERR7423464.lite.1"
+                        }
+                    ]
+                }
+            },
+            "ERR7423465": {
+                "accession": "ERR7423465",
+                "experiment": "ERX4319106",
+                "study": "ERP123138",
+                "sample": "ERS5009199",
+                "title": "sequencingRun_be9c8cba-f007-4f0b-a071-c23471161a76_4",
+                "attributes": {
+                    "ENA-FIRST-PUBLIC": "2021-11-24",
+                    "ENA-LAST-UPDATE": "2021-11-24"
+                },
+                "files": {
+                    "ftp": [],
+                    "aws": [
+                        {
+                            "accession": "ERR7423465",
+                            "filename": "H0026_RA_S2_L004_I1_001.fastq.gz.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 3,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-16/ERR7423465/H0026_RA_S2_L004_I1_001.fastq.gz.1"
+                        },
+                        {
+                            "accession": "ERR7423465",
+                            "filename": "H0026_RA_S2_L004_R1_001.fastq.gz.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-16/ERR7423465/H0026_RA_S2_L004_R1_001.fastq.gz.1"
+                        },
+                        {
+                            "accession": "ERR7423465",
+                            "filename": "H0026_RA_S2_L004_R2_001.fastq.gz.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 2,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-16/ERR7423465/H0026_RA_S2_L004_R2_001.fastq.gz.1"
+                        },
+                        {
+                            "accession": "ERR7423465",
+                            "filename": "ERR7423465",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR7423465/ERR7423465"
+                        },
+                        {
+                            "accession": "ERR7423465",
+                            "filename": "ERR7423465.lite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-zq-2/ERR7423465/ERR7423465.lite.1"
+                        }
+                    ],
+                    "gcp": [
+                        {
+                            "accession": "ERR7423465",
+                            "filename": "ERR7423465.lite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "gcp",
+                            "url": "gs://sra-pub-zq-104/ERR7423465/ERR7423465.lite.1"
+                        }
+                    ],
+                    "ncbi": [
+                        {
+                            "accession": "ERR7423465",
+                            "filename": "ERR7423465.lite.1",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "ncbi",
+                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos1/sra-pub-zq-38/ERR007/7423/ERR7423465/ERR7423465.lite.1"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

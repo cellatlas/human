@@ -1,0 +1,133 @@
+{
+    "SRX3445568": {
+        "accession": "SRX3445568",
+        "title": "Single Cell RNA-seq of Human Kidney",
+        "platform": "ILLUMINA",
+        "instrument": "NextSeq 500",
+        "runs": {
+            "SRR6348585": {
+                "accession": "SRR6348585",
+                "experiment": "SRX3445568",
+                "study": "SRP126175",
+                "sample": "SRS2735975",
+                "title": "NextSeq 500 paired end sequencing; Single Cell RNA-seq of Human Kidney",
+                "attributes": {
+                    "loader": "fastq-load.py",
+                    "options": "--readTypes=TBBB  --read1PairFiles=G11_NormalKidney_S1_L001_I1_001.fastq.gz  --read2PairFiles=G11_NormalKidney_S1_L001_R1_001.fastq.gz  --read3PairFiles=G11_NormalKidney_S1_L001_R2_001.fastq.gz  --read4PairFiles=G11_NormalKidney_S1_L001_R3_001.fastq.gz",
+                    "ENA-FIRST-PUBLIC": "2018-12-26",
+                    "ENA-LAST-UPDATE": "2020-06-24"
+                },
+                "files": {
+                    "ftp": [
+                        {
+                            "accession": "SRR6348585",
+                            "filename": "SRR6348585_1.fastq.gz",
+                            "filetype": "fastq",
+                            "filesize": 1141391235,
+                            "filenumber": 1,
+                            "md5": "3c4485ae5c9cfa79d9f2044a9e36085a",
+                            "urltype": "ftp",
+                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR634/005/SRR6348585/SRR6348585_1.fastq.gz"
+                        },
+                        {
+                            "accession": "SRR6348585",
+                            "filename": "SRR6348585_2.fastq.gz",
+                            "filetype": "fastq",
+                            "filesize": 629263654,
+                            "filenumber": 2,
+                            "md5": "01fca35cf6b0544707d1a6756bd85fab",
+                            "urltype": "ftp",
+                            "url": "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR634/005/SRR6348585/SRR6348585_2.fastq.gz"
+                        }
+                    ],
+                    "aws": [
+                        {
+                            "accession": "SRR6348585",
+                            "filename": "G11_NormalKidney_S1_L001_I1_001.fastq.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 3,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-12/SRR6348585/G11_NormalKidney_S1_L001_I1_001.fastq.1"
+                        },
+                        {
+                            "accession": "SRR6348585",
+                            "filename": "G11_NormalKidney_S1_L001_R1_001.fastq.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-12/SRR6348585/G11_NormalKidney_S1_L001_R1_001.fastq.1"
+                        },
+                        {
+                            "accession": "SRR6348585",
+                            "filename": "G11_NormalKidney_S1_L001_R2_001.fastq.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 2,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-12/SRR6348585/G11_NormalKidney_S1_L001_R2_001.fastq.1"
+                        },
+                        {
+                            "accession": "SRR6348585",
+                            "filename": "G11_NormalKidney_S1_L001_R3_001.fastq.1",
+                            "filetype": "fastq",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-src-12/SRR6348585/G11_NormalKidney_S1_L001_R3_001.fastq.1"
+                        },
+                        {
+                            "accession": "SRR6348585",
+                            "filename": "SRR6348585",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR6348585/SRR6348585"
+                        },
+                        {
+                            "accession": "SRR6348585",
+                            "filename": "SRR6348585.lite.2",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "aws",
+                            "url": "s3://sra-pub-zq-6/SRR6348585/SRR6348585.lite.2"
+                        }
+                    ],
+                    "gcp": [
+                        {
+                            "accession": "SRR6348585",
+                            "filename": "SRR6348585.lite.2",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "gcp",
+                            "url": "gs://sra-pub-zq-106/SRR6348585/SRR6348585.lite.2"
+                        }
+                    ],
+                    "ncbi": [
+                        {
+                            "accession": "SRR6348585",
+                            "filename": "SRR6348585.lite.2",
+                            "filetype": "sra",
+                            "filesize": null,
+                            "filenumber": 1,
+                            "md5": null,
+                            "urltype": "ncbi",
+                            "url": "https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos3/sra-pub-zq-22/SRR006/6348/SRR6348585/SRR6348585.lite.2"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
