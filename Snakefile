@@ -17,7 +17,8 @@ rule all:
         "reference/nac/index.idx",
         "reference/nac/t2g.txt",
         expand("data/{run}/kb_out_nac/counts_unfiltered/cells_x_genes.cell.mtx", run=RUNS),
-        expand("data/{run}/mx_out/adata.h5ad", run=RUNS)
+        # expand("data/{run}/mx_out/adata.h5ad", run=RUNS),
+        expand("data/{run}/mx_out/assignments.json", run=RUNS)
 
 rule download_references:
     output:
@@ -225,3 +226,30 @@ rule make_filtered_adata:
 
         # Save the filtered AnnData object
         fadata.write_h5ad(output.adata)
+
+rule format_assignments:
+    input:
+        assignments="data/{run}/mx_out/assignments.txt"
+    output:
+        json_file="data/{run}/mx_out/assignments.json"
+    run:
+        import pandas as pd
+        import json
+        
+        # Read the assignments file
+        a = pd.read_csv(input.assignments, sep="\t", index_col=0)
+        
+        # Create a DataFrame with counts and fractions for each label
+        df = pd.DataFrame(a.groupby("label").size(), columns=["label_num"])
+        df["label_frac"] = df["label_num"] / a.shape[0]
+        df["label_id"] = df.index.map(a.reset_index()[["label", "label_id"]].drop_duplicates().set_index("label")["label_id"])
+        df["label_ent_mean"] = df.index.map(a.groupby("label")["ent"].mean())
+        df["label_ent_var"] = df.index.map(a.groupby("label")["ent"].var())
+
+        
+        # Convert the DataFrame to a list of dictionaries for JSON export
+        json_list = df.reset_index().rename(columns={'index': 'celltype'}).to_dict(orient='records')
+        
+        # Write the JSON file
+        with open(output.json_file, 'w') as f:
+            json.dump(json_list, f, indent=4)
