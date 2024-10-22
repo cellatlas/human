@@ -1,0 +1,38 @@
+{
+  "observation_id": "ERX4319172",
+  "doi": "https://doi.org/10.1038/s41586-020-2797-4",
+  "species": "homo_sapiens",
+  "organ": "heart",
+  "name": "ERX4319172",
+  "description": null,
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "ERR7423253",
+      "filename": "HCAHeart7728609_S1_L001_I1_001.fastq.gz",
+      "filetype": "fastq",
+      "filesize": 1313353154,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp.sra.ebi.ac.uk/vol1/run/ERR742/ERR7423253/HCAHeart7728609_S1_L001_I1_001.fastq.gz"
+    },
+    {
+      "accession": "ERR7423253",
+      "filename": "HCAHeart7728609_S1_L001_R1_001.fastq.gz",
+      "filetype": "fastq",
+      "filesize": 3636863322,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp.sra.ebi.ac.uk/vol1/run/ERR742/ERR7423253/HCAHeart7728609_S1_L001_R1_001.fastq.gz"
+    },
+    {
+      "accession": "ERR7423253",
+      "filename": "HCAHeart7728609_S1_L001_R2_001.fastq.gz",
+      "filetype": "fastq",
+      "filesize": 12312766623,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp.sra.ebi.ac.uk/vol1/run/ERR742/ERR7423253/HCAHeart7728609_S1_L001_R2_001.fastq.gz"
+    }
+  ]
+}

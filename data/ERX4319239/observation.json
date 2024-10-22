@@ -1,0 +1,38 @@
+{
+  "observation_id": "ERX4319239",
+  "doi": "https://doi.org/10.1038/s41586-020-2797-4",
+  "species": "homo_sapiens",
+  "organ": "heart",
+  "name": "ERX4319239",
+  "description": null,
+  "technology": "10xv2",
+  "links": [
+    {
+      "accession": "ERR7423415",
+      "filename": "H0026_septum2_S1_L004_I1_001.fastq.gz",
+      "filetype": "fastq",
+      "filesize": 438317219,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp.sra.ebi.ac.uk/vol1/run/ERR742/ERR7423415/H0026_septum2_S1_L004_I1_001.fastq.gz"
+    },
+    {
+      "accession": "ERR7423415",
+      "filename": "H0026_septum2_S1_L004_R1_001.fastq.gz",
+      "filetype": "fastq",
+      "filesize": 1399393316,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp.sra.ebi.ac.uk/vol1/run/ERR742/ERR7423415/H0026_septum2_S1_L004_R1_001.fastq.gz"
+    },
+    {
+      "accession": "ERR7423415",
+      "filename": "H0026_septum2_S1_L004_R2_001.fastq.gz",
+      "filetype": "fastq",
+      "filesize": 3480755227,
+      "md5": null,
+      "urltype": "ftp",
+      "url": "ftp.sra.ebi.ac.uk/vol1/run/ERR742/ERR7423415/H0026_septum2_S1_L004_R2_001.fastq.gz"
+    }
+  ]
+}
