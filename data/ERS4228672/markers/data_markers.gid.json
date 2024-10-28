@@ -1,0 +1,57 @@
+[
+    {
+        "group": "Epithelial cell",
+        "target": "ENSG00000081237.21",
+        "rank": 3.0,
+        "nnz": 391.0,
+        "nnz_frac": 0.9949109414758268,
+        "mean": 1.3688326200994474,
+        "log_fc": 1.12126703061347,
+        "p_raw": 1.1329926376365472e-75,
+        "p_corr": 7.153715514037159e-71
+    },
+    {
+        "group": "Ciliated cell",
+        "target": "ENSG00000162676.13",
+        "rank": 6.0,
+        "nnz": 26.0,
+        "nnz_frac": 1.0,
+        "mean": 1.1079963104508148,
+        "log_fc": 1.1056246910292586,
+        "p_raw": 7.019491709671799e-07,
+        "p_corr": 0.0443210706548677
+    },
+    {
+        "group": "Mature plasmacytoid dendritic cell",
+        "target": "ENSG00000089199.10",
+        "rank": 9.5,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 0.8220119272061717,
+        "log_fc": 0.8220119272061717,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "Epithelial cell of thymus",
+        "target": "ENSG00000164651.18",
+        "rank": 22.5,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 0.8452255804746234,
+        "log_fc": 0.8452255804746234,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "Endothelial cell of lymphatic vessel",
+        "target": "ENSG00000204348.10",
+        "rank": 32.0,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 1.7720534501105372,
+        "log_fc": 1.7720534501105372,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    }
+]

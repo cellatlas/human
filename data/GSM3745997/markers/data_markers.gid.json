@@ -1,0 +1,57 @@
+[
+    {
+        "group": "Retina horizontal cell",
+        "target": "ENSG00000132639.15",
+        "rank": 51.5,
+        "nnz": 3.0,
+        "nnz_frac": 1.0,
+        "mean": 1.0521050463373935,
+        "log_fc": 0.9389343795216678,
+        "p_raw": 6.055076381536586e-11,
+        "p_corr": 3.8231752273022e-06
+    },
+    {
+        "group": "Retinal pigment epithelial cell",
+        "target": "ENSG00000140386.13",
+        "rank": 94.0,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 4.027246035353835,
+        "log_fc": 4.027246035353835,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "Amacrine cell (dopaminogenic)",
+        "target": "ENSG00000185942.13",
+        "rank": 145.5,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 2.432914329493369,
+        "log_fc": 2.432914329493369,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "Photoreceptor cell",
+        "target": "ENSG00000289472.1",
+        "rank": 225.0,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 0.7739482978513297,
+        "log_fc": 0.7739482978513297,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "Muller glia precursor cell",
+        "target": "ENSG00000003393.16",
+        "rank": 276.0,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 1.2754107707828548,
+        "log_fc": 1.2754107707828548,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    }
+]

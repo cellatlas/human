@@ -1,0 +1,68 @@
+[
+    {
+        "group": "Ciliated cell",
+        "target": "ENSG00000162676.13",
+        "rank": 2.0,
+        "nnz": 39.0,
+        "nnz_frac": 1.0,
+        "mean": 1.044190368058677,
+        "log_fc": 1.0430975252332222,
+        "p_raw": 8.705672028777611e-10,
+        "p_corr": 5.4967613189701845e-05
+    },
+    {
+        "group": "Immune cell",
+        "target": "ENSG00000081237.21",
+        "rank": 2.0,
+        "nnz": 325.0,
+        "nnz_frac": 0.925925925925926,
+        "mean": 1.1996094610469863,
+        "log_fc": 1.008807499312241,
+        "p_raw": 2.9241308308939625e-59,
+        "p_corr": 1.8462962066264478e-54
+    },
+    {
+        "group": "Mature plasmacytoid dendritic cell",
+        "target": "ENSG00000010610.10",
+        "rank": 3.0,
+        "nnz": 48.0,
+        "nnz_frac": 1.0,
+        "mean": 1.0859678065609986,
+        "log_fc": 1.0726719321291005,
+        "p_raw": 9.999191262351347e-12,
+        "p_corr": 6.313489363048642e-07
+    },
+    {
+        "group": "CRTH2-CCR9+ group 2 innate lymphoid cell",
+        "target": "ENSG00000173585.18",
+        "rank": 4.0,
+        "nnz": 25.0,
+        "nnz_frac": 1.0,
+        "mean": 1.2446202580647543,
+        "log_fc": 1.2446202580647543,
+        "p_raw": 6.522440293892566e-08,
+        "p_corr": 0.0041182688015637
+    },
+    {
+        "group": "Endothelial cell of vascular tree",
+        "target": "ENSG00000261371.6",
+        "rank": 5.0,
+        "nnz": 28.0,
+        "nnz_frac": 1.0,
+        "mean": 0.9133526856450108,
+        "log_fc": 0.9088608034257368,
+        "p_raw": 3.9167090523844335e-08,
+        "p_corr": 0.0024730100956755
+    },
+    {
+        "group": "Endothelial cell of lymphatic vessel",
+        "target": "ENSG00000204271.13",
+        "rank": 31.0,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 1.4209387107939722,
+        "log_fc": 1.4209387107939722,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    }
+]

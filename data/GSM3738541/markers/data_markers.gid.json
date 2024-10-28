@@ -1,0 +1,112 @@
+[
+    {
+        "group": "Natural killer cell",
+        "target": "ENSG00000105374.10",
+        "rank": 5.0,
+        "nnz": 357.0,
+        "nnz_frac": 0.9944289693593314,
+        "mean": 3.3891348384062776,
+        "log_fc": 0.7513558282947432,
+        "p_raw": 3.777633390496607e-35,
+        "p_corr": 2.3851977227595577e-30
+    },
+    {
+        "group": "Myeloid cell",
+        "target": "ENSG00000162434.14",
+        "rank": 103.0,
+        "nnz": 2.0,
+        "nnz_frac": 1.0,
+        "mean": 1.8267847757853468,
+        "log_fc": 1.2209151297455003,
+        "p_raw": 9.992072087976237e-13,
+        "p_corr": 6.308994316348196e-08
+    },
+    {
+        "group": "Effector memory CD8-positive, alpha-beta T cell",
+        "target": "ENSG00000110848.8",
+        "rank": 114.0,
+        "nnz": 68.0,
+        "nnz_frac": 0.9066666666666666,
+        "mean": 1.6217100354664706,
+        "log_fc": 0.892224713169273,
+        "p_raw": 2.772783454547605e-12,
+        "p_corr": 1.750735473201358e-07
+    },
+    {
+        "group": "Leukemic cell",
+        "target": "ENSG00000153303.18",
+        "rank": 139.5,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 4.981704520321358,
+        "log_fc": 4.981704520321358,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "CD8-positive, alpha-beta T cell",
+        "target": "ENSG00000291007.1",
+        "rank": 172.5,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 4.124348171830379,
+        "log_fc": 4.124348171830379,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "Dendritic cell",
+        "target": "ENSG00000112335.15",
+        "rank": 214.0,
+        "nnz": 2.0,
+        "nnz_frac": 1.0,
+        "mean": 1.036121915275838,
+        "log_fc": 0.7615614998266493,
+        "p_raw": 9.955312308396106e-09,
+        "p_corr": 0.0006285784191521
+    },
+    {
+        "group": "Non-classical monocyte",
+        "target": "ENSG00000226853.5",
+        "rank": 374.5,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 1.0745263125923723,
+        "log_fc": 1.0745263125923723,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "B cell",
+        "target": "ENSG00000217041.1",
+        "rank": 390.0,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 1.7786928532585558,
+        "log_fc": 1.7786928532585558,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "Adult endothelial progenitor cell",
+        "target": "ENSG00000230318.2",
+        "rank": 501.5,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 1.205055341235426,
+        "log_fc": 1.205055341235426,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "Neutrophil",
+        "target": "ENSG00000231764.11",
+        "rank": 780.0,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 0.7560965731004807,
+        "log_fc": 0.7560965731004807,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    }
+]

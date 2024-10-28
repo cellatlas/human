@@ -1,0 +1,90 @@
+[
+    {
+        "group": "Dendritic cell",
+        "target": "ENSG00000125691.14",
+        "rank": 78.0,
+        "nnz": 2.0,
+        "nnz_frac": 1.0,
+        "mean": 2.782897501043403,
+        "log_fc": 0.7500482936041051,
+        "p_raw": 2.6798954953877884e-08,
+        "p_corr": 0.0016920860157878
+    },
+    {
+        "group": "Effector memory CD8-positive, alpha-beta T cell",
+        "target": "ENSG00000110848.8",
+        "rank": 143.0,
+        "nnz": 61.0,
+        "nnz_frac": 0.8970588235294118,
+        "mean": 1.30643413966059,
+        "log_fc": 1.0057855280109014,
+        "p_raw": 1.2668457612765447e-10,
+        "p_corr": 7.998864136700103e-06
+    },
+    {
+        "group": "Progenitor cell",
+        "target": "ENSG00000254999.4",
+        "rank": 175.0,
+        "nnz": 2.0,
+        "nnz_frac": 1.0,
+        "mean": 1.1793609498285365,
+        "log_fc": 0.7844602217131248,
+        "p_raw": 3.474438279425835e-31,
+        "p_corr": 2.1937603296294723e-26
+    },
+    {
+        "group": "Small pre B cell",
+        "target": "ENSG00000232756.1",
+        "rank": 357.5,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 0.9620918158295394,
+        "log_fc": 0.9620918158295394,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "Leukemic cell",
+        "target": "ENSG00000250241.7",
+        "rank": 381.5,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 1.6883983522815291,
+        "log_fc": 1.6883983522815291,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "B cell",
+        "target": "ENSG00000232121.1",
+        "rank": 385.5,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 1.7051269958739783,
+        "log_fc": 1.7051269958739783,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "CD103-positive dendritic cell",
+        "target": "ENSG00000174521.8",
+        "rank": 676.5,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 0.8188340503885126,
+        "log_fc": 0.8188340503885126,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "Mature conventional dendritic cell",
+        "target": "ENSG00000223969.7",
+        "rank": 736.0,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 0.7638993700106244,
+        "log_fc": 0.7638993700106244,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    }
+]

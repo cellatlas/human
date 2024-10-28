@@ -1,0 +1,68 @@
+[
+    {
+        "group": "Cortical thymic epithelial cell",
+        "target": "ENSG00000131142.14",
+        "rank": 15.0,
+        "nnz": 19.0,
+        "nnz_frac": 0.8636363636363636,
+        "mean": 6.958152640131295,
+        "log_fc": 5.936550191014029,
+        "p_raw": 2.545118813468673e-07,
+        "p_corr": 0.0160698801882412
+    },
+    {
+        "group": "Mature plasmacytoid dendritic cell",
+        "target": "ENSG00000172809.13",
+        "rank": 25.0,
+        "nnz": 2.0,
+        "nnz_frac": 1.0,
+        "mean": 5.29220751908982,
+        "log_fc": 2.7830131939740563,
+        "p_raw": 7.823579850291689e-10,
+        "p_corr": 4.939808317474172e-05
+    },
+    {
+        "group": "Dendritic cell",
+        "target": "ENSG00000144645.16",
+        "rank": 72.5,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 15.5940323516579,
+        "log_fc": 15.5940323516579,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "T cell",
+        "target": "ENSG00000183918.18",
+        "rank": 346.0,
+        "nnz": 49.0,
+        "nnz_frac": 0.7538461538461538,
+        "mean": 0.8861438827021286,
+        "log_fc": 0.7595871873485556,
+        "p_raw": 3.981246751699295e-07,
+        "p_corr": 0.0251375919902293
+    },
+    {
+        "group": "Pericyte",
+        "target": "ENSG00000233608.5",
+        "rank": 537.5,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 0.8774363182212854,
+        "log_fc": 0.8774363182212854,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "Medullary thymic epithelial cell",
+        "target": "ENSG00000101425.14",
+        "rank": 827.5,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 0.7963408585216919,
+        "log_fc": 0.7963408585216919,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    }
+]

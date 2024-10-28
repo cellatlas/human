@@ -1,0 +1,79 @@
+[
+    {
+        "group": "Type-1 epithelial cell of thymus",
+        "target": "ENSG00000184009.13",
+        "rank": 11.0,
+        "nnz": 2.0,
+        "nnz_frac": 1.0,
+        "mean": 10.799665910999789,
+        "log_fc": 7.096130565063735,
+        "p_raw": 5.396721631010826e-60,
+        "p_corr": 3.407490037820235e-55
+    },
+    {
+        "group": "Epithelial cell of thymus",
+        "target": "ENSG00000198034.11",
+        "rank": 18.0,
+        "nnz": 2.0,
+        "nnz_frac": 1.0,
+        "mean": 9.329339346298909,
+        "log_fc": 5.53254907951734,
+        "p_raw": 1.0986052417866477e-07,
+        "p_corr": 0.0069365934966408
+    },
+    {
+        "group": "Primitive red blood cell",
+        "target": "ENSG00000134419.15",
+        "rank": 20.0,
+        "nnz": 2.0,
+        "nnz_frac": 1.0,
+        "mean": 10.403846831109318,
+        "log_fc": 5.651934922592582,
+        "p_raw": 2.1879231769523193e-09,
+        "p_corr": 0.0001381454693927
+    },
+    {
+        "group": "Type-3 epithelial cell of thymus",
+        "target": "ENSG00000177600.9",
+        "rank": 24.5,
+        "nnz": 3.0,
+        "nnz_frac": 1.0,
+        "mean": 9.433031439359665,
+        "log_fc": 5.972988161763585,
+        "p_raw": 1.0587803261371851e-26,
+        "p_corr": 6.685138979230188e-22
+    },
+    {
+        "group": "Mature plasmacytoid dendritic cell",
+        "target": "ENSG00000171863.15",
+        "rank": 40.5,
+        "nnz": 2.0,
+        "nnz_frac": 1.0,
+        "mean": 7.646408983740615,
+        "log_fc": 3.976612229997192,
+        "p_raw": 1.8458929208795782e-16,
+        "p_corr": 1.165496790243366e-11
+    },
+    {
+        "group": "Dendritic cell",
+        "target": "ENSG00000012124.17",
+        "rank": 65.0,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 20.179150227235223,
+        "log_fc": 20.179150227235223,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "T cell",
+        "target": "ENSG00000183918.18",
+        "rank": 491.0,
+        "nnz": 43.0,
+        "nnz_frac": 0.6935483870967742,
+        "mean": 0.8053344779465466,
+        "log_fc": 0.7610187334492701,
+        "p_raw": 2.754789043311392e-07,
+        "p_corr": 0.0173937380194681
+    }
+]

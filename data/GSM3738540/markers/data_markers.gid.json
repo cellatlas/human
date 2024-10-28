@@ -1,0 +1,112 @@
+[
+    {
+        "group": "Leukemic cell",
+        "target": "ENSG00000130255.13",
+        "rank": 46.0,
+        "nnz": 2.0,
+        "nnz_frac": 1.0,
+        "mean": 2.798444123972605,
+        "log_fc": 0.8213567494230256,
+        "p_raw": 2.296041433978301e-23,
+        "p_corr": 1.4497205614138993e-18
+    },
+    {
+        "group": "Plasmacytoid dendritic cell",
+        "target": "ENSG00000203875.13",
+        "rank": 114.5,
+        "nnz": 2.0,
+        "nnz_frac": 1.0,
+        "mean": 1.858719470934183,
+        "log_fc": 0.8464240550234434,
+        "p_raw": 4.808721856512515e-10,
+        "p_corr": 3.0362269802020028e-05
+    },
+    {
+        "group": "Macrophage dendritic cell progenitor",
+        "target": "ENSG00000105993.15",
+        "rank": 130.5,
+        "nnz": 2.0,
+        "nnz_frac": 1.0,
+        "mean": 1.4757613011021091,
+        "log_fc": 0.8254943162999833,
+        "p_raw": 1.780096327498919e-143,
+        "p_corr": 1.1239528211828172e-138
+    },
+    {
+        "group": "Bone marrow macrophage",
+        "target": "ENSG00000142227.11",
+        "rank": 152.0,
+        "nnz": 3.0,
+        "nnz_frac": 1.0,
+        "mean": 1.3383201982062445,
+        "log_fc": 0.927609201156166,
+        "p_raw": 1.7703497332999065e-07,
+        "p_corr": 0.0111779882160556
+    },
+    {
+        "group": "Effector memory CD8-positive, alpha-beta T cell",
+        "target": "ENSG00000110848.8",
+        "rank": 153.0,
+        "nnz": 100.0,
+        "nnz_frac": 0.9433962264150944,
+        "mean": 1.2401085146192643,
+        "log_fc": 0.7707918029344306,
+        "p_raw": 8.672638870564527e-28,
+        "p_corr": 5.475904182874443e-23
+    },
+    {
+        "group": "Plasmablast",
+        "target": "ENSG00000137776.17",
+        "rank": 179.5,
+        "nnz": 2.0,
+        "nnz_frac": 1.0,
+        "mean": 1.1799441037223604,
+        "log_fc": 1.0003322504810397,
+        "p_raw": 2.2277011349197247e-233,
+        "p_corr": 1.406570496588314e-228
+    },
+    {
+        "group": "Neutrophil",
+        "target": "ENSG00000204136.12",
+        "rank": 328.5,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 0.9434890464979871,
+        "log_fc": 0.9434890464979871,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "Monocyte",
+        "target": "ENSG00000110203.10",
+        "rank": 354.0,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 1.0199414297357496,
+        "log_fc": 1.0199414297357496,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "Non-classical monocyte",
+        "target": "ENSG00000182685.8",
+        "rank": 377.5,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 0.9502677721225116,
+        "log_fc": 0.9502677721225116,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "Small pre B cell",
+        "target": "ENSG00000270455.1",
+        "rank": 706.0,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 0.7638474685221996,
+        "log_fc": 0.7638474685221996,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    }
+]

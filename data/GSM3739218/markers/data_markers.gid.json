@@ -1,0 +1,178 @@
+[
+    {
+        "group": "Mesenchymal stem cell",
+        "target": "ENSG00000026297.17",
+        "rank": 138.0,
+        "nnz": 9.0,
+        "nnz_frac": 1.0,
+        "mean": 1.8318634587506435,
+        "log_fc": 1.0008227124069953,
+        "p_raw": 9.993756736883767e-08,
+        "p_corr": 0.0063100580036684
+    },
+    {
+        "group": "Dendritic cell, human",
+        "target": "ENSG00000164111.15",
+        "rank": 168.0,
+        "nnz": 8.0,
+        "nnz_frac": 1.0,
+        "mean": 1.6219232138092698,
+        "log_fc": 0.9344525151549578,
+        "p_raw": 1.4019094487570956e-07,
+        "p_corr": 0.0088516562594523
+    },
+    {
+        "group": "Hematopoietic cell",
+        "target": "ENSG00000092010.15",
+        "rank": 169.0,
+        "nnz": 2.0,
+        "nnz_frac": 1.0,
+        "mean": 1.864039491801345,
+        "log_fc": 1.0746642104898143,
+        "p_raw": 2.189396799989221e-11,
+        "p_corr": 1.3823851395131938e-06
+    },
+    {
+        "group": "B cell",
+        "target": "ENSG00000170515.14",
+        "rank": 251.5,
+        "nnz": 2.0,
+        "nnz_frac": 1.0,
+        "mean": 1.1602044879015063,
+        "log_fc": 0.7522172292288358,
+        "p_raw": 1.1990447900056655e-16,
+        "p_corr": 7.570768804095774e-12
+    },
+    {
+        "group": "Progenitor cell",
+        "target": "ENSG00000115484.15",
+        "rank": 264.0,
+        "nnz": 2.0,
+        "nnz_frac": 1.0,
+        "mean": 1.1952202052626917,
+        "log_fc": 0.8878646479213348,
+        "p_raw": 2.1510020769912892e-08,
+        "p_corr": 0.0013581427114123
+    },
+    {
+        "group": "Leukemic cell",
+        "target": "ENSG00000286721.1",
+        "rank": 311.5,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 3.8881498471178912,
+        "log_fc": 3.8881498471178912,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "Monocyte",
+        "target": "ENSG00000155465.21",
+        "rank": 338.0,
+        "nnz": 19.0,
+        "nnz_frac": 0.9047619047619048,
+        "mean": 1.0610167859366222,
+        "log_fc": 0.8883859211800582,
+        "p_raw": 9.214347030355657e-10,
+        "p_corr": 5.817938714966562e-05
+    },
+    {
+        "group": "Macrophage dendritic cell progenitor",
+        "target": "ENSG00000196465.11",
+        "rank": 402.5,
+        "nnz": 2.0,
+        "nnz_frac": 1.0,
+        "mean": 0.9142051890283276,
+        "log_fc": 0.7541616548599286,
+        "p_raw": 6.39622044454511e-20,
+        "p_corr": 4.038573588685782e-15
+    },
+    {
+        "group": "Mature conventional dendritic cell",
+        "target": "ENSG00000289532.2",
+        "rank": 413.5,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 2.930236800834537,
+        "log_fc": 2.930236800834537,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "Tissue resident memory T cell",
+        "target": "ENSG00000174482.11",
+        "rank": 521.5,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 2.32580764049531,
+        "log_fc": 2.32580764049531,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "T cell",
+        "target": "ENSG00000165272.16",
+        "rank": 554.0,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 2.088715224150788,
+        "log_fc": 2.088715224150788,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "Neutrophil",
+        "target": "ENSG00000232663.2",
+        "rank": 558.0,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 2.1143953390130283,
+        "log_fc": 2.1143953390130283,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "Naive thymus-derived CD8-positive, alpha-beta T cell",
+        "target": "ENSG00000160293.17",
+        "rank": 579.5,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 2.023296068227136,
+        "log_fc": 2.023296068227136,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "Natural killer cell",
+        "target": "ENSG00000088387.22",
+        "rank": 701.0,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 1.6622358620133402,
+        "log_fc": 1.6622358620133402,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "CD8-positive, alpha-beta T cell",
+        "target": "ENSG00000231416.1",
+        "rank": 731.0,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 1.5906154703518507,
+        "log_fc": 1.5906154703518507,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    },
+    {
+        "group": "Dendritic cell",
+        "target": "ENSG00000244071.1",
+        "rank": 820.5,
+        "nnz": 1.0,
+        "nnz_frac": 1.0,
+        "mean": 0.8559301100188816,
+        "log_fc": 0.8559301100188816,
+        "p_raw": 0.0,
+        "p_corr": 2.2250738585072014e-308
+    }
+]
