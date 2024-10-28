@@ -1,14 +1,8 @@
 import pandas as pd
+from scipy.io import mmread, mmwrite
 
 # Read the observations.txt file and create a dictionary mapping observation IDs to tissues
-# observations_df = pd.read_csv("observations.txt", sep="\t", header=None, names=["observation", "tissue", "technology", "status"])
-# observations_df = observations_df.query("status == 'ok'")
-# observations_dict = dict(zip(observations_df["observation"], observations_df["tissue"]))
-
-# Use the observation IDs from the first column of observations_df as the RUNS list
-# RUNS = observations_df["observation"].tolist()
 RUNS = ["small_GSM3587010"]
-# RUNS = pd.read_csv("complete2", header=None, names=["observation"])["observation"].tolist()
 RUNS = pd.read_csv("data.ids.txt", header=None, names=["observation"])["observation"].tolist()
 
 rule all:
@@ -18,7 +12,14 @@ rule all:
         "reference/nac/t2g.txt",
         expand("data/{run}/kb_out_nac/counts_unfiltered/cells_x_genes.cell.mtx", run=RUNS),
         # expand("data/{run}/mx_out/adata.h5ad", run=RUNS),
-        expand("data/{run}/mx_out/assignments.json", run=RUNS)
+        expand("data/{run}/mx_out/assignments.matrix.mtx", run=RUNS),
+        expand("data/{run}/mx_out/assignments.bcs.txt", run=RUNS),
+        expand("data/{run}/mx_out/assignments.genes.txt", run=RUNS),
+        expand("data/{run}/mx_out/assignments.json", run=RUNS),
+        expand("data/{run}/mx_out/degs.txt", run=RUNS),
+        expand("data/{run}/markers/data_markers.gid.txt", run=RUNS),
+        expand("data/{run}/markers/data_markers.gid.json", run=RUNS),
+        expand("data/{run}/markers/data_markers.txt", run=RUNS)
 
 rule download_references:
     output:
@@ -109,7 +110,6 @@ rule mx_normalize:
 
 rule ec_index:
     input:
-        # markers=lambda wildcards: f"markers/{observations_dict[wildcards.run]}/markers.txt",
         markers = "data/{run}/markers/markers.clean.txt",
     output:
         groups="data/{run}/mx_out/groups.txt",
@@ -165,7 +165,6 @@ rule mx_clean:
 
 rule ec_filter:
     input:
-        # markers=lambda wildcards: f"markers/{observations_dict[wildcards.run]}/markers.txt",
         markers = "data/{run}/markers/markers.clean.txt",
         bad_targets="data/{run}/mx_out/clean_genes.txt.bad"
     output:
@@ -199,9 +198,12 @@ rule make_filtered_adata:
         barcodes="data/{run}/mx_out/barcodes.txt",
         genes_txt="data/{run}/kb_out_nac/counts_unfiltered/cells_x_genes.genes.txt",
         gene_names="data/{run}/kb_out_nac/counts_unfiltered/cells_x_genes.genes.names.txt",
-        assignments="data/{run}/mx_out/assignments.txt"
+        assignments="data/{run}/mx_out/assignments.txt",
     output:
-        adata="data/{run}/mx_out/adata.h5ad"
+        # adata="data/{run}/mx_out/adata.h5ad",
+        out_mtx="data/{run}/mx_out/assignments.matrix.mtx",
+        out_bcs = "data/{run}/mx_out/assignments.bcs.txt",
+        out_genes = "data/{run}/mx_out/assignments.genes.txt"
     run:
         from kb_python.utils import import_matrix_as_anndata
         import pandas as pd
@@ -226,6 +228,9 @@ rule make_filtered_adata:
 
         # Save the filtered AnnData object
         fadata.write_h5ad(output.adata)
+        mmwrite(output.out_mtx, fadata.X.tocsr())
+        fadata.obs.index.to_series().to_csv(output.out_bcs, sep="\t", index=False, header=False)
+        fadata.var.index.to_series().to_csv(output.out_genes, sep="\t", index=False, header=False)
 
 rule format_assignments:
     input:
@@ -253,3 +258,52 @@ rule format_assignments:
         # Write the JSON file
         with open(output.json_file, 'w') as f:
             json.dump(json_list, f, indent=4)
+
+rule run_mx_norm_assignments:
+    input:
+        mtx = "data/{run}/mx_out/assignments.matrix.mtx"
+    output:
+        nmtx = "data/{run}/mx_out/assignments.norm.mtx"
+    shell:
+        "mx normalize -m log1pPF -o {output.nmtx} {input.mtx}"
+
+rule run_mx_diff:
+    input:
+        assignments = "data/{run}/mx_out/assignments.txt",
+        genes = "data/{run}/mx_out/assignments.genes.txt",
+        barcodes = "data/{run}/mx_out/assignments.bcs.txt",
+        norm_matrix = "data/{run}/mx_out/assignments.norm.mtx"
+    output:
+        degs = "data/{run}/mx_out/degs.txt"
+    shell:
+        """
+        mx diff -a {input.assignments} -gi {input.genes} -b {input.barcodes} -o {output.degs} {input.norm_matrix}
+        """
+
+rule ec_mark:
+    input:
+        degs = "data/{run}/mx_out/degs.txt"
+    output:
+        markers_gid = "data/{run}/markers/data_markers.gid.txt",
+        markers_gid_json = "data/{run}/markers/data_markers.gid.json"
+    params:
+        p = 0.05,
+        f = 0.75,
+        g = 10,
+        m = 20
+    shell:
+        """
+        ec mark -p {params.p} -f {params.f} -g {params.g} -m {params.m} -o {output.markers_gid} {input.degs}
+        ec mark -p {params.p} -f {params.f} -g {params.g} -m {params.m} -o {output.markers_gid_json} -fmt json {input.degs}
+        """
+
+rule ec_convert_gid_gname:
+    input:
+        markers_gid = "data/{run}/markers/data_markers.gid.txt"
+    output:
+        bad_targets = "data/{run}/markers/data_bad_targets.txt",
+        markers_gname = "data/{run}/markers/data_markers.txt"
+    shell:
+        """
+        ec convert -m reference/gid_gname.map.txt -o {output.markers_gname} -b {output.bad_targets} {input.markers_gid}
+        """
