@@ -1,9 +1,273 @@
 [
     {
-        "label": "CD42b+, CD14+ megakaryocyte",
-        "label_num": 114,
-        "label_frac": 1.0,
+        "label": "AEC",
+        "label_num": 7,
+        "label_frac": 0.001580135440180587,
         "label_id": 0,
+        "label_ent_mean": 6.779204081481514e-09,
+        "label_ent_var": 6.911092830399554e-18
+    },
+    {
+        "label": "CMP",
+        "label_num": 27,
+        "label_frac": 0.006094808126410835,
+        "label_id": 1,
+        "label_ent_mean": 1.5437440402659258e-05,
+        "label_ent_var": 6.434493287012725e-09
+    },
+    {
+        "label": "Cycling DC2",
+        "label_num": 1,
+        "label_frac": 0.0002257336343115124,
+        "label_id": 2,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "Early_Erythroid",
+        "label_num": 95,
+        "label_frac": 0.02144469525959368,
+        "label_id": 3,
+        "label_ent_mean": 0.005828918295714632,
+        "label_ent_var": 0.0007811853460004282
+    },
+    {
+        "label": "Endoderm",
+        "label_num": 5,
+        "label_frac": 0.001128668171557562,
+        "label_id": 4,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Eo_Baso_Mast_precursor",
+        "label_num": 90,
+        "label_frac": 0.020316027088036117,
+        "label_id": 5,
+        "label_ent_mean": 4.0633672504932114e-07,
+        "label_ent_var": 5.618912619096285e-12
+    },
+    {
+        "label": "Eo_Basophil",
+        "label_num": 4,
+        "label_frac": 0.0009029345372460496,
+        "label_id": 6,
+        "label_ent_mean": 1.5200565751025578e-30,
+        "label_ent_var": 9.242044780301391e-60
+    },
+    {
+        "label": "Erythroid",
+        "label_num": 938,
+        "label_frac": 0.21173814898419865,
+        "label_id": 7,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "HE",
+        "label_num": 3,
+        "label_frac": 0.0006772009029345372,
+        "label_id": 9,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "HSPC_1",
+        "label_num": 340,
+        "label_frac": 0.07674943566591422,
+        "label_id": 10,
+        "label_ent_mean": 6.774278081341857e-07,
+        "label_ent_var": 9.57451979559849e-11
+    },
+    {
+        "label": "HSPC_2",
+        "label_num": 24,
+        "label_frac": 0.005417607223476298,
+        "label_id": 11,
+        "label_ent_mean": 1.535671208938398e-07,
+        "label_ent_var": 5.502266538937395e-13
+    },
+    {
+        "label": "ILC_precursor",
+        "label_num": 243,
+        "label_frac": 0.054853273137697514,
+        "label_id": 12,
+        "label_ent_mean": 0.001993564589063866,
+        "label_ent_var": 0.00048088209030410704
+    },
+    {
+        "label": "LMPP",
+        "label_num": 163,
+        "label_frac": 0.036794582392776526,
+        "label_id": 14,
+        "label_ent_mean": 0.026714844227823595,
+        "label_ent_var": 0.004999144866035514
+    },
+    {
+        "label": "Lymphoid_progenitor",
+        "label_num": 93,
+        "label_frac": 0.020993227990970656,
+        "label_id": 15,
+        "label_ent_mean": 4.559003245107227e-06,
+        "label_ent_var": 5.215368360641585e-10
+    },
+    {
+        "label": "MEMP",
+        "label_num": 390,
+        "label_frac": 0.08803611738148984,
+        "label_id": 16,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "MK",
+        "label_num": 76,
+        "label_frac": 0.017155756207674944,
+        "label_id": 17,
+        "label_ent_mean": 1.8656176338016422e-20,
+        "label_ent_var": 2.645202158219244e-38
+    },
+    {
+        "label": "MOP",
+        "label_num": 3,
+        "label_frac": 0.0006772009029345372,
+        "label_id": 18,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Macrophage",
+        "label_num": 41,
+        "label_frac": 0.00925507900677201,
+        "label_id": 20,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Mast_cell",
+        "label_num": 9,
+        "label_frac": 0.0020316027088036117,
+        "label_id": 21,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Mesothelium",
+        "label_num": 1,
+        "label_frac": 0.0002257336343115124,
+        "label_id": 22,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "Microglia",
+        "label_num": 17,
+        "label_frac": 0.003837471783295711,
+        "label_id": 23,
+        "label_ent_mean": 0.030570854940554094,
+        "label_ent_var": 0.015887811920538814
+    },
+    {
+        "label": "Mono Mac DC2",
+        "label_num": 154,
+        "label_frac": 0.03476297968397291,
+        "label_id": 24,
+        "label_ent_mean": 9.852345309837014e-06,
+        "label_ent_var": 1.4948581048057174e-08
+    },
+    {
+        "label": "Mono Mac pre DC2",
+        "label_num": 453,
+        "label_frac": 0.10225733634311512,
+        "label_id": 25,
+        "label_ent_mean": 0.009335427942847137,
+        "label_ent_var": 0.0008790337069317995
+    },
+    {
+        "label": "Monocyte_0",
+        "label_num": 27,
+        "label_frac": 0.006094808126410835,
+        "label_id": 26,
+        "label_ent_mean": 3.204096529302426e-09,
+        "label_ent_var": 6.181801157494601e-17
+    },
+    {
+        "label": "Monocyte_Macrophage",
+        "label_num": 16,
+        "label_frac": 0.0036117381489841984,
+        "label_id": 27,
+        "label_ent_mean": 1.24297414454608e-05,
+        "label_ent_var": 3.6256755343442336e-10
+    },
+    {
+        "label": "Monocyte_ys_1",
+        "label_num": 5,
+        "label_frac": 0.001128668171557562,
+        "label_id": 28,
+        "label_ent_mean": 1.4959230862876196e-18,
+        "label_ent_var": 1.1188929400441384e-35
+    },
+    {
+        "label": "NK",
+        "label_num": 84,
+        "label_frac": 0.018961625282167043,
+        "label_id": 29,
+        "label_ent_mean": 0.024029711118906547,
+        "label_ent_var": 0.005207665262791151
+    },
+    {
+        "label": "Neutrophil_precursor",
+        "label_num": 1075,
+        "label_frac": 0.24266365688487584,
+        "label_id": 30,
+        "label_ent_mean": 0.0005943522295599847,
+        "label_ent_var": 0.0001921637765935298
+    },
+    {
+        "label": "Pre DC2",
+        "label_num": 13,
+        "label_frac": 0.002934537246049661,
+        "label_id": 31,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "Pre_Macrophage",
+        "label_num": 17,
+        "label_frac": 0.003837471783295711,
+        "label_id": 32,
+        "label_ent_mean": 7.346462610821524e-28,
+        "label_ent_var": 1.2465031387714806e-55
+    },
+    {
+        "label": "Prolif_Sinusoidal_EC",
+        "label_num": 1,
+        "label_frac": 0.0002257336343115124,
+        "label_id": 34,
+        "label_ent_mean": 0.0,
+        "label_ent_var": NaN
+    },
+    {
+        "label": "Promonocyte",
+        "label_num": 11,
+        "label_frac": 0.0024830699774266367,
+        "label_id": 35,
+        "label_ent_mean": 1.9428764261216107e-22,
+        "label_ent_var": 4.152245211010982e-43
+    },
+    {
+        "label": "Smooth_Muscle",
+        "label_num": 2,
+        "label_frac": 0.0004514672686230248,
+        "label_id": 37,
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
+    },
+    {
+        "label": "pDC precursor",
+        "label_num": 2,
+        "label_frac": 0.0004514672686230248,
+        "label_id": 39,
         "label_ent_mean": 0.0,
         "label_ent_var": 0.0
     }

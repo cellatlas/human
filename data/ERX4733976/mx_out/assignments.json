@@ -1,11 +1,11 @@
 [
     {
         "label": "Adipocytes",
-        "label_num": 1,
-        "label_frac": 0.00024551927326295114,
+        "label_num": 83,
+        "label_frac": 0.020378099680824945,
         "label_id": 13,
         "label_ent_mean": 0.0,
-        "label_ent_var": NaN
+        "label_ent_var": 0.0
     },
     {
         "label": "Cardiomyocytes (Atrial)",
@@ -17,8 +17,8 @@
     },
     {
         "label": "Cardiomyocytes (Ventricular)",
-        "label_num": 2907,
-        "label_frac": 0.7137245273753989,
+        "label_num": 2887,
+        "label_frac": 0.7088141419101399,
         "label_id": 0,
         "label_ent_mean": 0.0,
         "label_ent_var": 0.0
@@ -36,37 +36,29 @@
         "label_num": 3,
         "label_frac": 0.0007365578197888534,
         "label_id": 6,
-        "label_ent_mean": 7.634007949920381e-20,
-        "label_ent_var": 1.7483423213834268e-38
+        "label_ent_mean": 3.018990499282512e-20,
+        "label_ent_var": 2.7342910904274223e-39
     },
     {
         "label": "Endothelial Cells (Capillary)",
-        "label_num": 178,
-        "label_frac": 0.043702430640805305,
+        "label_num": 173,
+        "label_frac": 0.042474834274490544,
         "label_id": 3,
-        "label_ent_mean": 1.3517751342721494e-61,
-        "label_ent_var": 3.252586904272947e-120
-    },
-    {
-        "label": "Endothelial Cells (Lymphatic)",
-        "label_num": 2,
-        "label_frac": 0.0004910385465259023,
-        "label_id": 7,
-        "label_ent_mean": 0.0,
-        "label_ent_var": 0.0
+        "label_ent_mean": 1.9847675902683886e-61,
+        "label_ent_var": 6.814993130167027e-120
     },
     {
         "label": "Endothelial Cells (Venous)",
-        "label_num": 96,
-        "label_frac": 0.02356985023324331,
+        "label_num": 92,
+        "label_frac": 0.022587773140191506,
         "label_id": 5,
-        "label_ent_mean": 3.802733204508469e-09,
-        "label_ent_var": 1.3882348631684399e-15
+        "label_ent_mean": 4.2647424615622655e-09,
+        "label_ent_var": 1.6732986002375996e-15
     },
     {
         "label": "Fibroblasts",
-        "label_num": 483,
-        "label_frac": 0.1185858089860054,
+        "label_num": 450,
+        "label_frac": 0.11048367296832802,
         "label_id": 2,
         "label_ent_mean": 0.0,
         "label_ent_var": 0.0
@@ -76,16 +68,16 @@
         "label_num": 73,
         "label_frac": 0.017922906948195434,
         "label_id": 11,
-        "label_ent_mean": 3.0792172518465533e-17,
-        "label_ent_var": 6.921552585370691e-32
+        "label_ent_mean": 3.6982335853114154e-17,
+        "label_ent_var": 9.984160105613486e-32
     },
     {
         "label": "Immune Cells (Monocytes)",
-        "label_num": 31,
-        "label_frac": 0.007611097471151486,
+        "label_num": 29,
+        "label_frac": 0.007120058924625583,
         "label_id": 12,
-        "label_ent_mean": 0.0,
-        "label_ent_var": 0.0
+        "label_ent_mean": 2.4297642306538387e-11,
+        "label_ent_var": 1.712088722803804e-20
     },
     {
         "label": "Mesothelial Cells",
@@ -97,26 +89,26 @@
     },
     {
         "label": "Neuronal Cells",
-        "label_num": 61,
-        "label_frac": 0.01497667566904002,
+        "label_num": 58,
+        "label_frac": 0.014240117849251166,
         "label_id": 14,
         "label_ent_mean": 0.0,
         "label_ent_var": 0.0
     },
     {
         "label": "Pericytes",
-        "label_num": 73,
-        "label_frac": 0.017922906948195434,
+        "label_num": 71,
+        "label_frac": 0.01743186840166953,
         "label_id": 8,
         "label_ent_mean": 0.0,
         "label_ent_var": 0.0
     },
     {
         "label": "Smooth Muscle Cells (Basic)",
-        "label_num": 85,
-        "label_frac": 0.020869138227350845,
+        "label_num": 84,
+        "label_frac": 0.020623618954087895,
         "label_id": 9,
-        "label_ent_mean": 0.007641880992600989,
-        "label_ent_var": 0.004963859333931484
+        "label_ent_mean": 0.0077578585161874394,
+        "label_ent_var": 0.0050554869756032845
     }
 ]

@@ -1,24 +1,24 @@
 [
     {
         "label": "Adipocytes",
-        "label_num": 32,
-        "label_frac": 0.021136063408190225,
+        "label_num": 26,
+        "label_frac": 0.017173051519154558,
         "label_id": 13,
         "label_ent_mean": 0.0,
         "label_ent_var": 0.0
     },
     {
         "label": "Cardiomyocytes (Atrial)",
-        "label_num": 54,
-        "label_frac": 0.035667107001321,
+        "label_num": 50,
+        "label_frac": 0.03302509907529723,
         "label_id": 1,
         "label_ent_mean": 0.0,
         "label_ent_var": 0.0
     },
     {
         "label": "Cardiomyocytes (Ventricular)",
-        "label_num": 78,
-        "label_frac": 0.05151915455746367,
+        "label_num": 80,
+        "label_frac": 0.052840158520475564,
         "label_id": 0,
         "label_ent_mean": 0.0,
         "label_ent_var": 0.0
@@ -28,21 +28,21 @@
         "label_num": 51,
         "label_frac": 0.03368560105680317,
         "label_id": 4,
-        "label_ent_mean": 3.793572090131082e-13,
-        "label_ent_var": 7.339506493540968e-24
+        "label_ent_mean": 4.3773049256363505e-08,
+        "label_ent_var": 9.772007190120129e-14
     },
     {
         "label": "Endothelial Cells (Atrial)",
-        "label_num": 2,
-        "label_frac": 0.001321003963011889,
+        "label_num": 3,
+        "label_frac": 0.0019815059445178335,
         "label_id": 6,
-        "label_ent_mean": 0.0,
-        "label_ent_var": 0.0
+        "label_ent_mean": 1.6330097036517413e-07,
+        "label_ent_var": 8.000162076662244e-14
     },
     {
         "label": "Endothelial Cells (Capillary)",
-        "label_num": 329,
-        "label_frac": 0.21730515191545574,
+        "label_num": 333,
+        "label_frac": 0.21994715984147953,
         "label_id": 3,
         "label_ent_mean": 0.0,
         "label_ent_var": 0.0
@@ -73,19 +73,19 @@
     },
     {
         "label": "Immune Cells (Macrophages)",
-        "label_num": 350,
-        "label_frac": 0.2311756935270806,
+        "label_num": 351,
+        "label_frac": 0.23183619550858653,
         "label_id": 11,
         "label_ent_mean": 0.0,
         "label_ent_var": 0.0
     },
     {
         "label": "Immune Cells (Monocytes)",
-        "label_num": 289,
-        "label_frac": 0.19088507265521795,
+        "label_num": 290,
+        "label_frac": 0.19154557463672392,
         "label_id": 12,
-        "label_ent_mean": 1.6523369356705436e-24,
-        "label_ent_var": 7.890328138555452e-46
+        "label_ent_mean": 2.514809860179564e-19,
+        "label_ent_var": 1.8340379035283437e-35
     },
     {
         "label": "Mesothelial Cells",
@@ -97,26 +97,26 @@
     },
     {
         "label": "Neuronal Cells",
-        "label_num": 74,
-        "label_frac": 0.0488771466314399,
+        "label_num": 71,
+        "label_frac": 0.04689564068692206,
         "label_id": 14,
         "label_ent_mean": 0.0,
         "label_ent_var": 0.0
     },
     {
         "label": "Pericytes",
-        "label_num": 52,
-        "label_frac": 0.034346103038309116,
+        "label_num": 55,
+        "label_frac": 0.03632760898282695,
         "label_id": 8,
-        "label_ent_mean": 8.310693018661822e-28,
-        "label_ent_var": 2.0803844714599143e-53
+        "label_ent_mean": 8.388795207023456e-28,
+        "label_ent_var": 3.870453676395884e-53
     },
     {
         "label": "Smooth Muscle Cells (Basic)",
-        "label_num": 59,
-        "label_frac": 0.03896961690885073,
+        "label_num": 61,
+        "label_frac": 0.040290620871862616,
         "label_id": 9,
-        "label_ent_mean": 6.111414706336422e-16,
-        "label_ent_var": 2.2036139930566817e-29
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
     }
 ]

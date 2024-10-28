@@ -9,16 +9,16 @@
     },
     {
         "label": "Cardiomyocytes (Atrial)",
-        "label_num": 30,
-        "label_frac": 0.006027727546714889,
+        "label_num": 28,
+        "label_frac": 0.005625879043600563,
         "label_id": 1,
-        "label_ent_mean": 1.1323522332621272e-11,
-        "label_ent_var": 3.846664740521182e-21
+        "label_ent_mean": 0.0,
+        "label_ent_var": 0.0
     },
     {
         "label": "Cardiomyocytes (Ventricular)",
-        "label_num": 2653,
-        "label_frac": 0.5330520393811533,
+        "label_num": 2654,
+        "label_frac": 0.5332529636327105,
         "label_id": 0,
         "label_ent_mean": 0.0,
         "label_ent_var": 0.0
@@ -33,11 +33,11 @@
     },
     {
         "label": "Endothelial Cells (Atrial)",
-        "label_num": 1,
-        "label_frac": 0.00020092425155716296,
+        "label_num": 7,
+        "label_frac": 0.0014064697609001407,
         "label_id": 6,
         "label_ent_mean": 0.0,
-        "label_ent_var": NaN
+        "label_ent_var": 0.0
     },
     {
         "label": "Endothelial Cells (Capillary)",
@@ -49,8 +49,8 @@
     },
     {
         "label": "Endothelial Cells (Lymphatic)",
-        "label_num": 11,
-        "label_frac": 0.0022101667671287923,
+        "label_num": 9,
+        "label_frac": 0.0018083182640144665,
         "label_id": 7,
         "label_ent_mean": 0.0,
         "label_ent_var": 0.0
@@ -65,8 +65,8 @@
     },
     {
         "label": "Fibroblasts",
-        "label_num": 1214,
-        "label_frac": 0.24392204139039583,
+        "label_num": 1211,
+        "label_frac": 0.24331926863572434,
         "label_id": 2,
         "label_ent_mean": 0.0,
         "label_ent_var": 0.0
@@ -89,11 +89,11 @@
     },
     {
         "label": "Mesothelial Cells",
-        "label_num": 3,
-        "label_frac": 0.0006027727546714888,
+        "label_num": 5,
+        "label_frac": 0.0010046212577858146,
         "label_id": 10,
-        "label_ent_mean": 0.0,
-        "label_ent_var": 0.0
+        "label_ent_mean": 2.0192054337978939e-07,
+        "label_ent_var": 7.644732344773014e-14
     },
     {
         "label": "Neuronal Cells",
@@ -116,7 +116,7 @@
         "label_num": 102,
         "label_frac": 0.020494273658830622,
         "label_id": 9,
-        "label_ent_mean": 7.734562333721786e-19,
-        "label_ent_var": 2.000170555756253e-35
+        "label_ent_mean": 6.984941645995856e-13,
+        "label_ent_var": 1.6302238254542705e-23
     }
 ]

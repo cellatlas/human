@@ -9,27 +9,27 @@
     },
     {
         "label": "Cardiomyocytes (Atrial)",
-        "label_num": 31,
-        "label_frac": 0.008353543519267044,
+        "label_num": 34,
+        "label_frac": 0.009161950956615468,
         "label_id": 1,
         "label_ent_mean": 0.0,
         "label_ent_var": 0.0
     },
     {
         "label": "Cardiomyocytes (Ventricular)",
-        "label_num": 1859,
-        "label_frac": 0.5009431420102398,
+        "label_num": 1865,
+        "label_frac": 0.5025599568849367,
         "label_id": 0,
         "label_ent_mean": 0.0,
         "label_ent_var": 0.0
     },
     {
         "label": "Endothelial Cells (Arterial)",
-        "label_num": 78,
-        "label_frac": 0.021018593371059015,
+        "label_num": 60,
+        "label_frac": 0.016168148746968473,
         "label_id": 4,
-        "label_ent_mean": 9.143371495348102e-17,
-        "label_ent_var": 3.039740128598367e-31
+        "label_ent_mean": 1.9415677901496647e-27,
+        "label_ent_var": 1.0592356811217835e-52
     },
     {
         "label": "Endothelial Cells (Atrial)",
@@ -41,11 +41,11 @@
     },
     {
         "label": "Endothelial Cells (Capillary)",
-        "label_num": 172,
-        "label_frac": 0.046348693074642955,
+        "label_num": 179,
+        "label_frac": 0.04823497709512261,
         "label_id": 3,
-        "label_ent_mean": 1.0689955572996814e-56,
-        "label_ent_var": 1.965532582625505e-110
+        "label_ent_mean": 1.025450935662369e-56,
+        "label_ent_var": 1.8822738223969812e-110
     },
     {
         "label": "Endothelial Cells (Lymphatic)",
@@ -97,16 +97,16 @@
     },
     {
         "label": "Neuronal Cells",
-        "label_num": 57,
-        "label_frac": 0.015359741309620048,
+        "label_num": 58,
+        "label_frac": 0.015629210455402855,
         "label_id": 14,
         "label_ent_mean": 0.0,
         "label_ent_var": 0.0
     },
     {
         "label": "Pericytes",
-        "label_num": 77,
-        "label_frac": 0.020749124225276205,
+        "label_num": 78,
+        "label_frac": 0.021018593371059015,
         "label_id": 8,
         "label_ent_mean": 0.0,
         "label_ent_var": 0.0
@@ -116,7 +116,7 @@
         "label_num": 83,
         "label_frac": 0.022365939099973052,
         "label_id": 9,
-        "label_ent_mean": 1.30131312272736e-28,
-        "label_ent_var": 1.405535149489338e-54
+        "label_ent_mean": 1.3812286995957227e-28,
+        "label_ent_var": 1.5834679571261983e-54
     }
 ]
